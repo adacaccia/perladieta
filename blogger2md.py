@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-# blogger2md.py — Scarica una o più pagine Blogger, epura rumore, estrae il BODY
-# e salva Markdown con front-matter YAML (data originale).
-# Input consigliato (batch): righe "URL | DATA_ORIG_ITA"
-# Esempio: https://.../la-verita-sulla-vitamina-d.html | sabato 21 gennaio 2012
-
+# blogger2md.py — versione robusta con fallback ?m=1 e selettori estesi BODY
 import sys, re, datetime, pathlib
 from urllib.parse import urljoin
 import requests
@@ -12,124 +8,112 @@ from slugify import slugify
 from markdownify import markdownify as md
 
 IT_MONTHS = {
-    "gennaio":1, "febbraio":2, "marzo":3, "aprile":4, "maggio":5, "giugno":6,
-    "luglio":7, "agosto":8, "settembre":9, "ottobre":10, "novembre":11, "dicembre":12
+    "gennaio":1,"febbraio":2,"marzo":3,"aprile":4,"maggio":5,"giugno":6,
+    "luglio":7,"agosto":8,"settembre":9,"ottobre":10,"novembre":11,"dicembre":12
 }
 IT_TRASH = {"lunedì","martedì","mercoledì","giovedì","venerdì","sabato","domenica",
-            "lunedi","martedi","mercoledi","giovedi","venerdi",
-            "di","del","de","il","la","le","lo","i","gli","–","-"}
+            "lunedi","martedi","mercoledi","giovedi","venerdi","di","del","de",
+            "il","la","le","lo","i","gli","–","-"}
 
 def parse_it_date(s: str) -> str:
-    """'sabato 21 gennaio 2012' -> '2012-01-21' (fallback a oggi se non interpretabile)."""
-    if not s:
-        return datetime.date.today().isoformat()
+    if not s: return datetime.date.today().isoformat()
     t = re.sub(r"[,\.\u00A0]", " ", s.strip().lower())
     parts = [p for p in t.split() if p and p not in IT_TRASH]
     day = month = year = None
-
-    # pattern tipici: 21 gennaio 2012  |  5 maggio 2013
     for i, tok in enumerate(parts):
-        if tok.isdigit() and 1 <= len(tok) <= 2 and day is None:
-            # es: 21 gennaio 2012
-            if i+2 < len(parts) and parts[i+1] in IT_MONTHS and re.fullmatch(r"\d{4}", parts[i+2]):
+        if tok.isdigit() and 1 <= len(tok) <= 2 and i+2 < len(parts):
+            if parts[i+1] in IT_MONTHS and re.fullmatch(r"\d{4}", parts[i+2]):
                 day = int(tok); month = IT_MONTHS[parts[i+1]]; year = int(parts[i+2]); break
-        if tok in IT_MONTHS and i > 0 and parts[i-1].isdigit() and i+1 < len(parts) and re.fullmatch(r"\d{4}", parts[i+1]):
-            # es: 5 maggio 2013
+        if tok in IT_MONTHS and i>0 and parts[i-1].isdigit() and i+1 < len(parts) and re.fullmatch(r"\d{4}", parts[i+1]):
             day = int(parts[i-1]); month = IT_MONTHS[tok]; year = int(parts[i+1]); break
-
     try:
         return datetime.date(year, month, day).isoformat()
     except Exception:
-        # fallback robusto
         yy = next((int(x) for x in parts if re.fullmatch(r"\d{4}", x)), datetime.date.today().year)
         mm = next((IT_MONTHS[x] for x in parts if x in IT_MONTHS), 1)
         dd = next((int(x) for x in parts if x.isdigit() and 1 <= int(x) <= 31), 1)
-        try:
-            return datetime.date(yy, mm, dd).isoformat()
-        except Exception:
-            return datetime.date.today().isoformat()
+        try: return datetime.date(yy, mm, dd).isoformat()
+        except Exception: return datetime.date.today().isoformat()
 
-def fetch(url:str)->str:
-    r = requests.get(url, timeout=25, headers={"User-Agent":"Mozilla/5.0"})
+UA = {"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/119 Safari/537.36"}
+
+def fetch_html(url:str)->str:
+    r = requests.get(url, timeout=25, headers=UA)
     r.raise_for_status()
     return r.text
 
+def get_soup_with_fallback(url: str) -> tuple[BeautifulSoup, str]:
+    # 1) prova URL originale
+    html = fetch_html(url)
+    soup = BeautifulSoup(html, "html.parser")
+    if body_has_text(soup): 
+        return soup, url
+    # 2) fallback: versione mobile statica
+    murl = url if url.endswith("?m=1") else (url + ("&m=1" if "?" in url else "?m=1"))
+    html_m = fetch_html(murl)
+    soup_m = BeautifulSoup(html_m, "html.parser")
+    return (soup_m, murl) if body_has_text(soup_m) else (soup, url)
+
+def body_has_text(soup: BeautifulSoup) -> bool:
+    el = rough_find_body(soup)
+    return bool(el and el.get_text(strip=True) and len(el.get_text()) > 120)
+
 def remove_noise(soup: BeautifulSoup):
-    # rimuovi elementi rumorosi noti (Blogger) a livello documento
     for sel in [
         "header","nav","footer","aside",".sidebar",".widget",".comments",
         ".post-meta",".share-buttons",".post-footer",".blog-pager",
-        "script","style","noscript","iframe","form","ins","ads","advert"
+        "script","style","noscript","iframe","form","ins",".ads","[aria-label='Ads']"
     ]:
         for tag in soup.select(sel):
             tag.decompose()
 
 def pick_title(soup: BeautifulSoup) -> str:
-    cand = soup.select_one("h1.post-title, h2.post-title, h3.post-title")
-    if cand: 
-        t = cand.get_text(" ", strip=True)
-        if t: return t
-    if soup.title and soup.title.string:
-        return soup.title.get_text(" ", strip=True)
-    return "Senza titolo"
-
-def find_body_container(soup: BeautifulSoup) -> BeautifulSoup:
-    """
-    Selezione robusta del corpo:
-    1) .post-body (Blogger classico)
-    2) .post-body.entry-content / article
-    3) main
-    4) ultimo grande container con testo (heuristic)
-    5) fallback: <body> intero epurato
-    """
-    for sel in [".post-body", ".post-body.entry-content", "article", "main"]:
+    for sel in ["h1.post-title","h2.post-title","h3.post-title",".entry-title","h1.title"]:
         el = soup.select_one(sel)
-        if el and el.get_text(strip=True):
-            return el
+        if el and el.get_text(strip=True): return el.get_text(" ", strip=True)
+    return soup.title.get_text(" ", strip=True) if soup.title else "Senza titolo"
 
-    # Heuristica: il div con più testo utile
-    candidates = soup.find_all(["div","section"], recursive=True)
+def rough_find_body(soup: BeautifulSoup):
+    # Selettori più comuni Blogger / varianti
+    for sel in [
+        ".post-body.entry-content",".post-body","[itemprop='articleBody']",
+        "article .entry-content","article .post-content","article",
+        "#post-body-1","#post-body-0",".post"
+    ]:
+        el = soup.select_one(sel)
+        if el and el.get_text(strip=True): return el
+    # fallback: main
+    el = soup.select_one("main")
+    if el and el.get_text(strip=True): return el
+    # heuristica: div/section più “verboso”
     best = None; best_len = 0
-    for c in candidates:
+    for c in soup.find_all(["div","section"], recursive=True):
         txt = c.get_text(" ", strip=True)
-        # scarta contenitori troppo generici
-        if not txt or len(txt) < 200:  # evita frammenti microscopici
-            continue
-        # penalizza se contiene molte liste di link
+        if not txt or len(txt) < 200: continue
         link_density = len(c.find_all("a")) / max(len(txt), 1)
         score = len(txt) - (link_density * 500)
-        if score > best_len:
-            best = c; best_len = score
-    if best:
-        return best
+        if score > best_len: best = c; best_len = score
+    return best or soup.body or soup
 
-    # Ultimo fallback: body
-    return soup.body or soup
-
-def absolutize_links(el: BeautifulSoup, base: str):
-    # immagini
+def absolutize(el: BeautifulSoup, base: str):
     for img in el.select("img"):
         src = img.get("src") or img.get("data-src")
-        if not src: 
-            img.decompose(); continue
+        if not src: img.decompose(); continue
         img["src"] = urljoin(base, src.split("?")[0])
         if not img.get("alt"): img["alt"] = "fig"
-    # link
     for a in el.select("a[href]"):
         a["href"] = urljoin(base, a["href"])
 
-def html_to_markdown(el: BeautifulSoup) -> str:
-    # Converti a Markdown senza strip dei link
-    m = md(str(el), heading_style="ATX")
-    # pulizia righe in eccesso
+def html_to_md(el: BeautifulSoup) -> str:
+    m = md(str(el), heading_style="ATX")  # NON strip dei link
     m = re.sub(r"\n{3,}", "\n\n", m).strip()
     return m
 
 def save_md(title, md_body, original_url, date_iso, outdir: pathlib.Path):
     slug = slugify(title)[:80] or "post"
-    front_yaml = f"""---
+    front = f"""---
 layout: post
-title: "{title.replace('"', '\\"')}"
+title: "{title.replace('"','\\"')}"
 date: {date_iso}
 original_url: "{original_url}"
 tags:
@@ -137,41 +121,29 @@ tags:
   - perladieta
 ---
 """
-    content = f"{front_yaml}\n{md_body}\n"
     outdir.mkdir(exist_ok=True, parents=True)
-    outpath = outdir / f"{slug}.md"
-    outpath.write_text(content, encoding="utf-8")
-    return outpath
+    p = outdir / f"{slug}.md"
+    p.write_text(front + "\n" + md_body + "\n", encoding="utf-8")
+    return p
 
-def process_one(url: str, date_text: str, outdir: pathlib.Path):
-    html = fetch(url)
-    soup = BeautifulSoup(html, "html.parser")
-
-    # 1) titolo
-    title = pick_title(soup)
-
-    # 2) epura rumore e trova body
+def process_one(line: str, outdir: pathlib.Path):
+    if "|" not in line:
+        print(f"! Riga senza '|': {line}"); return
+    url, date_text = [x.strip() for x in line.split("|", 1)]
+    soup, used_url = get_soup_with_fallback(url)
     remove_noise(soup)
-    body = find_body_container(soup)
-
-    # 3) normalizza risorse
-    absolutize_links(body, url)
-
-    # 4) html -> md
-    md_body = html_to_markdown(body)
-
-    # 5) se ancora vuoto, fallback brutale: usa <article> o <body> crude
-    if not md_body or len(md_body) < 120:
+    body = rough_find_body(soup)
+    absolutize(body, used_url)
+    md_body = html_to_md(body)
+    # fallback finale: se ancora corto, prendi direttamente <article> o <body> non puliti
+    if len(md_body) < 200:
         fallback = soup.select_one("article") or soup.body or soup
-        absolutize_links(fallback, url)
-        md_body = html_to_markdown(fallback)
-
-    # 6) parse data ITA
+        absolutize(fallback, used_url)
+        md_body = html_to_md(fallback)
+    title = pick_title(soup)
     date_iso = parse_it_date(date_text)
-
-    # 7) salva
     path = save_md(title, md_body, url, date_iso, outdir)
-    print(f"✓ {path}  ({date_iso})  [{len(md_body)} chars]")
+    print(f"✓ {path}  ({date_iso})  [{len(md_body)} chars]  via {used_url}")
 
 def main():
     if len(sys.argv) < 2:
@@ -179,25 +151,13 @@ def main():
         print("  blogger2md.py --batch file.txt   # righe: URL | DATA_ORIG_ITA")
         print("  blogger2md.py 'URL | DATA_ORIG_ITA'  # singolo")
         sys.exit(1)
-
-    outdir = pathlib.Path("_perladieta")  # << collection Jekyll
+    outdir = pathlib.Path("_perladieta")
     if sys.argv[1] == "--batch":
         lines = pathlib.Path(sys.argv[2]).read_text(encoding="utf-8").splitlines()
         for line in lines:
-            if not line.strip(): 
-                continue
-            if "|" not in line:
-                print(f"! Riga senza '|': {line}"); 
-                continue
-            url, date_text = [x.strip() for x in line.split("|", 1)]
-            process_one(url, date_text, outdir)
+            if line.strip(): process_one(line, outdir)
     else:
-        line = " ".join(sys.argv[1:])
-        if "|" not in line:
-            print("Errore: passa 'URL | DATA_ORIG_ITA' oppure usa --batch file.txt")
-            sys.exit(2)
-        url, date_text = [x.strip() for x in line.split("|", 1)]
-        process_one(url, date_text, outdir)
+        process_one(" ".join(sys.argv[1:]), outdir)
 
 if __name__ == "__main__":
     main()
