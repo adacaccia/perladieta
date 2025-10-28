@@ -1,0 +1,15 @@
+title: "Per la dieta — Archivio restaurato"
+description: "Archivio scientifico restaurato, con date originali e citazioni aggiornate"
+theme: minima
+
+collections:
+  perladieta:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: "posts"
+      type: perladieta
+    values:
+      layout: post
