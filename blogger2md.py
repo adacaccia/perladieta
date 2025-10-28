@@ -36,27 +36,41 @@ def parse_it_date(s: str) -> str:
         except Exception: return datetime.date.today().isoformat()
 
 UA = {"User-Agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/119 Safari/537.36"}
+CONSENT = {"CONSENT": "YES+1"}  # bypass interstitial EU
 
-def fetch_html(url:str)->str:
-    r = requests.get(url, timeout=25, headers=UA)
+def bs(html: str):
+    try:
+        # se hai lxml installato è più solido
+        from lxml import etree  # noqa
+        return BeautifulSoup(html, "lxml")
+    except Exception:
+        return BeautifulSoup(html, "html.parser")
+
+def fetch_html(url: str) -> str:
+    r = requests.get(url, timeout=25, headers=UA, cookies=CONSENT)
     r.raise_for_status()
     return r.text
 
-def get_soup_with_fallback(url: str) -> tuple[BeautifulSoup, str]:
-    # 1) prova URL originale
+def get_soup_with_fallback(url: str):
     html = fetch_html(url)
-    soup = BeautifulSoup(html, "html.parser")
-    if body_has_text(soup): 
-        return soup, url
-    # 2) fallback: versione mobile statica
+    soup = bs(html)
+    if body_has_text(soup, strict=False):
+        return soup, url, html
+
     murl = url if url.endswith("?m=1") else (url + ("&m=1" if "?" in url else "?m=1"))
     html_m = fetch_html(murl)
-    soup_m = BeautifulSoup(html_m, "html.parser")
-    return (soup_m, murl) if body_has_text(soup_m) else (soup, url)
+    soup_m = bs(html_m)
+    if body_has_text(soup_m, strict=False):
+        return soup_m, murl, html_m
 
-def body_has_text(soup: BeautifulSoup) -> bool:
-    el = rough_find_body(soup)
-    return bool(el and el.get_text(strip=True) and len(el.get_text()) > 120)
+    return soup, url, html  # ultimo fallback
+
+def body_has_text(soup: BeautifulSoup, strict: bool = True) -> bool:
+    el, _sel = rough_find_body(soup)
+    if not el: 
+        return False
+    txt = el.get_text(" ", strip=True)
+    return bool(txt and len(txt) >= (180 if strict else 40))
 
 def remove_noise(soup: BeautifulSoup):
     for sel in [
@@ -74,26 +88,48 @@ def pick_title(soup: BeautifulSoup) -> str:
     return soup.title.get_text(" ", strip=True) if soup.title else "Senza titolo"
 
 def rough_find_body(soup: BeautifulSoup):
-    # Selettori più comuni Blogger / varianti
+    """
+    1) [id^="post-body-"] — pattern Blogger
+    2) varianti comuni
+    3) main
+    4) euristica (contenitore più verboso)
+    5) fallback body
+    """
     for sel in [
-        ".post-body.entry-content",".post-body","[itemprop='articleBody']",
-        "article .entry-content","article .post-content","article",
-        "#post-body-1","#post-body-0",".post"
+        '[id^="post-body-"]',
+        '.post-body.entry-content',
+        '.post-body',
+        '[itemprop="articleBody"]',
+        'article .entry-content',
+        'article .post-content',
+        'article',
+        'main',
+        '.post'
     ]:
         el = soup.select_one(sel)
-        if el and el.get_text(strip=True): return el
-    # fallback: main
-    el = soup.select_one("main")
-    if el and el.get_text(strip=True): return el
-    # heuristica: div/section più “verboso”
-    best = None; best_len = 0
+        if el and el.get_text(strip=True):
+            return el, sel
+
+    best = None; best_score = 0
     for c in soup.find_all(["div","section"], recursive=True):
         txt = c.get_text(" ", strip=True)
-        if not txt or len(txt) < 200: continue
+        if not txt or len(txt) < 120:
+            continue
         link_density = len(c.find_all("a")) / max(len(txt), 1)
-        score = len(txt) - (link_density * 500)
-        if score > best_len: best = c; best_len = score
-    return best or soup.body or soup
+        score = len(txt) - (link_density * 400)
+        if score > best_score:
+            best = c; best_score = score
+    if best:
+        return best, "heuristic(div/section)"
+    return (soup.body or soup), "fallback(<body>)"
+
+def clean_inside(el: BeautifulSoup):
+    for sel in [
+        ".share-buttons",".post-footer",".comments",".post-meta",
+        "script","style","noscript","iframe","form","ins",".ads","[aria-label='Ads']"
+    ]:
+        for t in el.select(sel):
+            t.decompose()
 
 def absolutize(el: BeautifulSoup, base: str):
     for img in el.select("img"):
@@ -105,9 +141,8 @@ def absolutize(el: BeautifulSoup, base: str):
         a["href"] = urljoin(base, a["href"])
 
 def html_to_md(el: BeautifulSoup) -> str:
-    m = md(str(el), heading_style="ATX")  # NON strip dei link
-    m = re.sub(r"\n{3,}", "\n\n", m).strip()
-    return m
+    m = md(str(el), heading_style="ATX")
+    return re.sub(r"\n{3,}", "\n\n", m).strip()
 
 def save_md(title, md_body, original_url, date_iso, outdir: pathlib.Path):
     slug = slugify(title)[:80] or "post"
@@ -126,38 +161,61 @@ tags:
     p.write_text(front + "\n" + md_body + "\n", encoding="utf-8")
     return p
 
-def process_one(line: str, outdir: pathlib.Path):
+def process_one(line: str, outdir: pathlib.Path, debug: bool = False):
     if "|" not in line:
         print(f"! Riga senza '|': {line}"); return
     url, date_text = [x.strip() for x in line.split("|", 1)]
-    soup, used_url = get_soup_with_fallback(url)
-    remove_noise(soup)
-    body = rough_find_body(soup)
+
+    soup, used_url, raw_html = get_soup_with_fallback(url)
+    title = pick_title(soup)
+
+    body, used_sel = rough_find_body(soup)
+    if debug:
+        dbgdir = pathlib.Path("_debug"); dbgdir.mkdir(exist_ok=True, parents=True)
+        (dbgdir / "raw.html").write_text(raw_html, encoding="utf-8")
+        (dbgdir / "used_url.txt").write_text(used_url + "\n", encoding="utf-8")
+
+    clean_inside(body)
     absolutize(body, used_url)
     md_body = html_to_md(body)
-    # fallback finale: se ancora corto, prendi direttamente <article> o <body> non puliti
-    if len(md_body) < 200:
+
+    if len(md_body) < 180:
         fallback = soup.select_one("article") or soup.body or soup
+        clean_inside(fallback)
         absolutize(fallback, used_url)
         md_body = html_to_md(fallback)
-    title = pick_title(soup)
+        used_sel += " -> fallback(article/body)"
+
     date_iso = parse_it_date(date_text)
     path = save_md(title, md_body, url, date_iso, outdir)
-    print(f"✓ {path}  ({date_iso})  [{len(md_body)} chars]  via {used_url}")
+
+    if debug:
+        (dbgdir / "body.html").write_text(str(body), encoding="utf-8")
+        (dbgdir / "body.md").write_text(md_body, encoding="utf-8")
+        (dbgdir / "selector.txt").write_text(used_sel + "\n", encoding="utf-8")
+
+    print(f"✓ {path}  ({date_iso})  [{len(md_body)} chars]  via {used_url}  sel={used_sel}")
 
 def main():
     if len(sys.argv) < 2:
         print("Uso:")
-        print("  blogger2md.py --batch file.txt   # righe: URL | DATA_ORIG_ITA")
-        print("  blogger2md.py 'URL | DATA_ORIG_ITA'  # singolo")
+        print("  blogger2md.py --batch file.txt [--debug]")
+        print("  blogger2md.py 'URL | DATA_ORIG_ITA' [--debug]")
         sys.exit(1)
+
+    debug = False
+    args = sys.argv[1:]
+    if "--debug" in args:
+        debug = True
+        args.remove("--debug")
+
     outdir = pathlib.Path("_perladieta")
-    if sys.argv[1] == "--batch":
-        lines = pathlib.Path(sys.argv[2]).read_text(encoding="utf-8").splitlines()
+    if args[0] == "--batch":
+        lines = pathlib.Path(args[1]).read_text(encoding="utf-8").splitlines()
         for line in lines:
-            if line.strip(): process_one(line, outdir)
+            if line.strip(): process_one(line, outdir, debug=debug)
     else:
-        process_one(" ".join(sys.argv[1:]), outdir)
+        process_one(" ".join(args), outdir, debug=debug)
 
 if __name__ == "__main__":
     main()
