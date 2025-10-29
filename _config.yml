@@ -5,7 +5,7 @@ theme: minima
 collections:
   perladieta:
     output: true
-    permalink: /:collection/:name/
+    permalink: /:collection/:year/:slug/
 
 defaults:
   - scope:

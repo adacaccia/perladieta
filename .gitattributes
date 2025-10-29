@@ -1,0 +1,66 @@
+# ----------------------------
+# 🔤 Encoding e newline uniformi
+# ----------------------------
+
+# Tutti i file di testo sono UTF-8 con LF (newline Unix)
+* text=auto eol=lf
+
+# Markdown, YAML, HTML, CSS, JS, JSON, XML, ecc.
+*.md      text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.html    text eol=lf
+*.css     text eol=lf
+*.js      text eol=lf
+*.json    text eol=lf
+*.xml     text eol=lf
+*.txt     text eol=lf
+*.csv     text eol=lf
+
+# Python
+*.py      text eol=lf diff=python
+
+# Shell / Bash
+*.sh      text eol=lf
+
+# GitHub Actions / workflow YAML
+.github/**/*.yml text eol=lf
+
+# Configurazioni Jekyll
+_config.yml text eol=lf
+
+# ----------------------------
+# 🖼️ File binari
+# ----------------------------
+
+# Immagini (non fare normalizzazione line-end)
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.webp    binary
+*.svg     binary
+*.ico     binary
+
+# Documenti binari
+*.pdf     binary
+*.docx    binary
+*.xlsx    binary
+*.pptx    binary
+*.odt     binary
+
+# ----------------------------
+# ⚙️ Diff personalizzati
+# ----------------------------
+
+# Mostra diff leggibile per Markdown e YAML
+*.md diff=markdown
+*.yml diff=yaml
+*.yaml diff=yaml
+
+# ----------------------------
+# 🧩 Protezione da conflitti comuni
+# ----------------------------
+
+# Evita CRLF accidentali su macOS/Windows
+*.bat eol=crlf
