@@ -16,7 +16,7 @@ collections:
     output: true
     permalink: /:collection/:name/
 defaults:
-  - scope: { path: "posts", type: perladieta }
+  - scope: { path: "_posts", type: perladieta }
     values: { layout: post }
 {% endcomment %}
 
