@@ -9,7 +9,7 @@ collections:
 
 defaults:
   - scope:
-      path: "_perladieta"
+      path: "_posts"
       type: perladieta
     values:
       layout: post

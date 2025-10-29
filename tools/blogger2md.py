@@ -90,14 +90,17 @@ def write_post(entry, media_map):
     body_md = sanitize_html_to_md(content_html).strip()
 
     safe_title = title.replace('"', "'")
+    date_str = date.strftime("%Y-%m-%d")
+    tags_yaml = ""
+    if tags:
+        tags_yaml = "\n".join([f"  - {t}" for t in tags])
     front_matter = (
         "---\n"
+        "layout: post\n"
         f'title: "{safe_title}"\n'
-        f"date: {date.isoformat()}\n"
-        f"slug: \"{slug}\"\n"
-        f"tags: {tags}\n"
-        f"original_url: \"{original_url}\"\n"
-        "draft: false\n"
+        f"date: {date_str}\n"
+        f'original_url: "{original_url}"\n'
+        "tags:\n" + (tags_yaml if tags_yaml else "  - perladieta") + "\n"
         "---\n\n"
     )
 
