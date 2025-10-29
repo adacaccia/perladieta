@@ -47,3 +47,6 @@ tags:
   - luce
   - metabolismo
 ---
+
+```html
+<p><small>Post trovati: {{ site.posts | size }}</small></p>
