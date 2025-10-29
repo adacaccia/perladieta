@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAFi5ns7g1lx28B9eU9vKVb32zL_Sk3jQslnSE3IrZvi0m031xMiTlowyeTwrZelXevX8rYpJul8czxglUQ7RXK_qp6NeE8alLGUHiT0O71frZUW7PcACOoYGF1RXvQehBxrmQZMBgk1M/s320/kidney_work+4x+idx128.gif)](http://www.kidney.org.au/flash/kidney_animation/kidneys.html)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAFi5ns7g1lx28B9eU9vKVb32zL_Sk3jQslnSE3IrZvi0m031xMiTlowyeTwrZelXevX8rYpJul8czxglUQ7RXK_qp6NeE8alLGUHiT0O71frZUW7PcACOoYGF1RXvQehBxrmQZMBgk1M/s1600/kidney_work+4x+idx128.gif)](http://www.kidney.org.au/flash/kidney_animation/kidneys.html)
 
 ## Introduzione
 
@@ -42,7 +42,7 @@ Ecco che incominciamo a vedere la connessione tra quello che mangiamo e il pH de
 
 Il visionario lavoro del dr. Thomas Remer, autore già nel 1995 dell'articolo "[Potential renal acid load (PRAL) of foods and its influence on urine pH](http://www.ncbi.nlm.nih.gov/pubmed/7797810)" ("*Carico acido renale potenziale (PRAL) degli alimenti e sua influenza sul pH dell'urina*") e co-autore di molti altri articoli scientifici su questo argomento nei successivi anni, pone le basi per valutare, con semplicissimi ed economici test del pH sull'urina, l'impatto salutistico di ciò che si è mangiato nelle ore precedenti, riducendo tutta l'enorme complessità metabolica che tutto ciò sottintende, ad una formula tutto sommato semplice:
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-gW7TT-qGXkv6HIPVVlRgawdxo0BOxH64s2fiKNXuW-N85UMF4a_d2NPo-dKBSe2rzoF1QOnEjCnm5A7TbdynyePYsK9EjSk0Fkxi9eISdGV7Y_WxyOCnmTWriA-7eK4ABH0mNxRYww/s400/PRAL+mEq.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-gW7TT-qGXkv6HIPVVlRgawdxo0BOxH64s2fiKNXuW-N85UMF4a_d2NPo-dKBSe2rzoF1QOnEjCnm5A7TbdynyePYsK9EjSk0Fkxi9eISdGV7Y_WxyOCnmTWriA-7eK4ABH0mNxRYww/s1600/PRAL+mEq.png)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-gW7TT-qGXkv6HIPVVlRgawdxo0BOxH64s2fiKNXuW-N85UMF4a_d2NPo-dKBSe2rzoF1QOnEjCnm5A7TbdynyePYsK9EjSk0Fkxi9eISdGV7Y_WxyOCnmTWriA-7eK4ABH0mNxRYww/s1600/PRAL+mEq.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-gW7TT-qGXkv6HIPVVlRgawdxo0BOxH64s2fiKNXuW-N85UMF4a_d2NPo-dKBSe2rzoF1QOnEjCnm5A7TbdynyePYsK9EjSk0Fkxi9eISdGV7Y_WxyOCnmTWriA-7eK4ABH0mNxRYww/s1600/PRAL+mEq.png)
 
 dove: Cl è il cloro, PO4 sono i fosfati, SO4 i solfati, mentre Na è il sodio, K il potassio, Ca il calcio e Mg il magnesio. Quindi: cloro, fosfati e solfati sono acidificanti, e sodio, potassio, calcio e magnesio sono alcalinizzanti.
 
@@ -50,7 +50,7 @@ Il problema con questa formula è l'unità di misura del PRAL: mEq significa mil
 
 Per fortuna, il Dr. Remer ha successivamente introdotto una versione semplificata di tale formula, che si è dimostrata parimenti efficace nel descrivere la correlazione tra alimenti e pH urinario; nell'articolo "[Dietary potential renal acid load and renal net acid excretion in healthy, free-living children and adolescents](http://www.ncbi.nlm.nih.gov/pubmed/12716680)" ("*Carico acido renale potenziale alimentare ed escrezione netta di acidi in bambini ed adolescenti sani e liberi*") il PRAL è valutato infatti come:
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipdaCdupjOI0bCz-xK-TlZbJaNT6HGnL3IJWBqZhmfCioxH7LJtNilOnkeJ3pA_4skFVcSeuuAM6X3EfjBcprPRi9Emk6WbaGuDVqr-gTzF0ZrIhC_AujGMlVEtwqinX-6X1hiQidoht8/s640/PRAL_mEq_mg.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipdaCdupjOI0bCz-xK-TlZbJaNT6HGnL3IJWBqZhmfCioxH7LJtNilOnkeJ3pA_4skFVcSeuuAM6X3EfjBcprPRi9Emk6WbaGuDVqr-gTzF0ZrIhC_AujGMlVEtwqinX-6X1hiQidoht8/s1600/PRAL_mEq_mg.png)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipdaCdupjOI0bCz-xK-TlZbJaNT6HGnL3IJWBqZhmfCioxH7LJtNilOnkeJ3pA_4skFVcSeuuAM6X3EfjBcprPRi9Emk6WbaGuDVqr-gTzF0ZrIhC_AujGMlVEtwqinX-6X1hiQidoht8/s1600/PRAL_mEq_mg.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipdaCdupjOI0bCz-xK-TlZbJaNT6HGnL3IJWBqZhmfCioxH7LJtNilOnkeJ3pA_4skFVcSeuuAM6X3EfjBcprPRi9Emk6WbaGuDVqr-gTzF0ZrIhC_AujGMlVEtwqinX-6X1hiQidoht8/s1600/PRAL_mEq_mg.png)
 
 Notiamo che il contributo positivo del cloro è stato considerato bilanciato da quello negativo del sodio, dato che entrambi nella nostra dieta provengono per la maggior parte dal sale da cucina (cloruro di sodio); in questo modo il cloro non fa più parte dell'equazione, e questo consente di estendere il calcolo del PRAL a molti più alimenti, dato che le tabelle alimentari riportano solo di rado il contenuto di cloro.
 
@@ -76,7 +76,7 @@ Cioè la misura del pH urinario non è una valutazione diretta del PRAL, perché
 
 In ogni caso, se ad esempio troviamo alle analisi il pH=5,5 per la nostra urina, benché questo valore sia assolutamente "normale" per il nostro medico, possiamo prenderlo come segnale della necessità di cambiamento, e della direzione che questo deve avere: il PRAL ci dà modo di neutralizzare completamente tutto il carico di acidi della nostra alimentazione, andando a bilanciare anche l'acidità indotta dall'attività fisica.
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5SzGyNSEngMzsdnq28WDcSfHOBteeSJAWjW4FwX23Sfq7gGrUz9_hFFxInX-ujJvVjpZx-aLxRaeNLcqPTGjhwiPiMZ5jdhYgE69P9dup8dHgD2FwNXkkn0FUf2Agb7gHukP_sPUXI6Q/s200/pH+5,5-9,0+paper+strip.png)](http://www.ebay.it/sch/i.html?_nkw=ph+5.5+test+paper)E' quindi importante trovare un modo facile per misurare il pH della nostra urina, e anche in modo facile per valutare il PRAL degli alimenti che mangiamo, in modo da poter influenzare direttamente il pH dell'urina grazie alle nostre scelte alimentari.
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5SzGyNSEngMzsdnq28WDcSfHOBteeSJAWjW4FwX23Sfq7gGrUz9_hFFxInX-ujJvVjpZx-aLxRaeNLcqPTGjhwiPiMZ5jdhYgE69P9dup8dHgD2FwNXkkn0FUf2Agb7gHukP_sPUXI6Q/s1600/pH+5,5-9,0+paper+strip.png)](http://www.ebay.it/sch/i.html?_nkw=ph+5.5+test+paper)E' quindi importante trovare un modo facile per misurare il pH della nostra urina, e anche in modo facile per valutare il PRAL degli alimenti che mangiamo, in modo da poter influenzare direttamente il pH dell'urina grazie alle nostre scelte alimentari.
 
 Il modo più facile ed economico per misurare il pH urinario è dato dalle strisce di carta al tornasole con intervallo specifico, ad es. 5,5-9,0: un intervallo più ristretto del classico 1-14 consente una maggiore precisione anche per un dispositivo così economico, riuscendo a valutare lo 0,5 di pH. Non so se si trovano in vendita in Italia, ma comunque un prodotto economico e semplice da usare trovato su eBay sono le "DF Special Indication Paper pH 5.5-9.0".
 

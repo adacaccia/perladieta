@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFkmXdwVS-urvJ7kYDe7KZ2CUPDIE_icYPve40Lk1v4Y66vCEZugMjr28t4JluoLWNn9kmSED-WHPpjyhF-awKafQCe9WO554_OZafvprzEs_llqH_Oj2SXJqxGiCf1F-mJOpPDP5UMUA/s320/04-2010-046+Vegetables+put+to+the+test+for+best+cooking+methods_CUT.png)](http://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFkmXdwVS-urvJ7kYDe7KZ2CUPDIE_icYPve40Lk1v4Y66vCEZugMjr28t4JluoLWNn9kmSED-WHPpjyhF-awKafQCe9WO554_OZafvprzEs_llqH_Oj2SXJqxGiCf1F-mJOpPDP5UMUA/s1600/04-2010-046+Vegetables+put+to+the+test+for+best+cooking+methods_CUT.png)](http://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html)
 
 Ci sono oggi sempre più seguaci del Crudismo (o *Raw Foodists* in inglese) che ritengono che la cottura dei vegetali ne distrugga, almeno in parte, la dotazione di sostanze nutrienti, soprattutto enzimi ed antiossidanti.
 

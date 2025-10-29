@@ -26,7 +26,7 @@ Le seguenti percentuali, relative all'obiettivo fissato per ciascun nutriente, s
 
 ## **Le castagne**
 
-![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBWfc2sUgucYkw1ZzCkjp40gdqycg7JvMAp9FzMPZgu4YhGS1hMKkacn0CtIfFdatU8wUzUSd5vuFdSqXjlq0YkuvmNILlQa33pLkM283Nt4fdl2g4L4nifjyKo2E9o632fgxeJWz_YN8/s400/chestnuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcBiU1csyEFM7DG5Gm1kwcEGZxSDTDgmnNpNV4GPZyuIM8b_MD9aAROZSGMXJ2dvnshDo6tviTQAEVLDc3K8Sk26nQgEj-qszcb3J_fOGd9FTefn41bRlUJlVkhNMpEC5sHEEy5NK6JC4/s320/cashew_nuts_cron_right.png)
+![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBWfc2sUgucYkw1ZzCkjp40gdqycg7JvMAp9FzMPZgu4YhGS1hMKkacn0CtIfFdatU8wUzUSd5vuFdSqXjlq0YkuvmNILlQa33pLkM283Nt4fdl2g4L4nifjyKo2E9o632fgxeJWz_YN8/s1600/chestnuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcBiU1csyEFM7DG5Gm1kwcEGZxSDTDgmnNpNV4GPZyuIM8b_MD9aAROZSGMXJ2dvnshDo6tviTQAEVLDc3K8Sk26nQgEj-qszcb3J_fOGd9FTefn41bRlUJlVkhNMpEC5sHEEy5NK6JC4/s1600/cashew_nuts_cron_right.png)
 
 Le castagne sono composte essenzialmente di acqua e carboidrati; i carboidrati sono complessi (amidi) e, in minore quantità, semplici (zuccheri) ma, purtroppo, nel DB USDA non ne è riportata l'esatta proporzione.  
 Contengono meno dell'1% di grassi, in buona parte polinsaturi essenziali e ben bilanciati.  
@@ -41,7 +41,7 @@ Svantaggi: il tanto rame presente può inibire l'assorbimento dello zinco.
 
 ## **Le noci**
 
-![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgtF4bNdLbKJNa1XHzKNXnZNAufXKjBDAdmDigNzJJzFiuWFptKEXJdkRODvs19bMm3PKtRf2i4Ocj71CXoJt5SEMFbduE8a9Nny67WVSB-sY-bYUVJRgD4AazvrPqsaPmy0dY2CawvrQ/s400/walnuts_cron_left.png) ![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzprGNxAOIsUK-sx-8fKhFVZpGa4PGRgujBhA05nwzaqTUYx0cWy0SjRS8c5PBDIYWgHAx5xw3C4SwHElf4qW0XG9S2VYzNhx3q5vfeSBhAyPY9WcvUZ-TuNiE_5xcjzW-iKE5mnW9kto/s320/walnuts_cron_right.png)
+![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgtF4bNdLbKJNa1XHzKNXnZNAufXKjBDAdmDigNzJJzFiuWFptKEXJdkRODvs19bMm3PKtRf2i4Ocj71CXoJt5SEMFbduE8a9Nny67WVSB-sY-bYUVJRgD4AazvrPqsaPmy0dY2CawvrQ/s1600/walnuts_cron_left.png) ![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzprGNxAOIsUK-sx-8fKhFVZpGa4PGRgujBhA05nwzaqTUYx0cWy0SjRS8c5PBDIYWgHAx5xw3C4SwHElf4qW0XG9S2VYzNhx3q5vfeSBhAyPY9WcvUZ-TuNiE_5xcjzW-iKE5mnW9kto/s1600/walnuts_cron_right.png)
 
 Le noci contengono quasi il 7% di fibra alimentare, e zuccheri semplici solo in tracce.  
 Contengono oltre il 65% di grassi che però sono, quasi per i 3/4, polinsaturi essenziali e oltretutto con un rapporto tra Omega-6 ed Omega-3 di 4,2 e quindi perfettamente allineato con la raccomandazione FAO contenuta nel documento sopra indicato (max 5).  
@@ -55,7 +55,7 @@ Vantaggi: presentano la maggiore percentuale di grassi polinsaturi essenziali, p
 
 ## **I pinoli**
 
-![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgaFwocXE4zaLIjO4Xhxd5zPQfwi7D18aesotP0pFWDCIonkEbgDjCIUPVrdL_6qZlBqKSi9QcIb72mTwdD0k7bntu4bbn3YSIEN2Hgb3KAi3HpdRXJpyBWR2AIp8MHmtAT-zDH0XGFyQ/s400/pine_nuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw7aoRKQzxdTZ9mMNOWXCP8Tz6mIj7xNC9Tz6MdT4-HDkBJV2wuwahDMH6-znLDfu67d374z6GU6qd1t0zMEqqo-jz2N9tOh1guIBp-EXkH6PpAJeklhY5S4ZZEYXNPNV17h87qA1cvxY/s320/pine_nuts_cron_right.png)
+![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgaFwocXE4zaLIjO4Xhxd5zPQfwi7D18aesotP0pFWDCIonkEbgDjCIUPVrdL_6qZlBqKSi9QcIb72mTwdD0k7bntu4bbn3YSIEN2Hgb3KAi3HpdRXJpyBWR2AIp8MHmtAT-zDH0XGFyQ/s1600/pine_nuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw7aoRKQzxdTZ9mMNOWXCP8Tz6mIj7xNC9Tz6MdT4-HDkBJV2wuwahDMH6-znLDfu67d374z6GU6qd1t0zMEqqo-jz2N9tOh1guIBp-EXkH6PpAJeklhY5S4ZZEYXNPNV17h87qA1cvxY/s1600/pine_nuts_cron_right.png)
 
 I pinoli contengono fibra alimentare e zuccheri semplici solo in tracce.  
 Contengono oltre il 68% di grassi, metà dei quali polinsaturi essenziali ma quasi esclusivamente di tipo Omega-6 e, pertanto, con un rapporto Omega-6:Omega-3 svantaggioso (oltre 25).  
@@ -70,7 +70,7 @@ Svantaggi: i grassi polinsaturi essenziali presenti sono sbilanciati verso gli O
 
 ## **Le nocciole**
 
-![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtq_BgSL4l-Z77A1akQpBfj1cla8kj1f5ahRrbqLqa7bXskr3KA4YOsfprjbFnI5zsJzUdwJ2fewWyJhYv3Z7GEW4456uGZ_fYlZ36pU1ozivB9v4wloJCaepJ8Cga4gKjQNSSUNBgu0I/s400/hazelnuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgACq8kUT-UuiERXcWFJVPZbyi1qEul-SZt-dxpwFhRQ2TrOm0huXE00Gt-t3C2uZnD30GAlMB8Hq2gEYW3A8_MSPrqAfHQK6OB9OPsg1laRX8yO24oKuzudgLRMc0uByBYdDU0ajENxqc/s320/hazelnuts_cron_right.png)
+![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtq_BgSL4l-Z77A1akQpBfj1cla8kj1f5ahRrbqLqa7bXskr3KA4YOsfprjbFnI5zsJzUdwJ2fewWyJhYv3Z7GEW4456uGZ_fYlZ36pU1ozivB9v4wloJCaepJ8Cga4gKjQNSSUNBgu0I/s1600/hazelnuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgACq8kUT-UuiERXcWFJVPZbyi1qEul-SZt-dxpwFhRQ2TrOm0huXE00Gt-t3C2uZnD30GAlMB8Hq2gEYW3A8_MSPrqAfHQK6OB9OPsg1laRX8yO24oKuzudgLRMc0uByBYdDU0ajENxqc/s1600/hazelnuts_cron_right.png)
 
 Le nocciole contengono quasi il 10% di fibra alimentare e oltre il 4% di zuccheri.  
 Contengono oltre il 60% di grassi, solo il 13% dei quali polinsaturi (meno dell'8% sul totale) e con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  
@@ -85,7 +85,7 @@ Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati vers
 
 ## **Le noci brasiliane**
 
-![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin5XoybHOJwkkoc_9A4IuO8hqIeKKcdXc_dHw1wDoJH-LV8eaAttUCuTe-Ny0Zujo4QTcm1dkPbAc-5bXc1-KvM_42KLxyd1Ny87bnplMFDz4Y8jPxErCLSuVBK84PJtctm7ikSQb7yEQ/s400/brazilnuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLbFLuzqucTGELyEmRV8gA2ZKNcCbiD4vISIXVi7lKwhuZ7QVpqOf53xsils9F-zBw4RL9UPYSGBuNgeBhV11EL6IJSRBgN7cwrfRjidbkFgik0X0Gbzz_0qF5R_wJZIn3dpNsYiGkLDM/s320/brazilnuts_cron_right.png)
+![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin5XoybHOJwkkoc_9A4IuO8hqIeKKcdXc_dHw1wDoJH-LV8eaAttUCuTe-Ny0Zujo4QTcm1dkPbAc-5bXc1-KvM_42KLxyd1Ny87bnplMFDz4Y8jPxErCLSuVBK84PJtctm7ikSQb7yEQ/s1600/brazilnuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLbFLuzqucTGELyEmRV8gA2ZKNcCbiD4vISIXVi7lKwhuZ7QVpqOf53xsils9F-zBw4RL9UPYSGBuNgeBhV11EL6IJSRBgN7cwrfRjidbkFgik0X0Gbzz_0qF5R_wJZIn3dpNsYiGkLDM/s1600/brazilnuts_cron_right.png)
 
 Le noci brasiliane contengono più del 7% di fibra alimentare e solo il 2,5% di zuccheri.  
 Contengono oltre il 66% di grassi, un terzo dei quali polinsaturi ma con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  
@@ -100,7 +100,7 @@ Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati vers
 
 ## **Le arachidi tostate**
 
-![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyqynaZNwjYI06pHA8drd3dm3LB13vkk9bDG_zseFQaULd3k7ltcBjAzIbdHgnke8KK8fKj465eHE30BGMD5D_X9VzoHKwg16IjM8zi-ubpgFP-uTpuPAtC9Xkwh9YXDW54HLb6pTX8iQ/s400/peanuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_fzNsOz4tT8znrct-87J_y7XD04yOBRyq6batASOyDzNIgVOWkq6A_Qn-w44zqCwc5gbAayUm6p5w30WiWyOwKnTCOgUQk9eXYkConOMaeHlAMLOlsXmP2xCv9P-GXJV2W0gU1UAIb1o/s320/peanuts_cron_right.png)
+![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyqynaZNwjYI06pHA8drd3dm3LB13vkk9bDG_zseFQaULd3k7ltcBjAzIbdHgnke8KK8fKj465eHE30BGMD5D_X9VzoHKwg16IjM8zi-ubpgFP-uTpuPAtC9Xkwh9YXDW54HLb6pTX8iQ/s1600/peanuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_fzNsOz4tT8znrct-87J_y7XD04yOBRyq6batASOyDzNIgVOWkq6A_Qn-w44zqCwc5gbAayUm6p5w30WiWyOwKnTCOgUQk9eXYkConOMaeHlAMLOlsXmP2xCv9P-GXJV2W0gU1UAIb1o/s1600/peanuts_cron_right.png)
 
 Le arachidi tostate contengono l'8% di fibra alimentare e il 4% di zuccheri.  
 Contengono quasi il 50% di grassi, quasi un terzo dei quali polinsaturi ma con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  
@@ -115,7 +115,7 @@ Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati vers
 
 ## **Le mandorle**
 
-![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2zOrDQubhDQ_oiz_BVSwal291Xd3hSpBkvf71xwCYulxpB2mB-pESkwqyN22OVarP8TOcIP5m8UxQQ1-HWfYna_TPhfBqp2d9iI-_8oqRW5cC0h1R-JwrVpcg6kOkJzBaVz49nt-jxc0/s400/almonds_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjarCOWbPILF4GDvXj_jvjeKJ3JEBaZQhtlVE-Q4UNtbEAuHGsZ50OMa8mP1Vz0HJTQoSsOXsK99giwU_NrhjTIc0iVRIItTzHS8ETJIppgv0sahWx3mJPhz_upbNJrqY69Zy9aB6geGwk/s320/almonds_cron_right.png)
+![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2zOrDQubhDQ_oiz_BVSwal291Xd3hSpBkvf71xwCYulxpB2mB-pESkwqyN22OVarP8TOcIP5m8UxQQ1-HWfYna_TPhfBqp2d9iI-_8oqRW5cC0h1R-JwrVpcg6kOkJzBaVz49nt-jxc0/s1600/almonds_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjarCOWbPILF4GDvXj_jvjeKJ3JEBaZQhtlVE-Q4UNtbEAuHGsZ50OMa8mP1Vz0HJTQoSsOXsK99giwU_NrhjTIc0iVRIItTzHS8ETJIppgv0sahWx3mJPhz_upbNJrqY69Zy9aB6geGwk/s1600/almonds_cron_right.png)
 
 Le mandorle contengono oltre il 12% di fibra alimentare e meno del 4% di zuccheri.  
 Contengono quasi il 50% di grassi, solo un quarto dei quali polinsaturi e con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  
@@ -130,7 +130,7 @@ Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati vers
 
 ## **I pistacchi**
 
-![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwG4iXLMtA3uOUTTkA7j9urqxyb_CXA4yoqNIeItOe8s-BQ2VEZ-gjwA7U9zct5VEfBuBQt1ZHRdgZ6fKzcQS9YU1wluBkMOKZlikpOiNxbCEA_qBoMXYLxCfZc66GJ1myr0WZ5o7Z2HA/s400/pistachio_nuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSMBP9qsfNtBtGI1IvitREzL_rp6pukFWqGJF-7M4ra4GhCKIoQ7PjQIT27TMbTlsaw4LInh-NCRRLASbdCogcrY0nfgIkgM0UfhgcBJdP9WjPZNs8Ib4sODW2mP0ZV65jo0QZFQDqbUY/s320/pistachio_nuts_cron_right.png)
+![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwG4iXLMtA3uOUTTkA7j9urqxyb_CXA4yoqNIeItOe8s-BQ2VEZ-gjwA7U9zct5VEfBuBQt1ZHRdgZ6fKzcQS9YU1wluBkMOKZlikpOiNxbCEA_qBoMXYLxCfZc66GJ1myr0WZ5o7Z2HA/s1600/pistachio_nuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSMBP9qsfNtBtGI1IvitREzL_rp6pukFWqGJF-7M4ra4GhCKIoQ7PjQIT27TMbTlsaw4LInh-NCRRLASbdCogcrY0nfgIkgM0UfhgcBJdP9WjPZNs8Ib4sODW2mP0ZV65jo0QZFQDqbUY/s1600/pistachio_nuts_cron_right.png)
 
 I pistacchi contengono il 10% di fibra alimentare e meno dell'8% di zuccheri.  
 Contengono il 45% di grassi, meno di un terzo dei quali polinsaturi e con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  
@@ -145,7 +145,7 @@ Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati vers
 
 ## **Gli anacardi**
 
-![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOG2rOvOj9nrpNfzrrb9cbO5ljvfNJXvx_hi3fl5xxC6IvHokqljhDFUDPguqB6XwkfOe1ZbakdZj81D-mCKZCoTp86o28o9S5uXccEEG31JIKyxQRisY5E5NSLIq3BjkArmfP4zis3fw/s400/cashew_nuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmM0JqnaSyhMRwG4Ow1fF1ek35zvCLVnVYKrYQg1gmynLK9CO8EVWuXngjUOOgvlhTnB9YIBF43naTL5ZbtdSV7LHD8Slfh46DW0usVyWO1pcGQf4-mgLoyXPkvgslEWzD2XAciABWQvg/s320/cashew_nuts_cron_right.png)
+![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOG2rOvOj9nrpNfzrrb9cbO5ljvfNJXvx_hi3fl5xxC6IvHokqljhDFUDPguqB6XwkfOe1ZbakdZj81D-mCKZCoTp86o28o9S5uXccEEG31JIKyxQRisY5E5NSLIq3BjkArmfP4zis3fw/s1600/cashew_nuts_cron_left.png)![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmM0JqnaSyhMRwG4Ow1fF1ek35zvCLVnVYKrYQg1gmynLK9CO8EVWuXngjUOOgvlhTnB9YIBF43naTL5ZbtdSV7LHD8Slfh46DW0usVyWO1pcGQf4-mgLoyXPkvgslEWzD2XAciABWQvg/s1600/cashew_nuts_cron_right.png)
 
 Gli anacardi contengono il 3% di fibra alimentare e meno del 3% di zuccheri.  
 Contengono il 44% di grassi, meno di un quinto dei quali polinsaturi e con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  

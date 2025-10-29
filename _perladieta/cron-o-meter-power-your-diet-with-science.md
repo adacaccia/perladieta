@@ -35,7 +35,7 @@ Ce ne sono tanti, io ho scelto [Cron-O-Meter](http://www.cronometer.com/), che f
 
 Lo uso (quasi) quotidianamente a partire dallo scorso 2 settembre, e mi ha aiutato non poco a raggiungere quella "tranquillità nutrizionale" che è impagabile per chi tenga davvero alla propria salute, a prescindere dalle diverse scelte/necessità alimentari.
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHEn8YBPBAn8YyIvZkA4W23A5JHObtBwlrea4cSn-EA60_Gu9OwniZRxjDfd1vzjIxUCyQW-RTBKeJesIQvMdhZParaP9Pc2vmbJZvX6bZq78wIDB2E1VbOpCVYjG6OCjYwDyPhJmCNCU/s640/CRON-O-Meter-nutr_rid.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHEn8YBPBAn8YyIvZkA4W23A5JHObtBwlrea4cSn-EA60_Gu9OwniZRxjDfd1vzjIxUCyQW-RTBKeJesIQvMdhZParaP9Pc2vmbJZvX6bZq78wIDB2E1VbOpCVYjG6OCjYwDyPhJmCNCU/s1600/CRON-O-Meter-nutr_rid.png)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHEn8YBPBAn8YyIvZkA4W23A5JHObtBwlrea4cSn-EA60_Gu9OwniZRxjDfd1vzjIxUCyQW-RTBKeJesIQvMdhZParaP9Pc2vmbJZvX6bZq78wIDB2E1VbOpCVYjG6OCjYwDyPhJmCNCU/s1600/CRON-O-Meter-nutr_rid.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHEn8YBPBAn8YyIvZkA4W23A5JHObtBwlrea4cSn-EA60_Gu9OwniZRxjDfd1vzjIxUCyQW-RTBKeJesIQvMdhZParaP9Pc2vmbJZvX6bZq78wIDB2E1VbOpCVYjG6OCjYwDyPhJmCNCU/s1600/CRON-O-Meter-nutr_rid.png)
 
 Come si vede, bisogna semplicemente inserire i cibi che si mangiano nella parte superiore, uno per riga; si è assistiti da un elenco di misure standard, in modo da non dover essere costretti ad usare la bilancia (il DB USDA fornisce i pesi medi, ad esempio, dei diversi tipi di frutta, con e senza buccia/semi/scarti).
 

@@ -10,7 +10,7 @@ tags:
 
 Ho illustrato in altri post come diversi ordini di problemi, sia salutari che ambientali, siano facilmente affrontabili attraverso la riconsiderazione di ciò che comunemente consideriamo "cibo":  
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbYjQXjKyktYvlaek22u-OB0-nGbiU0n1GIqYW28P-WpHJkqcEOsFvbHRuxB3DF4qF1Hv8Ku6oilSdL06TFJ91rxJ9hlApTZX_CyubarhVN4dmpGdTAcF3JJB3VQiVmEzh3SKgxJFzbFw/s320/vegan-diet.jpg)](http://perladieta.blogspot.it/2012/03/lalimentazione-vegana.html)* [le malattie croniche si prevengono con l'alimentazione](http://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html);
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbYjQXjKyktYvlaek22u-OB0-nGbiU0n1GIqYW28P-WpHJkqcEOsFvbHRuxB3DF4qF1Hv8Ku6oilSdL06TFJ91rxJ9hlApTZX_CyubarhVN4dmpGdTAcF3JJB3VQiVmEzh3SKgxJFzbFw/s1600/vegan-diet.jpg)](http://perladieta.blogspot.it/2012/03/lalimentazione-vegana.html)* [le malattie croniche si prevengono con l'alimentazione](http://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html);
 * [il diabete si combatte a tavola](http://perladieta.blogspot.com/2012/01/lindice-glicemico-dei-carboidrati.html);
 * [la calvizie maschile è correlata a disordini metabolici](http://perladieta.blogspot.com/2012/03/la-calvizie-maschile-evidenzia-problemi.html);
 * [gli allevamenti inquinano più dei motori](http://perladieta.blogspot.com/2012/01/alimentazione-ed-ecologia.html);

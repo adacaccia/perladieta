@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBPnHMW1ImbwC3Wxkg3BsrILke4CV3nwqTRkQM0YZSzqBWNeqEBquSnDMNuZmynSnhIvnYG17U6v3HhQT15a03C7zIacET55X0Zv7h2QayC9qWY1NgLl0AOLXCOYfMxuunHZBRVqoaxNI/s320/WHO-FAO-2004+Vitamins+and+minerals.png)](http://perladieta.blogspot.com/2012/06/il-reale-fabbisogno-di-vitamine-e.html)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBPnHMW1ImbwC3Wxkg3BsrILke4CV3nwqTRkQM0YZSzqBWNeqEBquSnDMNuZmynSnhIvnYG17U6v3HhQT15a03C7zIacET55X0Zv7h2QayC9qWY1NgLl0AOLXCOYfMxuunHZBRVqoaxNI/s1600/WHO-FAO-2004+Vitamins+and+minerals.png)](http://perladieta.blogspot.com/2012/06/il-reale-fabbisogno-di-vitamine-e.html)
 
 Quando si prepara un piano dietetico, manualmente o per mezzo di uno strumento automatico (come ad esempio [Cron-O-Meter](http://perladieta.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html)), si ha comunque la necessità di consultare delle tavole per derivare il fabbisogno delle singole vitamine e dei singoli sali minerali per la persona in oggetto, solitamente a partire da: età, sesso, stati particolari (gravidanza/allattamento), peso corporeo.
 
@@ -50,7 +50,7 @@ E' chiaro che a questo punto occorre conoscere la verità, sapendo che ovviament
 
 Si potrebbe anche andare oltre con le domande, ad esempio ci si potrebbe chiedere: ma se le proteine animali fanno così male alle ossa, perché in TV e sulle riviste ci sono "esperti" che ci continuano a raccomandare latte e latticini per il Calcio e la salute delle ossa, e la carne per il ferro e la salute del sangue?
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEif-F9dPu9h6VPOonYqAfggUAxBOg1GNP138dACjp_XV5DFDs0DTW5CLIwPb5yJSqpIWEJUXeBu84MkryG5m-mXnwkVrGy2LoD74KsopytF7Q1R7IS2bdvrjRHCDOXqPHDcj9ukOJfh5hQ/s320/Diamo+un+Calcio+al+mito.png)](http://www.disinformazione.it/mito_calcio.htm)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEif-F9dPu9h6VPOonYqAfggUAxBOg1GNP138dACjp_XV5DFDs0DTW5CLIwPb5yJSqpIWEJUXeBu84MkryG5m-mXnwkVrGy2LoD74KsopytF7Q1R7IS2bdvrjRHCDOXqPHDcj9ukOJfh5hQ/s1600/Diamo+un+Calcio+al+mito.png)](http://www.disinformazione.it/mito_calcio.htm)
 
 Per fortuna, Lorenzo Acerra ha recentemente pubblicato su disinformazione.it [un eccellente articolo sull'argomento](http://www.disinformazione.it/mito_calcio.htm), scientificamente rigoroso, completo di abbondanti e pregnanti riferimenti bibliografici, e fornito anche in inglese (così posso linkarlo anche nelle mie comunicazioni con persone straniere, mostrando che in Italia ci sono ancora cervelli di prim'ordine!).
 
@@ -62,7 +62,7 @@ Quindi, almeno per chi ha un'alimentazione caratterizzata dall'assenza di protei
 
 ### La "vitamina" D e i suoi cofattori (Magnesio, Vitamina K, Zinco e Boro)
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0R_t7cK-S680LbwDSqiQXTlMqmPD9N4DLyvVDP9xBFohGIIjGg9bEUWg1nUb5lSGdPKkCYj0rqN6u3Vmw8IymNgl1pbO3M175FhX4fn44zvIKBmww3_1Zj8bXDpwUD47t2Q3oGmcR1os/s320/VitaminDCouncil.png)](http://www.vitamindcouncil.org/about-vitamin-d/)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0R_t7cK-S680LbwDSqiQXTlMqmPD9N4DLyvVDP9xBFohGIIjGg9bEUWg1nUb5lSGdPKkCYj0rqN6u3Vmw8IymNgl1pbO3M175FhX4fn44zvIKBmww3_1Zj8bXDpwUD47t2Q3oGmcR1os/s1600/VitaminDCouncil.png)](http://www.vitamindcouncil.org/about-vitamin-d/)
 
 Sempre a proposito di salute ossea, mi sono recentemente occupato della "vitamina" D e degli altri elementi, vitamine e sali minerali, coinvolti nel suo metabolismo ("cofattori"). La ricerca scientifica molto recente, dato il crescente interesse scientifico verso questo gruppo di sostanze, ha portato a ritoccare verso l'alto (a volte, in modo radicale) i dati sul fabbisogno di queste sostanze. Per i dettagli rimando al [mio recente articolo in merito](http://perladieta.blogspot.com/2012/06/la-verita-sulla-vitamina-d.html), nel seguito di questo articolo userò questi nuovi dati sul fabbisogno.
 

@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOsKvLHYwIIU9Pd0BbIv8qLOHI0rdUprqD_j5w15LceUmmc8f_TA3fm9qX9QmyPhAOr0GzkMQ2tbg3bsQiERu1Qay7lxBdrr0s4d0R1wMRAuMkViTH3xOHclUyZKhI05RU755-l8eXKgA/s320/Dr.Greger.s.Daily.Dozen.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOsKvLHYwIIU9Pd0BbIv8qLOHI0rdUprqD_j5w15LceUmmc8f_TA3fm9qX9QmyPhAOr0GzkMQ2tbg3bsQiERu1Qay7lxBdrr0s4d0R1wMRAuMkViTH3xOHclUyZKhI05RU755-l8eXKgA/s1600/Dr.Greger.s.Daily.Dozen.jpeg)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOsKvLHYwIIU9Pd0BbIv8qLOHI0rdUprqD_j5w15LceUmmc8f_TA3fm9qX9QmyPhAOr0GzkMQ2tbg3bsQiERu1Qay7lxBdrr0s4d0R1wMRAuMkViTH3xOHclUyZKhI05RU755-l8eXKgA/s1600/Dr.Greger.s.Daily.Dozen.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOsKvLHYwIIU9Pd0BbIv8qLOHI0rdUprqD_j5w15LceUmmc8f_TA3fm9qX9QmyPhAOr0GzkMQ2tbg3bsQiERu1Qay7lxBdrr0s4d0R1wMRAuMkViTH3xOHclUyZKhI05RU755-l8eXKgA/s1600/Dr.Greger.s.Daily.Dozen.jpeg)
 
 (Articolo di gennaio 2016)
 

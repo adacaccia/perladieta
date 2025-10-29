@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhELXKoR1jZqbZ328yQbVw0RM57pJ_nIvDMyg08KV4hr_yJWAxlTWdELNZsa5ho4VKlaV6jJ_VmwBKp-nquIK4pjLXX-ZJ4twdOrOgJoc2bAIje_wK9Jmw3-J1oBYQ3ut4nBI-L170kH64/s320/GrassrootsHealth+-+Vitamin+D+Action.png)](http://perladieta.blogspot.com/2012/06/la-verita-sulla-vitamina-d.html)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhELXKoR1jZqbZ328yQbVw0RM57pJ_nIvDMyg08KV4hr_yJWAxlTWdELNZsa5ho4VKlaV6jJ_VmwBKp-nquIK4pjLXX-ZJ4twdOrOgJoc2bAIje_wK9Jmw3-J1oBYQ3ut4nBI-L170kH64/s1600/GrassrootsHealth+-+Vitamin+D+Action.png)](http://perladieta.blogspot.com/2012/06/la-verita-sulla-vitamina-d.html)
 
 Si comprende già dagli apici intorno al termine "vitamina" nel titolo, che le informazioni contenute in questo post mostrano una realtà scientifica molto più ampia rispetto a ciò che normalmente si chiama "vitamina".  
 Infatti, mentre ciascuna vitamina, di solito, è coinvolta in un processo metabolico ben preciso, e in pochissimi altri al massimo, la "vitamina" D, nella sua forma attiva, è un ormone steroideo vero e proprio, con recettori presenti in quasi tutti gli organi del nostro corpo, e addirittura in grado di influenzare l'espressione di 1/3 del nostro patrimonio genetico!
@@ -36,7 +36,7 @@ Ecco, dunque, che abbiamo già due diversi fatti che imporrebbero l'uso degli ap
 * si sintetizza nella pelle esposta al sole, quindi non è sempre strettamente necessario assumerla con la dieta (tutti i dettagli più avanti nel testo);
 * nel corpo si comporta come un vero e proprio ormone, più che come una normale vitamina.
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbRYa0tixhIWtwV7nQMH1XYARYRi4-HgbLH0lJHh-SRn3sY7bGJQ93KwN2kc76wBtKB4X7x-QbnExBzgoiZuS9BJ_do-4iZomf5HYfIOp7fHRwvrbBkqQ7glowQx7ZuG3-HnzI0_7Fhs8/s320/VitaminDCouncil.png)](http://www.vitamindcouncil.org/about-vitamin-d/)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbRYa0tixhIWtwV7nQMH1XYARYRi4-HgbLH0lJHh-SRn3sY7bGJQ93KwN2kc76wBtKB4X7x-QbnExBzgoiZuS9BJ_do-4iZomf5HYfIOp7fHRwvrbBkqQ7glowQx7ZuG3-HnzI0_7Fhs8/s1600/VitaminDCouncil.png)](http://www.vitamindcouncil.org/about-vitamin-d/)
 
 Per andare avanti nella trattazione di questa materia, resa complessa dal fatto che le ricerche in corso in ogni momento paiono apportare contributi sempre più ampi (anziché limitarsi a tornire gli ultimi dettagli, come avverrebbe di solito), mi baso sulle pubblicazioni del "Vitamin D Council", ente USA no profit e non governativo fondato nel 2003 dal Dr. John J. Cannell, uno dei ricercatori di maggior livello in questo campo, che si era già allora reso conto che molti dei disturbi che affliggono sempre più persone nel mondo sono correlabili con la mancanza di vitamina D.
 

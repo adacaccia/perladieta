@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioRtudv9_vI3vf9O3DePD8Og-0YFBpYkOAo4LjeCgVqoBHCm2F7TeTgQCObBYD1wjJMWsXkCczspKTEGNVvLbG-HlqBNXAf_SCdihLI5aSXCHyepEqMdi8MMN2ZS9ng_MTJWtTbWflVJo/s320/Joint+WHO-FAO+2003+Expert+consultation+on+diet%252C+nutrition+and+the+prevention+of+chronic+diseases.png)](http://perladieta.blogspot.it/2012/01/alimentazione-e-prevenzione-di-malattie.html)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioRtudv9_vI3vf9O3DePD8Og-0YFBpYkOAo4LjeCgVqoBHCm2F7TeTgQCObBYD1wjJMWsXkCczspKTEGNVvLbG-HlqBNXAf_SCdihLI5aSXCHyepEqMdi8MMN2ZS9ng_MTJWtTbWflVJo/s1600/Joint+WHO-FAO+2003+Expert+consultation+on+diet%252C+nutrition+and+the+prevention+of+chronic+diseases.png)](http://perladieta.blogspot.it/2012/01/alimentazione-e-prevenzione-di-malattie.html)
 
 Va sempre più di moda l'idea di "curarsi con il cibo", ad anche i mezzi di comunicazione di massa iniziano ora ad interessarsi delle correlazioni tra abitudini alimentari e rischi per la salute.
 

@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9iS8MJ8MRnQFmY6YQoSd1TxTARkeNMm56mLoxiYVXkazrTPeCp-gID8nJ6wu_6UM9acNR9dUSRB8TgEJyE8j7_3jNi3mB5IaONznwJCitYjNBVSjiKPdas-yakRljl_Al8W8MmsiZwM0/s320/Clett+Erridge+-+The+capacity+od+foodstuff+to+induce+innate+immune+activation+(gen2001).png)](http://perladieta.blogspot.it/2012/09/il-vero-problema-del-cibo-di-origine.html)  
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9iS8MJ8MRnQFmY6YQoSd1TxTARkeNMm56mLoxiYVXkazrTPeCp-gID8nJ6wu_6UM9acNR9dUSRB8TgEJyE8j7_3jNi3mB5IaONznwJCitYjNBVSjiKPdas-yakRljl_Al8W8MmsiZwM0/s1600/Clett+Erridge+-+The+capacity+od+foodstuff+to+induce+innate+immune+activation+(gen2001).png)](http://perladieta.blogspot.it/2012/09/il-vero-problema-del-cibo-di-origine.html)  
 
 ### Introduzione
 

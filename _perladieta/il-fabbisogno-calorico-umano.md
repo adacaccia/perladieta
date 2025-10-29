@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRIeM5f2BIobnrm1mA-ynlHT2L5PenJbtZjlsvXcm0leH-rWo9Y6-Sgm9HnLQOH-leMVWd0iGN_iMlGQhwtL_b29fW8BNqgcnQWpZspKYDFKtpnmbFbOi6-TXTVN0xIrjSB_A4wBeSgeo/s400/Human+energy+requirements+-+Report+of+a+Joint+FAO-WHO-UNU+Expert+Consultation+(2004).png)](http://perladieta.blogspot.com/2012/05/il-fabbisogno-calorico-umano.html)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRIeM5f2BIobnrm1mA-ynlHT2L5PenJbtZjlsvXcm0leH-rWo9Y6-Sgm9HnLQOH-leMVWd0iGN_iMlGQhwtL_b29fW8BNqgcnQWpZspKYDFKtpnmbFbOi6-TXTVN0xIrjSB_A4wBeSgeo/s1600/Human+energy+requirements+-+Report+of+a+Joint+FAO-WHO-UNU+Expert+Consultation+(2004).png)](http://perladieta.blogspot.com/2012/05/il-fabbisogno-calorico-umano.html)
 
 Nello stilare piani dietetici personalizzati, la base per tutti i calcoli è normalmente costituita dal fabbisogno calorico individuale della persona che si sottoporrà alla dieta.
 

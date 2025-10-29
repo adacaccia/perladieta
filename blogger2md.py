@@ -132,11 +132,74 @@ def clean_inside(el: BeautifulSoup):
             t.decompose()
 
 def absolutize(el: BeautifulSoup, base: str):
+    def pick_biggest_from_srcset(srcset: str) -> str:
+        # es: "https://.../foo.jpg 320w, https://.../foo_big.jpg 1600w"
+        best = None; best_w = -1
+        for part in srcset.split(","):
+            part = part.strip()
+            if not part:
+                continue
+            bits = part.split()
+            url = bits[0]
+            w = 0
+            if len(bits) > 1 and bits[1].endswith("w"):
+                try:
+                    w = int(bits[1][:-1])
+                except:
+                    w = 0
+            if w > best_w:
+                best, best_w = url, w
+        return best or None
+
+    def fix_blogger_img_url(u: str) -> str:
+        # forza https per domini Blogger/Google
+        u = re.sub(r"^http://", "https://", u)
+        # normalizza dimensioni: /s72/ -> /s1600/  |  =s72-c -> =s1600
+        u = re.sub(r"/s\d{2,4}(/|$)", r"/s1600\1", u)
+        u = re.sub(r"=s\d{2,4}(-[a-z])?", "=s1600", u)
+        return u
+
+    # IMG: prendi data-src/srcset/src in ordine di “ricchezza”
     for img in el.select("img"):
-        src = img.get("src") or img.get("data-src")
-        if not src: img.decompose(); continue
-        img["src"] = urljoin(base, src.split("?")[0])
-        if not img.get("alt"): img["alt"] = "fig"
+        src = None
+
+        # 1) srcset / data-srcset → scegli la più grande
+        srcset = img.get("srcset") or img.get("data-srcset")
+        if srcset:
+            src = pick_biggest_from_srcset(srcset)
+
+        # 2) data-src / data-original come fallback “ricco”
+        if not src:
+            src = img.get("data-src") or img.get("data-original")
+
+        # 3) src “normale”
+        if not src:
+            src = img.get("src")
+
+        if not src:
+            # ancora niente -> l’immagine è davvero vuota: rimuovi
+            img.decompose()
+            continue
+
+        # NON rimuovere la query (!) — serve per taglia/host
+        full = urljoin(base, src)
+
+        # fix specifici Blogger
+        full = fix_blogger_img_url(full)
+
+        # applica src definitivo
+        img["src"] = full
+
+        # togli attributi pigri che alcuni viewer ignorano
+        for lazy_attr in ["srcset","data-srcset","data-src","data-original","decoding","loading"]:
+            if lazy_attr in img.attrs:
+                del img.attrs[lazy_attr]
+
+        # alt generico se mancante
+        if not img.get("alt"):
+            img["alt"] = "fig"
+
+    # Link assoluti (lascia query intatta)
     for a in el.select("a[href]"):
         a["href"] = urljoin(base, a["href"])
 

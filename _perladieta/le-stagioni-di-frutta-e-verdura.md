@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiflZeyigC82zCVUfzBAKKeJRoP46h91kLO_poYjOE-wjmP7ITuO2BQr1lAKDrtk4MRwoN17FiwJp87KL7MisFPH94iri9RtOXvU36giVgb2cIUg7uUJIg2mT-3wCLFWuocuoB7owxLkyw/s320/vegan-diet.jpg)](http://perladieta.blogspot.com/2012/05/le-stagioni-di-frutta-e-verdura-crudo.html)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiflZeyigC82zCVUfzBAKKeJRoP46h91kLO_poYjOE-wjmP7ITuO2BQr1lAKDrtk4MRwoN17FiwJp87KL7MisFPH94iri9RtOXvU36giVgb2cIUg7uUJIg2mT-3wCLFWuocuoB7owxLkyw/s1600/vegan-diet.jpg)](http://perladieta.blogspot.com/2012/05/le-stagioni-di-frutta-e-verdura-crudo.html)
 
 Nel preparare piani dietetici personalizzati che siano anche nutrizionalmente validi, si ha la necessità di inserirvi sempre molte razioni di frutta e verdura, perché si sa che tali alimenti contengono sali minerali, vitamine ed altre sostanze nutritive in abbondanza.  
   

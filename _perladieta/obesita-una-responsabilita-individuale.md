@@ -10,7 +10,7 @@ tags:
 
 ## Introduzione
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNreTfi3Ow9bjEJvCdEmNEkjKO9EVimgkPQhUaI6TXNNUP7fWcRcjBgwm4USCPQOvpUg3sRUY0LZRSdasSdCNb0suOUmJqc7KZxMbL2m5PyP41A07yZh7NryM4uA_Xn9B5hqXjvxri-WA/s320/HealthAtAGlanceEurope2012.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNreTfi3Ow9bjEJvCdEmNEkjKO9EVimgkPQhUaI6TXNNUP7fWcRcjBgwm4USCPQOvpUg3sRUY0LZRSdasSdCNb0suOUmJqc7KZxMbL2m5PyP41A07yZh7NryM4uA_Xn9B5hqXjvxri-WA/s1600/HealthAtAGlanceEurope2012.png)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNreTfi3Ow9bjEJvCdEmNEkjKO9EVimgkPQhUaI6TXNNUP7fWcRcjBgwm4USCPQOvpUg3sRUY0LZRSdasSdCNb0suOUmJqc7KZxMbL2m5PyP41A07yZh7NryM4uA_Xn9B5hqXjvxri-WA/s1600/HealthAtAGlanceEurope2012.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNreTfi3Ow9bjEJvCdEmNEkjKO9EVimgkPQhUaI6TXNNUP7fWcRcjBgwm4USCPQOvpUg3sRUY0LZRSdasSdCNb0suOUmJqc7KZxMbL2m5PyP41A07yZh7NryM4uA_Xn9B5hqXjvxri-WA/s1600/HealthAtAGlanceEurope2012.png)
 
 L'obesità è in crescita nelle società occidentali, ed anche in Italia, stando all'ultima edizione del rapporto OCSE ["Health At A Glance Europe" 2012](http://www.oecd.org/health/healthataglanceeurope.htm). Se, infatti, molti giornali cantano vittoria esclamando che  l'obesità è in aumento in Europa mentre l'Italia sarebbe salva, ecco come stanno, in realtà, le cose:
 

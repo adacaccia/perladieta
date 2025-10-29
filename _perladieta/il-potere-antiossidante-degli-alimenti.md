@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfIATHKfQU0b6ZIesZpJtXMgfhR9blQzFWetmEq31mf__mtRD_EKgfZakXBcXPPeOPp_xLRwOIBfUTaU7k2Hp_fcRpaM8IWgP4yJcDa6LdbLhu9Ha-0zWai0ASbJ_0tL2g0HFCAqyupu8/s320/Fruits-And-Vegetables-720.png)](http://perladieta.blogspot.it/2012/10/il-potere-antiossidante-degli-alimenti.html)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfIATHKfQU0b6ZIesZpJtXMgfhR9blQzFWetmEq31mf__mtRD_EKgfZakXBcXPPeOPp_xLRwOIBfUTaU7k2Hp_fcRpaM8IWgP4yJcDa6LdbLhu9Ha-0zWai0ASbJ_0tL2g0HFCAqyupu8/s1600/Fruits-And-Vegetables-720.png)](http://perladieta.blogspot.it/2012/10/il-potere-antiossidante-degli-alimenti.html)
 
 C'è grande interesse scientifico attualmente sul tema degli antiossidanti alimentari; infatti, se da un lato le sostanze dotate di spiccato potere antiossidante si rivelano via via sempre più utili nella lotta ai tumori, dall'altro sarebbe molto facile includerli nella propria alimentazione in grandi quantità: basta solo sapere dove si trovano!
 

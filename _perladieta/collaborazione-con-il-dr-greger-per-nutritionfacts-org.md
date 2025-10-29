@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4yLp9OBXWtAJtqK0-nYfn0BJP4xpyUxh5JtnXSm9qWWI0UJP44EHRsf9OViu9dVx-XPE0w_7Dp1Rqv2VlqkXXPYmHEj5VrFcAFiEercElyXyD9kkqCLQh6L_b9iyZ_ODj6Xp7h_nI31w/s320/nut_facts_ad.jpg)](http://nutritionfacts.org/)  
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4yLp9OBXWtAJtqK0-nYfn0BJP4xpyUxh5JtnXSm9qWWI0UJP44EHRsf9OViu9dVx-XPE0w_7Dp1Rqv2VlqkXXPYmHEj5VrFcAFiEercElyXyD9kkqCLQh6L_b9iyZ_ODj6Xp7h_nI31w/s1600/nut_facts_ad.jpg)](http://nutritionfacts.org/)  
 
 Sono orgoglioso di annunciare la mia collaborazione diretta con lo staff del Dr. Greger per tradurre in italiano i sottotitoli dei suoi video divulgativi, pubblicati giornalmente sul sito [NutritionFacts.org](http://nutritionfacts.org/)! Ho anche proposto un sistema di traduzione semplificato e più veloce, subito accettato, che faciliterà, oltre che il mio, anche il lavoro degli altri volontari che tradurranno i sottotitoli in tutte le lingue del mondo!
 

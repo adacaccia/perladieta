@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikiQfvuikgUHJJScEys7DIdFtSkwEsQ9iBVayYQIKtRI-DoTOqmg4LH1IbYOB7xTB92Qku9Qryv_9Z7_-q8cjlectagqhx5R2MvJ2rWuzAHxIA2KaIvuzRPBycZKWwDOIDVGZlaQqdKZc/s200/Male+Androgenic+Alopecia_q360.png)](http://perladieta.blogspot.com/2012/03/la-calvizie-maschile-evidenzia-problemi.html)
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikiQfvuikgUHJJScEys7DIdFtSkwEsQ9iBVayYQIKtRI-DoTOqmg4LH1IbYOB7xTB92Qku9Qryv_9Z7_-q8cjlectagqhx5R2MvJ2rWuzAHxIA2KaIvuzRPBycZKWwDOIDVGZlaQqdKZc/s1600/Male+Androgenic+Alopecia_q360.png)](http://perladieta.blogspot.com/2012/03/la-calvizie-maschile-evidenzia-problemi.html)
 
 ## In italiano o in inglese?
 

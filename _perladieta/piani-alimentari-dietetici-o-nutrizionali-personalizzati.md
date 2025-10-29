@@ -8,7 +8,7 @@ tags:
   - perladieta
 ---
 
-[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfYZFo1_OEyPy5gOGX52_YviejwRftSNP7s4AFWjMm7NX9MyQESGcSWGPu5t96gDEwFNuVespyEElg4SVPfPMC_KuiF7_74lC5V6Qv7AZFhzZVQ4CQQTOQ-R5zOSgi74uariVQjp43VNg/s320/U_19-50_nov-mag.png)](http://perladieta.blogspot.it/2012/07/piano-dietetico-personalizzato.html)  
+[![fig](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfYZFo1_OEyPy5gOGX52_YviejwRftSNP7s4AFWjMm7NX9MyQESGcSWGPu5t96gDEwFNuVespyEElg4SVPfPMC_KuiF7_74lC5V6Qv7AZFhzZVQ4CQQTOQ-R5zOSgi74uariVQjp43VNg/s1600/U_19-50_nov-mag.png)](http://perladieta.blogspot.it/2012/07/piano-dietetico-personalizzato.html)  
 
 I piani alimentari, dietetici o nutrizionali "personalizzati" sono redatti in base ad età, sesso ed altezza, e cercano di fornire sempre una nutrizione ottimale (proteine, amino acidi essenziali, grassi essenziali, vitamine e sali minerali) con il minimo possibile di calorie. Volendo mettere in pratica tutte le tematiche di nutrizione e salute affrontate in questo blog, se ne presenta qui un riassunto atto ad individuare il proprio piano alimentare ottimale.
 
