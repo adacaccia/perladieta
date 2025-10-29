@@ -2,18 +2,20 @@
 layout: post
 title: "Alimentazione e rispetto per l'ambiente"
 date: 2012-01-24
-original_url: "http://adanatec.blogspot.com/2012/01/alimentazione-ed-ecologia.html"
+original_url: "https://perladieta.blogspot.com/2012/01/alimentazione-ed-ecologia.html"
 tags:
-  - vegan
-  - ambiente
-  - effetto serra
+  - alimentazione
   - allevamento
+  - ambiente
+  - carne
+  - effetto serra
+  - latte
+  - uova
 ---
 
-[![](_assets/296d74a071675b40b06315c12b1bffc8b1d8b75b.png)](http://www.fao.org/docrep/010/a0701e/a0701e00.HTM)
+[![](/assets/d67ec717a7246b2f.png)](http://perladieta.blogspot.it/2012/01/alimentazione-ed-ecologia.html)
 
-In questo post voglio mostrare il legame tra Alimentazione (umana) ed 
-Ambientalismo, perché ho l'impressione che ci siano molte persone pronte a dichiararsi "ambientaliste", ma molte meno che praticano la giusta attenzione nei confronti delle scelte alimentari.
+In questo post voglio illustrare il profondo legame che esiste tra la nostra alimentazione e l'ambiente in cui viviamo, perché credo che ci siano ancora troppi  "ambientalisti" che non osservano alcuna attenzione nei confronti delle proprie scelte alimentari, evidentemente perché questo legame non è ancora molto noto.
 
   
 
@@ -23,7 +25,7 @@ Oggi questo articolo di Repubblica.it ha riportato la tematica in primo piano:
 
 Dunque "gli scienziati" si starebbero preoccupando di "inventare" cibi alternativi, per evitare il collasso ambientale del nostro pianeta per il continuo aumento della domanda di cibo, ed il contemporaneo aumento dei costi (ambientali) per la sua produzione.
 
-Bene, allora cominciamo a vedere cosa dicono, invece, gli scienziati seri: [il rapporto FAO "Livestock's long shadow"](http://www.fao.org/docrep/010/a0701e/a0701e00.HTM) ("La lunga ombra degli allevamenti"), che vanta il contributo di qualche decina di menti di prim'ordine a livello globale, già dal 2006 punta il dito sugli allevamenti di animali, dato che contribuiscono all'effetto serra planetario più dell'intero settore dei trasporti!
+Bene, allora cominciamo a vedere cosa dicono, invece, gli scienziati veri: [il rapporto FAO "Livestock's long shadow"](http://www.fao.org/docrep/010/a0701e/a0701e00.HTM) ("La lunga ombra degli allevamenti"), che vanta il contributo di qualche decina di menti di prim'ordine a livello globale, già dal 2006 punta il dito sugli allevamenti di animali, dato che contribuiscono all'effetto serra planetario più dell'intero settore dei trasporti!
 
 Una volta superato lo shock iniziale che una tale notizia può produrre in chi la sente per la prima volta (sebbene il meeting FAO del 2006 in cui è stato discusso e pubblicato questo rapporto si sia tenuto proprio a Roma...), andiamo ad esplorarne i dettagli più salienti.
 
@@ -56,12 +58,12 @@ Dunque il settore dei trasporti planetario nel 2010 era responsabile del 15% del
 Solo che, mentre fermare i trasporti avrebbe un effetto deleterio su tutta l'economia globale, e riformarli avrebbe costi enormi (basti pensare ai costi ed alla durata di tutte le iniziative in atto per creare veicoli a trazione alternativa), gli allevamenti, come detto sempre nel rapporto FAO, possono essere migliorati riducendone l'impatto ambientale in molti modi, il più interessante tra i quali sarebbe proprio quello di trattare adeguatamente il letame (da cui deriva la maggior parte delle loro emissioni di gas-serra), magari  per recuperare a fini energetici il metano naturalmente rilasciato dai processi fermentativi.  
 Questo perché gli allevamenti costituiscono fonte di reddito e di sostegno anche nutritivo nei paesi in via di sviluppo, e quindi non è pensabile di chiuderli per eliminarne l'impatto ambientale.  
   
-Nella nostra realtà sociale, però, si potrebbe almeno pensare ad una moratoria sui consumi di questi beni finché non si riduca l'impatto ambientale dovuto alla loro produzione. Ma anche smettere di consumare prodotti derivanti da animali allevati sarebbe una semplice questione di scelta personale, che ognuno potrebbe fare, specialmente se ci tiene a definirsi "ambientalista".  
+Nella nostra realtà sociale, però, si potrebbe almeno pensare ad una moratoria sui consumi di questi beni finché non si riduca l'impatto ambientale dovuto alla loro produzione. Ma anche smettere di consumare prodotti derivanti da animali allevati sarebbe una semplice questione di scelta personale, che ognuno potrebbe fare, specialmente se ci tiene a definirsi veramente "ambientalista".  
   
 A questo proposito, concludo con tre riferimenti a documentari liberamente disponibili su youtube:  
 
 * [Meat the truth (La verità sulla carne)](http://www.youtube.com/watch?v=NbFEhcRZBls) [documentario basato sul rapporto FAO]
 * [Un Equilibrio Delicato (A Delicate Balance)](http://www.youtube.com/watch?v=HzEj-xwNldg) [Scelte alimentari e rispetto dell'ambiente]
-* [Meat Costs and Vegan Savings (Costi della Carne e Risparmio Vegano)](http://www.youtube.com/watch?v=-Zu5zbq-UjQ) [L'impatto ambientale in Km!]
+* [Meat Costs and Vegan Savings (Costi della Carne e Risparmio Vegan)](http://www.youtube.com/watch?v=-Zu5zbq-UjQ) [L'impatto ambientale in Km!]
 
-![](https://blogger.googleusercontent.com/tracker/4481269954665011619-6351826504892468529?l=adanatec.blogspot.com)
+Circa la scelta Vegan, discuto come bilanciare la necessità di preservare (nonché migliorare) la propria salute, con quella di proteggere l'ambiente e gli altri animali in [un articolo dedicato](http://perladieta.blogspot.com/2012/03/lalimentazione-vegana.html).

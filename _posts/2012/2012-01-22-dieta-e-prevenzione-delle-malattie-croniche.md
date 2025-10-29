@@ -2,23 +2,23 @@
 layout: post
 title: "Dieta e prevenzione delle malattie croniche"
 date: 2012-01-22
-original_url: "http://adanatec.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html"
+original_url: "https://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html"
 tags:
-  - osteoporosi
   - diabete
   - dieta
   - obesità
+  - osteoporosi
 ---
 
-[![](_assets/862272db39bb4b1b2e779ef27e1ea30dd784c2ba.png)](http://www.fao.org/DOCREP/005/AC911E/AC911E00.HTM)
+[![](/assets/1e378b4dc7109583.png)](http://perladieta.blogspot.it/2012/01/alimentazione-e-prevenzione-di-malattie.html)
 
 Va sempre più di moda l'idea di "curarsi con il cibo", ad anche i mezzi di comunicazione di massa iniziano ora ad interessarsi delle correlazioni tra abitudini alimentari e rischi per la salute.
 
 Singoli autori avvertono nei loro libri circa le correlazioni più disparate tra alimentazione e salute, ma in questo post voglio esporre ciò che emerge dal consenso scientifico più vasto e cioè, ancora una volta, dai rapporti pubblicati dalla FAO dopo i congressi organizzati dalla OMS (Organizzazione Mondiale della Sanità).
 
-E', questo, il modo più obbiettivo di affrontare qualunque argomento scientifico laddove manchino, data la complessità degli argomenti, certezze assolute: si raggruppano decine di scienziati esperti in un certo campo, e se ne raccoglie il consenso a maggioranza *su ogni singola frase* che uscirà, alla fine, nel rapporto pubblicato.
+E', questo, il modo più obbiettivo di affrontare qualunque argomento scientifico laddove manchino, data la complessità degli argomenti, certezze assolute: si raggruppano decine di scienziati esperti in un certo campo, e se ne raccoglie il consenso a maggioranza *su ogni singola frase* del documento finale.
 
-In [[Diet, Nutrition and the Prevention of Chronic Diseases - Report of a Joint WHO/FAO Expert Consultation (2003)](http://www.fao.org/DOCREP/005/AC911E/AC911E00.HTM)] è presentato, appunto, il consenso scientifico attuale (al 2003) sulle principali correlazioni, emergenti dall'esperienza clinica e dagli studi epidemiologici, tra l'alimentazione e la prevenzione di specifiche malattie croniche: obesità, diabete di tipo 2, malattie cardiovascolari, tumori, malattie dentali ed osteoporosi. Queste malattie insieme sono responsabili della stragrande maggioranza dei decessi nella cosiddetta società "occidentale" (USA + Europa).
+In [[Diet, Nutrition and the Prevention of Chronic Diseases - Report of a Joint WHO/FAO Expert Consultation (2003)](http://www.fao.org/DOCREP/005/AC911E/AC911E00.HTM)] è presentato, dunque, il consenso scientifico attuale (al 2003) sulle principali correlazioni, emergenti dall'esperienza clinica e dagli studi epidemiologici, tra l'alimentazione e la prevenzione di specifiche malattie croniche: obesità, diabete di tipo 2, malattie cardiovascolari, tumori, malattie dentali ed osteoporosi. Queste malattie insieme sono responsabili della stragrande maggioranza dei decessi nella cosiddetta società "occidentale" (USA + Europa).
 
 Presento i risultati in forma semplice, così come si possono ricavare leggendo le tabelle presentate nel rapporto; alcune cose sono (arci-)note, altre saranno sorprendenti, ma dovremo sempre ricordare che non si tratta delle stranezze pubblicate da un singolo autore, ma del consenso scientifico vero e proprio.
 
@@ -120,5 +120,3 @@ A fianco alla lettera che indica il livello di sicurezza per un certo fattore, s
 * sono "cibi ad alta densità energetica" tutti quegli alimenti che sono molto ricchi di grassi e/o zuccheri;
 * per "carne conservata" si intendono quelle preparazioni che comportano l'utilizzo di conservanti, quindi: tutti gli insaccati moderni, la carne in scatola, ma anche molti affettati (se affettati al momento, basta informarsi presso l'addetto se ci sono conservanti, mentre per quelli pre-affettati in vaschetta i conservanti ci sono sempre);
 * ... (a richiesta nei commenti!)
-
-![](https://blogger.googleusercontent.com/tracker/4481269954665011619-77288780161358918?l=adanatec.blogspot.com)

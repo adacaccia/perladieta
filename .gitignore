@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.log
+*.bak
+*.swp
+.env
+.venv
+venv/
+.Python
+pip-wheel-metadata/
+*.pyo
+
+# --- dati generati dallo script ---
+data/
+feed.xml
+feed_latest.xml
+media_map.json
+# Se vuoi salvare le immagini versionate (consigliato per backup completo), 
+# NON ignorare la cartella assets/
+# Se invece preferisci rigenerarle a ogni run, puoi attivare questa riga:
+# assets/
+
+# --- cartelle temporanee ---
+tmp/
+temp/
+.cache/
+.DS_Store
+Thumbs.db
+
+# --- Jekyll / GitHub Pages ---
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# --- Ambiente IDE / OS ---
+.idea/
+.vscode/
+*.iml
+*.orig
+*.rej
+
+# --- Output automatico di Actions ---
+*.log
+*.tmp
+
+# --- Backup/utility locali ---
+*.old
+*.bak
+

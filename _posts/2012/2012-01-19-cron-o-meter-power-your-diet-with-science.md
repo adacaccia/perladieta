@@ -2,14 +2,16 @@
 layout: post
 title: "Cron-O-Meter: Power your Diet with Science"
 date: 2012-01-19
-original_url: "http://adanatec.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html"
+original_url: "https://perladieta.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html"
 tags:
   - diario alimentare
   - dieta
-  - nutrizione scientifica
+  - fabbisogno energetico
+  - indice di massa corporea
+  - peso forma
 ---
 
-[![](_assets/ecb10c1505c9fb22e720adff7513d29a8bfd5c86.png)](http://www.cronometer.com/)
+[![](/assets/2a5186a88003b370.png)](http://perladieta.blogspot.it/2012/01/cron-o-meter-power-your-diet-with.html)
 
 Non è un messaggio pubblicitario, è la semplice realtà dei fatti, e nel resto del post spero di spiegare bene perché.
 
@@ -36,7 +38,7 @@ Ce ne sono tanti, io ho scelto [Cron-O-Meter](http://www.cronometer.com/), che f
 
 Lo uso (quasi) quotidianamente a partire dallo scorso 2 settembre, e mi ha aiutato non poco a raggiungere quella "tranquillità nutrizionale" che è impagabile per chi tenga davvero alla propria salute, a prescindere dalle diverse scelte/necessità alimentari.
 
-[![](_assets/61d41a840defc80fade00aa663faa7f84143fe1c.png)](http://2.bp.blogspot.com/-z_hgu-YwBrE/TxgnQmRli8I/AAAAAAAAAC0/wF_a8FeEGuE/s1600/CRON-O-Meter-nutr_rid.png)
+[![](/assets/f08b0b6a389b59f2.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHEn8YBPBAn8YyIvZkA4W23A5JHObtBwlrea4cSn-EA60_Gu9OwniZRxjDfd1vzjIxUCyQW-RTBKeJesIQvMdhZParaP9Pc2vmbJZvX6bZq78wIDB2E1VbOpCVYjG6OCjYwDyPhJmCNCU/s1600/CRON-O-Meter-nutr_rid.png)
 
 Come si vede, bisogna semplicemente inserire i cibi che si mangiano nella parte superiore, uno per riga; si è assistiti da un elenco di misure standard, in modo da non dover essere costretti ad usare la bilancia (il DB USDA fornisce i pesi medi, ad esempio, dei diversi tipi di frutta, con e senza buccia/semi/scarti).
 
@@ -54,7 +56,7 @@ La fonte standard sia di Cron-O-Meter che degli altri siti simili (FitDay, Nutri
 
 I valori di DRI sono rappresentati in tabelle per tutti i diversi macro e micro nutrienti, e suddivisi per fascia di età e sesso (nonché, per le donne, differenziati anche in base allo stato mestruale ed all'eventuale stato di gravidanza o allattamento).
 
-Il problema è che questi dati sono relativi alla popolazione USA, e fortemente condizionati dalle pressioni esercitate dalle varie lobby sugli organi governativi per garantire la conservazione e la crescita delle quote di mercato dei vari prodotti alimentari. Su questo non dirò molto, mi basta ciò che riporta il [Dr. Campbell in "The China Study"](http://macroedizioni.it/libri/the-china-study.php) per esperienza diretta, in quanto è stato membro, in passato, di tutte le commissioni governative in tema di collegamenti tra alimentazione e salute, inclusa quella della NAS nel 2002.
+Il problema è che questi dati sono relativi alla popolazione USA, e fortemente condizionati dalle pressioni esercitate dalle varie lobby sugli organi governativi per garantire la conservazione e la crescita delle quote di mercato dei vari prodotti alimentari. Su questo non dirò molto, mi basta ciò che riporta il [Dr. Campbell in "The China Study"](http://www.thechinastudy.it/) per esperienza diretta, in quanto è stato membro, in passato, di tutte le commissioni governative in tema di collegamenti tra alimentazione e salute, inclusa quella della NAS nel 2002.
 
 Il dato di fatto è che le linee guida Recommended Nutrient Intake (RNI) raccolte da WHO e FAO a seguito di consultazione di volta in volta con centinaia di scienziati da tutto il mondo, e poi divulgate solo in base al livello di consenso scientifico raggiunto, differiscono anche notevolmente dalle DRI della NAS USA!
 
@@ -71,5 +73,3 @@ I documenti importanti sono tutti disponibili sul sito della FAO:
 * [Diet, Nutrition and the Prevention of Chronic Diseases - Report of a Joint WHO/FAO Expert Consultation (2003)](http://www.fao.org/DOCREP/005/AC911E/AC911E00.HTM)
 
 Per non doverli studiare tutti approfonditamente, pubblicherò presto su questo blog un riassunto delle parti salienti (tabelle) di questi documenti.
-
-![](https://blogger.googleusercontent.com/tracker/4481269954665011619-3925082245321024661?l=adanatec.blogspot.com)

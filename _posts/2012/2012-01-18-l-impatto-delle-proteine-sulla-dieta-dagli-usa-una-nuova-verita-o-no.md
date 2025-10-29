@@ -2,11 +2,13 @@
 layout: post
 title: "L'impatto delle proteine sulla dieta: dagli USA una nuova verità... o no?"
 date: 2012-01-18
-original_url: "http://adanatec.blogspot.com/2012/01/limpatto-delle-proteine-sulla-dieta.html"
+original_url: "https://perladieta.blogspot.com/2012/01/limpatto-delle-proteine-sulla-dieta.html"
 tags:
-  - proteine
   - dieta
+  - proteine
 ---
+
+[![](/assets/ed829ad5f587fbec.jpg)](https://www.blogger.com/L'impatto%20delle%20proteine%20sulla%20dieta:%20dagli%20USA%20una%20nuova%20verit%C3%A0...%20o%20no?)
 
 [Repubblica.it del 14/01/12](http://www.repubblica.it/salute/alimentazione/2012/01/14/news/dieta_non_contano_solo_le_calorie_le_proteine_fanno_la_differenza-27624341/) pubblica questa ricerca scientifica, assolutamente condivisibile nel titolo, ma non nelle conclusioni.
 
@@ -38,6 +40,4 @@ Secondo [il rapporto FAO sulle proteine nell'alimentazione umana](http://whqlibd
 
 Sempre restando sul rapporto FAO citato, la soglia massima di tollerabilità e sicurezza per le proteine è stabilita in 0,83g/Kg di peso corporeo e, sempre per l'uomo di esempio visto prima, ammonta a circa 58g di proteine al giorno che in termini di energia danno circa il 10% del suo fabbisogno calorico totale.
 
-Dunque le due diete al 15% ed al 20% di proteine sono entrambe "iper proteiche" se si guarda alla Scienza e non alle chiacchiere pseudo-scientifiche e, essendo basate su proteine animali, portano nel lungo termine a tutte le malattie degenerative "del benessere" (v. ad esempio ["The China Study" del Dr. Colin Campbell](http://www.macrolibrarsi.it/libri/__the-china-study-libro.php)): la prima della lista è l'obesità, poi vengono il diabete, l'infarto, l'aterosclerosi, i tumori, l'Alzahimer, ecc.: complimenti a dr. Bray & soci per il salutare consiglio, io ne faccio volentieri a meno!
-
-![](https://blogger.googleusercontent.com/tracker/4481269954665011619-374185188294271257?l=adanatec.blogspot.com)
+Dunque le due diete al 15% ed al 20% di proteine sono entrambe "iper proteiche" se si guarda alla Scienza e non alle chiacchiere pseudo-scientifiche e, essendo basate su proteine animali, portano nel lungo termine a tutte le malattie degenerative "del benessere" (v. ad esempio ["The China Study" del Dr. Colin Campbell](http://www.thechinastudy.it/)): la prima della lista è l'obesità, poi vengono il diabete, l'infarto, l'aterosclerosi, i tumori, l'Alzahimer, ecc.: complimenti a dr. Bray & soci per il salutare consiglio, io ne faccio volentieri a meno!
