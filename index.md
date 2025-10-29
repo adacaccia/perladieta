@@ -13,6 +13,8 @@ _Serie originale (date storiche) con versione 2025-ready su GitHub Pages._
 
 ---
 
+<p><small>build: {{ site.time | date: "%Y-%m-%d %H:%M:%S %z" }} · rev: {{ site.github.build_revision | slice: 0,7 }}</small></p>
+
 {% comment %}
 Compatibilità Jekyll:
 Se non vuoi usare una collection dedicata (`perladieta`), i post in `_posts/` sono
