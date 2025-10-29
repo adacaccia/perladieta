@@ -31,7 +31,7 @@ defaults:
       layout: post
 {% endcomment %}
 
-{% assign items = site.perladieta | default: site.posts | sort: "date" | reverse %}
+{% assign items = site.posts | sort: "date" | reverse %}
 
 {% if items == empty %}
 _Ancora nessun articolo importato._  
