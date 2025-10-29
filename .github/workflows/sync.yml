@@ -1,5 +1,6 @@
 name: Sync Blogger → Markdown
-permissions: contents: write
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:
