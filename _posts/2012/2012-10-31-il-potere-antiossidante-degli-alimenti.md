@@ -15,7 +15,7 @@ tags:
   - vitamine
 ---
 
-[![](/assets/86de5ea13ed0f10b.png)](http://perladieta.blogspot.it/2012/10/il-potere-antiossidante-degli-alimenti.html)
+[![]({{ '/assets/86de5ea13ed0f10b.png' | relative_url }})](http://perladieta.blogspot.it/2012/10/il-potere-antiossidante-degli-alimenti.html)
 
 C'è grande interesse scientifico attualmente sul tema degli antiossidanti alimentari; infatti, se da un lato le sostanze dotate di spiccato potere antiossidante si rivelano via via sempre più utili nella lotta ai tumori, dall'altro sarebbe molto facile includerli nella propria alimentazione in grandi quantità: basta solo sapere dove si trovano!
 
@@ -114,7 +114,7 @@ Tra **spezie ed erbe**, i più ricchi di antiossidanti risultano:
 
 Le spezie, come si vede, sono antiossidanti molto più potenti rispetto a frutta e verdura, ma si usano normalmente in quantità molto ridotte; comunque, questo elenco suggerisce di non dimenticare mai di aggiungerle ovunque possibile!  
   
-[![](/assets/a48b79789a19ad49.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEmsvyx3IzwvZWIhO6j7wLo63_95lsVUuoRaul1MEKbGkoT5j9Bu-a1qok1sR2NSC_jYADAuqaxs7_-CYEVlxcfQqb-kg3N2dVBKepnW_62aXV5ASidppDOcUkI9T878KnXpE1CPHMOfc/s1600/FRAP+della+Verdura.png)Per completezza di informazione, ecco una tabella che riporta il valore antiossidante (FRAP) delle 20 verdure analizzate [negli studi sulla cottura](http://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html); mentre i valori assoluti non sono confrontabili avendo ciascuno studio utilizzato diversi metodi analitici, questa tabella riporta i valori antiossidanti prima della cottura, per effettuare le conseguenti valutazioni di opportunità.
+[![]({{ '/assets/a48b79789a19ad49.png' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEmsvyx3IzwvZWIhO6j7wLo63_95lsVUuoRaul1MEKbGkoT5j9Bu-a1qok1sR2NSC_jYADAuqaxs7_-CYEVlxcfQqb-kg3N2dVBKepnW_62aXV5ASidppDOcUkI9T878KnXpE1CPHMOfc/s1600/FRAP+della+Verdura.png)Per completezza di informazione, ecco una tabella che riporta il valore antiossidante (FRAP) delle 20 verdure analizzate [negli studi sulla cottura](http://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html); mentre i valori assoluti non sono confrontabili avendo ciascuno studio utilizzato diversi metodi analitici, questa tabella riporta i valori antiossidanti prima della cottura, per effettuare le conseguenti valutazioni di opportunità.
 
 Si vede come, in generale, sia da preferire la varietà più "colorata" di una certa verdura: la cipolla rossa è meglio di quella bianca, il cavolfiore blu (a trovarlo) è superiore a quello bianco; il peperone rosso è superiore al verde ed al giallo ma è battuto da quello arancione, e le bietole rosse (o rape rosse, spesso disponibili già cotte nei supermercati) battono di gran lunga le rape bianche.  
   

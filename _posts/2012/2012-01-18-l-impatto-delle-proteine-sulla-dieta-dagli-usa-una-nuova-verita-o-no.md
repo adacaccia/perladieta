@@ -8,7 +8,7 @@ tags:
   - proteine
 ---
 
-[![](/assets/ed829ad5f587fbec.jpg)](https://www.blogger.com/L'impatto%20delle%20proteine%20sulla%20dieta:%20dagli%20USA%20una%20nuova%20verit%C3%A0...%20o%20no?)
+[![]({{ '/assets/ed829ad5f587fbec.jpg' | relative_url }})](https://www.blogger.com/L'impatto%20delle%20proteine%20sulla%20dieta:%20dagli%20USA%20una%20nuova%20verit%C3%A0...%20o%20no?)
 
 [Repubblica.it del 14/01/12](http://www.repubblica.it/salute/alimentazione/2012/01/14/news/dieta_non_contano_solo_le_calorie_le_proteine_fanno_la_differenza-27624341/) pubblica questa ricerca scientifica, assolutamente condivisibile nel titolo, ma non nelle conclusioni.
 

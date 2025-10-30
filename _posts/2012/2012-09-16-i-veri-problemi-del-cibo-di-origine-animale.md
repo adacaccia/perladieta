@@ -16,7 +16,7 @@ tags:
   - tossine
 ---
 
-[![](/assets/94d44574e34e5a35.png)](http://perladieta.blogspot.it/2012/09/il-vero-problema-del-cibo-di-origine.html)  
+[![]({{ '/assets/94d44574e34e5a35.png' | relative_url }})](http://perladieta.blogspot.it/2012/09/il-vero-problema-del-cibo-di-origine.html)  
 
 ### Introduzione
 

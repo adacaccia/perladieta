@@ -9,7 +9,7 @@ tags:
   - olio di palma
 ---
 
-[![](/assets/7a25bbdc6e8512cc.png)](http://perladieta.blogspot.it/2012/01/limpatto-ambientale-delle-creme-alla.html)
+[![]({{ '/assets/7a25bbdc6e8512cc.png' | relative_url }})](http://perladieta.blogspot.it/2012/01/limpatto-ambientale-delle-creme-alla.html)
 
 Mi trovo spesso a confronto con appassionati della Nutella, e cerco di spiegare loro che si tratta di un prodotto di scarse qualità nutrizionali, e di notevole impatto ambientale.  
 
@@ -23,7 +23,7 @@ Inoltre l'olio di palma è anche pericoloso per la salute; questo è uno dei tip
   
 Tornando alle creme alla nocciola, la Nutella ha lo zucchero come primo (= più abbondante) ingrediente, gli oli vegetali (= olio di palma) come secondo e le nocciole solo al terzo posto con un misero 13% (da cui gli apici intorno "alla nocciola" nel titolo del post!).  
   
-[![](/assets/828ff09c5934aa7a.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMaTLByOrtH-vGcUwsad14Ks2rLlwmqm2SLsDgpZrf9PhYWUk_RHW6HyJRuNaz8oWYNvn61I9lQ6xPLsx_8PVOkddvcqUzd0STXyneeze3NOP9HUQnOBoiDb4ae7JUCZMjn0LaY7R67hs/s1600/crema-novi.jpg)  
+[![]({{ '/assets/828ff09c5934aa7a.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMaTLByOrtH-vGcUwsad14Ks2rLlwmqm2SLsDgpZrf9PhYWUk_RHW6HyJRuNaz8oWYNvn61I9lQ6xPLsx_8PVOkddvcqUzd0STXyneeze3NOP9HUQnOBoiDb4ae7JUCZMjn0LaY7R67hs/s1600/crema-novi.jpg)  
 Come alternativa di solito consiglio di assaggiare la Crema Novi: il suo 45% di nocciole, l'assenza di oli aggiunti e la ridotta percentuale di zucchero ne fanno un prodotto molto più valido, ambientalmente e nutrizionalmente, e con un prezzo tutto sommato contenuto per un prodotto di tale qualità (€2,69 per 250g alla Coop).  
   
 Nel preparare questo post, ho trovato il blog di [Orsococa](http://orsococa.blogspot.com/2011/04/confronto-creme-alla-nocciolacioccolato.html) a cui rimando per una completa discussione sugli ingredienti ed il confronto tra tutte le creme spalmabili alla nocciola; ringrazio Orsococa anche per la foto  della Crema Novi, e per aver segnalato la "Crema Gianduja" della "Maison Nocciola Piemonte", mai vista prima e sicuramente prodotto di punta!  

@@ -132,7 +132,7 @@ def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, in
 
         # Se già in mappa, sostituisci direttamente
         if src in media_map:
-            img["src"] = media_map[src]
+            img["src"] = f"{{{{ '{media_map[src]}' | relative_url }}}}"
             changed = True
             continue
 
@@ -147,7 +147,7 @@ def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, in
                     with open(local_fs_path, "wb") as f:
                         f.write(resp.content)
                 # Map URL originale -> URL pubblico nel sito
-                site_url = f"{ASSETS_URL_BASE}/{fn}"
+                site_url = f"{{{{ '{ASSETS_URL_BASE}/{media_map[src]}' | relative_url }}}}"
                 media_map[src] = site_url
                 img["src"] = site_url
                 changed = True

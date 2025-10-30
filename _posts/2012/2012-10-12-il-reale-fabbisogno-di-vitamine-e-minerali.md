@@ -14,7 +14,7 @@ tags:
   - vitamine
 ---
 
-[![](/assets/158c2e3836de2ce2.png)](http://perladieta.blogspot.com/2012/06/il-reale-fabbisogno-di-vitamine-e.html)
+[![]({{ '/assets/158c2e3836de2ce2.png' | relative_url }})](http://perladieta.blogspot.com/2012/06/il-reale-fabbisogno-di-vitamine-e.html)
 
 Quando si prepara un piano dietetico, manualmente o per mezzo di uno strumento automatico (come ad esempio [Cron-O-Meter](http://perladieta.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html)), si ha comunque la necessità di consultare delle tavole per derivare il fabbisogno delle singole vitamine e dei singoli sali minerali per la persona in oggetto, solitamente a partire da: età, sesso, stati particolari (gravidanza/allattamento), peso corporeo.
 
@@ -56,7 +56,7 @@ E' chiaro che a questo punto occorre conoscere la verità, sapendo che ovviament
 
 Si potrebbe anche andare oltre con le domande, ad esempio ci si potrebbe chiedere: ma se le proteine animali fanno così male alle ossa, perché in TV e sulle riviste ci sono "esperti" che ci continuano a raccomandare latte e latticini per il Calcio e la salute delle ossa, e la carne per il ferro e la salute del sangue?
 
-[![](/assets/3382f70d714e9960.png)](http://www.disinformazione.it/mito_calcio.htm)
+[![]({{ '/assets/3382f70d714e9960.png' | relative_url }})](http://www.disinformazione.it/mito_calcio.htm)
 
 Per fortuna, Lorenzo Acerra ha recentemente pubblicato su disinformazione.it [un eccellente articolo sull'argomento](http://www.disinformazione.it/mito_calcio.htm), scientificamente rigoroso, completo di abbondanti e pregnanti riferimenti bibliografici, e fornito anche in inglese (così posso linkarlo anche nelle mie comunicazioni con persone straniere, mostrando che in Italia ci sono ancora cervelli di prim'ordine!).
 
@@ -68,7 +68,7 @@ Quindi, almeno per chi ha un'alimentazione caratterizzata dall'assenza di protei
 
 ### La "vitamina" D e i suoi cofattori (Magnesio, Vitamina K, Zinco e Boro)
 
-[![](/assets/ca9f314be53cb295.png)](http://www.vitamindcouncil.org/about-vitamin-d/)
+[![]({{ '/assets/ca9f314be53cb295.png' | relative_url }})](http://www.vitamindcouncil.org/about-vitamin-d/)
 
 Sempre a proposito di salute ossea, mi sono recentemente occupato della "vitamina" D e degli altri elementi, vitamine e sali minerali, coinvolti nel suo metabolismo ("cofattori"). La ricerca scientifica molto recente, dato il crescente interesse scientifico verso questo gruppo di sostanze, ha portato a ritoccare verso l'alto (a volte, in modo radicale) i dati sul fabbisogno di queste sostanze. Per i dettagli rimando al [mio recente articolo in merito](http://perladieta.blogspot.com/2012/06/la-verita-sulla-vitamina-d.html), nel seguito di questo articolo userò questi nuovi dati sul fabbisogno.
 

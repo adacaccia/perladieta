@@ -16,7 +16,7 @@ tags:
 Introduzione
 ------------
 
-[![](/assets/63f8b0ac1d010200.png)](http://perladieta.blogspot.com/2014/03/cura-del-terzo-millennio-per-la.html)
+[![]({{ '/assets/63f8b0ac1d010200.png' | relative_url }})](http://perladieta.blogspot.com/2014/03/cura-del-terzo-millennio-per-la.html)
 
 In seguito alla mia recente traduzione di due conferenze annuali del Dr. Greger che riassumono gli avanzamenti della scienza clinica per il 2012 e il 2013, ho deciso di sintetizzare e divulgare questi contenuti suddividendoli per patologie.
 
@@ -45,13 +45,13 @@ Dall'analisi competitiva dei rischi, emergono queste interessanti equivalenze:
 
 Da un grande [studio del 2010 sulla popolazione ospedalizzata](http://www.ahjonline.com/article/S0002-8703(10)00788-X/abstract) in seguito ad episodi di coronaropatia acuta emerge che il 75% dei pazienti era stato ricoverato, per un attacco di cuore, con un livello di colesterolo LDL (quello "cattivo") considerato "normale"; quindi le linee guida attuali sul colesterolo non sono abbastanza basse per guidare efficacemente gli sforzi preventivi! Addirittura, metà dei pazienti avevano il colesterolo LDL classificato come "ottimale" (negli USA), cioè < 100 mg/dl.
 
-[![](/assets/cfffcb02282eb9ff.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjF5sWKuK85PVkdPwDXNP8avc9zxdcC2UM9kr5PgGdZIU1YBK04_2Ol6OxcfKLB8X2sTKzk1ezKi5XDk6nhtmzxikAFBluT6EaFzzgtBZGinWlsAUN6IE2-2GvhJpcC9uNdzxj1s4Cq08/s1600/09-2011-141b+1997+Effect+-+Immediate+reduction+in+vasoactivity+peaking+at+4+hours+after+-+CUT.png)
+[![]({{ '/assets/cfffcb02282eb9ff.png' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjF5sWKuK85PVkdPwDXNP8avc9zxdcC2UM9kr5PgGdZIU1YBK04_2Ol6OxcfKLB8X2sTKzk1ezKi5XDk6nhtmzxikAFBluT6EaFzzgtBZGinWlsAUN6IE2-2GvhJpcC9uNdzxj1s4Cq08/s1600/09-2011-141b+1997+Effect+-+Immediate+reduction+in+vasoactivity+peaking+at+4+hours+after+-+CUT.png)
 
   
 Ma il colesterolo è solo metà della storia, quando si parla di cardiopatie ischemiche; il resto lo fa, infatti, l'infiammazione dell'endotelio (la parete interna) delle arterie. Ebbene, sappiamo da 15 anni che basta [un singolo pasto di alimenti animali ricchi di grassi](http://www.ajconline.org/article/S0002-9149(96)00760-6/abstract) per dimezzare, entro poche ore dal consumo, la capacità di rilassamento dell'endotelio arterioso, che si infiamma e si indurisce: una vera e propria semi-paralisi che impedisce il corretto funzionamento delle arterie! Come si vede in figura (qui sopra), i danni iniziano dopo 1 ora, raggiungono il picco a 4 ore, e poi la situazione si recupera verso la sesta ora, cioè quando purtroppo molte persone si siedono di nuovo a tavola per commettere gli stessi errori; e così vivono in un perenne stato di infiammazione cronica che, seppur di lieve entità, aumenta il rischio di cardiopatie, cancro e diabete.  
   
 
-[![](/assets/dae95b6374654814.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlXtbX2zRQQepLsvTpYvjzgeY-saLs5iiM00Addiyf_92aVK_PwR4igGjUkjJpFLnoBInr6NvjH3W4Ywvs35gdwBmFlEhcOp8qPy5E1ZDHqLzNxQv6YKoBsWMeYvzGDCep6X27AI46qoA/s1600/09-2011-142b+Effects+of+a+high-fat+meal+on+pulmonary+function+in+healthy+subjects_CUT.png)
+[![]({{ '/assets/dae95b6374654814.png' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlXtbX2zRQQepLsvTpYvjzgeY-saLs5iiM00Addiyf_92aVK_PwR4igGjUkjJpFLnoBInr6NvjH3W4Ywvs35gdwBmFlEhcOp8qPy5E1ZDHqLzNxQv6YKoBsWMeYvzGDCep6X27AI46qoA/s1600/09-2011-142b+Effects+of+a+high-fat+meal+on+pulmonary+function+in+healthy+subjects_CUT.png)
 
   
 [Accade lo stesso ai nostri polmoni](http://www.ncbi.nlm.nih.gov/pubmed/20165863): dopo un pasto ricco di grassi animali la funzione polmonare risente di infiammazioni alle vie aeree, come si vede in figura (qui sopra): negli uomini quanto nelle donne, 2 ore dopo il pasto ricco di grassi animali aumenta il monossido d'azoto (NO) espirato, che è un indicatore di infiammazioni in corso.  
@@ -65,7 +65,7 @@ Evoluzione della patologia
 L'aterosclerosi (o indurimento delle arterie) [inizia da bambini](http://pediatrics.aappublications.org/content/118/4/1447.long), e [già a 10 anni](http://www.journals.elsevierhealth.com/periodicals/jar/article/PIIS0368131969800207/abstract) quasi tutti i bambini "occidentali" hanno strisce di grasso sulle pareti arteriose, che sono il primo stadio della malattia!  
   
 
-[![](/assets/9657f799f45e6d37.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih3y7rolZIpoO3_GNi6Qa4fDZwHDO9tX1JK_qJk275eMvj5urMoyq4xqbjTDD3kpswmDlatxYyF4JEXsr8uTs0AkGt4ozSnMSVwMSeWeKXQEiw0NWVztfAaM7OyAwQ1dEzOf9Q3NSJLPE/s1600/14-2013-000b+2002+Atherosclerosis+in+Youth_CUT.png)
+[![]({{ '/assets/9657f799f45e6d37.png' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih3y7rolZIpoO3_GNi6Qa4fDZwHDO9tX1JK_qJk275eMvj5urMoyq4xqbjTDD3kpswmDlatxYyF4JEXsr8uTs0AkGt4ozSnMSVwMSeWeKXQEiw0NWVztfAaM7OyAwQ1dEzOf9Q3NSJLPE/s1600/14-2013-000b+2002+Atherosclerosis+in+Youth_CUT.png)
 
   
 Poi nei [20 anni si formano le placche](http://europepmc.org/abstract/MED/12244281), e da lì la malattia progredisce fino al suo effetto finale, come si vede nella figura qui sopra; sempre in figura, troviamo esempi di "effetto finale" per l'aterosclerosi: se colpisce il cuore, è un infarto, mentre è un ictus se colpisce il cervello; causa cancrene agli arti, o aneurismi quando ad essere colpita è l'aorta.  
@@ -95,7 +95,7 @@ Invece i prodotti di origine animale ne contengono sempre, anche nella loro form
 
   
 
-[![](/assets/5ebe70a9195f1ee9.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-rzxG6Pn1MEa-EVLn5j45ot6sZB7N1wjvGzXPU9WZjaF1-cOfIey5IESpkkmZx5w94uMbQKQ65W6H9KDwJFS2D3HpExQwuNrOCJnrQfexPttOAgSOh4xpmJIxh-d4ulSXDLeqDk0U8-0/s1600/14-2013-000b+Resolving+the+Coronary+Artery+Disease+Epidemic+through+Plant-Based+Nutrition_CUT.png)
+[![]({{ '/assets/5ebe70a9195f1ee9.png' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-rzxG6Pn1MEa-EVLn5j45ot6sZB7N1wjvGzXPU9WZjaF1-cOfIey5IESpkkmZx5w94uMbQKQ65W6H9KDwJFS2D3HpExQwuNrOCJnrQfexPttOAgSOh4xpmJIxh-d4ulSXDLeqDk0U8-0/s1600/14-2013-000b+Resolving+the+Coronary+Artery+Disease+Epidemic+through+Plant-Based+Nutrition_CUT.png)
 
   
 La soluzione è semplice, la [dieta vegana](http://onlinelibrary.wiley.com/enhanced/doi/10.1111/j.1520-037X.2001.00538.x/)! Si tratta di fare scelte consapevoli su come si vive e ciò che si mangia, tutto qui. Del resto, il Dr. Caldwell B. Esselstyn ha mostrato già nel 2001 che l'aterosclerosi è reversibile, cioè *curabile* nel senso che si possono *sciogliere le placche aterosclerotiche già formate*, con una semplice dieta vegana, cioè completamente vegetale. La figura qui sopra mostra una guarigione completa dopo 2 anni e mezzo, ed è solo un esempio tra i tanti disponibili in letteratura (e anche nel citato articolo).  

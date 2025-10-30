@@ -10,7 +10,7 @@ tags:
   - insulina
 ---
 
-[![](/assets/62ae77f781b2ecf5.png)](http://perladieta.blogspot.com/2012/03/la-calvizie-maschile-evidenzia-problemi.html)
+[![]({{ '/assets/62ae77f781b2ecf5.png' | relative_url }})](http://perladieta.blogspot.com/2012/03/la-calvizie-maschile-evidenzia-problemi.html)
 
 In italiano o in inglese?
 -------------------------

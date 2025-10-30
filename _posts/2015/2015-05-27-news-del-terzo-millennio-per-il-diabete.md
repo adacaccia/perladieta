@@ -15,7 +15,7 @@ tags:
   - zucchero
 ---
 
-[![](/assets/f0a5845f99bd8eae.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4mb_mRs17S3n_QctaRvdz5o9rWhTMn57i_kRo8ezPEFfKNNG0sAA0g8lRKy6fLE6rbZlub8yvZvIFauYW3xyFnDCBqQYNBGfjWmTU6vwyEnc7eGqqhyphenhyphenvvBWZm3PzkVqfCP_hfdcjxIWc/s1600/latest-in-clinical-nutrition-volume-24-218x158_cut.png)
+[![]({{ '/assets/f0a5845f99bd8eae.png' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4mb_mRs17S3n_QctaRvdz5o9rWhTMn57i_kRo8ezPEFfKNNG0sAA0g8lRKy6fLE6rbZlub8yvZvIFauYW3xyFnDCBqQYNBGfjWmTU6vwyEnc7eGqqhyphenhyphenvvBWZm3PzkVqfCP_hfdcjxIWc/s1600/latest-in-clinical-nutrition-volume-24-218x158_cut.png)
 
 Introduzione
 ------------
@@ -111,6 +111,6 @@ Poi, però, a un certo punto, siccome la steatosi epatica può condurre alla mor
 
 ### Il ruolo dei grassi nella cura del diabete
 
-[![](/assets/90b493860cb38309.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-UiN0y5djvyfYg7qtCmNddvdptV9OfpxqAuPTzvKjZLCSRsC0WMBxcS7BJyC2xUhQKT7dbkh-MejQkQVKQWZXv2VRQXeGZWeAQBfv0zh0kr5BtHZOAt-CR9BFfgwS2Sn1zFr9KGjeqQ/s1600/i+due+cicli+viziosi+che+portano+dal+grasso+al+diabete.png)Lo studio appena sopra citato, e da cui sono tratte le due ultime figure viste, riporta anche i dati di inversione dei due cicli viziosi, dopo chirurgia bariatrica; siccome tali tecniche chirurgiche sono basate sulla drastica riduzione del volume dello stomaco, portano ovviamente ad una notevole riduzione della quantità di cibo ingerito; comunque ecco che il fondamentale postulato medico che vuole il diabete tipo 2 "malattia cronica incurabile per tutta la vita" viene negato!
+[![]({{ '/assets/90b493860cb38309.png' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-UiN0y5djvyfYg7qtCmNddvdptV9OfpxqAuPTzvKjZLCSRsC0WMBxcS7BJyC2xUhQKT7dbkh-MejQkQVKQWZXv2VRQXeGZWeAQBfv0zh0kr5BtHZOAt-CR9BFfgwS2Sn1zFr9KGjeqQ/s1600/i+due+cicli+viziosi+che+portano+dal+grasso+al+diabete.png)Lo studio appena sopra citato, e da cui sono tratte le due ultime figure viste, riporta anche i dati di inversione dei due cicli viziosi, dopo chirurgia bariatrica; siccome tali tecniche chirurgiche sono basate sulla drastica riduzione del volume dello stomaco, portano ovviamente ad una notevole riduzione della quantità di cibo ingerito; comunque ecco che il fondamentale postulato medico che vuole il diabete tipo 2 "malattia cronica incurabile per tutta la vita" viene negato!
 
 Successivi studi (sempre citati in questo studio) hanno poi scoperto che la riduzione calorica è sufficiente a *curare* il diabete tipo 2 *a prescindere* dalla chirurgia!

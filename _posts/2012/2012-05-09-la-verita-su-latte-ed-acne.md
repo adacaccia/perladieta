@@ -11,7 +11,7 @@ tags:
   - proteine
 ---
 
-[![](/assets/b96c61fc2d33fe94.jpg)](http://perladieta.blogspot.it/2012/04/la-verita-sul-consumo-di-latte.html)
+[![]({{ '/assets/b96c61fc2d33fe94.jpg' | relative_url }})](http://perladieta.blogspot.it/2012/04/la-verita-sul-consumo-di-latte.html)
 
 Ecco un'altra "inconvenient truth", o verità scomoda. Cercando dati scientifici sull'acne, ho trovato un [articolo del 2008 pubblicato sul Journal of the German Society of Dermatology, dal titolo "Milk consumption: aggravating factor of acne and promoter of chronic diseases of Western societies"](http://onlinelibrary.wiley.com/doi/10.1111/j.1610-0387.2009.07019.x/pdf) ("Il consumo di latte: fattore aggravante dell'acne e promotore di malattie croniche nelle società occidentali").  
 L'articolo non verte su una singola ricerca scientifica, ma traccia un quadro complessivo aggregando i risultati di ben 123 studi specifici precedenti. Il quadro che ne risulta è davvero preoccupante, anche perché i risultati di certi studi, pur essendo ben noti da molto tempo, non trovano ancora la necessaria diffusione pubblica, nemmeno tra i medici!  
@@ -157,4 +157,4 @@ Il consumo di latte è già stato identificato come un fattore aggravante nell
 
 In conclusione l'articolo riporta la seguente tabella, che non traduco e che riporta sinteticamente gli impatti che il consumo di latte di vacca ha sui vari apparati del nostro organismo, ed i possibili rischi associati:
 
-[![](/assets/83866c5bd4136014.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5ww81-lhIrVXkwZjffYYz77LiqrQP15ZYsaJbOhccPhyMjuoS-mZtytrhqT0qL2XI34-KoInxJR9XjuCGaFdolzOr0dK0CqeBKULAa1SMJO5MYY7Hr11VpwKvHXlssRZC81OZ8NJ2cII/s1600/Potential+risks+milk+consumption.tif)
+[![]({{ '/assets/83866c5bd4136014.jpg' | relative_url }})](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5ww81-lhIrVXkwZjffYYz77LiqrQP15ZYsaJbOhccPhyMjuoS-mZtytrhqT0qL2XI34-KoInxJR9XjuCGaFdolzOr0dK0CqeBKULAa1SMJO5MYY7Hr11VpwKvHXlssRZC81OZ8NJ2cII/s1600/Potential+risks+milk+consumption.tif)
