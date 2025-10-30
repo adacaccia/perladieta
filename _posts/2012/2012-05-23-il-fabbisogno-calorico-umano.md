@@ -12,7 +12,7 @@ tags:
   - peso forma
 ---
 
-[![](/assets//assets/116d27fb240e7111.png)](http://perladieta.blogspot.com/2012/05/il-fabbisogno-calorico-umano.html)
+[![](/assets/116d27fb240e7111.png)](http://perladieta.blogspot.com/2012/05/il-fabbisogno-calorico-umano.html)
 
 Nello stilare piani dietetici personalizzati, la base per tutti i calcoli è normalmente costituita dal fabbisogno calorico individuale della persona che si sottoporrà alla dieta.
 

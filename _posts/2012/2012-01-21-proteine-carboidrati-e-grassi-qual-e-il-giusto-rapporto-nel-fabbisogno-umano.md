@@ -9,7 +9,7 @@ tags:
   - proteine
 ---
 
-[![](/assets//assets/6e45534f3fa7e19a.png)](http://perladieta.blogspot.it/2012/01/proteine-carboidrati-e-grassi-qual-e-il.html)
+[![](/assets/6e45534f3fa7e19a.png)](http://perladieta.blogspot.it/2012/01/proteine-carboidrati-e-grassi-qual-e-il.html)
 
 ### Introduzione
 
