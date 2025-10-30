@@ -22,6 +22,7 @@ _Serie originale (date storiche) con versione 2025-ready su GitHub Pages._
 _Ancora nessun articolo importato._  
 Metti i file Markdown in `_posts/` con front matter tipo:
 
+{% raw %}
 ```yaml
 ---
 layout: post
@@ -33,9 +34,10 @@ tags:
   - luce
   - metabolismo
 ---
-
-
 ```
+{% endraw %}
+
+{% endif %}
 
 ```html
 <p><small>Post trovati: {{ site.posts | size }}</small></p>
