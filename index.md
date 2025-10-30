@@ -36,7 +36,10 @@ tags:
 ---
 ```
 {% endraw %}
-
+{% else %}
+{% for post in items %}
+- [{{ post.title }}]({{ post.url }}) <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+{% endfor %}
 {% endif %}
 
 ```html
