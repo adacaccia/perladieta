@@ -12,7 +12,7 @@ tags:
   - vitamine
 ---
 
-[![](/assets/4966f6d3d9f26645.png)](http://perladieta.blogspot.it/2012/05/la-frutta-secca.html)
+[![](/assets//assets/4966f6d3d9f26645.png)](http://perladieta.blogspot.it/2012/05/la-frutta-secca.html)
 
 In questo post metto a confronto i diversi tipi di frutta secca comunemente reperibili in commercio, per dimostrare come ce ne siano alcuni migliori, nutrizionalmente parlando, di altri.  
 I dati sono relativi a porzioni da circa 240 kcal di frutta secca sgusciata e/o sbucciata e non tostata né salata, tranne dove esplicitamente indicato.
@@ -31,7 +31,7 @@ Le seguenti percentuali, relative all'obiettivo fissato per ciascun nutriente, s
 **Le castagne**
 ---------------
 
-![](/assets/9d9a46d8d3ffb00b.png)![](/assets/d4615bdf1a7417f0.png)
+![](/assets//assets/9d9a46d8d3ffb00b.png)![](/assets//assets/d4615bdf1a7417f0.png)
 
 Le castagne sono composte essenzialmente di acqua e carboidrati; i carboidrati sono complessi (amidi) e, in minore quantità, semplici (zuccheri) ma, purtroppo, nel DB USDA non ne è riportata l'esatta proporzione.  
 Contengono meno dell'1% di grassi, in buona parte polinsaturi essenziali e ben bilanciati.  
@@ -47,7 +47,7 @@ Svantaggi: il tanto rame presente può inibire l'assorbimento dello zinco.
 **Le noci**
 -----------
 
-![](/assets/0c1c24fcf4b5d346.png) ![](/assets/226522df216e32f7.png)
+![](/assets//assets/0c1c24fcf4b5d346.png) ![](/assets//assets/226522df216e32f7.png)
 
 Le noci contengono quasi il 7% di fibra alimentare, e zuccheri semplici solo in tracce.  
 Contengono oltre il 65% di grassi che però sono, quasi per i 3/4, polinsaturi essenziali e oltretutto con un rapporto tra Omega-6 ed Omega-3 di 4,2 e quindi perfettamente allineato con la raccomandazione FAO contenuta nel documento sopra indicato (max 5).  
@@ -62,7 +62,7 @@ Vantaggi: presentano la maggiore percentuale di grassi polinsaturi essenziali, p
 **I pinoli**
 ------------
 
-![](/assets/cd1763cc14c5112a.png)![](/assets/4381d34d1dbf5106.png)
+![](/assets//assets/cd1763cc14c5112a.png)![](/assets//assets/4381d34d1dbf5106.png)
 
 I pinoli contengono fibra alimentare e zuccheri semplici solo in tracce.  
 Contengono oltre il 68% di grassi, metà dei quali polinsaturi essenziali ma quasi esclusivamente di tipo Omega-6 e, pertanto, con un rapporto Omega-6:Omega-3 svantaggioso (oltre 25).  
@@ -78,7 +78,7 @@ Svantaggi: i grassi polinsaturi essenziali presenti sono sbilanciati verso gli O
 **Le nocciole**
 ---------------
 
-![](/assets/a9b670de575c8919.png)![](/assets/e9b8387b077fc95e.png)
+![](/assets//assets/a9b670de575c8919.png)![](/assets//assets/e9b8387b077fc95e.png)
 
 Le nocciole contengono quasi il 10% di fibra alimentare e oltre il 4% di zuccheri.  
 Contengono oltre il 60% di grassi, solo il 13% dei quali polinsaturi (meno dell'8% sul totale) e con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  
@@ -94,7 +94,7 @@ Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati vers
 **Le noci brasiliane**
 ----------------------
 
-![](/assets/3aa456d1501f796e.png)![](/assets/0194a756f43a2651.png)
+![](/assets//assets/3aa456d1501f796e.png)![](/assets//assets/0194a756f43a2651.png)
 
 Le noci brasiliane contengono più del 7% di fibra alimentare e solo il 2,5% di zuccheri.  
 Contengono oltre il 66% di grassi, un terzo dei quali polinsaturi ma con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  
@@ -110,7 +110,7 @@ Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati vers
 **Le arachidi tostate**
 -----------------------
 
-![](/assets/4bbd745a310e44ac.png)![](/assets/3f035a19cf6022ae.png)
+![](/assets//assets/4bbd745a310e44ac.png)![](/assets//assets/3f035a19cf6022ae.png)
 
 Le arachidi tostate contengono l'8% di fibra alimentare e il 4% di zuccheri.  
 Contengono quasi il 50% di grassi, quasi un terzo dei quali polinsaturi ma con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  
@@ -126,7 +126,7 @@ Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati vers
 **Le mandorle**
 ---------------
 
-![](/assets/7c98fbae6f5432b3.png)![](/assets/74862ef39b3185e5.png)
+![](/assets//assets/7c98fbae6f5432b3.png)![](/assets//assets/74862ef39b3185e5.png)
 
 Le mandorle contengono oltre il 12% di fibra alimentare e meno del 4% di zuccheri.  
 Contengono quasi il 50% di grassi, solo un quarto dei quali polinsaturi e con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  
@@ -142,7 +142,7 @@ Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati vers
 **I pistacchi**
 ---------------
 
-![](/assets/f41ae766a504d1f8.png)![](/assets/4a4ccec4e95c71f1.png)
+![](/assets//assets/f41ae766a504d1f8.png)![](/assets//assets/4a4ccec4e95c71f1.png)
 
 I pistacchi contengono il 10% di fibra alimentare e meno dell'8% di zuccheri.  
 Contengono il 45% di grassi, meno di un terzo dei quali polinsaturi e con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  
@@ -158,7 +158,7 @@ Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati vers
 **Gli anacardi**
 ----------------
 
-![](/assets/3402a5a6b3fc4cf9.png)![](/assets/01bee679d2ade4d2.png)
+![](/assets//assets/3402a5a6b3fc4cf9.png)![](/assets//assets/01bee679d2ade4d2.png)
 
 Gli anacardi contengono il 3% di fibra alimentare e meno del 3% di zuccheri.  
 Contengono il 44% di grassi, meno di un quinto dei quali polinsaturi e con uno svantaggioso rapporto tra Omega-6 ed Omega-3 (maggiore di 25).  

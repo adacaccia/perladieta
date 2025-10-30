@@ -13,7 +13,7 @@ tags:
   - uova
 ---
 
-[![](/assets/d67ec717a7246b2f.png)](http://perladieta.blogspot.it/2012/01/alimentazione-ed-ecologia.html)
+[![](/assets//assets/d67ec717a7246b2f.png)](http://perladieta.blogspot.it/2012/01/alimentazione-ed-ecologia.html)
 
 In questo post voglio illustrare il profondo legame che esiste tra la nostra alimentazione e l'ambiente in cui viviamo, perché credo che ci siano ancora troppi  "ambientalisti" che non osservano alcuna attenzione nei confronti delle proprie scelte alimentari, evidentemente perché questo legame non è ancora molto noto.
 

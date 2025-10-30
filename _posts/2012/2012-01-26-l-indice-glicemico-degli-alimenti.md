@@ -16,7 +16,7 @@ tags:
 
 Ho già esposto in [un altro post](http://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html) i fattori di rischio per la salute che derivano dall'alimentazione e sui quali c'è largo consenso scientifico; riporto qui tutti quelli relativi ai carboidrati:
 
-[![](/assets/71a9bc93cb325c34.png)](http://perladieta.blogspot.it/2012/01/lindice-glicemico-dei-carboidrati.html)* elevata assunzione di fibra alimentare:
+[![](/assets//assets/71a9bc93cb325c34.png)](http://perladieta.blogspot.it/2012/01/lindice-glicemico-dei-carboidrati.html)* elevata assunzione di fibra alimentare:
 
 + C- per l'Obesità,
 + P- per il Diabete,

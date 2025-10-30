@@ -132,7 +132,7 @@ def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, in
 
         # Se già in mappa, sostituisci direttamente
         if src in media_map:
-            img["src"] = media_map[src]
+            img["src"] = f"{ASSETS_URL_BASE.rstrip('/')}/{media_map[src]}"
             changed = True
             continue
 

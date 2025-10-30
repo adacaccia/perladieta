@@ -10,7 +10,7 @@ tags:
   - osteoporosi
 ---
 
-[![](/assets/1e378b4dc7109583.png)](http://perladieta.blogspot.it/2012/01/alimentazione-e-prevenzione-di-malattie.html)
+[![](/assets//assets/1e378b4dc7109583.png)](http://perladieta.blogspot.it/2012/01/alimentazione-e-prevenzione-di-malattie.html)
 
 Va sempre più di moda l'idea di "curarsi con il cibo", ad anche i mezzi di comunicazione di massa iniziano ora ad interessarsi delle correlazioni tra abitudini alimentari e rischi per la salute.
 
