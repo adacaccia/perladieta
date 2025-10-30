@@ -1,6 +1,8 @@
 title: "Per la dieta — Archivio restaurato"
 description: "Archivio scientifico restaurato, con date originali e citazioni aggiornate"
 theme: jekyll-theme-minimal
+url: "https://adacaccia.github.io"
+baseurl: "/perladieta"
 
 defaults:
   - scope:
