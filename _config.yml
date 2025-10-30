@@ -1,12 +1,42 @@
+# === Site settings ===
 title: "Per la dieta — Archivio restaurato"
 description: "Archivio scientifico restaurato, con date originali e citazioni aggiornate"
-theme: jekyll-theme-minimal
+author: "adacaccia"
+
+# === GitHub Pages settings ===
 url: "https://adacaccia.github.io"
 baseurl: "/perladieta"
 
-defaults:
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
+# === Build settings ===
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+
+# === Permalinks ===
+# Mantiene la struttura /perladieta/YYYY/MM/DD/titolo.html
+permalink: /:year/:month/:day/:title.html
+
+# === Collections ===
+# (solo se in futuro vuoi usare una collection personalizzata)
+# collections:
+#   perladieta:
+#     output: true
+#     permalink: /:collection/:name/
+
+# === Exclusions ===
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# === Debug / Build info ===
+# Queste variabili vengono sostituite automaticamente da GitHub Pages
+# quando compila il sito: puoi mostrarle nel footer come "spia".
+github:
+  build_revision: HEAD
+  build_date: true

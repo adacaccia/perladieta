@@ -42,6 +42,10 @@ tags:
 {% endfor %}
 {% endif %}
 
-```html
-<p><small>Post trovati: {{ site.posts | size }}</small></p>
-```
+<p><small>
+Post trovati: {{ site.posts | size }}
+</small></p>
+<p><small>
+build: {{ site.time | date: "%Y-%m-%d %H:%M:%S %z" }}
+ · rev: {{ site.github.build_revision | slice: 0,7 }}
+</small></p>

@@ -254,6 +254,7 @@ def write_post(entry, media_map: dict) -> Tuple[bool, bool]:
 
     # localizza immagini e link
     content_html_local, changed_media, img_count_html = localize_images_and_links(content_html, media_map)
+    content_html_local = fix_internal_links(content_html_local)
     body_md = sanitize_html_to_md(content_html_local).strip()
 
     # --- FRONT MATTER (formato identico al tuo) ---
@@ -295,6 +296,12 @@ def write_post(entry, media_map: dict) -> Tuple[bool, bool]:
 
     return changed_file, changed_media
 
+import re
+
+def fix_internal_links(html):
+    # trova link tipo perladieta.blogspot...
+    pattern = re.compile(r'https?://perladieta\.blogspot\.[a-z]+/(\d{4})/(\d{2})/(\d{2})/([^"]+)\.html')
+    return pattern.sub(r'{{ "/\1/\2/\3/\4.html" | relative_url }}', html)
 
 # ----------------------------
 # Main
