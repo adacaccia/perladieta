@@ -50,7 +50,7 @@ ASSETS_DIR = os.environ.get("ASSETS_DIR", "assets")
 
 # Base URL (nel sito) per referenziare le immagini
 # Se ASSETS_DIR="assets" a livello repo, usare "/assets"
-ASSETS_URL_BASE = os.environ.get("ASSETS_URL_BASE", "/assets")
+ASSETS_URL_BASE = os.environ.get("ASSETS_URL_BASE", "/perladieta/assets")
 
 # Attiva/Disattiva download media
 DOWNLOAD_MEDIA = os.environ.get("DOWNLOAD_MEDIA", "0") == "1"
@@ -114,50 +114,81 @@ def _asset_filename(url: str) -> str:
 
 
 def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, int]:
-    """
-    Scarica immagini (se abilitato) e riscrive i src verso ASSETS_URL_BASE.
-    Ritorna (html_riscritto, changed_media, img_count_html)
-    """
     soup = BeautifulSoup(html, "html.parser")
     changed = False
 
-    # Conta immagini prima di modificare
-    img_tags = soup.find_all("img")
-    img_count_html = len(img_tags)
-
-    for img in img_tags:
-        src = img.get("src")
+    def download_and_map(src: str) -> str:
+        nonlocal changed
         if not src:
-            continue
-
-        # Se già in mappa, sostituisci direttamente
+            return src
         if src in media_map:
-            img["src"] = f"{{{{ '{media_map[src]}' | relative_url }}}}"
-            changed = True
-            continue
-
-        # Download se attivo
+            return media_map[src]
         if DOWNLOAD_MEDIA:
             try:
                 fn = _asset_filename(src)
-                local_fs_path = os.path.join(ASSETS_DIR, fn)  # path sul filesystem
+                local_fs_path = os.path.join(ASSETS_DIR, fn)
                 if not os.path.exists(local_fs_path):
                     resp = requests.get(src, timeout=30)
                     resp.raise_for_status()
                     with open(local_fs_path, "wb") as f:
                         f.write(resp.content)
-                # Map URL originale -> URL pubblico nel sito
-                site_url = f"{{{{ '{ASSETS_URL_BASE}/{media_map[src]}' | relative_url }}}}"
+                site_url = f"{ASSETS_URL_BASE}/{fn}"
                 media_map[src] = site_url
-                img["src"] = site_url
                 changed = True
+                return site_url
             except Exception:
-                # In caso di errore, lascia l'URL originale
-                pass
+                return src  # fallback: lascia l’URL originale
+        return src
 
+    # 1) IMG standard
+    img_tags = soup.find_all("img")
+    for img in img_tags:
+        src = img.get("src")
+        if not src:
+            continue
+        img["src"] = download_and_map(src)
+
+    # 2) background-image: url(...) nello style
+    for el in soup.find_all(style=True):
+        style = el.get("style") or ""
+        # trova tutte le url(...) nello style
+        urls = re.findall(r'url\((?:["\']?)(.*?)(?:["\']?)\)', style)
+        if not urls:
+            continue
+        # prendi la prima come immagine principale
+        first = urls[0]
+        local = download_and_map(first)
+        if local and local != first:
+            # sostituisci nello style
+            new_style = style.replace(first, local)
+            el["style"] = new_style
+            # se dentro non c'è già un <img>, inseriscine uno per render statico
+            if not el.find("img"):
+                new_img = soup.new_tag("img", src=local)
+                el.insert(0, new_img)
+
+    # 3) attributo background="..." (tipico dei vecchi <td>)
+    for el in soup.find_all(["td", "tr", "table"]):
+        bg = el.get("background")
+        if not bg:
+            continue
+        local = download_and_map(bg)
+        if local:
+            # rimuovi l’attributo background, porta tutto a <img> esplicito
+            if "background" in el.attrs:
+                del el["background"]
+            if not el.find("img"):
+                new_img = soup.new_tag("img", src=local)
+                el.insert(0, new_img)
+            # opzionale: aggiungi anche uno style, se vuoi mantenere resa
+            existing = el.get("style", "")
+            if local not in existing:
+                el["style"] = (existing + f"; background-image:url({local})").strip("; ")
+
+    # Conta immagini originali (dopo fix)
+    img_count_html = len(soup.find_all("img"))
     return str(soup), changed, img_count_html
-
-
+\
 # ----------------------------
 # Feed (paginazione completa)
 # ----------------------------

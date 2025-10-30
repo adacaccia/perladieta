@@ -13,7 +13,7 @@ tags:
   - verdura
 ---
 
-[![]({{ '/assets/f387e2ae58c1a689.jpg' | relative_url }})](http://perladieta.blogspot.com/2012/05/le-stagioni-di-frutta-e-verdura-crudo.html)
+[![](/assets/f387e2ae58c1a689.jpg)](http://perladieta.blogspot.com/2012/05/le-stagioni-di-frutta-e-verdura-crudo.html)
 
 Nel preparare piani dietetici personalizzati che siano anche nutrizionalmente validi, si ha la necessità di inserirvi sempre molte razioni di frutta e verdura, perché si sa che tali alimenti contengono sali minerali, vitamine ed altre sostanze nutritive in abbondanza.  
   

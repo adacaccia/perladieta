@@ -16,7 +16,7 @@ tags:
   - vitamine
 ---
 
-[![]({{ '/assets/d466e14e6fff5810.png' | relative_url }})](http://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html)
+[![](/assets/d466e14e6fff5810.png)](http://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html)
 
 Ci sono oggi sempre più seguaci del Crudismo (o *Raw Foodists* in inglese) che ritengono che la cottura dei vegetali ne distrugga, almeno in parte, la dotazione di sostanze nutrienti, soprattutto enzimi ed antiossidanti.
 

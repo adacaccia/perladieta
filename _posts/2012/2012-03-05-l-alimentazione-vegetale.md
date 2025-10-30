@@ -17,7 +17,7 @@ tags:
 
 Ho illustrato in altri post come diversi ordini di problemi, sia salutari che ambientali, siano facilmente affrontabili attraverso la riconsiderazione di ciò che comunemente consideriamo "cibo":  
 
-[![]({{ '/assets/a6574e397a2c3547.jpg' | relative_url }})](http://perladieta.blogspot.it/2012/03/lalimentazione-vegana.html)* [le malattie croniche si prevengono con l'alimentazione](http://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html);
+[![](/assets/a6574e397a2c3547.jpg)](http://perladieta.blogspot.it/2012/03/lalimentazione-vegana.html)* [le malattie croniche si prevengono con l'alimentazione](http://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html);
 * [il diabete si combatte a tavola](http://perladieta.blogspot.com/2012/01/lindice-glicemico-dei-carboidrati.html);
 * [la calvizie maschile è correlata a disordini metabolici](http://perladieta.blogspot.com/2012/03/la-calvizie-maschile-evidenzia-problemi.html);
 * [gli allevamenti inquinano più dei motori](http://perladieta.blogspot.com/2012/01/alimentazione-ed-ecologia.html);
