@@ -68,10 +68,9 @@ Sì, si può essere più precisi, come necessario nella trattazione scientifica 
 
 Ecco allora [un articolo del 1999](http://www.ncbi.nlm.nih.gov/pubmed/10027589) che spiega come i grassi liberi nel sangue inducano l'insulino-resistenza; il meccanismo è spiegato nei minimi dettagli di biochimica intracellulare: l'insulina si lega ai suoi recettori sulle cellule dei muscoli, dove vorrebbe far entrare il glucosio per un pronto utilizzo o per l'immagazzinamento in forma di glicogeno; tale legame scatena una catena enzimatica che dovrebbe portare all'apertura della vescicola GLUT4, deputata alla cattura del glucosio sanguigno, ma gli scarti della digestione dei grassi causano una rottura di tale catena, con la conseguente incapacità di apertura del GLUT4, e l'aumento della glicemia.
 
-|  |
-| --- |
-|  |
-| I puntini rossi in alto sono il glucosio, i triangolini gialli l'insulina. Il metabolismo dei grassi liberi nel sangue (FFA: Free Fatty Acids) produce radicali liberi (ROS) che inibiscono l'azione di alcuni enzimi fondamentali per l'apertura della vescicola GLUT4, deputata al trasporto del glucosio all'interno della cellula. |
+![](/perladieta/assets/822d00e77cf2c6a3.png)
+
+I puntini rossi in alto sono il glucosio, i triangolini gialli l'insulina. Il metabolismo dei grassi liberi nel sangue (FFA: Free Fatty Acids) produce radicali liberi (ROS) che inibiscono l'azione di alcuni enzimi fondamentali per l'apertura della vescicola GLUT4, deputata al trasporto del glucosio all'interno della cellula.
 
 Un [articolo del 1996](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC507380/) aveva già individuato, iniettando grassi nel sangue di volontari, la correlazione tra aumento dei grassi liberi nel sangue e insulino-resistenza: entro poche ore da un pasto "low-carb", cioè con pochi carboidrati, e cioè ricco di proteine e grassi, il livello di grassi nei muscoli saliva, insieme all'isulino-resistenza; c'era anche l'effetto inverso: entro poche ore dalla diminuzione dei grassi nel sangue, l'insulino-resistenza tornava a valori normali.
 
@@ -95,10 +94,9 @@ Vale anche l'opposto:
 
 Per finire, notiamo come il prediabete inizi molti anni prima del diabete, totalmente non diagnosticabile perché esente da sintomi:
 
-|  |
-| --- |
-|  |
-| Già 13 anni prima del diabete conclamato, la glicemia a digiuno della persona inizia a salire gradualmente, per poi schizzare letteralmente in alto portando ai disturbi e, quindi, alla diagnosi del diabete. |
+![](/perladieta/assets/6484865cb24956ac.png)
+
+Già 13 anni prima del diabete conclamato, la glicemia a digiuno della persona inizia a salire gradualmente, per poi schizzare letteralmente in alto portando ai disturbi e, quindi, alla diagnosi del diabete.
 
 Ma qual è la causa di questa improvviso aumento della glicemia? Cos'è accaduto esattamente ai nostri organi interni, per potarci ad una catastrofe del genere?  
 Per capirlo, facciamo un passo indietro.  

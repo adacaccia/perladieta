@@ -33,11 +33,9 @@ Ho esaminato i semi così come disponibili in commercio, perciò i semi più pic
 
 I semi di canapa "integrali" sono irreperibili in commercio data la loro capacità di germogliare in piantine potenzialmente "stupefacenti".  
 La porzione da 240kcal pesa 43,8g e fornisce in tutto il 20% degli obiettivi nutrizionali.  
+![](/perladieta/assets/6111a7c97e67cc3b.png)
 
-|  |
-| --- |
-|  |
-| I semi di canapa contengono circa il 10% di fibra alimentare; sono ricchi di vitamina B1 e contengono tracce di altre vitamine del gruppo B. Contengono il 29% di proteine, ma purtroppo non ne è disponibile la caratterizzazione in termini di aminoacidi essenziali. I semi di canapa contengono il 48% di grassi, per la maggior parte polinsaturi, con un ottimo apporto di Omega-3 e un buon apporto di Omega-6, e con rapporto Omega-6 : Omega-3 (2,7) molto inferiore al massimo ritenuto ottimale (5:1). Quanto ai sali minerali, i semi di canapa sono fonte di manganese, fosforo, ferro, magnesio e zinco. |
+I semi di canapa contengono circa il 10% di fibra alimentare; sono ricchi di vitamina B1 e contengono tracce di altre vitamine del gruppo B. Contengono il 29% di proteine, ma purtroppo non ne è disponibile la caratterizzazione in termini di aminoacidi essenziali. I semi di canapa contengono il 48% di grassi, per la maggior parte polinsaturi, con un ottimo apporto di Omega-3 e un buon apporto di Omega-6, e con rapporto Omega-6 : Omega-3 (2,7) molto inferiore al massimo ritenuto ottimale (5:1). Quanto ai sali minerali, i semi di canapa sono fonte di manganese, fosforo, ferro, magnesio e zinco.
 
   
   
@@ -48,11 +46,10 @@ Svantaggi: nessuno di rilievo.
 ### Semi di lino
 
 La porzione da 240kcal pesa circa 45g e fornisce il 27% degli obiettivi nutrizionali. Siccome sono solitamente disponibili solo integrali, devono essere tostati e/o sminuzzati perché i nostri denti possano macinarli a dovere e migliorarne, quindi, l'assorbimento intestinale.  
+![](/perladieta/assets/57ca441e395cbc31.png)
 
-|  |
-| --- |
-|  |
-| I semi di lino contengono circa il 27% di fibra alimentare e il 18% di proteine, con apporto abbastanza bilanciato di tutti gli aminoacidi essenziali. Sono ricchi di vitamina B1 ed apportano le altre vitamine del gruppo B in piccole quantità. I semi di lino contengono il 42% di grassi, con abbondanza di polinsaturi, quasi esclusivamente di tipo Omega-3 e, quindi, con un rapporto Omega-6 : Omega-3 (3,8)  molto inferiore al massimo ritenuto ottimale (5:1). Quanto ai sali minerali, i semi di lino contengono buone quantità di magnesio e rame, ma anche di manganese e fosforo; apportano pure selenio e zinco, con tracce di ferro, calcio e potassio. |
+I semi di lino contengono circa il 27% di fibra alimentare e il 18% di proteine, con apporto abbastanza bilanciato di tutti gli aminoacidi essenziali. Sono ricchi di vitamina B1 ed apportano le altre vitamine del gruppo B in piccole quantità. I semi di lino contengono il 42% di grassi, con abbondanza di polinsaturi, quasi esclusivamente di tipo Omega-3 e, quindi, con un rapporto Omega-6 : Omega-3 (3,8) 
+molto inferiore al massimo ritenuto ottimale (5:1). Quanto ai sali minerali, i semi di lino contengono buone quantità di magnesio e rame, ma anche di manganese e fosforo; apportano pure selenio e zinco, con tracce di ferro, calcio e potassio.
 
   
   
@@ -68,11 +65,9 @@ Svantaggi: c'è molto rame (che compete con l'assorbimento dello zinco).
 
 Per via delle piccole dimensioni sono spesso venduti integrali, e quindi tendono a passare inalterati attraverso il nostro intestino; in commercio si trova anche il burro, o "tahin", ricetta di origine araba che consente di assorbire tutto ciò che i semi di lino contengono.  
 La porzione da 240kcal pesa circa 42g e fornisce il 28% degli obiettivi nutrizionali.  
+![](/perladieta/assets/7e069c731a050da2.png)
 
-|  |
-| --- |
-|  |
-| I semi di sesamo apportano circa il 12% di fibra alimentare e il 18% di proteine, con apporto di tutti gli aminoacidi essenziali ma carente di Lisina (come avviene per i cereali). Contengono vitamina B1 e B6, e tracce delle altre vitamine del gruppo B. I semi di sesamo contengono il 50% di grassi, con leggera prevalenza di polinsaturi ma quasi esclusivamente di tipo Omega-6 e, quindi, con un rapporto Omega-6 : Omega-3 decisamente alto (>25). Quanto ai sali minerali, i semi di sesamo sono molto ricchi di rame, ma apportano anche buone quantità di calcio, magnesio, zinco, manganese, ferro, selenio e fosforo. |
+I semi di sesamo apportano circa il 12% di fibra alimentare e il 18% di proteine, con apporto di tutti gli aminoacidi essenziali ma carente di Lisina (come avviene per i cereali). Contengono vitamina B1 e B6, e tracce delle altre vitamine del gruppo B. I semi di sesamo contengono il 50% di grassi, con leggera prevalenza di polinsaturi ma quasi esclusivamente di tipo Omega-6 e, quindi, con un rapporto Omega-6 : Omega-3 decisamente alto (>25). Quanto ai sali minerali, i semi di sesamo sono molto ricchi di rame, ma apportano anche buone quantità di calcio, magnesio, zinco, manganese, ferro, selenio e fosforo.
 
   
   
@@ -88,11 +83,9 @@ Svantaggi: tra i grassi mancano gli omega-3, e c'è troppo rame (che compete con
 
 I semi di papavero sono tradizionalmente utilizzati come decorazione superficiale per prodotti da forno; in tale collocazione, vengono di fatto tostati prima dell'assunzione, moderando le difficoltà di assorbimento intestinale solitamente collegato ai semi dotati di cuticola.  
 La porzione da 240kcal pesa 45,7g e fornisce il 28% degli obiettivi nutrizionali.  
+![](/perladieta/assets/fa04743ac3926010.png)
 
-|  |
-| --- |
-|  |
-| I semi di papavero contengono circa il 19% di fibra alimentare e il 18% di proteine, con apporto abbastanza bilanciato di tutti gli aminoacidi essenziali. Contengono vitamina B1, tracce delle altre vitamine del gruppo B e tracce di vitamina E. I semi di papavero contengono il 41,5% di grassi, con abbondanza di polinsaturi, ma quasi esclusivamente di tipo Omega-6 e, quindi, con un rapporto Omega-6 : Omega-3 decisamente alto (>25). Quanto ai sali minerali, i semi di papavero sono molto ricchi di manganese, calcio e rame, ma apportano anche buone quantità di magnesio, fosforo, zinco e ferro, e tracce di selenio e potassio. |
+I semi di papavero contengono circa il 19% di fibra alimentare e il 18% di proteine, con apporto abbastanza bilanciato di tutti gli aminoacidi essenziali. Contengono vitamina B1, tracce delle altre vitamine del gruppo B e tracce di vitamina E. I semi di papavero contengono il 41,5% di grassi, con abbondanza di polinsaturi, ma quasi esclusivamente di tipo Omega-6 e, quindi, con un rapporto Omega-6 : Omega-3 decisamente alto (>25). Quanto ai sali minerali, i semi di papavero sono molto ricchi di manganese, calcio e rame, ma apportano anche buone quantità di magnesio, fosforo, zinco e ferro, e tracce di selenio e potassio.
 
   
   
@@ -105,11 +98,9 @@ Svantaggi: tra i grassi mancano gli omega-3, e c'è molto rame (che compete con 
 ### Semi di girasole decorticati
 
 La porzione da 240kcal pesa 41g e fornisce il 31% degli obiettivi nutrizionali.  
+![](/perladieta/assets/70ed72ccde336ecd.png)
 
-|  |
-| --- |
-|  |
-| I semi di girasole contengono circa l'8,5% di fibra alimentare e il 20% di proteine, con apporto di tutti gli aminoacidi essenziali ma carente di Lisina (proprio come i cereali). Contengono una generosa dose di vitamina E, e sono anche fonte di B1 e B6, con tracce delle altre vitamine del gruppo B. I semi di girasole contengono il 52,5% di grassi, con abbondanza di monoinsaturi e polinsaturi quasi esclusivamente di tipo Omega-6 e, quindi, con un rapporto Omega-6 : Omega-3 decisamente alto (>25). Quanto ai sali minerali, i semi di girasole sono molto ricchi di rame e selenio, apportano buone quantità di magnesio, fosforo manganese e zinco, e tracce di ferro. |
+I semi di girasole contengono circa l'8,5% di fibra alimentare e il 20% di proteine, con apporto di tutti gli aminoacidi essenziali ma carente di Lisina (proprio come i cereali). Contengono una generosa dose di vitamina E, e sono anche fonte di B1 e B6, con tracce delle altre vitamine del gruppo B. I semi di girasole contengono il 52,5% di grassi, con abbondanza di monoinsaturi e polinsaturi quasi esclusivamente di tipo Omega-6 e, quindi, con un rapporto Omega-6 : Omega-3 decisamente alto (>25). Quanto ai sali minerali, i semi di girasole sono molto ricchi di rame e selenio, apportano buone quantità di magnesio, fosforo manganese e zinco, e tracce di ferro.
 
   
   
@@ -121,11 +112,9 @@ Svantaggi: tra i grassi mancano gli omega-3, e tra i sali minerali c'è molto 
 ### Semi di zucca decorticati
 
 La porzione da 240kcal pesa 43g e fornisce il 31% degli obiettivi nutrizionali.  
+![](/perladieta/assets/fa555a0fb9a827b2.png)
 
-|  |
-| --- |
-|  |
-| I semi di zucca contengono circa il 6% di fibra alimentare e il 30% di proteine, con apporto di tutti gli aminoacidi essenziali, anche se non molto bilanciato. Contengono molte vitamine, ma solo in tracce. I semi di zucca contengono il 49% di grassi, con lieve prevalenza di polinsaturi quasi esclusivamente di tipo Omega-6 e, quindi, con un rapporto Omega-6 : Omega-3 decisamente alto (>25). Quanto ai sali minerali, i semi di zucca sono molto ricchi di magnesio, manganese, fosforo e rame; buone quantità di ferro e zinco. |
+I semi di zucca contengono circa il 6% di fibra alimentare e il 30% di proteine, con apporto di tutti gli aminoacidi essenziali, anche se non molto bilanciato. Contengono molte vitamine, ma solo in tracce. I semi di zucca contengono il 49% di grassi, con lieve prevalenza di polinsaturi quasi esclusivamente di tipo Omega-6 e, quindi, con un rapporto Omega-6 : Omega-3 decisamente alto (>25). Quanto ai sali minerali, i semi di zucca sono molto ricchi di magnesio, manganese, fosforo e rame; buone quantità di ferro e zinco.
 
   
   

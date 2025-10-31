@@ -145,34 +145,26 @@ Ecco le due ricerche:
 Per trarre indicazioni ancora più utili, entrambe le ricerche hanno valutato il potere antiossidante degli alimenti selezionati sia rispetto ad una delle metodiche standard (ORAC), sia rispetto alla nuova CAA: il confronto tra i risultati riserva alcune sorprese!  
   
 Grafico dei risultati per la frutta, rispetto alla metodica ORAC:  
+![](/perladieta/assets/f5515e9c50dc49a5.png)
 
-|  |
-| --- |
-|  |
-| Da sinistra: Mirtillo selvatico, Mirtillo rosso, Fragola, Mora, Ciliegia, Prugna, Lampone, Mirtillo, Mela, Melograno, Arancia, Uva rossa, Pesca, Limone, Pera, Pompelmo, Nettarina, Anguria, Avocado, Kiwi, Mango, Ananas, Banana, Melone bianco, Melone retato. |
+Da sinistra: Mirtillo selvatico, Mirtillo rosso, Fragola, Mora, Ciliegia, Prugna, Lampone, Mirtillo, Mela, Melograno, Arancia, Uva rossa, Pesca, Limone, Pera, Pompelmo, Nettarina, Anguria, Avocado, Kiwi, Mango, Ananas, Banana, Melone bianco, Melone retato.
 
 Ecco invece i risultati per la frutta a livello cellulare (CAA):  
+![](/perladieta/assets/205c2321dbeb4e0a.png)
 
-|  |
-| --- |
-|  |
-| Da sinistra: Mirtillo selvatico, Melograno, Mora, Fragola, Mirtillo, Lampone, Mirtillo rosso, Prugna, Ciliegia, Mango, Mela, Uva rossa, Kiwi, Ananas, Arancia, Limone, Pompelmo, Pesca, Pera, Nettarina, Melone bianco, Avocado, Banana, Melone retato, Anguria. |
+Da sinistra: Mirtillo selvatico, Melograno, Mora, Fragola, Mirtillo, Lampone, Mirtillo rosso, Prugna, Ciliegia, Mango, Mela, Uva rossa, Kiwi, Ananas, Arancia, Limone, Pompelmo, Pesca, Pera, Nettarina, Melone bianco, Avocado, Banana, Melone retato, Anguria.
 
 Vediamo che, qualunque sia la metodica analitica utilizzata, il mirtillo selvatico prevale sempre; ma nella valutazione del potere antiossidante a livello cellulare è raggiunto da melograno e mora; seguono poi fragola, mirtillo e lampone, all'incirca equivalenti.  
   
 Grafico dei risultati per la verdura, rispetto alla metodica ORAC:  
+![](/perladieta/assets/311ca57a162c79fd.png)
 
-|  |
-| --- |
-|  |
-| Spinaci, Barbabietola, Asparagi, Cavoletti di Bruxelles, Melanzana, Broccoli, Radicchio, Cavolo cappuccio, Zucca, Mais dolce, Funghi coltivati, Peperone rosso, Cipolla gialla, Patata dolce, Cavolfiore, Carota, Piselli verdi, Peperone verde, Cipolla bianca, Patata, Pomodoro, Peperoncino piccante, Sedano, Fagiolini, Lattuga romana, Lattuga, Cetriolo. |
+Spinaci, Barbabietola, Asparagi, Cavoletti di Bruxelles, Melanzana, Broccoli, Radicchio, Cavolo cappuccio, Zucca, Mais dolce, Funghi coltivati, Peperone rosso, Cipolla gialla, Patata dolce, Cavolfiore, Carota, Piselli verdi, Peperone verde, Cipolla bianca, Patata, Pomodoro, Peperoncino piccante, Sedano, Fagiolini, Lattuga romana, Lattuga, Cetriolo.
 
 Ecco invece i risultati per la verdura a livello cellulare (CAA):  
+![](/perladieta/assets/54a8f8cf3afa5e27.png)
 
-|  |
-| --- |
-|  |
-| |  | | --- | | Barbabietola, Peperone rosso, Melanzana, Cavoletti di Bruxelles, Broccoli, Cavolo cappuccio, Funghi coltivati, Asparagi, Peperone verde, Cavolfiore, Spinaci, Carota, Peperoncino piccante, Patata dolce, Radicchio, Cipolla gialla, Lattuga, Patata, Mais dolce, Cipolla bianca, Zucca, Sedano, Lattuga romana, Piselli verdi, Fagiolini, Cetriolo. | |
+Barbabietola, Peperone rosso, Melanzana, Cavoletti di Bruxelles, Broccoli, Cavolo cappuccio, Funghi coltivati, Asparagi, Peperone verde, Cavolfiore, Spinaci, Carota, Peperoncino piccante, Patata dolce, Radicchio, Cipolla gialla, Lattuga, Patata, Mais dolce, Cipolla bianca, Zucca, Sedano, Lattuga romana, Piselli verdi, Fagiolini, Cetriolo.
 
 Notiamo intanto che la scala dei valori CAA tra frutta e verdura è decisamente diversa: le verdure non arrivano a 50, mentre la frutta sfiora i 300; ciò significa che, in media, la frutta è molto più ricca di antiossidanti rispetto alla verdura.  
 Quanto alla classifica, si vede che rispetto al metodo ORAC, a livello cellulare balzano in testa le verdure rosse (barbabietola e peperone rosso) e viola (melanzana), subito tallonate dalle solite crucifere (cavoletti di bruxelles, broccoli e cavolo cappuccio); si piazzano molto bene anche i funghi coltivati (tipo Champignon).  

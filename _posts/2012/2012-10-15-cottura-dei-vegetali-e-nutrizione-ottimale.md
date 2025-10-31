@@ -119,10 +119,9 @@ La cottura sopra 50-60 gradi distrugge l'enzima, quindi non si ottiene più sulf
 
 Questi risultati provengono da [uno studio olandese del 2008](http://www.ncbi.nlm.nih.gov/pubmed/18950181) il cui testo completo non è ancora disponibile gratuitamente; è solo possibile mostrare qui un'immagine proveniente da questo studio e tratta da un filmato del Dr. Greger, che mostra i risultati dello studio in termini cinetici:
 
-|  |
-| --- |
-|  |
-| Valori plasmatici di sulforafano dopo l'assunzione di broccoli crudi (linea tratteggiata) o cotti (linea continua) |
+![](/perladieta/assets/163d9c1ceed64d77.png)
+
+Valori plasmatici di sulforafano dopo l'assunzione di broccoli crudi (linea tratteggiata) o cotti (linea continua)
 
 Si vede chiaramente che i valori plasmatici aumentano prima e in modo più abbondante nel caso di broccoli consumati crudi rispetto a quelli cotti, anche se solo "leggermente".  
   

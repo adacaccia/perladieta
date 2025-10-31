@@ -114,7 +114,6 @@ def _asset_filename(url: str) -> str:
     h = hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
     return f"{h}{_guess_ext(url)}"
 
-
 def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, int]:
     soup = BeautifulSoup(html, "html.parser")
     changed = False
@@ -123,8 +122,29 @@ def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, in
         nonlocal changed
         if not src:
             return src
+
+        # HIT in media_map: verifica che il file locale esista, altrimenti riscarica
         if src in media_map:
-            return media_map[src]
+            site_url = media_map[src]
+            try:
+                from urllib.parse import urlsplit
+                fn = os.path.basename(urlsplit(site_url).path)
+                local_fs_path = os.path.join(ASSETS_DIR, fn)
+            except Exception:
+                local_fs_path = None
+
+            if DOWNLOAD_MEDIA and local_fs_path and not os.path.exists(local_fs_path):
+                try:
+                    resp = requests.get(src, timeout=30)
+                    resp.raise_for_status()
+                    os.makedirs(ASSETS_DIR, exist_ok=True)
+                    with open(local_fs_path, "wb") as f:
+                        f.write(resp.content)
+                except Exception:
+                    pass  # fallback: mantieni site_url anche se non sei riuscito a riscaricare
+            return site_url
+
+        # MISS in media_map: scarica e mappa
         if DOWNLOAD_MEDIA:
             try:
                 fn = _asset_filename(src)
@@ -132,6 +152,7 @@ def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, in
                 if not os.path.exists(local_fs_path):
                     resp = requests.get(src, timeout=30)
                     resp.raise_for_status()
+                    os.makedirs(ASSETS_DIR, exist_ok=True)
                     with open(local_fs_path, "wb") as f:
                         f.write(resp.content)
                 site_url = f"{ASSETS_URL_BASE}/{fn}"
@@ -139,13 +160,35 @@ def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, in
                 changed = True
                 return site_url
             except Exception:
-                return src  # fallback: lascia l’URL originale
+                return src  # fallback: lascia URL originale
         return src
 
-    # 1) IMG standard
+    # 1) <img> standard (+ semplice lazy/srcset)
     img_tags = soup.find_all("img")
     for img in img_tags:
         src = img.get("src")
+        if not src:
+            # lazy comuni
+            src = img.get("data-src") or img.get("data-original") or img.get("data-lazy-src")
+        # srcset (scegli la più larga)
+        if (not src) and img.get("srcset"):
+            try:
+                candidates = [s.strip() for s in img["srcset"].split(",")]
+                pairs = []
+                for c in candidates:
+                    parts = c.split()
+                    url = parts[0]
+                    w = 0
+                    if len(parts) > 1 and parts[1].endswith("w"):
+                        try:
+                            w = int(parts[1][:-1])
+                        except:
+                            pass
+                    pairs.append((w, url))
+                pairs.sort(reverse=True)
+                src = pairs[0][1] if pairs else None
+            except Exception:
+                pass
         if not src:
             continue
         img["src"] = download_and_map(src)
@@ -153,41 +196,76 @@ def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, in
     # 2) background-image: url(...) nello style
     for el in soup.find_all(style=True):
         style = el.get("style") or ""
-        # trova tutte le url(...) nello style
         urls = re.findall(r'url\((?:["\']?)(.*?)(?:["\']?)\)', style)
         if not urls:
             continue
-        # prendi la prima come immagine principale
         first = urls[0]
         local = download_and_map(first)
         if local and local != first:
-            # sostituisci nello style
-            new_style = style.replace(first, local)
-            el["style"] = new_style
-            # se dentro non c'è già un <img>, inseriscine uno per render statico
+            el["style"] = style.replace(first, local)
             if not el.find("img"):
-                new_img = soup.new_tag("img", src=local)
-                el.insert(0, new_img)
+                el.insert(0, soup.new_tag("img", src=local))
 
-    # 3) attributo background="..." (tipico dei vecchi <td>)
+    # 3) attributo background="..." (table/tr/td)
     for el in soup.find_all(["td", "tr", "table"]):
         bg = el.get("background")
         if not bg:
             continue
         local = download_and_map(bg)
         if local:
-            # rimuovi l’attributo background, porta tutto a <img> esplicito
             if "background" in el.attrs:
                 del el["background"]
             if not el.find("img"):
-                new_img = soup.new_tag("img", src=local)
-                el.insert(0, new_img)
-            # opzionale: aggiungi anche uno style, se vuoi mantenere resa
+                el.insert(0, soup.new_tag("img", src=local))
             existing = el.get("style", "")
             if local not in existing:
                 el["style"] = (existing + f"; background-image:url({local})").strip("; ")
 
-    # Conta immagini originali (dopo fix)
+    # 4) <a href="...jpg|png|gif|webp|svg"> senza <img> → inserisci <img>
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if re.search(r'\.(?:jpe?g|png|gif|webp|svg)(?:\?.*)?$', href, flags=re.I):
+            if not a.find("img"):
+                local = download_and_map(href)
+                a.insert(0, soup.new_tag("img", src=local))
+
+    # 5) Tabelle decorative -> sostituisci con <figure><img><figcaption?>
+    def extract_first_img_url(el):
+        imgtag = el.find("img")
+        if imgtag and imgtag.get("src"):
+            return imgtag.get("src")
+        for node in el.find_all(style=True):
+            st = node.get("style") or ""
+            urls = re.findall(r'url\((?:["\']?)(.*?)(?:["\']?)\)', st)
+            if urls:
+                return urls[0]
+        for node in el.find_all(["table", "tr", "td"]):
+            if node.get("background"):
+                return node.get("background")
+        for a in el.find_all("a", href=True):
+            if re.search(r'\.(?:jpe?g|png|gif|webp|svg)(?:\?.*)?$', a["href"], flags=re.I):
+                return a["href"]
+        return None
+
+    for tbl in soup.find_all("table"):
+        src = extract_first_img_url(tbl)
+        if not src:
+            continue
+        local = download_and_map(src)
+        caption_txt = tbl.get_text(" ", strip=True)
+        figcap = None
+        if caption_txt and not re.fullmatch(r'[-| ]*', caption_txt):
+            figcap = soup.new_tag("figcaption")
+            figcap.string = caption_txt
+
+        figure = soup.new_tag("figure")
+        figure.append(soup.new_tag("img", src=local))
+        if figcap:
+            figure.append(figcap)
+
+        tbl.replace_with(figure)
+        changed = True
+
     img_count_html = len(soup.find_all("img"))
     return str(soup), changed, img_count_html
 
