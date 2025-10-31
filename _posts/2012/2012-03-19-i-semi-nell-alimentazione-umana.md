@@ -11,7 +11,7 @@ tags:
   - vitamine
 ---
 
-[![](/assets/43c0e045085e80d0.png)](http://perladieta.blogspot.it/2012/03/i-semi-nellalimentazione-umana.html)
+[![](/perladieta/assets/43c0e045085e80d0.png)](http://perladieta.blogspot.it/2012/03/i-semi-nellalimentazione-umana.html)
 
 Usati come condimento nelle varie cucine tradizionali regionali italiane, i semi sono spesso associati a richiami miracolistici su presunti effetti benefici sulla nostra salute, e tendono a rivestire un ruolo di primo piano nell'alimentazione di chi segue diete basate sui vegetali. Voglio qui discutere questi effetti a partire dai contenuti nutritivi dei vari semi, bilanciandoli con gli eventuali effetti negativi sempre derivanti da tali contenuti.
 

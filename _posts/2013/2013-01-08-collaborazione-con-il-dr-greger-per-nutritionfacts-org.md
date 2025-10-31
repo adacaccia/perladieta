@@ -10,7 +10,7 @@ tags:
   - nutrizione
 ---
 
-[![](/assets/e5649863993ae4fa.jpg)](http://nutritionfacts.org/)  
+[![](/perladieta/assets/e5649863993ae4fa.jpg)](http://nutritionfacts.org/)  
 
 Sono orgoglioso di annunciare la mia collaborazione diretta con lo staff del Dr. Greger per tradurre in italiano i sottotitoli dei suoi video divulgativi, pubblicati giornalmente sul sito [NutritionFacts.org](http://nutritionfacts.org/)! Ho anche proposto un sistema di traduzione semplificato e più veloce, subito accettato, che faciliterà, oltre che il mio, anche il lavoro degli altri volontari che tradurranno i sottotitoli in tutte le lingue del mondo!
 

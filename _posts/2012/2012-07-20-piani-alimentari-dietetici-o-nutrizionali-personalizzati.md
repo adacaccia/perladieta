@@ -19,7 +19,7 @@ tags:
   - vitamine
 ---
 
-[![](/assets/8a26693477fe2b80.png)](http://perladieta.blogspot.it/2012/07/piano-dietetico-personalizzato.html)  
+[![](/perladieta/assets/8a26693477fe2b80.png)](http://perladieta.blogspot.it/2012/07/piano-dietetico-personalizzato.html)  
 
 I piani alimentari, dietetici o nutrizionali "personalizzati" sono redatti in base ad età, sesso ed altezza, e cercano di fornire sempre una nutrizione ottimale (proteine, amino acidi essenziali, grassi essenziali, vitamine e sali minerali) con il minimo possibile di calorie. Volendo mettere in pratica tutte le tematiche di nutrizione e salute affrontate in questo blog, se ne presenta qui un riassunto atto ad individuare il proprio piano alimentare ottimale.
 

@@ -67,6 +67,8 @@ CACHE_DIR = "data"
 CACHE_FEED_LATEST = os.path.join(CACHE_DIR, "feed_latest.xml")
 MEDIA_MAP_PATH = os.path.join(CACHE_DIR, "media_map.json")
 
+# Force overwrite
+FORCE_OVERWRITE = os.environ.get("FORCE_OVERWRITE", "0") == "1"
 
 # ----------------------------
 # Utility
@@ -188,7 +190,7 @@ def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, in
     # Conta immagini originali (dopo fix)
     img_count_html = len(soup.find_all("img"))
     return str(soup), changed, img_count_html
-\
+
 # ----------------------------
 # Feed (paginazione completa)
 # ----------------------------
@@ -280,8 +282,37 @@ def write_post(entry, media_map: dict) -> Tuple[bool, bool]:
     original_url = entry.get("link", "")
     tags = [t["term"] for t in entry.get("tags", [])] if "tags" in entry else []
 
-    # --- contenuto ---
-    content_html = entry.get("content", [{}])[0].get("value", entry.get("summary", ""))
+    # --- contenuto (robusto per Atom/RSS) ---
+    def get_entry_html(e):
+        # 1) Atom: <content> … (feedparser → e["content"][0]["value"])
+        v = (e.get("content") or [{}])[0].get("value")
+        if v:
+            return v
+        # 2) RSS: content:encoded (spesso mappato in summary_detail.value)
+        v = (e.get("summary_detail") or {}).get("value")
+        if v:
+            return v
+        # 3) RSS: description
+        v = e.get("description")
+        if v:
+            return v
+        # 4) RSS: summary
+        v = e.get("summary")
+        if v:
+            return v
+        # 5) RSS/Atom: media:content (immagini) → costruisci HTML sintetico
+        media = e.get("media_content") or []
+        if media:
+            imgs = [
+                m.get("url")
+                for m in media
+                if m.get("url") and (m.get("medium") == "image" or m.get("type", "").startswith("image/"))
+            ]
+            if imgs:
+                return "".join(f'<p><img src="{u}"/></p>' for u in imgs)
+        return ""
+
+    content_html = get_entry_html(entry)
 
     # localizza immagini e link
     content_html_local, changed_media, img_count_html = localize_images_and_links(content_html, media_map)
@@ -313,7 +344,7 @@ def write_post(entry, media_map: dict) -> Tuple[bool, bool]:
         with open(out_path, "r", encoding="utf-8") as f:
             old_text = f.read()
 
-    changed_file = (old_text != new_text)
+    changed_file = FORCE_OVERWRITE or (old_text != new_text)
     if changed_file:
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(new_text)
