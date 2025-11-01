@@ -66,6 +66,7 @@ FEED_SLEEP_SECONDS = float(os.environ.get("FEED_SLEEP_SECONDS", "0.5"))
 CACHE_DIR = "data"
 CACHE_FEED_LATEST = os.path.join(CACHE_DIR, "feed_latest.xml")
 MEDIA_MAP_PATH = os.path.join(CACHE_DIR, "media_map.json")
+URL_MAP_PATH = os.path.join(CACHE_DIR, "url_map.json")
 
 # Force overwrite
 FORCE_OVERWRITE = os.environ.get("FORCE_OVERWRITE", "0") == "1"
@@ -95,6 +96,106 @@ def save_media_map(m: dict):
     with open(MEDIA_MAP_PATH, "w", encoding="utf-8") as f:
         json.dump(m, f, ensure_ascii=False, indent=2)
 
+def build_url_map(posts_dir=OUT_DIR, base_prefix="/perladieta"):
+    """
+    Scansiona _posts/YYYY/YYYY-MM-DD-slug.md, legge original_url e
+    costruisce la URL Pages: /perladieta/YYYY/MM/DD/slug.html
+    Scrive data/url_map.json.
+    """
+    url_map = {}
+    for root, _, files in os.walk(posts_dir):
+        for fn in files:
+            if not fn.endswith(".md"):
+                continue
+            m = re.match(r"(\d{4})-(\d{2})-(\d{2})-(.+)\.md$", fn)
+            if not m:
+                continue
+            yyyy, mm, dd, slug = m.groups()
+            md_path = os.path.join(root, fn)
+
+            # leggi front matter e prendi original_url
+            original_url = None
+            with open(md_path, "r", encoding="utf-8") as f:
+                lines = f.read().splitlines()
+            if len(lines) >= 3 and lines[0].strip() == "---":
+                for line in lines[1:]:
+                    if line.strip() == "---":
+                        break
+                    mo = re.match(r'original_url:\s*"?([^"]+)"?\s*$', line.strip())
+                    if mo:
+                        original_url = mo.group(1).strip()
+                        break
+            if not original_url:
+                continue
+
+            pages_url = f"{base_prefix}/{yyyy}/{mm}/{dd}/{slug}.html"
+
+            # normalizza vari TLD di blogspot e http/https
+            tlds = ["com", "it", "co.uk", "de", "fr", "es", "pt", "nl", "ro", "gr"]
+            for tld in tlds:
+                for scheme in ("http", "https"):
+                    key = re.sub(r"https?://perladieta\.blogspot\.[a-z.]+",
+                                 f"{scheme}://perladieta.blogspot.{tld}",
+                                 original_url, flags=re.I)
+                    url_map[key.rstrip("/")] = pages_url
+
+            # chiave path-only (fallback)
+            path_only = re.sub(r"^https?://perladieta\.blogspot\.[a-z.]+", "", original_url, flags=re.I)
+            url_map[path_only.rstrip("/")] = pages_url
+
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    with open(URL_MAP_PATH, "w", encoding="utf-8") as f:
+        json.dump(url_map, f, ensure_ascii=False, indent=2)
+    print(f"[MAP] url_map entries: {len(url_map)}")
+    return url_map
+
+def load_url_map():
+    try:
+        with open(URL_MAP_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+def fix_internal_links(html, url_map=None):
+    """
+    Riscrive i link interni a blogspot usando url_map.
+    """
+    if url_map is None:
+        url_map = load_url_map()
+
+    # URL completi a blogspot.*
+    full_pat = re.compile(r'https?://perladieta\.blogspot\.[a-z.]+/[^\s"\'<>]+', re.I)
+    # solo path /YYYY/MM/slug.html
+    path_pat = re.compile(r'/\d{4}/\d{2}/[a-z0-9\-]+\.html', re.I)
+
+    rewrites = 0
+
+    def repl_full(m):
+        nonlocal rewrites
+        u = m.group(0).rstrip("/")
+        if u in url_map:
+            rewrites += 1
+            return url_map[u]
+        path = re.sub(r"^https?://perladieta\.blogspot\.[a-z.]+", "", u, flags=re.I).rstrip("/")
+        if path in url_map:
+            rewrites += 1
+            return url_map[path]
+        return u
+
+    def repl_path(m):
+        nonlocal rewrites
+        p = m.group(0).rstrip("/")
+        if p in url_map:
+            rewrites += 1
+            return url_map[p]
+        return p
+
+    html = full_pat.sub(repl_full, html)
+    html = path_pat.sub(repl_path, html)
+
+    if rewrites:
+        print(f"[LINK] rewrites={rewrites}")
+    return html
 
 def sanitize_html_to_md(html: str) -> str:
     # Converti HTML a Markdown con cleanup base
@@ -114,7 +215,7 @@ def _asset_filename(url: str) -> str:
     h = hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
     return f"{h}{_guess_ext(url)}"
 
-def localize_images_and_links(html: str, media_map: dict) -> Tuple[str, bool, int]:
+def localize_images_and_links(html: str, media_map: dict, url_map: dict) -> Tuple[str, bool, int]:
     soup = BeautifulSoup(html, "html.parser")
     changed = False
 
@@ -337,7 +438,7 @@ def fetch_all_entries(base_url: str, max_results: int = FEED_MAX_RESULTS):
 # ----------------------------
 # Core: scrittura post
 # ----------------------------
-def write_post(entry, media_map: dict) -> Tuple[bool, bool]:
+def write_post(entry, media_map: dict, url_map: dict) -> Tuple[bool, bool]:
     """
     Converte una singola entry in Markdown con front matter e media localizzati.
     Ritorna (changed_file, changed_media_map)
@@ -362,48 +463,37 @@ def write_post(entry, media_map: dict) -> Tuple[bool, bool]:
 
     # --- contenuto (robusto per Atom/RSS) ---
     def get_entry_html(e):
-        # 1) Atom: <content> … (feedparser → e["content"][0]["value"])
         v = (e.get("content") or [{}])[0].get("value")
-        if v:
-            return v
-        # 2) RSS: content:encoded (spesso mappato in summary_detail.value)
+        if v: return v
         v = (e.get("summary_detail") or {}).get("value")
-        if v:
-            return v
-        # 3) RSS: description
+        if v: return v
         v = e.get("description")
-        if v:
-            return v
-        # 4) RSS: summary
+        if v: return v
         v = e.get("summary")
-        if v:
-            return v
-        # 5) RSS/Atom: media:content (immagini) → costruisci HTML sintetico
+        if v: return v
         media = e.get("media_content") or []
         if media:
-            imgs = [
-                m.get("url")
-                for m in media
-                if m.get("url") and (m.get("medium") == "image" or m.get("type", "").startswith("image/"))
-            ]
+            imgs = [m.get("url") for m in media
+                    if m.get("url") and (m.get("medium") == "image" or m.get("type","").startswith("image/"))]
             if imgs:
                 return "".join(f'<p><img src="{u}"/></p>' for u in imgs)
         return ""
 
     content_html = get_entry_html(entry)
 
-    # localizza immagini e link
-    content_html_local, changed_media, img_count_html = localize_images_and_links(content_html, media_map)
-    content_html_local = fix_internal_links(content_html_local)
+    # 1) localizza immagini
+    content_html_local, changed_media, img_count_html = localize_images_and_links(content_html, media_map, url_map)
+
+    # 2) riscrivi i link interni blogspot -> pages (PRIMA della conversione a MD)
+    content_html_local = fix_internal_links(content_html_local, url_map=url_map)
+
+    # 3) converti in Markdown
     body_md = sanitize_html_to_md(content_html_local).strip()
 
-    # --- FRONT MATTER (formato identico al tuo) ---
+    # --- FRONT MATTER ---
     safe_title = (title or "").replace('"', "'")
     date_str = date.strftime("%Y-%m-%d")
-    if tags:
-        tags_yaml = "\n".join([f"  - {t}" for t in tags])
-    else:
-        tags_yaml = "  - perladieta"
+    tags_yaml = "\n".join([f"  - {t}" for t in tags]) if tags else "  - perladieta"
 
     front_matter = (
         "---\n"
@@ -427,21 +517,70 @@ def write_post(entry, media_map: dict) -> Tuple[bool, bool]:
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(new_text)
 
-    # Log per post
     size_bytes = len(body_md.encode("utf-8"))
-    print(
-        f"[POST] {original_url}  ->  {out_path}  | body={size_bytes}B  "
-        f"imgs_html={img_count_html}  saved={'YES' if changed_file else 'NO'}"
-    )
+    print(f"[POST] {original_url}  ->  {out_path}  | body={size_bytes}B  imgs_html={img_count_html}  saved={'YES' if changed_file else 'NO'}")
 
     return changed_file, changed_media
 
-import re
+def build_url_map(posts_dir=OUT_DIR, base_prefix="/perladieta"):
+    """
+    Scansiona _posts/YYYY/YYYY-MM-DD-slug.md, legge original_url e
+    costruisce la URL Pages: /perladieta/YYYY/MM/DD/slug.html
+    Scrive data/url_map.json.
+    """
+    url_map = {}
+    for root, _, files in os.walk(posts_dir):
+        for fn in files:
+            if not fn.endswith(".md"):
+                continue
+            m = re.match(r"(\d{4})-(\d{2})-(\d{2})-(.+)\.md$", fn)
+            if not m:
+                continue
+            yyyy, mm, dd, slug = m.groups()
+            md_path = os.path.join(root, fn)
 
-def fix_internal_links(html):
-    # trova link tipo perladieta.blogspot...
-    pattern = re.compile(r'https?://perladieta\.blogspot\.[a-z]+/(\d{4})/(\d{2})/(\d{2})/([^"]+)\.html')
-    return pattern.sub(r'{{ "/\1/\2/\3/\4.html" | relative_url }}', html)
+            # leggi front matter e prendi original_url
+            original_url = None
+            with open(md_path, "r", encoding="utf-8") as f:
+                lines = f.read().splitlines()
+            if len(lines) >= 3 and lines[0].strip() == "---":
+                for line in lines[1:]:
+                    if line.strip() == "---":
+                        break
+                    mo = re.match(r'original_url:\s*"?([^"]+)"?\s*$', line.strip())
+                    if mo:
+                        original_url = mo.group(1).strip()
+                        break
+            if not original_url:
+                continue
+
+            pages_url = f"{base_prefix}/{yyyy}/{mm}/{dd}/{slug}.html"
+
+            # normalizza vari TLD di blogspot e http/https
+            tlds = ["com", "it", "co.uk", "de", "fr", "es", "pt", "nl", "ro", "gr"]
+            for tld in tlds:
+                for scheme in ("http", "https"):
+                    key = re.sub(r"https?://perladieta\.blogspot\.[a-z.]+",
+                                 f"{scheme}://perladieta.blogspot.{tld}",
+                                 original_url, flags=re.I)
+                    url_map[key.rstrip("/")] = pages_url
+
+            # chiave path-only (fallback)
+            path_only = re.sub(r"^https?://perladieta\.blogspot\.[a-z.]+", "", original_url, flags=re.I)
+            url_map[path_only.rstrip("/")] = pages_url
+
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    with open(URL_MAP_PATH, "w", encoding="utf-8") as f:
+        json.dump(url_map, f, ensure_ascii=False, indent=2)
+    print(f"[MAP] url_map entries: {len(url_map)}")
+    return url_map
+
+def load_url_map():
+    try:
+        with open(URL_MAP_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
 
 # ----------------------------
 # Main
@@ -449,6 +588,7 @@ def fix_internal_links(html):
 def main():
     ensure_dirs()
     media_map = load_media_map()
+    url_map = build_url_map(OUT_DIR, base_prefix="/perladieta")
 
     entries = fetch_all_entries(FEED_URL, max_results=FEED_MAX_RESULTS)
 
@@ -456,7 +596,7 @@ def main():
     changed_media_any = False
 
     for entry in entries:
-        chg, chg_media = write_post(entry, media_map)
+        chg, chg_media = write_post(entry, media_map, url_map)
         changed_any |= chg
         changed_media_any |= chg_media
 

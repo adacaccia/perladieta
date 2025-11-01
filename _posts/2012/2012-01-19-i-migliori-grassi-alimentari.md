@@ -13,7 +13,7 @@ tags:
 
 Ecco una trattazione seria delle qualità nutrizionali dei grassi alimentari più usati, così come di alcuni possibili alternative, per mostrare in modo scientificamente fondato cosa sia meglio mangiare per la nostra salute.
 
-Le immagini di questo post, ed i relativi calcoli, sono state ottenute grazie al sito [Cron-O-Meter](http://cronometer.com/), di cui ho parlato [in un recente post](http://perladieta.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html). La documentazione scientifica WHO-FAO da cu sono tratte le informazioni seguenti è reperibile sul sito della FAO:  
+Le immagini di questo post, ed i relativi calcoli, sono state ottenute grazie al sito [Cron-O-Meter](http://cronometer.com/), di cui ho parlato [in un recente post](/perladieta/2012/01/19/cron-o-meter-power-your-diet-with-science.html). La documentazione scientifica WHO-FAO da cu sono tratte le informazioni seguenti è reperibile sul sito della FAO:  
 
 * [FAO report of an expert consultation on fats and fatty acids in human nutrition, 2010](http://www.who.int/nutrition/publications/nutrientrequirements/fatsandfattyacids_humannutrition/en/index.html)
 * [WHO Scientific Update on trans fatty acids (TFA) (2009)](http://www.who.int/nutrition/publications/nutrientrequirements/scientific_update_TFA/en/index.html)
@@ -83,7 +83,7 @@ Infine, il burro contiene pure del colesterolo!
 
   
 
-Il burro contiene un po' di vitamine, tra cui la B12 e la D che non sono ottenibili da alcuna fonte vegetale; la [vitamina D](http://perladieta.blogspot.it/2012/06/la-verita-sulla-vitamina-d.html) contenuta, però, è veramente poca e comunque sintetizzabile dalla nostra pelle grazie al Sole.
+Il burro contiene un po' di vitamine, tra cui la B12 e la D che non sono ottenibili da alcuna fonte vegetale; la [vitamina D](/perladieta/2012/06/14/la-verita-sulla-vitamina-d.html) contenuta, però, è veramente poca e comunque sintetizzabile dalla nostra pelle grazie al Sole.
 
 Il burro non contiene carboidrati, né proteine, né sali minerali.
 
