@@ -157,38 +157,35 @@ def load_url_map():
         return {}
 
 def fix_internal_links(html, url_map=None):
-    """
-    Riscrive i link interni a blogspot usando url_map.
-    """
     if url_map is None:
         url_map = load_url_map()
 
-    # URL completi a blogspot.*
     full_pat = re.compile(r'https?://perladieta\.blogspot\.[a-z.]+/[^\s"\'<>]+', re.I)
-    # solo path /YYYY/MM/slug.html
-    path_pat = re.compile(r'/\d{4}/\d{2}/[a-z0-9\-]+\.html', re.I)
+    path_pat = re.compile(r'/\d{4}/\d{2}/[a-z0-9\-]+\.html(?:[?#][^\s"\'<>]*)?', re.I)
 
     rewrites = 0
 
+    def to_path(u: str) -> str:
+        # rimuovi scheme+dominio, query, fragment e slash finale
+        u = re.sub(r"^https?://perladieta\.blogspot\.[^/]+", "", u, flags=re.I)
+        u = u.split("#", 1)[0].split("?", 1)[0]
+        return u.rstrip("/")
+
     def repl_full(m):
         nonlocal rewrites
-        u = m.group(0).rstrip("/")
-        if u in url_map:
-            rewrites += 1
-            return url_map[u]
-        path = re.sub(r"^https?://perladieta\.blogspot\.[a-z.]+", "", u, flags=re.I).rstrip("/")
-        if path in url_map:
-            rewrites += 1
-            return url_map[path]
-        return u
-
-    def repl_path(m):
-        nonlocal rewrites
-        p = m.group(0).rstrip("/")
+        p = to_path(m.group(0))
         if p in url_map:
             rewrites += 1
             return url_map[p]
-        return p
+        return m.group(0)
+
+    def repl_path(m):
+        nonlocal rewrites
+        p = to_path(m.group(0))
+        if p in url_map:
+            rewrites += 1
+            return url_map[p]
+        return m.group(0)
 
     html = full_pat.sub(repl_full, html)
     html = path_pat.sub(repl_path, html)

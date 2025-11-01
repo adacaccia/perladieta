@@ -14,6 +14,14 @@ def load_media_map():
     except Exception:
         return {}
 
+URL_MAP_PATH = "data/url_map.json"
+def load_url_map():
+    try:
+        with open(URL_MAP_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
 SESSION = requests.Session()
 SESSION.headers["User-Agent"] = "perladieta-qa/1.0"
 
@@ -83,15 +91,28 @@ def fetch(url):
     return r.text
 
 def guess_pages_url_from_blogger(blog_url, base="https://adacaccia.github.io/perladieta"):
-    # blogger: .../YYYY/MM/slug.html
+    """
+    1) Prova la url_map (deterministica).
+    2) Se manca, fallback euristico provando tutti i giorni 01..31 (compat retro).
+    """
+    url_map = load_url_map()
+
+    # normalizza a path-only: /YYYY/MM/slug.html
+    path_only = re.sub(r"^https?://perladieta\.blogspot\.[^/]+", "", blog_url, flags=re.I).rstrip("/")
+    # prova prima path-only
+    if path_only in url_map:
+        return "https://adacaccia.github.io" + url_map[path_only]
+
+    # prova chiavi complete (tld/scheme vari)
+    if blog_url.rstrip("/") in url_map:
+        return "https://adacaccia.github.io" + url_map[blog_url.rstrip("/")]
+
+    # Fallback storico: tenta 01..31
     m = re.search(r'/(\d{4})/(\d{2})/([a-z0-9\-]+)\.html$', blog_url)
     if not m:
         return None
     y, mm, slug = m.groups()
-    # su Pages: .../YYYY/MM/DD/slug.html  (il giorno non è nell'URL blogger; proviamo 01..31)
-    # Nota: i tuoi file sono YYYY-MM-DD, quindi possiamo leggere il giorno dai md (ma qui
-    # facciamo tentativi rapidi). Se preferisci, passalo da CLI.
-    for dd in [f"{d:02d}" for d in range(1,32)]:
+    for dd in [f"{d:02d}" for d in range(1, 32)]:
         test = f"{base}/{y}/{mm}/{dd}/{slug}.html"
         try:
             r = SESSION.head(test, timeout=10, allow_redirects=True)
@@ -112,9 +133,11 @@ def run_check(blog_url, pages_url=None, csv_out=None):
     if not pages_url:
         pages_url = guess_pages_url_from_blogger(blog_url)
     if not pages_url:
-        print(f"[ERR] Non riesco a dedurre la URL Pages per {blog_url} (passala esplicitamente).")
+        print(f"[ERR] Non trovo la URL Pages per {blog_url}. "
+             f"Assicurati che {URL_MAP_PATH} esista (lanciando blogger2md.py) "
+             "oppure passa l’URL Pages esplicitamente.")
         sys.exit(1)
-
+        
     print(f"[CHK] Blogger: {blog_url}")
     print(f"[CHK]   Pages: {pages_url}")
 
