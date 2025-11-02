@@ -2,7 +2,7 @@
 layout: post
 title: "Cottura dei vegetali e nutrizione ottimale"
 date: 2012-10-15
-original_url: "/perladieta/2012/10/15/cottura-dei-vegetali-e-nutrizione-ottimale.html"
+original_url: "https://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html"
 tags:
   - alimentazione
   - antiossidanti
@@ -16,7 +16,7 @@ tags:
   - vitamine
 ---
 
-[![](/perladieta/assets/d466e14e6fff5810.png)](/perladieta/2012/10/15/cottura-dei-vegetali-e-nutrizione-ottimale.html)
+[![](/perladieta/assets/d466e14e6fff5810.png)](http://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html)
 
 Ci sono oggi sempre più seguaci del Crudismo (o *Raw Foodists* in inglese) che ritengono che la cottura dei vegetali ne distrugga, almeno in parte, la dotazione di sostanze nutrienti, soprattutto enzimi ed antiossidanti.
 
@@ -104,9 +104,9 @@ Più nello specifico:
 * **piselli**, **spinaci**, **cavolfiori** e **cavoli** subiscono grosse perdite nelle cotture ad acqua (bollitura ed a pressione);
 * le altre verdure, in generale, perdono sempre qualcosa con la cottura, in generale le perdite sono ridotte usando la cottura a microonde.
 
-Per comprendere l'importanza pratica di questi dati in termini assoluti, occorre conoscere [il potere antiossidante di tutti gli alimenti](/perladieta/2012/10/31/il-potere-antiossidante-degli-alimenti.html), in modo da poter scegliere quali consumare, ma anche valutare nel giusto contesto quanto si perde o si guadagna cuocendoli nei diversi modi.  
+Per comprendere l'importanza pratica di questi dati in termini assoluti, occorre conoscere [il potere antiossidante di tutti gli alimenti](http://perladieta.blogspot.com/2012/10/il-potere-antiossidante-degli-alimenti.html), in modo da poter scegliere quali consumare, ma anche valutare nel giusto contesto quanto si perde o si guadagna cuocendoli nei diversi modi.  
 La domanda è: devo proprio preoccuparmi se una certa verdura ha il maggior potere antiossidante cotta in un certo modo, ma io voglio consumarla cotta in un altro modo o cruda?  
-La risposta: il potere antiossidante delle verdure è generalmente inferiore a quello della frutta, ma soprattutto a quello di spezie ed erbe; perciò basta semplicemente condire opportunamente, con una spezia dal potere antiossidante molto superiore, per "compensare" le perdite subite dalla nostra verdura con un metodo di cottura non "ottimale"; cioè: una volta tanto, possiamo lasciarci  guidare dal gusto nelle scelte culinarie! (Tutti i dettagli nel già ricordato [post sul potere antiossidante degli alimenti](/perladieta/2012/10/31/il-potere-antiossidante-degli-alimenti.html))  
+La risposta: il potere antiossidante delle verdure è generalmente inferiore a quello della frutta, ma soprattutto a quello di spezie ed erbe; perciò basta semplicemente condire opportunamente, con una spezia dal potere antiossidante molto superiore, per "compensare" le perdite subite dalla nostra verdura con un metodo di cottura non "ottimale"; cioè: una volta tanto, possiamo lasciarci  guidare dal gusto nelle scelte culinarie! (Tutti i dettagli nel già ricordato [post sul potere antiossidante degli alimenti](http://perladieta.blogspot.com/2012/10/il-potere-antiossidante-degli-alimenti.html))  
   
 
 ### I glucosinolati: biodisponibilità del sulforafano e cottura dei Broccoli

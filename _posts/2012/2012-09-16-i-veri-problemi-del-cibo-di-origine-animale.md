@@ -2,7 +2,7 @@
 layout: post
 title: "I veri problemi del cibo di origine animale"
 date: 2012-09-16
-original_url: "/perladieta/2012/09/16/i-veri-problemi-del-cibo-di-origine-animale.html"
+original_url: "https://perladieta.blogspot.com/2012/09/il-vero-problema-del-cibo-di-origine.html"
 tags:
   - alimentazione
   - allevamento
@@ -16,7 +16,7 @@ tags:
   - tossine
 ---
 
-[![](/perladieta/assets/94d44574e34e5a35.png)](/perladieta/2012/09/16/i-veri-problemi-del-cibo-di-origine-animale.html)  
+[![](/perladieta/assets/94d44574e34e5a35.png)](http://perladieta.blogspot.it/2012/09/il-vero-problema-del-cibo-di-origine.html)  
 
 ### Introduzione
 
@@ -28,7 +28,7 @@ Ma arriva il momento in cui, finalmente, la ricerca fa quel passo avanti in più
 
 ### Il Dr. Michael Greger
 
-Questo post è basato su una serie di video appartenenti alla raccolta "*Latest in Clinical Nutrition*" ("Novità nella Nutrizione Clinica") in cui il [Dr. Michael Greger](http://www.veganmd.org/) riassume e divulga tutte le ultime novità apparse in articoli scientifici pubblicati su riviste mediche serie; il Dr. Greger dona in beneficenza tutti i proventi della vendita dei suoi DVD, e ogni giorno pubblica gratuitamente un nuovo video estratto dall'ultimo DVD sul sito [NutritionFacts.org](http://nutritionfacts.org/season/volume-9/). Il Dr. Greger è estremamente preparato, serio e professionale nel suo lavoro, ma anche molto simpatico e divertente da seguire nel suo modo di porgere contenuti che altrimenti rischierebbero di essere noiosi, quindi ho deciso di aiutarlo io stesso traducendo in [italiano i sottotitoli](/perladieta/2013/01/08/collaborazione-con-il-dr-greger-per-nutritionfacts-org.html) dei suoi video!  
+Questo post è basato su una serie di video appartenenti alla raccolta "*Latest in Clinical Nutrition*" ("Novità nella Nutrizione Clinica") in cui il [Dr. Michael Greger](http://www.veganmd.org/) riassume e divulga tutte le ultime novità apparse in articoli scientifici pubblicati su riviste mediche serie; il Dr. Greger dona in beneficenza tutti i proventi della vendita dei suoi DVD, e ogni giorno pubblica gratuitamente un nuovo video estratto dall'ultimo DVD sul sito [NutritionFacts.org](http://nutritionfacts.org/season/volume-9/). Il Dr. Greger è estremamente preparato, serio e professionale nel suo lavoro, ma anche molto simpatico e divertente da seguire nel suo modo di porgere contenuti che altrimenti rischierebbero di essere noiosi, quindi ho deciso di aiutarlo io stesso traducendo in [italiano i sottotitoli](http://perladieta.blogspot.com/2013/01/collaborazione-con-il-dr-greger-per.html) dei suoi video!  
   
 
 ### La teoria dell'intestino permeabile: perché i prodotti di origine animale causano infiammazione
@@ -104,9 +104,9 @@ Una volta smontato il concetto di "proteine nobili”, intendendo con tale termi
 
 Ma la risposta scientifica è ancora più disarmante: per ragioni forse non ancora del tutto comprese a fondo, il nostro fegato rilascia grandi quantità di fattore di crescita insulino-simile 1, o IGF-1, in risposta al consumo di proteine di “alta qualità” [[Allen NE et al., 2002](http://cebp.aacrjournals.org/content/11/11/1441.full.pdf+html)].
 
-Su questo blog ho anche presentato un articolo in cui si nota un'estremamente variabile [risposta insulinica](/perladieta/2012/09/07/l-indice-insulinico-degli-alimenti.html), dunque a carico del pancreas, in seguito al consumo di proteine animali senza carboidrati.
+Su questo blog ho anche presentato un articolo in cui si nota un'estremamente variabile [risposta insulinica](http://perladieta.blogspot.com/2012/09/lindice-insulinico-degli-alimenti.html), dunque a carico del pancreas, in seguito al consumo di proteine animali senza carboidrati.
 
-I due risultati paralleli indicano un non necessario stress posto su questi due delicatissimi nostri organi interni in seguito al consumo di alimenti di origine animale; si può approfondire su [insulina](/perladieta/2012/01/26/l-indice-glicemico-degli-alimenti.html) e [IGF-1](/perladieta/2012/05/09/la-verita-su-latte-ed-acne.html).
+I due risultati paralleli indicano un non necessario stress posto su questi due delicatissimi nostri organi interni in seguito al consumo di alimenti di origine animale; si può approfondire su [insulina](http://perladieta.blogspot.com/2012/01/lindice-glicemico-dei-carboidrati.html) e [IGF-1](http://perladieta.blogspot.com/2012/04/la-verita-sul-consumo-di-latte.html).
 
 ### Contromisure da parte dell'industria della carne
 
@@ -159,5 +159,5 @@ Non serve dunque aggiungere altro, quindi non andiamo nemmeno a parlare degli in
 * ormoni somministrati per mantenere lo stato di gravidanza continuo e per aumentare ulteriormente la produzione di latte nelle mucche.
 
   
-Gli inquinanti ambientali sono certamente presenti, in generale, nei prodotti animali più che in quelli vegetali, e sono sicuramente molto pericolosi per la salute dato che tendono ad accumularsi anche nel corpo umano, con effetti negativi dimostrati scientificamente; ma essi possono più o meno facilmente essere evitati ricorrendo all'allevamento biologico degli animali, che prevede sia che siano alimentati con prodotti da agricoltura biologica, e sia che siano lasciati il più possibile liberi all'aria aperta (sempre ammesso che questo tipo di [allevamento sia sostenibile](/perladieta/2012/01/24/alimentazione-e-rispetto-per-l-ambiente.html)).  
+Gli inquinanti ambientali sono certamente presenti, in generale, nei prodotti animali più che in quelli vegetali, e sono sicuramente molto pericolosi per la salute dato che tendono ad accumularsi anche nel corpo umano, con effetti negativi dimostrati scientificamente; ma essi possono più o meno facilmente essere evitati ricorrendo all'allevamento biologico degli animali, che prevede sia che siano alimentati con prodotti da agricoltura biologica, e sia che siano lasciati il più possibile liberi all'aria aperta (sempre ammesso che questo tipo di [allevamento sia sostenibile](http://perladieta.blogspot.com/2012/01/alimentazione-ed-ecologia.html)).  
 Gli inquinanti ambientali, insomma, non costituiscono un argomento forte nella dialettica con gli “onnivori”, per cui si tralascia qui la loro disamina.

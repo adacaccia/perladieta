@@ -2,7 +2,7 @@
 layout: post
 title: "La frutta secca"
 date: 2012-05-09
-original_url: "/perladieta/2012/05/09/la-frutta-secca.html"
+original_url: "https://perladieta.blogspot.com/2012/05/la-frutta-secca.html"
 tags:
   - carboidrati
   - frutta secca
@@ -12,12 +12,12 @@ tags:
   - vitamine
 ---
 
-[![](/perladieta/assets/4966f6d3d9f26645.png)](/perladieta/2012/05/09/la-frutta-secca.html)
+[![](/perladieta/assets/4966f6d3d9f26645.png)](http://perladieta.blogspot.it/2012/05/la-frutta-secca.html)
 
 In questo post metto a confronto i diversi tipi di frutta secca comunemente reperibili in commercio, per dimostrare come ce ne siano alcuni migliori, nutrizionalmente parlando, di altri.  
 I dati sono relativi a porzioni da circa 240 kcal di frutta secca sgusciata e/o sbucciata e non tostata né salata, tranne dove esplicitamente indicato.
 
-Le immagini ed i calcoli di questo post sono state ottenuti grazie al sito Cron-O-Meter, di cui ho parlato in [un precedente post](/perladieta/2012/01/19/cron-o-meter-power-your-diet-with-science.html). La documentazione scientifica WHO-FAO da cui sono tratte le informazioni seguenti è reperibile sul sito della FAO:  
+Le immagini ed i calcoli di questo post sono state ottenuti grazie al sito Cron-O-Meter, di cui ho parlato in [un precedente post](http://perladieta.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html). La documentazione scientifica WHO-FAO da cui sono tratte le informazioni seguenti è reperibile sul sito della FAO:  
 
 * [FAO report of an expert consultation on fats and fatty acids in human nutrition, 2010](http://www.who.int/nutrition/publications/nutrientrequirements/fatsandfattyacids_humannutrition/en/index.html)
 * [Joint FAO/WHO Scientific update on carbohydrates in human nutrition (2007)](http://www.who.int/nutrition/publications/nutrientrequirements/scientific_update_carbohydrates/en/index.html)
@@ -71,7 +71,7 @@ I pinoli contengono buone dosi di vitamina K e vitamina E, e tracce delle vitami
 Rilevante il contenuto di manganese, forte la presenza di rame, i pinoli apportano anche magnesio, fosforo, zinco e, in misura minore, ferro.  
   
 Vantaggi: sono una buona fonte di vitamina K e di vitamina E; apportano anche zinco e ferro.  
-Svantaggi: i grassi polinsaturi essenziali presenti sono sbilanciati verso gli Omega-6, e sono leggermente acidificanti ([post sull'indice PRAL degli alimenti](/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html)).  
+Svantaggi: i grassi polinsaturi essenziali presenti sono sbilanciati verso gli Omega-6, e sono leggermente acidificanti ([post sull'indice PRAL degli alimenti](http://perladieta.blogspot.it/2013/03/il-ph-dellorganismo-acidosi-ed.html)).  
   
   
 
@@ -86,7 +86,7 @@ Notevole l'apporto proteico (quasi il 15%), sono presenti tutti gli aminoacidi e
 Le nocciole sono una buona fonte di vitamina E, e forniscono anche vitamine B1 e B6, con tracce delle altre vitamine del gruppo B.  
 Rilevante il contenuto di manganese, notevole la presenza di rame, le nocciole apportano anche magnesio, fosforo e, in misura minore, ferro e zinco.  
   
-Vantaggi: rilevante vitamina E, ferro, e inoltre sono l'unica frutta secca alcalinizzante ([post sull'indice PRAL degli alimenti](/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html)).  
+Vantaggi: rilevante vitamina E, ferro, e inoltre sono l'unica frutta secca alcalinizzante ([post sull'indice PRAL degli alimenti](http://perladieta.blogspot.it/2013/03/il-ph-dellorganismo-acidosi-ed.html)).  
 Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati verso gli Omega-6.  
   
   
@@ -103,7 +103,7 @@ Le noci brasiliane sono fonte di vitamina E e  B1, con tracce delle altre vitam
 Notevolissimo il contenuto di selenio (la porzione in esame ne contiene addirittura oltre 20 volte il fabbisogno!) e rilevante la presenza di rame, ma le noci brasiliane apportano anche magnesio, fosforo e, in misura minore, manganese, zinco, calcio, ferro e potassio.  
   
 Vantaggi: vitamina E, zinco.  
-Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati verso gli Omega-6; inoltre il rame può inibire l'assorbimento dello zinco, e sono leggermente acidificanti ([post sull'indice PRAL degli alimenti](/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html)).  
+Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati verso gli Omega-6; inoltre il rame può inibire l'assorbimento dello zinco, e sono leggermente acidificanti ([post sull'indice PRAL degli alimenti](http://perladieta.blogspot.it/2013/03/il-ph-dellorganismo-acidosi-ed.html)).  
   
   
 
@@ -119,7 +119,7 @@ Le arachidi tostate sono fonte di vitamina B3 ed E, e apportano vitamina B1 ed 
 Buono il contenuto di manganese e rame, le arachidi tostate apportano anche magnesio, fosforo e, in misura minore, zinco, selenio, ferro e potassio.  
   
 Vantaggi: vitamina E, proteine, zinco.  
-Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati verso gli Omega-6, e sono leggermente acidificanti ([post sull'indice PRAL degli alimenti](/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html)).  
+Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati verso gli Omega-6, e sono leggermente acidificanti ([post sull'indice PRAL degli alimenti](http://perladieta.blogspot.it/2013/03/il-ph-dellorganismo-acidosi-ed.html)).  
   
   
 
@@ -135,7 +135,7 @@ Le mandorle sono generosa fonte di vitamina E, ma apportano anche vitamina B2 
 Buono il contenuto di rame, manganese, magnesio e fosforo, le mandorle apportano anche calcio, zinco, ferro e, in misura minore, potassio e selenio.  
   
 Vantaggi: abbondante vitamina E, calcio, zinco e ferro.  
-Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati verso gli Omega-6; sono leggermente acidificanti ([post sull'indice PRAL degli alimenti](/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html)).  
+Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati verso gli Omega-6; sono leggermente acidificanti ([post sull'indice PRAL degli alimenti](http://perladieta.blogspot.it/2013/03/il-ph-dellorganismo-acidosi-ed.html)).  
   
   
 
@@ -167,12 +167,12 @@ Gli anacardi sono una fonte di vitamina K, e apportano anche vitamina B1 e vi
 Completo l'apporto di rame, ma gli anacardi apportano anche magnesio, fosforo, manganese, selenio, zinco e ferro, con tracce di potassio e calcio.  
   
 Vantaggi: vitamina K, selenio, zinco, ferro.  
-Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati verso gli Omega-6; il tanto rame presente può inibire l'assorbimento dello zinco, e sono leggermente acidificanti ([post sull'indice PRAL degli alimenti](/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html)).  
+Svantaggi: pochi grassi polinsaturi essenziali presenti, e pure sbilanciati verso gli Omega-6; il tanto rame presente può inibire l'assorbimento dello zinco, e sono leggermente acidificanti ([post sull'indice PRAL degli alimenti](http://perladieta.blogspot.it/2013/03/il-ph-dellorganismo-acidosi-ed.html)).  
   
   
 
 **Conclusioni**
 ---------------
 
-Riassumendo: tutta la frutta secca, ad eccezione delle castagne, è molto ricca di grassi e, ad eccezione delle nocciole, è leggermente acidificante (vedi [post sull'indice PRAL degli alimenti](/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html)). I vantaggi nutrizionali devono quindi essere attentamente valutati, e allora diventa importante determinare, ad esempio, la tipologia dei grassi presenti. Questo ci porta a considerare le noci al di sopra di tutti gli altri tipi di frutta secca, per la loro generosa dotazione di acidi grassi polinsaturi essenziali, oltretutto ben bilanciati tra Omega-6 ed Omega-3.  
-Per il resto, le vitamine del gruppo B sono molto comuni tra i vegetali, e la vitamina K è molto presente in tutti i vegetali a foglia verde. Le mandorle possono dunque essere consigliate per integrare la vitamina E solo quando [non sono disponibili pesche e kiwi](/perladieta/2012/05/10/le-stagioni-di-frutta-e-verdura.html), che la forniscono "a buon mercato" rispetto all'apporto calorico e sono pure beneficamente alcalinizzanti per l'organismo ([post sull'indice PRAL degli alimenti](/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html)).
+Riassumendo: tutta la frutta secca, ad eccezione delle castagne, è molto ricca di grassi e, ad eccezione delle nocciole, è leggermente acidificante (vedi [post sull'indice PRAL degli alimenti](http://perladieta.blogspot.it/2013/03/il-ph-dellorganismo-acidosi-ed.html)). I vantaggi nutrizionali devono quindi essere attentamente valutati, e allora diventa importante determinare, ad esempio, la tipologia dei grassi presenti. Questo ci porta a considerare le noci al di sopra di tutti gli altri tipi di frutta secca, per la loro generosa dotazione di acidi grassi polinsaturi essenziali, oltretutto ben bilanciati tra Omega-6 ed Omega-3.  
+Per il resto, le vitamine del gruppo B sono molto comuni tra i vegetali, e la vitamina K è molto presente in tutti i vegetali a foglia verde. Le mandorle possono dunque essere consigliate per integrare la vitamina E solo quando [non sono disponibili pesche e kiwi](http://perladieta.blogspot.com/2012/05/le-stagioni-di-frutta-e-verdura-crudo.html), che la forniscono "a buon mercato" rispetto all'apporto calorico e sono pure beneficamente alcalinizzanti per l'organismo ([post sull'indice PRAL degli alimenti](http://perladieta.blogspot.it/2013/03/il-ph-dellorganismo-acidosi-ed.html)).

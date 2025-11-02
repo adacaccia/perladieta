@@ -2,7 +2,7 @@
 layout: post
 title: "L'indice glicemico degli alimenti"
 date: 2012-01-26
-original_url: "/perladieta/2012/01/26/l-indice-glicemico-degli-alimenti.html"
+original_url: "https://perladieta.blogspot.com/2012/01/lindice-glicemico-dei-carboidrati.html"
 tags:
   - carboidrati
   - cereali integrali
@@ -14,9 +14,9 @@ tags:
 
 ### Introduzione: i carboidrati
 
-Ho già esposto in [un altro post](/perladieta/2012/01/22/dieta-e-prevenzione-delle-malattie-croniche.html) i fattori di rischio per la salute che derivano dall'alimentazione e sui quali c'è largo consenso scientifico; riporto qui tutti quelli relativi ai carboidrati:
+Ho già esposto in [un altro post](http://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html) i fattori di rischio per la salute che derivano dall'alimentazione e sui quali c'è largo consenso scientifico; riporto qui tutti quelli relativi ai carboidrati:
 
-[![](/perladieta/assets/71a9bc93cb325c34.png)](/perladieta/2012/01/26/l-indice-glicemico-degli-alimenti.html)* elevata assunzione di fibra alimentare:
+[![](/perladieta/assets/71a9bc93cb325c34.png)](http://perladieta.blogspot.it/2012/01/lindice-glicemico-dei-carboidrati.html)* elevata assunzione di fibra alimentare:
 
 + C- per l'Obesità,
 + P- per il Diabete,
@@ -46,7 +46,7 @@ Le lettere esprimono il livello di certezza espresso dagli scienziati: **C** sig
 
 Se, in più, si considera che la fibra alimentare è abbondante soprattutto nei cereali integrali, nei legumi e nella verdura, mentre il potassio è abbondante soprattutto nella frutta, allora vediamo una completa coerenza tra i risultati esposti nei due precedenti post e relativi a due diversi rapporti scientifici FAO/OMS: per stare bene bisogna solo aumentare il consumo di frutta e verdura!
 
-In un [post sulle diete](/perladieta/2012/01/21/proteine-carboidrati-e-grassi-qual-e-il-giusto-rapporto-nel-fabbisogno-umano.html) ho invece parlato del *principio di selezione dei carboidrati* su cui pure c'è largo consenso scientifico, e che riassumo qui:
+In un [post sulle diete](http://perladieta.blogspot.com/2012/01/proteine-carboidrati-e-grassi-qual-e-il.html) ho invece parlato del *principio di selezione dei carboidrati* su cui pure c'è largo consenso scientifico, e che riassumo qui:
 
 > E' più importante scegliere il giusto tipo di carboidrati da assumere, piuttosto che imporre dei limiti all'assunzione, infatti: "*Whole-grains, legumes, vegetables and intact fruits are the**most appropriate sources of carbohydrate.*", cioè: cereali integrali, legumi, verdura e frutta intatta sono le fonti più appropriate di carboidrati!
 
@@ -57,7 +57,7 @@ Per capire cosa c'è alla base di questo stringente consenso scientifico, ed anc
 
 La *[glicemia](http://it.wikipedia.org/wiki/Glicemia)* è la misura della concentrazione di glucosio disciolto nel nostro sangue, e si esprime solitamente in milligrammi (di glucosio) per decilitro (di sangue), o mg/dl; il valore standard di riferimento per la glicemia a digiuno è di 70 mg/dl.
 
-Quando mangiamo un qualunque alimento che contenga carboidrati, il nostro organismo ne ottiene, dopo la digestione, una certa quota di glucosio, che passa poi nel sangue. Il nostro corpo usa il glucosio come fonte di energia per tutti i suoi processi vitali; per utilizzarlo, è però indispensabile che esso passi dal sangue ai tessuti; questo passaggio è normalmente favorito dall'*[insulina](http://it.wikipedia.org/wiki/Insulina)*, un ormone prodotto dalle [cellule beta](http://it.wikipedia.org/wiki/Cellule_beta) del [pancreas](http://it.wikipedia.org/wiki/Pancreas) in risposta ad un aumento della glicemia, ma non solo (vedi: [articolo sull'indice insulinico](/perladieta/2012/09/07/l-indice-insulinico-degli-alimenti.html)).  
+Quando mangiamo un qualunque alimento che contenga carboidrati, il nostro organismo ne ottiene, dopo la digestione, una certa quota di glucosio, che passa poi nel sangue. Il nostro corpo usa il glucosio come fonte di energia per tutti i suoi processi vitali; per utilizzarlo, è però indispensabile che esso passi dal sangue ai tessuti; questo passaggio è normalmente favorito dall'*[insulina](http://it.wikipedia.org/wiki/Insulina)*, un ormone prodotto dalle [cellule beta](http://it.wikipedia.org/wiki/Cellule_beta) del [pancreas](http://it.wikipedia.org/wiki/Pancreas) in risposta ad un aumento della glicemia, ma non solo (vedi: [articolo sull'indice insulinico](http://perladieta.blogspot.com/2012/09/lindice-insulinico-degli-alimenti.html)).  
 Questo meccanismo si incrina quando il pancreas è portato a secernere "troppa" insulina per "troppo" tempo; questa situazione porta i tessuti del nostro corpo a sviluppare una forma di resistenza all'insulina, detta proprio "insulino-resistenza", che è poi protagonista nell'[insorgenza del Diabete di tipo 2](http://it.wikipedia.org/wiki/Diabete_mellito#Patogenesi).  
 
 #### L'Indice Glicemico (IG)

@@ -2,7 +2,7 @@
 layout: post
 title: "News del terzo millennio per il diabete"
 date: 2015-05-27
-original_url: "/perladieta/2015/05/27/news-del-terzo-millennio-per-il-diabete.html"
+original_url: "https://perladieta.blogspot.com/2015/05/news-del-terzo-millennio-per-il-diabete.html"
 tags:
   - diabete
   - grassi saturi
@@ -20,7 +20,7 @@ tags:
 Introduzione
 ------------
 
-In seguito alla pubblicazione, da parte del [solito Dr. Greger](/perladieta/2013/01/08/collaborazione-con-il-dr-greger-per-nutritionfacts-org.html), del DVD numero 24 della sua splendida collezione delle *Novità sulla Nutrizione Clinica* ("[Latest in clinical Nutrition - Volume 24](http://www.drgreger.org/dvds/latest-in-clinical-nutrition-volume-24)"), sento la necessità di condividere alcune recentissime (e altre vecchissime) scoperte scientifiche su una malattia la cui prevalenza è in aumento anche nel nostro paese, e che "vanta" numerose conseguenze debilitanti per chi ne è affetto: il [diabete](http://www.epicentro.iss.it/problemi/diabete/diabete.asp).
+In seguito alla pubblicazione, da parte del [solito Dr. Greger](http://perladieta.blogspot.com/2013/01/collaborazione-con-il-dr-greger-per.html), del DVD numero 24 della sua splendida collezione delle *Novità sulla Nutrizione Clinica* ("[Latest in clinical Nutrition - Volume 24](http://www.drgreger.org/dvds/latest-in-clinical-nutrition-volume-24)"), sento la necessità di condividere alcune recentissime (e altre vecchissime) scoperte scientifiche su una malattia la cui prevalenza è in aumento anche nel nostro paese, e che "vanta" numerose conseguenze debilitanti per chi ne è affetto: il [diabete](http://www.epicentro.iss.it/problemi/diabete/diabete.asp).
 
   
 
@@ -80,7 +80,7 @@ Intanto, [il numero di adipociti è costante negli adulti](http://www.ncbi.nlm.n
 
 #### Ma che tipo di grassi? Saturi o insaturi?
 
-Il *palmitato*, grasso saturo tipico in carne, uova e latticini (oltre che nell'[olio di palma](/perladieta/2012/01/24/creme-spalmabili-alla-nocciola-ambiente-e-salute.html)!), [induce insulino-resistenza su cellule muscolari umane](http://www.ncbi.nlm.nih.gov/pubmed/18460913) *in vitro*, mentre l'*oleato*, grasso monoinsaturo vegetale, no!
+Il *palmitato*, grasso saturo tipico in carne, uova e latticini (oltre che nell'[olio di palma](http://perladieta.blogspot.com/2012/01/limpatto-ambientale-delle-creme-alla.html)!), [induce insulino-resistenza su cellule muscolari umane](http://www.ncbi.nlm.nih.gov/pubmed/18460913) *in vitro*, mentre l'*oleato*, grasso monoinsaturo vegetale, no!
 
 Addirittura, [i grassi saturi alterano l'espressione dei geni responsabili di fondamentali enzimi mitocondriali](http://www.ncbi.nlm.nih.gov/pubmed/22360800),  sopprimendo la loro sintesi e spiegando quindi al meccanismo visto in figura: i grassi saturi impediscono il normale funzionamento dei mitocondri, che sono le piccole "centrali energetiche" all'interno di ciascuna nostra cellula.
 

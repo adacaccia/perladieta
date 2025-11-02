@@ -2,7 +2,7 @@
 layout: post
 title: "Il fabbisogno calorico umano"
 date: 2012-05-23
-original_url: "/perladieta/2012/05/23/il-fabbisogno-calorico-umano.html"
+original_url: "https://perladieta.blogspot.com/2012/05/il-fabbisogno-calorico-umano.html"
 tags:
   - calorie
   - dieta
@@ -12,11 +12,11 @@ tags:
   - peso forma
 ---
 
-[![](/perladieta/assets/116d27fb240e7111.png)](/perladieta/2012/05/23/il-fabbisogno-calorico-umano.html)
+[![](/perladieta/assets/116d27fb240e7111.png)](http://perladieta.blogspot.com/2012/05/il-fabbisogno-calorico-umano.html)
 
 Nello stilare piani dietetici personalizzati, la base per tutti i calcoli è normalmente costituita dal fabbisogno calorico individuale della persona che si sottoporrà alla dieta.
 
-Traduco, semplifico e riassumo qui le tabelle che sono anche utilizzate in strumenti di calcolo automatici (come Cron-O-Meter, di cui ho parlato [in un precedente post](/perladieta/2012/01/19/cron-o-meter-power-your-diet-with-science.html)). I dati provengono dal seguente documento di OMS, FAO ed ONU: [Human energy requirements - Report of a Joint FAO-WHO-UNU Expert Consultation (2004)](http://www.fao.org/docrep/007/y5686e/y5686e00.htm).
+Traduco, semplifico e riassumo qui le tabelle che sono anche utilizzate in strumenti di calcolo automatici (come Cron-O-Meter, di cui ho parlato [in un precedente post](http://perladieta.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html)). I dati provengono dal seguente documento di OMS, FAO ed ONU: [Human energy requirements - Report of a Joint FAO-WHO-UNU Expert Consultation (2004)](http://www.fao.org/docrep/007/y5686e/y5686e00.htm).
 
 I valori riportati in tutte le tabelle sono ottenuti a partire dalla *Total Energy Expenditure* (TEE, "Dispendio energetico totale"), una valutazione del consumo energetico dei mammiferi basata sulla misura dell'anidride carbonica emessa durante la giornata; le equazioni tratte dalla statistica mostrano una correlazione lineare della TEE con il peso corporeo e sono, quindi, adottate come standard di riferimento per la valutazione del metabolismo basale.
 
@@ -168,7 +168,7 @@ Le tabelle che seguono riportano anche l'altezza media che la persona deve avere
 * 21 è il valore medio ideale;
 * 24,9 è il valore massimo prima del sovrappeso.
 
-Naturalmente, anche per gli adulti gli scienziati raccomandano un livello minimo di attività fisica regolare che consenta di evitare l'aumento di peso e, di conseguenza, tutte le [patologie croniche associate all'obesità](/perladieta/2012/01/22/dieta-e-prevenzione-delle-malattie-croniche.html). Molti studi dimostrano che tale livello minimo di esercizio corrisponde a quello di popolazioni che hanno un coefficiente metabolico di almeno 1,70 e, quindi, rientrano nello stile di vita qui definito "Attivo".
+Naturalmente, anche per gli adulti gli scienziati raccomandano un livello minimo di attività fisica regolare che consenta di evitare l'aumento di peso e, di conseguenza, tutte le [patologie croniche associate all'obesità](http://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html). Molti studi dimostrano che tale livello minimo di esercizio corrisponde a quello di popolazioni che hanno un coefficiente metabolico di almeno 1,70 e, quindi, rientrano nello stile di vita qui definito "Attivo".
 
 ### Fabbisogno energetico giornaliero medio per uomini tra 18 e 29,9 anni
 
@@ -298,7 +298,7 @@ Dunque abbiamo visto come il fabbisogno energetico medio giornaliero di un indiv
 * Il **peso corporeo** ha un grande impatto sul fabbisogno energetico, ma bisogna distinguere le fasi giovanili, in cui tipicamente il peso corporeo medio è semplicemente legato all'età (perché c'è di mezzo la crescita), dalla fase adulta, in cui invece il peso corporeo va valutato in relazione all'altezza e, quindi, bisogna capire se è proprio necessario "indulgere" con l'apporto calorico aumentato anche in caso di BMI (indice di massa corporea) pari o superiore a 25 (sovrappeso e obesità).
 * Lo **stile di vita** influenza moltissimo il fabbisogno energetico degli individui, fin dalla tenera età. Ed è inutile nasconderselo: basta leggere le descrizioni di esempio fornite dagli scienziati per capire chiaramente che la nostra società è in gran parte composta di individui sedentari, con grande aumento di incidenza di sovrappeso ed obesità.
 
-Quindi si può qui concludere che, nel realizzare piani dietetici personalizzati, è prudente rifarsi sempre ai dati di fabbisogno per il sedentario: del resto gli strumenti automatici a disposizione (come ad esempio [Cron-O-Meter](/perladieta/2012/01/19/cron-o-meter-power-your-diet-with-science.html)) partono proprio dal fabbisogno del sedentario per poi andare a quantificare l'energia spesa nelle attività fisiche e negli esercizi che si dichiara di compiere. Questo consente di farsi un'idea del livello di sforzo richiesto: la quantità di esercizi che si inserisce deve bastare a far aumentare il fabbisogno da quello sedentario a quello attivo e cioè, all'incirca, del 20%.
+Quindi si può qui concludere che, nel realizzare piani dietetici personalizzati, è prudente rifarsi sempre ai dati di fabbisogno per il sedentario: del resto gli strumenti automatici a disposizione (come ad esempio [Cron-O-Meter](http://perladieta.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html)) partono proprio dal fabbisogno del sedentario per poi andare a quantificare l'energia spesa nelle attività fisiche e negli esercizi che si dichiara di compiere. Questo consente di farsi un'idea del livello di sforzo richiesto: la quantità di esercizi che si inserisce deve bastare a far aumentare il fabbisogno da quello sedentario a quello attivo e cioè, all'incirca, del 20%.
 
 L'esercizio fisico fa poi aumentare la massa muscolare, attivando un circolo metabolico virtuoso:  
 > più peso corporeo (massa magra) **-->** più fabbisogno **-->** più energia per gli esercizi.

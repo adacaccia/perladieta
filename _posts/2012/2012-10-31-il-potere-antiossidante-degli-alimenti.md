@@ -2,7 +2,7 @@
 layout: post
 title: "Il potere antiossidante degli alimenti"
 date: 2012-10-31
-original_url: "/perladieta/2012/10/31/il-potere-antiossidante-degli-alimenti.html"
+original_url: "https://perladieta.blogspot.com/2012/10/il-potere-antiossidante-degli-alimenti.html"
 tags:
   - alimentazione
   - antiossidanti
@@ -15,7 +15,7 @@ tags:
   - vitamine
 ---
 
-[![](/perladieta/assets/86de5ea13ed0f10b.png)](/perladieta/2012/10/31/il-potere-antiossidante-degli-alimenti.html)
+[![](/perladieta/assets/86de5ea13ed0f10b.png)](http://perladieta.blogspot.it/2012/10/il-potere-antiossidante-degli-alimenti.html)
 
 C'è grande interesse scientifico attualmente sul tema degli antiossidanti alimentari; infatti, se da un lato le sostanze dotate di spiccato potere antiossidante si rivelano via via sempre più utili nella lotta ai tumori, dall'altro sarebbe molto facile includerli nella propria alimentazione in grandi quantità: basta solo sapere dove si trovano!
 
@@ -97,7 +97,7 @@ Tra **bacche**, **frutta** e **verdura**, i più ricchi di antiossidanti risult
 14. Arance: 0,9;
 15. Papaia: 0,6.
 
-Tra le bacche spicca l'Amla indiana sulla Rosa canina, ma tornando tra ciò che si trova facilmente in commercio, fa bella mostra di sé il carciofo, che oltretutto mantiene questo suo potere antiossidante con tutti i metodi di cottura, come visto nell'[articolo sulla cottura dei vegetali](/perladieta/2012/10/15/cottura-dei-vegetali-e-nutrizione-ottimale.html); la prima frutta non secca sono le prugne.
+Tra le bacche spicca l'Amla indiana sulla Rosa canina, ma tornando tra ciò che si trova facilmente in commercio, fa bella mostra di sé il carciofo, che oltretutto mantiene questo suo potere antiossidante con tutti i metodi di cottura, come visto nell'[articolo sulla cottura dei vegetali](http://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html); la prima frutta non secca sono le prugne.
 
 Tra **spezie ed erbe**, i più ricchi di antiossidanti risultano:
 
@@ -114,7 +114,7 @@ Tra **spezie ed erbe**, i più ricchi di antiossidanti risultano:
 
 Le spezie, come si vede, sono antiossidanti molto più potenti rispetto a frutta e verdura, ma si usano normalmente in quantità molto ridotte; comunque, questo elenco suggerisce di non dimenticare mai di aggiungerle ovunque possibile!  
   
-[![](/perladieta/assets/a48b79789a19ad49.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEmsvyx3IzwvZWIhO6j7wLo63_95lsVUuoRaul1MEKbGkoT5j9Bu-a1qok1sR2NSC_jYADAuqaxs7_-CYEVlxcfQqb-kg3N2dVBKepnW_62aXV5ASidppDOcUkI9T878KnXpE1CPHMOfc/s1600/FRAP+della+Verdura.png)Per completezza di informazione, ecco una tabella che riporta il valore antiossidante (FRAP) delle 20 verdure analizzate [negli studi sulla cottura](/perladieta/2012/10/15/cottura-dei-vegetali-e-nutrizione-ottimale.html); mentre i valori assoluti non sono confrontabili avendo ciascuno studio utilizzato diversi metodi analitici, questa tabella riporta i valori antiossidanti prima della cottura, per effettuare le conseguenti valutazioni di opportunità.
+[![](/perladieta/assets/a48b79789a19ad49.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEmsvyx3IzwvZWIhO6j7wLo63_95lsVUuoRaul1MEKbGkoT5j9Bu-a1qok1sR2NSC_jYADAuqaxs7_-CYEVlxcfQqb-kg3N2dVBKepnW_62aXV5ASidppDOcUkI9T878KnXpE1CPHMOfc/s1600/FRAP+della+Verdura.png)Per completezza di informazione, ecco una tabella che riporta il valore antiossidante (FRAP) delle 20 verdure analizzate [negli studi sulla cottura](http://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html); mentre i valori assoluti non sono confrontabili avendo ciascuno studio utilizzato diversi metodi analitici, questa tabella riporta i valori antiossidanti prima della cottura, per effettuare le conseguenti valutazioni di opportunità.
 
 Si vede come, in generale, sia da preferire la varietà più "colorata" di una certa verdura: la cipolla rossa è meglio di quella bianca, il cavolfiore blu (a trovarlo) è superiore a quello bianco; il peperone rosso è superiore al verde ed al giallo ma è battuto da quello arancione, e le bietole rosse (o rape rosse, spesso disponibili già cotte nei supermercati) battono di gran lunga le rape bianche.  
   
@@ -174,6 +174,6 @@ Quanto alla classifica, si vede che rispetto al metodo ORAC, a livello cellulare
 
 Si possono trarre alcune utili conclusioni da quanto qui esposto.
 
-Per quanto riguarda la compilazione di [piani dietetici](/perladieta/2012/07/20/piani-alimentari-dietetici-o-nutrizionali-personalizzati.html), sarà utile selezionare sempre gli alimenti col maggior valore antiossidante a livello cellulare, naturalmente considerando le [stagioni di frutta e verdura](/perladieta/2012/05/10/le-stagioni-di-frutta-e-verdura.html).
+Per quanto riguarda la compilazione di [piani dietetici](http://perladieta.blogspot.com/2012/07/piano-dietetico-personalizzato.html), sarà utile selezionare sempre gli alimenti col maggior valore antiossidante a livello cellulare, naturalmente considerando le [stagioni di frutta e verdura](http://perladieta.blogspot.com/2012/05/le-stagioni-di-frutta-e-verdura-crudo.html).
 
-Altra considerazione utile riguarda la questione della [cottura della verdura](/perladieta/2012/10/15/cottura-dei-vegetali-e-nutrizione-ottimale.html): dato che il maggior apporto di antiossidanti nel contesto di una corretta alimentazione proviene dalla frutta, se consumata in adeguate quantità, diventa meno importante tentare di preservare i (relativamente) pochi antiossidanti contenuti nella verdura selezionando il miglior metodo per cuocerla: una volta tanto, si possono privilegiare i gusti personali!
+Altra considerazione utile riguarda la questione della [cottura della verdura](http://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html): dato che il maggior apporto di antiossidanti nel contesto di una corretta alimentazione proviene dalla frutta, se consumata in adeguate quantità, diventa meno importante tentare di preservare i (relativamente) pochi antiossidanti contenuti nella verdura selezionando il miglior metodo per cuocerla: una volta tanto, si possono privilegiare i gusti personali!

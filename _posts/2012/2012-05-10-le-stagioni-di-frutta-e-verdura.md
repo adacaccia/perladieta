@@ -2,7 +2,7 @@
 layout: post
 title: "Le stagioni di frutta e verdura"
 date: 2012-05-10
-original_url: "/perladieta/2012/05/10/le-stagioni-di-frutta-e-verdura.html"
+original_url: "https://perladieta.blogspot.com/2012/05/le-stagioni-di-frutta-e-verdura-crudo.html"
 tags:
   - cereali
   - frutta
@@ -13,7 +13,7 @@ tags:
   - verdura
 ---
 
-[![](/perladieta/assets/f387e2ae58c1a689.jpg)](/perladieta/2012/05/10/le-stagioni-di-frutta-e-verdura.html)
+[![](/perladieta/assets/f387e2ae58c1a689.jpg)](http://perladieta.blogspot.com/2012/05/le-stagioni-di-frutta-e-verdura-crudo.html)
 
 Nel preparare piani dietetici personalizzati che siano anche nutrizionalmente validi, si ha la necessità di inserirvi sempre molte razioni di frutta e verdura, perché si sa che tali alimenti contengono sali minerali, vitamine ed altre sostanze nutritive in abbondanza.  
   

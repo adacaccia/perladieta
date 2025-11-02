@@ -2,7 +2,7 @@
 layout: post
 title: "Dieta e prevenzione delle malattie croniche"
 date: 2012-01-22
-original_url: "/perladieta/2012/01/22/dieta-e-prevenzione-delle-malattie-croniche.html"
+original_url: "https://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html"
 tags:
   - diabete
   - dieta
@@ -10,7 +10,7 @@ tags:
   - osteoporosi
 ---
 
-[![](/perladieta/assets/1e378b4dc7109583.png)](/perladieta/2012/01/22/dieta-e-prevenzione-delle-malattie-croniche.html)
+[![](/perladieta/assets/1e378b4dc7109583.png)](http://perladieta.blogspot.it/2012/01/alimentazione-e-prevenzione-di-malattie.html)
 
 Va sempre più di moda l'idea di "curarsi con il cibo", ad anche i mezzi di comunicazione di massa iniziano ora ad interessarsi delle correlazioni tra abitudini alimentari e rischi per la salute.
 

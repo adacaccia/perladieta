@@ -2,7 +2,7 @@
 layout: post
 title: "Cron-O-Meter: Power your Diet with Science"
 date: 2012-01-19
-original_url: "/perladieta/2012/01/19/cron-o-meter-power-your-diet-with-science.html"
+original_url: "https://perladieta.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html"
 tags:
   - diario alimentare
   - dieta
@@ -11,7 +11,7 @@ tags:
   - peso forma
 ---
 
-[![](/perladieta/assets/2a5186a88003b370.png)](/perladieta/2012/01/19/cron-o-meter-power-your-diet-with-science.html)
+[![](/perladieta/assets/2a5186a88003b370.png)](http://perladieta.blogspot.it/2012/01/cron-o-meter-power-your-diet-with.html)
 
 Non è un messaggio pubblicitario, è la semplice realtà dei fatti, e nel resto del post spero di spiegare bene perché.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "La verità sulla 'vitamina' D"
 date: 2012-06-14
-original_url: "/perladieta/2012/06/14/la-verita-sulla-vitamina-d.html"
+original_url: "https://perladieta.blogspot.com/2012/06/la-verita-sulla-vitamina-d.html"
 tags:
   - boro
   - calcio
@@ -13,7 +13,7 @@ tags:
   - vitamina K
 ---
 
-[![](/perladieta/assets/1f1610aaf8a18deb.png)](/perladieta/2012/06/14/la-verita-sulla-vitamina-d.html)
+[![](/perladieta/assets/1f1610aaf8a18deb.png)](http://perladieta.blogspot.com/2012/06/la-verita-sulla-vitamina-d.html)
 
 Si comprende già dagli apici intorno al termine "vitamina" nel titolo, che le informazioni contenute in questo post mostrano una realtà scientifica molto più ampia rispetto a ciò che normalmente si chiama "vitamina".  
 Infatti, mentre ciascuna vitamina, di solito, è coinvolta in un processo metabolico ben preciso, e in pochissimi altri al massimo, la "vitamina" D, nella sua forma attiva, è un ormone steroideo vero e proprio, con recettori presenti in quasi tutti gli organi del nostro corpo, e addirittura in grado di influenzare l'espressione di 1/3 del nostro patrimonio genetico!

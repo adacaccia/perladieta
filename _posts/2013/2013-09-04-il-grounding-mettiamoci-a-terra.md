@@ -2,7 +2,7 @@
 layout: post
 title: "Il Grounding: mettiamoci a terra!"
 date: 2013-09-04
-original_url: "/perladieta/2013/09/04/il-grounding-mettiamoci-a-terra.html"
+original_url: "https://perladieta.blogspot.com/2013/09/il-grounding-mettiamoci-terra.html"
 tags:
   - ambiente
   - antiossidanti
@@ -13,7 +13,7 @@ tags:
 
 ### Introduzione
 
-Ho già affrontato l'argomento degli [antiossidanti negli alimenti](/perladieta/2012/10/31/il-potere-antiossidante-degli-alimenti.html), ora devo parlare invece di un potente antiossidante naturale, completamente gratuito e facilissimo da assumere per tutti: la Terra.
+Ho già affrontato l'argomento degli [antiossidanti negli alimenti](http://perladieta.blogspot.com/2012/10/il-potere-antiossidante-degli-alimenti.html), ora devo parlare invece di un potente antiossidante naturale, completamente gratuito e facilissimo da assumere per tutti: la Terra.
 
 Già, proprio il pianeta sul quale viviamo, ha l'illimitata capacità di fornirci elettroni attraverso i quali noi possiamo effettivamente "ricaricarci" di potere antiossidante!
 
@@ -70,4 +70,4 @@ Abbiamo capito che stare a piedi nudi quando siamo all'aperto (prati, spiagge, e
   
 Per il collegamento di tutti questi dispositivi alla linea di messa a terra, bisogna usare una resistenza da 100kOhm sul cavo che va dal dispositivo alla spina di corrente, collegata solo sul polo centrale (terra); la resistenza, come spiegato anche nell'articolo, evita di prendere la scossa qualunque cosa accada nell'impianto di messa a terra anche se condominiale, ed è più flessibile del fusibile che avrebbe bisogno di essere sempre controllato e subito sostituito in caso di necessità; se si opta comunque per il fusibile, 10mA è il valore raccomandato, e si dovranno anche usare dei portafusibile a filo per il collegamento.  
   
-E' appena il caso di ricordare che sfruttare le occasioni in cui si sta all'aperto per collegarsi alla Terra può essere ulteriormente vantaggioso per la possibile produzione di [Vitamina D](/perladieta/2012/06/14/la-verita-sulla-vitamina-d.html), ma se è per noi importante avere una carica di antiossidanti in più sempre, allora uno dei semplici dispositivi sopra descritti farà al caso nostro.
+E' appena il caso di ricordare che sfruttare le occasioni in cui si sta all'aperto per collegarsi alla Terra può essere ulteriormente vantaggioso per la possibile produzione di [Vitamina D](http://perladieta.blogspot.com/2012/06/la-verita-sulla-vitamina-d.html), ma se è per noi importante avere una carica di antiossidanti in più sempre, allora uno dei semplici dispositivi sopra descritti farà al caso nostro.

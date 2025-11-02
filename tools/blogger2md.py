@@ -572,6 +572,63 @@ def write_post(entry, media_map: dict, url_map: dict) -> Tuple[bool, bool]:
 
     # 1) localizza immagini
     content_html_local, changed_media, img_count_html = localize_images_and_links(content_html, media_map, url_map)
+    # Failsafe: se ancora 0 immagini, prova a estrarre la prima dal contenuto originale e prependila
+    if img_count_html == 0:
+        def _first_img_like(html: str) -> str | None:
+            s = BeautifulSoup(html, "html.parser")
+            # 1) <img>
+            imgtag = s.find("img")
+            if imgtag and imgtag.get("src"):
+                return imgtag["src"]
+            # 2) style="background-image:url(...)"
+            for el in s.find_all(style=True):
+                m = re.search(r'url\((?:["\']?)(.*?)(?:["\']?)\)', el.get("style") or "")
+                if m:
+                    return m.group(1)
+            # 3) attr background="..."
+            for el in s.find_all(["table","tr","td"]):
+                if el.get("background"):
+                    return el["background"]
+            # 4) <a href="...jpg|png|gif|webp|svg">
+            for a in s.find_all("a", href=True):
+                href = a["href"]
+                if re.search(r'\.(?:jpe?g|png|gif|webp|svg)(?:\?.*)?$', href, flags=re.I):
+                    return href
+            return None
+    
+        first = _first_img_like(content_html)  # NB: uso il contenuto ORIGINALE
+        if first:
+            # riusa lo stesso downloader/mapping di localize_images_and_links
+            # piccola funzione locale di supporto:
+            def _ensure_mapped(src: str) -> str:
+                # se già in media_map → usa quello
+                if src in media_map:
+                    return media_map[src]
+                # altrimenti scarica e mappa
+                try:
+                    fn = _asset_filename(src)
+                    local_fs_path = os.path.join(ASSETS_DIR, fn)
+                    if not os.path.exists(local_fs_path):
+                        resp = requests.get(src, timeout=30)
+                        resp.raise_for_status()
+                        os.makedirs(ASSETS_DIR, exist_ok=True)
+                        with open(local_fs_path, "wb") as f:
+                            f.write(resp.content)
+                    site_url = f"{ASSETS_URL_BASE}/{fn}"
+                    media_map[src] = site_url
+                    return site_url
+                except Exception:
+                    return src
+
+            local = _ensure_mapped(first)
+            # prepend una <figure> semplice all'inizio dell'HTML localizzato
+            soup2 = BeautifulSoup(content_html_local or "", "html.parser")
+            fig = soup2.new_tag("figure")
+            fig.append(soup2.new_tag("img", src=local))
+            soup2.insert(0, fig)
+            content_html_local = str(soup2)
+            img_count_html = 1
+            print("[IMG] failsafe: hero inserita")
 
     # 2) riscrivi i link interni blogspot -> pages (PRIMA della conversione a MD)
     content_html_local = fix_internal_links(content_html_local, url_map=url_map)

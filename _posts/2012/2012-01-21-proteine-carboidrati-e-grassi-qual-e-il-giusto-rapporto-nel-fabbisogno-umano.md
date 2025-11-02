@@ -2,14 +2,14 @@
 layout: post
 title: "Proteine, carboidrati e grassi: qual è il giusto rapporto nel fabbisogno umano?"
 date: 2012-01-21
-original_url: "/perladieta/2012/01/21/proteine-carboidrati-e-grassi-qual-e-il-giusto-rapporto-nel-fabbisogno-umano.html"
+original_url: "https://perladieta.blogspot.com/2012/01/proteine-carboidrati-e-grassi-qual-e-il.html"
 tags:
   - carboidrati
   - grassi
   - proteine
 ---
 
-[![](/perladieta/assets/6e45534f3fa7e19a.png)](/perladieta/2012/01/21/proteine-carboidrati-e-grassi-qual-e-il-giusto-rapporto-nel-fabbisogno-umano.html)
+[![](/perladieta/assets/6e45534f3fa7e19a.png)](http://perladieta.blogspot.it/2012/01/proteine-carboidrati-e-grassi-qual-e-il.html)
 
 ### Introduzione
 
@@ -20,11 +20,11 @@ Il rapporto Proteine:Carboidrati:Grassi va sempre considerato prima di scegliere
 
 Il *"PCF ratio"* (*Proteins:Carbohydrates:Fats* - Proteine:Carboidrati:Grassi) è un modo standard per rappresentare la composizione di una dieta in termini percentuali di proteine, carboidrati e grassi.
 
-Mentre le etichette nutrizionali che troviamo sugli alimenti che acquistiamo hanno la composizione espressa in percentuali di peso (es: grammi di grassi su 100g di prodotto = % di grassi), il rapporto PCF è misurato in termini di energia: fatto 100% il totale di calorie ([giornaliere](/perladieta/2012/05/23/il-fabbisogno-calorico-umano.html), o di una porzione di cibo), il rapporto PCF ci indica quanto in proporzione contribuiscono al totale energetico le proteine, i carboidrati ed i grassi.
+Mentre le etichette nutrizionali che troviamo sugli alimenti che acquistiamo hanno la composizione espressa in percentuali di peso (es: grammi di grassi su 100g di prodotto = % di grassi), il rapporto PCF è misurato in termini di energia: fatto 100% il totale di calorie ([giornaliere](http://perladieta.blogspot.com/2012/05/il-fabbisogno-calorico-umano.html), o di una porzione di cibo), il rapporto PCF ci indica quanto in proporzione contribuiscono al totale energetico le proteine, i carboidrati ed i grassi.
 
 E siccome 1 grammo di carboidrati vale circa 4 kcal, così come 1 g di proteine, mentre 1 g di grassi vale circa 9 kcal, il valore energetico del cibo differisce molto a seconda che lo si consideri in percentuali sul peso o sull'energia! Per distinguerli, uso il simbolo **%** per la normale percentuale sul peso, e il simbolo **%E** per la percentuale sull'energia.
 
-Un esempio dovrebbe chiarire la differenza in modo semplice. Consideriamo il latte di vacca intero (è solo un esempio: ormai se ne [sconsiglia vivamente il consumo](/perladieta/2012/05/09/la-verita-su-latte-ed-acne.html)), eccone la composizione in termini percentuali:
+Un esempio dovrebbe chiarire la differenza in modo semplice. Consideriamo il latte di vacca intero (è solo un esempio: ormai se ne [sconsiglia vivamente il consumo](http://perladieta.blogspot.com/2012/04/la-verita-sul-consumo-di-latte.html)), eccone la composizione in termini percentuali:
 
 > Latte intero, **100g** - energia: **62,2kcal -**proteine: **3,10g**  - carboidrati: **4,80g**  - grassi: **3,40g**.
 
@@ -52,7 +52,7 @@ Ma ora che abbiamo capito cos'è il rapporto PCF, come facciamo a sapere qual è
 
 #### Il giusto apporto di grassi
 
-In [FAO report of an expert consultation on fats and fatty acids in human nutrition (2010)](http://www.who.int/nutrition/publications/nutrientrequirements/fatsandfattyacids_humannutrition/en/index.html) si esprime il consenso scientifico attuale sulla correttezza di un apporto di grassi compreso tra il 15%E e il 30%E sul totale energetico giornaliero, con una punta massima di 35%E per casi particolari. Ma i grassi non sono tutti uguali: per i grassi polinsaturi essenziali Omega-3 ed Omega-6 sono consigliati livelli di assunzione del 2%E e del 9%E rispettivamente, il che ci consente di concludere che l'11%E di assunzione di grassi è un minimo assoluto per la nutrizione ottimale; dato che gli altri grassi non sono essenziali (i monoinsaturi), o sono addirittura sconsigliati (i saturi), o persino "vietati" (i trans), se ne conclude che se si potesse scegliere con precisione i grassi da assumere potremmo anche limitarci a 11%E, ma ciò è sconsigliabile vista la normale composizione mista di tutti gli alimenti grassi (ad es. l'[olio d'oliva](/perladieta/2012/01/19/i-migliori-grassi-alimentari.html) contiene molti grassi monoinsaturi, ma anche saturi e polinsaturi).
+In [FAO report of an expert consultation on fats and fatty acids in human nutrition (2010)](http://www.who.int/nutrition/publications/nutrientrequirements/fatsandfattyacids_humannutrition/en/index.html) si esprime il consenso scientifico attuale sulla correttezza di un apporto di grassi compreso tra il 15%E e il 30%E sul totale energetico giornaliero, con una punta massima di 35%E per casi particolari. Ma i grassi non sono tutti uguali: per i grassi polinsaturi essenziali Omega-3 ed Omega-6 sono consigliati livelli di assunzione del 2%E e del 9%E rispettivamente, il che ci consente di concludere che l'11%E di assunzione di grassi è un minimo assoluto per la nutrizione ottimale; dato che gli altri grassi non sono essenziali (i monoinsaturi), o sono addirittura sconsigliati (i saturi), o persino "vietati" (i trans), se ne conclude che se si potesse scegliere con precisione i grassi da assumere potremmo anche limitarci a 11%E, ma ciò è sconsigliabile vista la normale composizione mista di tutti gli alimenti grassi (ad es. l'[olio d'oliva](http://perladieta.blogspot.com/2012/01/la-verita-sullolio-doliva.html) contiene molti grassi monoinsaturi, ma anche saturi e polinsaturi).
 
 La discussione fin qui presentata ci permette già di escludere alcune opzioni presenti sul mercato delle diete al momento, e cioè:
 
@@ -64,13 +64,13 @@ La discussione fin qui presentata ci permette già di escludere alcune opzioni p
 
 In [Protein and amino acid requirements in human nutrition - Report of a joint FAO-WHO-ONU expert consultation (2007)](http://www.who.int/nutrition/publications/nutrientrequirements/WHO_TRS_935/en/index.html) si stabilisce in 0,66 g per ogni kg di peso corporeo il fabbisogno proteico giornaliero minimo di una persona adulta. Questo valore è stato stabilito con un margine di sicurezza per garantire il sufficiente apporto di [amminoacidi essenziali](http://it.wikipedia.org/wiki/Aminoacidi_essenziali) (le proteine sono composte da amminoacidi; il nostro corpo scinde tutte le proteine assunte con l'alimentazione durante la digestione per ottenerne gli amminoacidi componenti, che poi assorbe in base alla necessità; tra i 20 amminoacidi catalogati, da 8 ad 11 vengono definiti *essenziali* perché il nostro organismo non è in grado di sintetizzarli autonomamente).
 
-Per un uomo che pesi circa 70kg, questo valore minimo si traduce in 46,2g di proteine al giorno; in termini di energia, il valore corrisponde a circa 185kcal; essendo circa di 2400kcal il [fabbisogno energetico giornaliero](/perladieta/2012/05/23/il-fabbisogno-calorico-umano.html) di un uomo di 30-40 anni che pesi 70kg, ecco che il valore minimo per le proteine corrisponde, in questo caso, a circa 7,7%E.
+Per un uomo che pesi circa 70kg, questo valore minimo si traduce in 46,2g di proteine al giorno; in termini di energia, il valore corrisponde a circa 185kcal; essendo circa di 2400kcal il [fabbisogno energetico giornaliero](http://perladieta.blogspot.com/2012/05/il-fabbisogno-calorico-umano.html) di un uomo di 30-40 anni che pesi 70kg, ecco che il valore minimo per le proteine corrisponde, in questo caso, a circa 7,7%E.
 
 Più avanti il documento FAO sulle proteine approfondisce l'effetto avverso che l'apporto di proteine in quantità superiori, tipo nella SAD (*Standard American Diet*, che ha proteine a 35%E e in gran parte di derivazione animale), ha sulla salute, in particolare dato che gli scarti metabolici delle proteine animali sono acidi, ed i reni per neutralizzarli devono "sprecare" del calcio che finisce poi nelle urine.
 
 Queste considerazioni portano gli scienziati ad introdurre un "*safe limit*", o limite di sicurezza, sull'assunzione di proteine, che non può quindi superare la quota di 0,83 g per kg di peso corporeo per gli adulti. Questo corrisponde a circa 58,1g al giorno per un uomo di 70kg, cioè 232kcal, dunque 9,6%E per un fabbisogno di 2400kcal al giorno.
 
-Per inciso: portando avanti il discorso sull'assunzione delle proteine animali, nella [documentazione ufficiale WHO-FAO sul fabbisogno di vitamine e minerali](/perladieta/2012/10/12/il-reale-fabbisogno-di-vitamine-e-minerali.html) si arriva a considerare valori molto diversi per il fabbisogno di calcio per chi consuma "poche proteine animali"!
+Per inciso: portando avanti il discorso sull'assunzione delle proteine animali, nella [documentazione ufficiale WHO-FAO sul fabbisogno di vitamine e minerali](http://perladieta.blogspot.com/2012/06/il-reale-fabbisogno-di-vitamine-e.html) si arriva a considerare valori molto diversi per il fabbisogno di calcio per chi consuma "poche proteine animali"!
 
 Il *safe limit* sulle proteine ci consente quindi di (ri-)scartare le seguenti tipologie di diete:
 
@@ -98,7 +98,7 @@ Nel documento FAO/WHO sopra richiamato si stabilisce anche l'importantissimo *pr
 
 
 
-Questo principio è approfondito nella discussione sull'[indice glicemico dei carboidrati](/perladieta/2012/01/26/l-indice-glicemico-degli-alimenti.html).
+Questo principio è approfondito nella discussione sull'[indice glicemico dei carboidrati](http://perladieta.blogspot.com/2012/01/lindice-glicemico-dei-carboidrati.html).
 
 ### Il rapporto PCF standard
 
@@ -109,23 +109,23 @@ Si può quindi concludere che una dieta scientificamente sostenibile e sopratt
 * carboidrati: **50 - 77**%.
 
 I carboidrati sono, come sempre, calcolati per differenza, sempre tenendo conto del principio di selezione appena visto.  
-Una dieta di successo, sia che si voglia diminuire o aumentare il proprio peso corporeo, sia che la si intraprenda per migliorare lo stato di salute, non deve necessariamente basarsi completamente sul calcolo delle calorie: bisogna sempre assicurarsi, prima di ogni altra cosa, che il piano dietetico che seguiamo sia progettato per fornire al nostro corpo una [nutrizione ottimale](/perladieta/2012/07/20/piani-alimentari-dietetici-o-nutrizionali-personalizzati.html), che ne migliori il benessere.  
+Una dieta di successo, sia che si voglia diminuire o aumentare il proprio peso corporeo, sia che la si intraprenda per migliorare lo stato di salute, non deve necessariamente basarsi completamente sul calcolo delle calorie: bisogna sempre assicurarsi, prima di ogni altra cosa, che il piano dietetico che seguiamo sia progettato per fornire al nostro corpo una [nutrizione ottimale](http://perladieta.blogspot.com/2012/07/piano-dietetico-personalizzato.html), che ne migliori il benessere.  
   
 
 Oltre il rapporto PCF standard
 ------------------------------
 
-Dopo aver letto e digerito tutti questi numeretti, dovremmo domandarci che senso abbia ancora il parlare di calorie, nonché di rapporto Proteine-Carboidrati-Grassi quando ormai è scientificamente arcinoto che 1 caloria di frutta o verdura è molto diversa da 1 caloria di [latticini, carni, uova](/perladieta/2012/09/16/i-veri-problemi-del-cibo-di-origine-animale.html), quindi il concetto stesso di caloria è ormai da ritenersi superato, in effetti.  
+Dopo aver letto e digerito tutti questi numeretti, dovremmo domandarci che senso abbia ancora il parlare di calorie, nonché di rapporto Proteine-Carboidrati-Grassi quando ormai è scientificamente arcinoto che 1 caloria di frutta o verdura è molto diversa da 1 caloria di [latticini, carni, uova](http://perladieta.blogspot.com/2012/09/il-vero-problema-del-cibo-di-origine.html), quindi il concetto stesso di caloria è ormai da ritenersi superato, in effetti.  
   
 Poi sappiamo che le calorie sono composte di Proteine, Carboidrati e Grassi, ma:  
   
 
-* **Proteine**: sono tutte uguali? No! Le proteine animali sono le prime responsabili dell'[acidosi metabolica](/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html) che molti di noi si portano dietro senza saperlo!
-* **Carboidrati**: sono tutti uguali? Neanche per idea! Quelli raffinati (zuccheri, farine bianche e loro derivati, riso bianco) e/o troppo cotti (es.: patate fritte) fanno male, mentre [quelli interi e integrali fanno bene](/perladieta/2012/01/26/l-indice-glicemico-degli-alimenti.html).
-* **Grassi**: sono tutti uguali? Nemmeno lontanamente! Ricchi di grassi saturi e colesterolo quelli animali, che diventano addirittura i micidiali grassi trans con la cottura e le varie raffinazioni industriali. E soprattutto insaturi e polinsaturi (essenziali), invece, [quelli vegetali](/perladieta/2012/01/19/i-migliori-grassi-alimentari.html) (che però anch'essi diventano micidiali trans con le raffinazioni e i trattamenti industriali).
+* **Proteine**: sono tutte uguali? No! Le proteine animali sono le prime responsabili dell'[acidosi metabolica](http://perladieta.blogspot.com/2013/03/il-ph-dellorganismo-acidosi-ed.html) che molti di noi si portano dietro senza saperlo!
+* **Carboidrati**: sono tutti uguali? Neanche per idea! Quelli raffinati (zuccheri, farine bianche e loro derivati, riso bianco) e/o troppo cotti (es.: patate fritte) fanno male, mentre [quelli interi e integrali fanno bene](http://perladieta.blogspot.com/2012/01/lindice-glicemico-dei-carboidrati.html).
+* **Grassi**: sono tutti uguali? Nemmeno lontanamente! Ricchi di grassi saturi e colesterolo quelli animali, che diventano addirittura i micidiali grassi trans con la cottura e le varie raffinazioni industriali. E soprattutto insaturi e polinsaturi (essenziali), invece, [quelli vegetali](http://perladieta.blogspot.com/2012/01/la-verita-sullolio-doliva.html) (che però anch'essi diventano micidiali trans con le raffinazioni e i trattamenti industriali).
 
 Iniziamo a capire come mai 14 sulle 15 più mortali malattie in USA (e nel mondo "occidentale") sono prevenibili con la [dieta basata su alimenti vegetali interi (video in inglese)](http://nutritionfacts.org/video/uprooting-the-leading-causes-of-death/); l'unica causa di morte non prevenibile con la dieta sono gli incidenti stradali!!!
 
   
 
-Insomma: se si sceglie la [via della salute](/perladieta/2012/03/05/l-alimentazione-vegetale.html), si può smettere di porzionare il cibo, e mangiare a sazietà rispettando varietà, stagionalità e, possibilmente, provenienza locale del cibo.
+Insomma: se si sceglie la [via della salute](http://perladieta.blogspot.com/2012/03/lalimentazione-vegana.html), si può smettere di porzionare il cibo, e mangiare a sazietà rispettando varietà, stagionalità e, possibilmente, provenienza locale del cibo.
