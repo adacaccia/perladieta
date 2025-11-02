@@ -2,7 +2,7 @@
 layout: post
 title: "La verità su latte ed acne"
 date: 2012-05-09
-original_url: "https://perladieta.blogspot.com/2012/04/la-verita-sul-consumo-di-latte.html"
+original_url: "/perladieta/2012/05/09/la-verita-su-latte-ed-acne.html"
 tags:
   - acne
   - insulina

@@ -2,7 +2,7 @@
 layout: post
 title: "L'alimentazione Vegetale"
 date: 2012-03-05
-original_url: "https://perladieta.blogspot.com/2012/03/lalimentazione-vegana.html"
+original_url: "/perladieta/2012/03/05/l-alimentazione-vegetale.html"
 tags:
   - carne
   - cereali integrali

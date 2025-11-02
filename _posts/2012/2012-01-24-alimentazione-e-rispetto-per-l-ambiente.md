@@ -2,7 +2,7 @@
 layout: post
 title: "Alimentazione e rispetto per l'ambiente"
 date: 2012-01-24
-original_url: "https://perladieta.blogspot.com/2012/01/alimentazione-ed-ecologia.html"
+original_url: "/perladieta/2012/01/24/alimentazione-e-rispetto-per-l-ambiente.html"
 tags:
   - alimentazione
   - allevamento

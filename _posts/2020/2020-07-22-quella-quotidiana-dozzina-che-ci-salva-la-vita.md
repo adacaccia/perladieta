@@ -2,7 +2,7 @@
 layout: post
 title: "Quella quotidiana dozzina... che ci salva la vita!"
 date: 2020-07-22
-original_url: "https://perladieta.blogspot.com/2016/09/quella-quotidiana-dozzina-che-ci-salva.html"
+original_url: "/perladieta/2020/07/22/quella-quotidiana-dozzina-che-ci-salva-la-vita.html"
 tags:
   - perladieta
 ---
