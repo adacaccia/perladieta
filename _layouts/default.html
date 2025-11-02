@@ -1,7 +1,28 @@
-<html>
+<!doctype html>
+<html lang="it">
   <head>
     {% include head.html %}
   </head>
   <body>
+    <header style="padding:1rem 0; border-bottom:1px solid #eee;">
+      <div style="max-width:860px; margin:0 auto; padding:0 1rem;">
+        <a href="{{ site.baseurl }}/" style="text-decoration:none;">
+          <h1 style="margin:0; font-size:1.5rem;">{{ site.title | default: "Per la Dieta" }}</h1>
+        </a>
+        {% if site.description %}
+          <p style="margin:.25rem 0 0; color:#666;">{{ site.description }}</p>
+        {% endif %}
+      </div>
+    </header>
+
+    <main style="max-width:860px; margin:2rem auto; padding:0 1rem;">
+      {{ content }}
+    </main>
+
+    <footer style="padding:2rem 0; border-top:1px solid #eee;">
+      <div style="max-width:860px; margin:0 auto; padding:0 1rem; color:#777; font-size:.9rem;">
+        &copy; {{ "now" | date: "%Y" }} {{ site.author | default: "Ada Caccia" }}
+      </div>
+    </footer>
   </body>
 </html>
