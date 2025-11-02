@@ -231,6 +231,7 @@ Ho suddiviso la tabella complessiva in diverse categorie per una più agevole co
 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Frutta secca** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
+{:.table-seasons type-noci}
 
   
   
@@ -249,6 +250,7 @@ Ho suddiviso la tabella complessiva in diverse categorie per una più agevole co
 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Semi oleaginosi** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
+{:.table-seasons type-semi}
 
   
   
