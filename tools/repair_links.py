@@ -21,7 +21,7 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def resolve_blogger_path(u, cache):
-    # normalizza a URL intero
+    from urllib.parse import urlsplit
     if u.startswith("/"):
         probe = "https://perladieta.blogspot.com" + u
     else:
@@ -30,7 +30,8 @@ def resolve_blogger_path(u, cache):
     if key in cache:
         return cache[key]
     try:
-        r = requests.head(probe, timeout=15, allow_redirects=True)
+        # usa GET invece di HEAD: alcuni endpoint non gestiscono HEAD correttamente
+        r = requests.get(probe, timeout=20, allow_redirects=True)
         final = r.url
     except Exception:
         final = probe
