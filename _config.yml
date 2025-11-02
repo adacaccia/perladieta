@@ -9,6 +9,8 @@ baseurl: "/perladieta"
 
 # === Build settings ===
 markdown: kramdown
+kramdown:
+  input: GFM
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
