@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "News del terzo millennio per il diabete"
+title: News del terzo millennio per il diabete
 date: 2015-05-27
-original_url: "/perladieta/2015/05/27/news-del-terzo-millennio-per-il-diabete.html"
+original_url: https://perladieta.blogspot.com/2015/05/news-del-terzo-millennio-per-il-diabete.html
 tags:
-  - diabete
-  - grassi saturi
-  - grassi trans
-  - indice glicemico
-  - indice insulinico
-  - insulina
-  - obesità
-  - olio di palma
-  - zucchero
+- diabete
+- grassi saturi
+- grassi trans
+- indice glicemico
+- indice insulinico
+- insulina
+- obesità
+- olio di palma
+- zucchero
 ---
 
 [![](/perladieta/assets/f0a5845f99bd8eae.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4mb_mRs17S3n_QctaRvdz5o9rWhTMn57i_kRo8ezPEFfKNNG0sAA0g8lRKy6fLE6rbZlub8yvZvIFauYW3xyFnDCBqQYNBGfjWmTU6vwyEnc7eGqqhyphenhyphenvvBWZm3PzkVqfCP_hfdcjxIWc/s1600/latest-in-clinical-nutrition-volume-24-218x158_cut.png)

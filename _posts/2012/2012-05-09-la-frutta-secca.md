@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "La frutta secca"
+title: La frutta secca
 date: 2012-05-09
-original_url: "/perladieta/2012/05/09/la-frutta-secca.html"
+original_url: https://perladieta.blogspot.com/2012/05/la-frutta-secca.html
 tags:
-  - carboidrati
-  - frutta secca
-  - grassi
-  - proteine
-  - sali minerali
-  - vitamine
+- carboidrati
+- frutta secca
+- grassi
+- proteine
+- sali minerali
+- vitamine
 ---
 
 [![](/perladieta/assets/4966f6d3d9f26645.png)](/perladieta/2012/05/09/la-frutta-secca.html)

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "I semi nell'alimentazione umana"
+title: I semi nell'alimentazione umana
 date: 2012-03-19
-original_url: "/perladieta/2012/03/19/i-semi-nell-alimentazione-umana.html"
+original_url: https://perladieta.blogspot.com/2012/03/i-semi-nellalimentazione-umana.html
 tags:
-  - grassi
-  - proteine
-  - sali minerali
-  - semi
-  - vitamine
+- grassi
+- proteine
+- sali minerali
+- semi
+- vitamine
 ---
 
 [![](/perladieta/assets/43c0e045085e80d0.png)](/perladieta/2012/03/19/i-semi-nell-alimentazione-umana.html)

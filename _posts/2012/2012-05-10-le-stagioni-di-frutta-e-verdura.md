@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Le stagioni di frutta e verdura"
+title: Le stagioni di frutta e verdura
 date: 2012-05-10
-original_url: "/perladieta/2012/05/10/le-stagioni-di-frutta-e-verdura.html"
+original_url: https://perladieta.blogspot.com/2012/05/le-stagioni-di-frutta-e-verdura-crudo.html
 tags:
-  - cereali
-  - frutta
-  - frutta secca
-  - legumi
-  - semi
-  - stagione
-  - verdura
+- cereali
+- frutta
+- frutta secca
+- legumi
+- semi
+- stagione
+- verdura
 ---
 
 [![](/perladieta/assets/f387e2ae58c1a689.jpg)](/perladieta/2012/05/10/le-stagioni-di-frutta-e-verdura.html)

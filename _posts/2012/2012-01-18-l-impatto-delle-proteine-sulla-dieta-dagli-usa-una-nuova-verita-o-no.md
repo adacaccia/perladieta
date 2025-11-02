@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "L'impatto delle proteine sulla dieta: dagli USA una nuova verità... o no?"
+title: 'L''impatto delle proteine sulla dieta: dagli USA una nuova verità... o no?'
 date: 2012-01-18
-original_url: "/perladieta/2012/01/18/l-impatto-delle-proteine-sulla-dieta-dagli-usa-una-nuova-verita-o-no.html"
+original_url: https://perladieta.blogspot.com/2012/01/limpatto-delle-proteine-sulla-dieta.html
 tags:
-  - dieta
-  - proteine
+- dieta
+- proteine
 ---
 
 [![](/perladieta/assets/ed829ad5f587fbec.jpg)](https://www.blogger.com/L'impatto%20delle%20proteine%20sulla%20dieta:%20dagli%20USA%20una%20nuova%20verit%C3%A0...%20o%20no?)

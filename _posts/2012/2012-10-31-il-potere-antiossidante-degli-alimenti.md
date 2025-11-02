@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Il potere antiossidante degli alimenti"
+title: Il potere antiossidante degli alimenti
 date: 2012-10-31
-original_url: "/perladieta/2012/10/31/il-potere-antiossidante-degli-alimenti.html"
+original_url: https://perladieta.blogspot.com/2012/10/il-potere-antiossidante-degli-alimenti.html
 tags:
-  - alimentazione
-  - antiossidanti
-  - cereali
-  - frutta
-  - frutta secca
-  - legumi
-  - spezie
-  - verdura
-  - vitamine
+- alimentazione
+- antiossidanti
+- cereali
+- frutta
+- frutta secca
+- legumi
+- spezie
+- verdura
+- vitamine
 ---
 
 [![](/perladieta/assets/86de5ea13ed0f10b.png)](/perladieta/2012/10/31/il-potere-antiossidante-degli-alimenti.html)

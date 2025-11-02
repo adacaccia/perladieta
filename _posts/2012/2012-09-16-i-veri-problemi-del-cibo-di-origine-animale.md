@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "I veri problemi del cibo di origine animale"
+title: I veri problemi del cibo di origine animale
 date: 2012-09-16
-original_url: "/perladieta/2012/09/16/i-veri-problemi-del-cibo-di-origine-animale.html"
+original_url: https://perladieta.blogspot.com/2012/09/il-vero-problema-del-cibo-di-origine.html
 tags:
-  - alimentazione
-  - allevamento
-  - batteri
-  - carne
-  - diabete
-  - grassi
-  - latte
-  - obesità
-  - proteine
-  - tossine
+- alimentazione
+- allevamento
+- batteri
+- carne
+- diabete
+- grassi
+- latte
+- obesità
+- proteine
+- tossine
 ---
 
 [![](/perladieta/assets/94d44574e34e5a35.png)](/perladieta/2012/09/16/i-veri-problemi-del-cibo-di-origine-animale.html)  

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Il Grounding: mettiamoci a terra!"
+title: 'Il Grounding: mettiamoci a terra!'
 date: 2013-09-04
-original_url: "/perladieta/2013/09/04/il-grounding-mettiamoci-a-terra.html"
+original_url: https://perladieta.blogspot.com/2013/09/il-grounding-mettiamoci-terra.html
 tags:
-  - ambiente
-  - antiossidanti
-  - divulgazione
-  - sole
-  - vitamina D
+- ambiente
+- antiossidanti
+- divulgazione
+- sole
+- vitamina D
 ---
 
 ![](/perladieta/assets/9a8abf7f08da8829.png)

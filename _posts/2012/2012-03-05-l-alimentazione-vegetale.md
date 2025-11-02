@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "L'alimentazione Vegetale"
+title: L'alimentazione Vegetale
 date: 2012-03-05
-original_url: "/perladieta/2012/03/05/l-alimentazione-vegetale.html"
+original_url: https://perladieta.blogspot.com/2012/03/lalimentazione-vegana.html
 tags:
-  - carne
-  - cereali integrali
-  - dieta
-  - frutta
-  - frutta secca
-  - latte
-  - legumi
-  - uova
-  - verdura
+- carne
+- cereali integrali
+- dieta
+- frutta
+- frutta secca
+- latte
+- legumi
+- uova
+- verdura
 ---
 
 Ho illustrato in altri post come diversi ordini di problemi, sia salutari che ambientali, siano facilmente affrontabili attraverso la riconsiderazione di ciò che comunemente consideriamo "cibo":  

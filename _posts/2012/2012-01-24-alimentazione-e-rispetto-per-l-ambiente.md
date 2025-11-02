@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Alimentazione e rispetto per l'ambiente"
+title: Alimentazione e rispetto per l'ambiente
 date: 2012-01-24
-original_url: "/perladieta/2012/01/24/alimentazione-e-rispetto-per-l-ambiente.html"
+original_url: https://perladieta.blogspot.com/2012/01/alimentazione-ed-ecologia.html
 tags:
-  - alimentazione
-  - allevamento
-  - ambiente
-  - carne
-  - effetto serra
-  - latte
-  - uova
+- alimentazione
+- allevamento
+- ambiente
+- carne
+- effetto serra
+- latte
+- uova
 ---
 
 [![](/perladieta/assets/d67ec717a7246b2f.png)](/perladieta/2012/01/24/alimentazione-e-rispetto-per-l-ambiente.html)

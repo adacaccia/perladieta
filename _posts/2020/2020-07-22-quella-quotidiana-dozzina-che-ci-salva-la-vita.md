@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Quella quotidiana dozzina... che ci salva la vita!"
+title: Quella quotidiana dozzina... che ci salva la vita!
 date: 2020-07-22
-original_url: "/perladieta/2020/07/22/quella-quotidiana-dozzina-che-ci-salva-la-vita.html"
+original_url: https://perladieta.blogspot.com/2016/09/quella-quotidiana-dozzina-che-ci-salva.html
 tags:
-  - perladieta
+- perladieta
 ---
 
 [![](/perladieta/assets/853c3126f4b77e93.jpeg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOsKvLHYwIIU9Pd0BbIv8qLOHI0rdUprqD_j5w15LceUmmc8f_TA3fm9qX9QmyPhAOr0GzkMQ2tbg3bsQiERu1Qay7lxBdrr0s4d0R1wMRAuMkViTH3xOHclUyZKhI05RU755-l8eXKgA/s1600/Dr.Greger.s.Daily.Dozen.jpeg)

@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Cottura dei vegetali e nutrizione ottimale"
+title: Cottura dei vegetali e nutrizione ottimale
 date: 2012-10-15
-original_url: "/perladieta/2012/10/15/cottura-dei-vegetali-e-nutrizione-ottimale.html"
+original_url: https://perladieta.blogspot.com/2012/10/cottura-dei-vegetali-e-nutrizione.html
 tags:
-  - alimentazione
-  - antiossidanti
-  - broccoli
-  - frutta
-  - frutta secca
-  - legumi
-  - osteoartrosi
-  - suflorafano
-  - verdura
-  - vitamine
+- alimentazione
+- antiossidanti
+- broccoli
+- frutta
+- frutta secca
+- legumi
+- osteoartrosi
+- suflorafano
+- verdura
+- vitamine
 ---
 
 [![](/perladieta/assets/d466e14e6fff5810.png)](/perladieta/2012/10/15/cottura-dei-vegetali-e-nutrizione-ottimale.html)

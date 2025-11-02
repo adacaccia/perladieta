@@ -1,22 +1,22 @@
 ---
 layout: post
-title: "Piani alimentari, dietetici o nutrizionali 'personalizzati'"
+title: Piani alimentari, dietetici o nutrizionali 'personalizzati'
 date: 2012-07-20
-original_url: "/perladieta/2012/07/20/piani-alimentari-dietetici-o-nutrizionali-personalizzati.html"
+original_url: https://perladieta.blogspot.com/2012/07/piani-alimentari-dietetici-o.html
 tags:
-  - calorie
-  - carboidrati
-  - cereali integrali
-  - dieta
-  - fabbisogno energetico
-  - indice di massa corporea
-  - obesità
-  - peso forma
-  - proteine
-  - sali minerali
-  - sole
-  - stagioni
-  - vitamine
+- calorie
+- carboidrati
+- cereali integrali
+- dieta
+- fabbisogno energetico
+- indice di massa corporea
+- obesità
+- peso forma
+- proteine
+- sali minerali
+- sole
+- stagioni
+- vitamine
 ---
 
 [![](/perladieta/assets/8a26693477fe2b80.png)](/perladieta/2012/07/20/piani-alimentari-dietetici-o-nutrizionali-personalizzati.html)  

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Obesità: la BBC ne documenta i meccanismi economici, politici e scientifici!"
+title: 'Obesità: la BBC ne documenta i meccanismi economici, politici e scientifici!'
 date: 2012-11-30
-original_url: "/perladieta/2012/11/30/obesita-la-bbc-ne-documenta-i-meccanismi-economici-politici-e-scientifici.html"
+original_url: https://perladieta.blogspot.com/2012/11/la-bbc-documenta-nel-2012-i-meccanismi.html
 tags:
-  - grassi
-  - misure politiche contro l'obesità
-  - obesità
-  - sciroppo di mais
-  - sovrappeso
-  - zucchero
+- grassi
+- misure politiche contro l'obesità
+- obesità
+- sciroppo di mais
+- sovrappeso
+- zucchero
 ---
 
 Il documentario BBC "The Men Who Made Us Fat" (luglio 2012)

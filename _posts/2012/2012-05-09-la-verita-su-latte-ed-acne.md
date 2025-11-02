@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "La verità su latte ed acne"
+title: La verità su latte ed acne
 date: 2012-05-09
-original_url: "/perladieta/2012/05/09/la-verita-su-latte-ed-acne.html"
+original_url: https://perladieta.blogspot.com/2012/04/la-verita-sul-consumo-di-latte.html
 tags:
-  - acne
-  - insulina
-  - latte
-  - ormoni
-  - proteine
+- acne
+- insulina
+- latte
+- ormoni
+- proteine
 ---
 
 [![](/perladieta/assets/b96c61fc2d33fe94.jpg)](/perladieta/2012/05/09/la-verita-su-latte-ed-acne.html)

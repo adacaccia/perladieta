@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Proteine, carboidrati e grassi: qual è il giusto rapporto nel fabbisogno umano?"
+title: 'Proteine, carboidrati e grassi: qual è il giusto rapporto nel fabbisogno umano?'
 date: 2012-01-21
-original_url: "/perladieta/2012/01/21/proteine-carboidrati-e-grassi-qual-e-il-giusto-rapporto-nel-fabbisogno-umano.html"
+original_url: https://perladieta.blogspot.com/2012/01/proteine-carboidrati-e-grassi-qual-e-il.html
 tags:
-  - carboidrati
-  - grassi
-  - proteine
+- carboidrati
+- grassi
+- proteine
 ---
 
 [![](/perladieta/assets/6e45534f3fa7e19a.png)](/perladieta/2012/01/21/proteine-carboidrati-e-grassi-qual-e-il-giusto-rapporto-nel-fabbisogno-umano.html)

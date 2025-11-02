@@ -82,6 +82,20 @@ def fix_in_markdown_text(md_text, url_map, redir_cache):
     md2 = path_pat.sub(repl_path, md2)
     return md2, changed
 
+def split_front_matter(text: str):
+    """Ritorna (front_matter_incluso_delimitatori, body). Se non c'è FM, ritorna ("", text)."""
+    lines = text.splitlines(keepends=True)
+    if not lines or lines[0].strip() != "---":
+        return "", text
+    # trova la seconda linea '---'
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            fm = "".join(lines[:i+1])   # include le due ---
+            body = "".join(lines[i+1:])
+            return fm, body
+    # caso anomalo: solo apertura senza chiusura -> tratta come no-FM
+    return "", text
+
 def main():
     url_map = load_json(URL_MAP_PATH)
     redir_cache = load_json(BLOGGER_REDIRECTS_PATH)
@@ -91,21 +105,22 @@ def main():
 
     total_files = 0
     changed_files = 0
-    changed_links = 0
 
     for root, _, files in os.walk("_posts"):
         for fn in files:
             if not fn.endswith(".md"):
                 continue
-            path = os.path.join(root, fn)
             total_files += 1
+            path = os.path.join(root, fn)
             with open(path, "r", encoding="utf-8") as f:
-                md = f.read()
+                full = f.read()
 
-            md2, chg = fix_in_markdown_text(md, url_map, redir_cache)
-            if chg and md2 != md:
+            fm, body = split_front_matter(full)
+            body2, chg = fix_in_markdown_text(body, url_map, redir_cache)
+
+            if chg and body2 != body:
                 with open(path, "w", encoding="utf-8") as f:
-                    f.write(md2)
+                    f.write(fm + body2)
                 changed_files += 1
 
     save_json(BLOGGER_REDIRECTS_PATH, redir_cache)

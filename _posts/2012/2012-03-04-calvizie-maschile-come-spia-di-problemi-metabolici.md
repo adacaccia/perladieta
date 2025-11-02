@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Calvizie maschile come spia di problemi metabolici"
+title: Calvizie maschile come spia di problemi metabolici
 date: 2012-03-04
-original_url: "/perladieta/2012/03/04/calvizie-maschile-come-spia-di-problemi-metabolici.html"
+original_url: https://perladieta.blogspot.com/2012/03/la-calvizie-maschile-evidenzia-problemi.html
 tags:
-  - alimentazione
-  - calvizie
-  - diabete
-  - insulina
+- alimentazione
+- calvizie
+- diabete
+- insulina
 ---
 
 [![](/perladieta/assets/62ae77f781b2ecf5.png)](/perladieta/2012/03/04/calvizie-maschile-come-spia-di-problemi-metabolici.html)

@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "News del terzo millennio per la cardiopatia"
+title: News del terzo millennio per la cardiopatia
 date: 2014-03-10
-original_url: "/perladieta/2014/03/10/news-del-terzo-millennio-per-la-cardiopatia.html"
+original_url: https://perladieta.blogspot.com/2014/03/cura-del-terzo-millennio-per-la.html
 tags:
-  - aterosclerosi
-  - cardiopatie
-  - colesterolo
-  - dieta
-  - grassi saturi
-  - grassi trans
-  - ischemia miocardica
+- aterosclerosi
+- cardiopatie
+- colesterolo
+- dieta
+- grassi saturi
+- grassi trans
+- ischemia miocardica
 ---
 
 Introduzione

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Cron-O-Meter: Power your Diet with Science"
+title: 'Cron-O-Meter: Power your Diet with Science'
 date: 2012-01-19
-original_url: "/perladieta/2012/01/19/cron-o-meter-power-your-diet-with-science.html"
+original_url: https://perladieta.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html
 tags:
-  - diario alimentare
-  - dieta
-  - fabbisogno energetico
-  - indice di massa corporea
-  - peso forma
+- diario alimentare
+- dieta
+- fabbisogno energetico
+- indice di massa corporea
+- peso forma
 ---
 
 [![](/perladieta/assets/2a5186a88003b370.png)](/perladieta/2012/01/19/cron-o-meter-power-your-diet-with-science.html)

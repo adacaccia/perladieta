@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Il pH dell'organismo: acidosi ed alcalinizzazione"
+title: 'Il pH dell''organismo: acidosi ed alcalinizzazione'
 date: 2013-03-18
-original_url: "/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html"
+original_url: https://perladieta.blogspot.com/2013/03/il-ph-dellorganismo-acidosi-ed.html
 tags:
-  - acidosi metabolica
-  - alcalosi metabolica
-  - alimentazione
-  - potassio
-  - PRAL
-  - proteine
-  - RNAE
+- acidosi metabolica
+- alcalosi metabolica
+- alimentazione
+- potassio
+- PRAL
+- proteine
+- RNAE
 ---
 
 [![](/perladieta/assets/5931578f5d5fb9d1.gif)](http://www.kidney.org.au/flash/kidney_animation/kidneys.html)
