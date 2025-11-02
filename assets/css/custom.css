@@ -1,0 +1,56 @@
+/* Nutrienti: header leggibile */
+.table-nutrients thead th { font-weight: bold; text-align: center; background: #fff3a1; }
+
+/* PRAL: colore semantico sul valore */
+.pral.pos { color: #0b6ef6; }   /* blu = PRAL > 0 */
+.pral.neg { color: #d11a2a; }   /* rosso = PRAL < 0 */
+.pral.zero { color: #111; }     /* nero = ~0 */
+
+/* Stagioni: assumendo colonna 1 = alimento, col 2..13 = Gen..Dic */
+.table-seasons thead th:nth-child(2), .table-seasons tbody td:nth-child(2),
+.table-seasons thead th:nth-child(3), .table-seasons tbody td:nth-child(3),
+.table-seasons thead th:nth-child(13), .table-seasons tbody td:nth-child(13) { background: #e0f0ff; } /* Inverno: gen, feb, dic */
+.table-seasons thead th:nth-child(4), .table-seasons tbody td:nth-child(4),
+.table-seasons thead th:nth-child(5), .table-seasons tbody td:nth-child(5),
+.table-seasons thead th:nth-child(6), .table-seasons tbody td:nth-child(6) { background: #eaffea; }   /* Primavera: mar, apr, mag */
+.table-seasons thead th:nth-child(7), .table-seasons tbody td:nth-child(7),
+.table-seasons thead th:nth-child(8), .table-seasons tbody td:nth-child(8),
+.table-seasons thead th:nth-child(9), .table-seasons tbody td:nth-child(9) { background: #fff3d6; }   /* Estate: giu, lug, ago */
+.table-seasons thead th:nth-child(10), .table-seasons tbody td:nth-child(10),
+.table-seasons thead th:nth-child(11), .table-seasons tbody td:nth-child(11),
+.table-seasons thead th:nth-child(12), .table-seasons tbody td:nth-child(12) { background: #ffe6e6; }  /* Autunno: set, ott, nov */
+/* Stagioni: struttura */
+.table-seasons { border-collapse: collapse; }
+.table-seasons th, .table-seasons td { padding: .25rem .4rem; }
+
+/* riempi la cella quando c'è l'in-season */
+.table-seasons .in-season {
+  display: block; width: 100%;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 1.2;
+  padding: 2px 0;
+  font-weight: 600;
+}
+
+/* colori per CATEGORIA (prima colonna + celle in-season) */
+.table-seasons.type-verdure tbody td:first-child,
+.table-seasons.type-verdure .in-season { background: #d9f5d9; }   /* verde tenue */
+
+.table-seasons.type-frutta tbody td:first-child,
+.table-seasons.type-frutta .in-season { background: #ffd8d8; }    /* rosato tenue */
+
+.table-seasons.type-legumi tbody td:first-child,
+.table-seasons.type-legumi .in-season { background: #d9c3a3; }    /* marrone medio */
+
+.table-seasons.type-cereali tbody td:first-child,
+.table-seasons.type-cereali .in-season { background: #fff4b3; }   /* giallo tenue */
+
+.table-seasons.type-frutta-secca tbody td:first-child,
+.table-seasons.type-frutta-secca .in-season { background: #ead9c6; } /* marrone chiaro */
+
+.table-seasons.type-semi-oleaginosi tbody td:first-child,
+.table-seasons.type-semi-oleaginosi .in-season { background: #cdb99d; } /* marrone scuro */
+
+/* header un filo più deciso */
+.table-seasons thead th { background: #f1f1f1; font-weight: 700; text-align:center; }
