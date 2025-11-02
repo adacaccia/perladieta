@@ -67,7 +67,7 @@ Si può qui concludere affermando che, anche per un problema di obesità individ
   
 Quindi la soluzione di un problema di obesità individuale non può essere raggiunta in modo stabile puntando solo sulla forza di volontà del singolo, facilmente abbattibile dal corposo sistema anzidetto, ma va pianificata mediante interventi a tutti i livelli; questo sito vuole aiutare ad affrontare il primo livello, quello della cultura personale che possa aiutare a forgiare una sufficiente forza di volontà; gli altri livelli (familiare, sociale, nazionale e globale) vanno ovviamente affrontati diversamente.  
   
-Questo sito riporta già una notevole quantità di informazioni per delineare una dieta personale sostenibile e salutare (es.: vedi [piano dietetico gratuito](http://perladieta.blogspot.com/2012/07/piano-dietetico-personalizzato.html)), e molte altre informazioni sono in attesa di pubblicazione; il supporto necessario ad affrontare con maggiore completezza possibile il problema dell'obesità può essere ricercato sui siti delle associazioni di settore (mediche e non), ad esempio:  
+Questo sito riporta già una notevole quantità di informazioni per delineare una dieta personale sostenibile e salutare (es.: vedi [piano dietetico gratuito](/perladieta/2012/07/20/piani-alimentari-dietetici-o-nutrizionali-personalizzati.html)), e molte altre informazioni sono in attesa di pubblicazione; il supporto necessario ad affrontare con maggiore completezza possibile il problema dell'obesità può essere ricercato sui siti delle associazioni di settore (mediche e non), ad esempio:  
   
 
 * [AIO - Associazione Italiana Obesità ONLUS](http://www.associazioneitalianaobesita.it/)

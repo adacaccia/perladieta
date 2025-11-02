@@ -174,6 +174,6 @@ Quanto alla classifica, si vede che rispetto al metodo ORAC, a livello cellulare
 
 Si possono trarre alcune utili conclusioni da quanto qui esposto.
 
-Per quanto riguarda la compilazione di [piani dietetici](http://perladieta.blogspot.com/2012/07/piano-dietetico-personalizzato.html), sarà utile selezionare sempre gli alimenti col maggior valore antiossidante a livello cellulare, naturalmente considerando le [stagioni di frutta e verdura](/perladieta/2012/05/10/le-stagioni-di-frutta-e-verdura.html).
+Per quanto riguarda la compilazione di [piani dietetici](/perladieta/2012/07/20/piani-alimentari-dietetici-o-nutrizionali-personalizzati.html), sarà utile selezionare sempre gli alimenti col maggior valore antiossidante a livello cellulare, naturalmente considerando le [stagioni di frutta e verdura](/perladieta/2012/05/10/le-stagioni-di-frutta-e-verdura.html).
 
 Altra considerazione utile riguarda la questione della [cottura della verdura](/perladieta/2012/10/15/cottura-dei-vegetali-e-nutrizione-ottimale.html): dato che il maggior apporto di antiossidanti nel contesto di una corretta alimentazione proviene dalla frutta, se consumata in adeguate quantità, diventa meno importante tentare di preservare i (relativamente) pochi antiossidanti contenuti nella verdura selezionando il miglior metodo per cuocerla: una volta tanto, si possono privilegiare i gusti personali!
