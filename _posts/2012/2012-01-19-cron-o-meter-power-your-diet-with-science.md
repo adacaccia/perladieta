@@ -11,7 +11,7 @@ tags:
   - peso forma
 ---
 
-[![](/perladieta/assets/2a5186a88003b370.png)](http://perladieta.blogspot.it/2012/01/cron-o-meter-power-your-diet-with.html)
+[![](/perladieta/assets/2a5186a88003b370.png)](/perladieta/2012/01/19/cron-o-meter-power-your-diet-with-science.html)
 
 Non è un messaggio pubblicitario, è la semplice realtà dei fatti, e nel resto del post spero di spiegare bene perché.
 

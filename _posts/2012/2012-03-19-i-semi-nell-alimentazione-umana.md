@@ -11,11 +11,11 @@ tags:
   - vitamine
 ---
 
-[![](/perladieta/assets/43c0e045085e80d0.png)](http://perladieta.blogspot.it/2012/03/i-semi-nellalimentazione-umana.html)
+[![](/perladieta/assets/43c0e045085e80d0.png)](/perladieta/2012/03/19/i-semi-nell-alimentazione-umana.html)
 
 Usati come condimento nelle varie cucine tradizionali regionali italiane, i semi sono spesso associati a richiami miracolistici su presunti effetti benefici sulla nostra salute, e tendono a rivestire un ruolo di primo piano nell'alimentazione di chi segue diete basate sui vegetali. Voglio qui discutere questi effetti a partire dai contenuti nutritivi dei vari semi, bilanciandoli con gli eventuali effetti negativi sempre derivanti da tali contenuti.
 
-Le immagini ed i calcoli di questo post sono stati ottenuti grazie al sito [Cron-O-Meter](http://cronometer.com/), di cui ho parlato in [un altro post](http://perladieta.blogspot.com/2012/01/cron-o-meter-power-your-diet-with.html). La documentazione scientifica WHO-FAO da cui sono tratte le informazioni seguenti è reperibile sul sito della FAO:
+Le immagini ed i calcoli di questo post sono stati ottenuti grazie al sito [Cron-O-Meter](http://cronometer.com/), di cui ho parlato in [un altro post](/perladieta/2012/01/19/cron-o-meter-power-your-diet-with-science.html). La documentazione scientifica WHO-FAO da cui sono tratte le informazioni seguenti è reperibile sul sito della FAO:
 
 * [FAO report of an expert consultation on fats and fatty acids in human nutrition, 2010](http://www.who.int/nutrition/publications/nutrientrequirements/fatsandfattyacids_humannutrition/en/index.html)
 * [Joint FAO/WHO Scientific update on carbohydrates in human nutrition (2007)](http://www.who.int/nutrition/publications/nutrientrequirements/scientific_update_carbohydrates/en/index.html)

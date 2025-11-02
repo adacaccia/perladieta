@@ -17,13 +17,13 @@ tags:
 
 Ho illustrato in altri post come diversi ordini di problemi, sia salutari che ambientali, siano facilmente affrontabili attraverso la riconsiderazione di ciò che comunemente consideriamo "cibo":  
 
-[![](/perladieta/assets/a6574e397a2c3547.jpg)](http://perladieta.blogspot.it/2012/03/lalimentazione-vegana.html)* [le malattie croniche si prevengono con l'alimentazione](http://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html);
-* [il diabete si combatte a tavola](http://perladieta.blogspot.com/2012/01/lindice-glicemico-dei-carboidrati.html);
-* [la calvizie maschile è correlata a disordini metabolici](http://perladieta.blogspot.com/2012/03/la-calvizie-maschile-evidenzia-problemi.html);
-* [gli allevamenti inquinano più dei motori](http://perladieta.blogspot.com/2012/01/alimentazione-ed-ecologia.html);
-* [la Nutella ha un grosso impatto ambientale](http://perladieta.blogspot.com/2012/01/limpatto-ambientale-delle-creme-alla.html);
-* [il latte aggrava l'acne e le malattie croniche](http://perladieta.blogspot.it/2012/04/la-verita-sul-consumo-di-latte.html);
-* [anche un solo pasto a base di cibi di origine animale causa infiammazioni](http://perladieta.blogspot.com/2012/09/il-vero-problema-del-cibo-di-origine.html).
+[![](/perladieta/assets/a6574e397a2c3547.jpg)](/perladieta/2012/03/05/l-alimentazione-vegetale.html)* [le malattie croniche si prevengono con l'alimentazione](/perladieta/2012/01/22/dieta-e-prevenzione-delle-malattie-croniche.html);
+* [il diabete si combatte a tavola](/perladieta/2012/01/26/l-indice-glicemico-degli-alimenti.html);
+* [la calvizie maschile è correlata a disordini metabolici](/perladieta/2012/03/04/calvizie-maschile-come-spia-di-problemi-metabolici.html);
+* [gli allevamenti inquinano più dei motori](/perladieta/2012/01/24/alimentazione-e-rispetto-per-l-ambiente.html);
+* [la Nutella ha un grosso impatto ambientale](/perladieta/2012/01/24/creme-spalmabili-alla-nocciola-ambiente-e-salute.html);
+* [il latte aggrava l'acne e le malattie croniche](/perladieta/2012/05/09/la-verita-su-latte-ed-acne.html);
+* [anche un solo pasto a base di cibi di origine animale causa infiammazioni](/perladieta/2012/09/16/i-veri-problemi-del-cibo-di-origine-animale.html).
 
 Tutti i consigli di selezione alimentare che è possibile trarre dalla ricerca scientifica vanno nella medesima direzione: arricchire la dieta di frutta, verdura e cereali integrali, e ridurre carne, pesce, latte e derivati, ed uova.
 

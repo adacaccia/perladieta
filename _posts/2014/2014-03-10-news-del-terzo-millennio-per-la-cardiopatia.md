@@ -16,7 +16,7 @@ tags:
 Introduzione
 ------------
 
-[![](/perladieta/assets/63f8b0ac1d010200.png)](http://perladieta.blogspot.com/2014/03/cura-del-terzo-millennio-per-la.html)
+[![](/perladieta/assets/63f8b0ac1d010200.png)](/perladieta/2014/03/10/news-del-terzo-millennio-per-la-cardiopatia.html)
 
 In seguito alla mia recente traduzione di due conferenze annuali del Dr. Greger che riassumono gli avanzamenti della scienza clinica per il 2012 e il 2013, ho deciso di sintetizzare e divulgare questi contenuti suddividendoli per patologie.
 
@@ -56,7 +56,7 @@ Ma il colesterolo è solo metà della storia, quando si parla di cardiopatie isc
   
 [Accade lo stesso ai nostri polmoni](http://www.ncbi.nlm.nih.gov/pubmed/20165863): dopo un pasto ricco di grassi animali la funzione polmonare risente di infiammazioni alle vie aeree, come si vede in figura (qui sopra): negli uomini quanto nelle donne, 2 ore dopo il pasto ricco di grassi animali aumenta il monossido d'azoto (NO) espirato, che è un indicatore di infiammazioni in corso.  
   
-La spiegazione biochimica del perché il pasto ricco di grassi saturi causi questi stati infiammatori l'ho già esposta in [un altro post](http://perladieta.blogspot.com/2012/09/il-vero-problema-del-cibo-di-origine.html) e non la ripeterò qui per brevità.  
+La spiegazione biochimica del perché il pasto ricco di grassi saturi causi questi stati infiammatori l'ho già esposta in [un altro post](/perladieta/2012/09/16/i-veri-problemi-del-cibo-di-origine-animale.html) e non la ripeterò qui per brevità.  
   
 
 Evoluzione della patologia

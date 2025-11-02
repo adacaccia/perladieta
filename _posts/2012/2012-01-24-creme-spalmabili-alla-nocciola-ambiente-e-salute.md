@@ -9,7 +9,7 @@ tags:
   - olio di palma
 ---
 
-[![](/perladieta/assets/7a25bbdc6e8512cc.png)](http://perladieta.blogspot.it/2012/01/limpatto-ambientale-delle-creme-alla.html)
+[![](/perladieta/assets/7a25bbdc6e8512cc.png)](/perladieta/2012/01/24/creme-spalmabili-alla-nocciola-ambiente-e-salute.html)
 
 Mi trovo spesso a confronto con appassionati della Nutella, e cerco di spiegare loro che si tratta di un prodotto di scarse qualità nutrizionali, e di notevole impatto ambientale.  
 
@@ -19,7 +19,7 @@ Quando nell'elenco ingredienti di qualunque prodotto compare la dicitura "oli ve
 
 Ciò significa che questi signori, nell'effettuare acquisti di olio di palma, non ne verificano sempre la certificazione di sostenibilità ambientale. E questo implica che nel sud-est asiatico, Indonesia e Malesia essendone i principali esportatori, si sacrificano continuamente enormi porzioni di foreste vergini (ad esempio nel Borneo), in cui vivono piante ed animali ormai a rischio di estinzione, e magari ancora nemmeno scoperti, solo per piantare palme da olio!
 
-Inoltre l'olio di palma è anche pericoloso per la salute; questo è uno dei tipici argomenti su cui c'è "dibattito", nel senso che a fianco a ricerche che ne dimostrano la pericolosità, compaiono anche ricerche che la negano o che, addirittura, celebrano presunte virtù nutritive. Attenendomi al mero consenso scientifico attuale, rimando ad [un altro post](http://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html) (nel paragrafo dedicato alle malattie cardiovascolari) l'indicazione di precisi rischi per la salute derivanti dal consumo di olio di palma.  
+Inoltre l'olio di palma è anche pericoloso per la salute; questo è uno dei tipici argomenti su cui c'è "dibattito", nel senso che a fianco a ricerche che ne dimostrano la pericolosità, compaiono anche ricerche che la negano o che, addirittura, celebrano presunte virtù nutritive. Attenendomi al mero consenso scientifico attuale, rimando ad [un altro post](/perladieta/2012/01/22/dieta-e-prevenzione-delle-malattie-croniche.html) (nel paragrafo dedicato alle malattie cardiovascolari) l'indicazione di precisi rischi per la salute derivanti dal consumo di olio di palma.  
   
 Tornando alle creme alla nocciola, la Nutella ha lo zucchero come primo (= più abbondante) ingrediente, gli oli vegetali (= olio di palma) come secondo e le nocciole solo al terzo posto con un misero 13% (da cui gli apici intorno "alla nocciola" nel titolo del post!).  
   

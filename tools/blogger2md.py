@@ -635,6 +635,57 @@ def write_post(entry, media_map: dict, url_map: dict) -> Tuple[bool, bool]:
 
     # 3) converti in Markdown
     body_md = sanitize_html_to_md(content_html_local).strip()
+    # --- FAILSAFE: se il Markdown finale non contiene immagini, prepend la "hero" dal contenuto ORIGINALE ---
+    if not re.search(r'!\[|\<img', body_md, flags=re.I):
+        def _first_img_like(html: str):
+            s = BeautifulSoup(html, "html.parser")
+            # 1) <img>
+            imgtag = s.find("img")
+            if imgtag and imgtag.get("src"):
+                return imgtag["src"]
+            # 2) style background-image
+            for el in s.find_all(style=True):
+                m = re.search(r'url\((?:["\']?)(.*?)(?:["\']?)\)', el.get("style") or "")
+                if m:
+                    return m.group(1)
+            # 3) background="..."
+            for el in s.find_all(["table","tr","td"]):
+                if el.get("background"):
+                    return el["background"]
+            # 4) <a href="...jpg|png|gif|webp|svg">
+            for a in s.find_all("a", href=True):
+                href = a["href"]
+                if re.search(r'\.(?:jpe?g|png|gif|webp|svg)(?:\?.*)?$', href, flags=re.I):
+                    return href
+            return None
+
+        first_src = _first_img_like(content_html)  # NB: uso l'HTML ORIGINALE
+        if first_src:
+            # scarica/mappa usando la stessa logica media_map
+            def _ensure_mapped(src: str) -> str:
+                if src in media_map:
+                    return media_map[src]
+                try:
+                    fn = _asset_filename(src)
+                    local_fs_path = os.path.join(ASSETS_DIR, fn)
+                    if not os.path.exists(local_fs_path):
+                        resp = requests.get(src, timeout=30)
+                        resp.raise_for_status()
+                        os.makedirs(ASSETS_DIR, exist_ok=True)
+                        with open(local_fs_path, "wb") as f:
+                            f.write(resp.content)
+                    site_url = f"{ASSETS_URL_BASE}/{fn}"
+                    media_map[src] = site_url
+                    return site_url
+                except Exception:
+                    return src
+
+            local_url = _ensure_mapped(first_src)
+            # prepend come Markdown puro: è più robusto di HTML in testa
+            hero_md = f'![]({local_url})\n\n'
+            body_md = hero_md + body_md
+            print("[IMG] failsafe: hero markdown prepend")
+    
     body_md = fix_internal_links_in_markdown(body_md, url_map)
 
     # --- FRONT MATTER ---

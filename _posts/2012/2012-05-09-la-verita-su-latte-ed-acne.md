@@ -11,7 +11,7 @@ tags:
   - proteine
 ---
 
-[![](/perladieta/assets/b96c61fc2d33fe94.jpg)](http://perladieta.blogspot.it/2012/04/la-verita-sul-consumo-di-latte.html)
+[![](/perladieta/assets/b96c61fc2d33fe94.jpg)](/perladieta/2012/05/09/la-verita-su-latte-ed-acne.html)
 
 Ecco un'altra "inconvenient truth", o verità scomoda. Cercando dati scientifici sull'acne, ho trovato un [articolo del 2008 pubblicato sul Journal of the German Society of Dermatology, dal titolo "Milk consumption: aggravating factor of acne and promoter of chronic diseases of Western societies"](http://onlinelibrary.wiley.com/doi/10.1111/j.1610-0387.2009.07019.x/pdf) ("Il consumo di latte: fattore aggravante dell'acne e promotore di malattie croniche nelle società occidentali").  
 L'articolo non verte su una singola ricerca scientifica, ma traccia un quadro complessivo aggregando i risultati di ben 123 studi specifici precedenti. Il quadro che ne risulta è davvero preoccupante, anche perché i risultati di certi studi, pur essendo ben noti da molto tempo, non trovano ancora la necessaria diffusione pubblica, nemmeno tra i medici!  
@@ -51,10 +51,10 @@ Le osservazioni di biologia molecolare sono supportate da dati epidemiologici e 
 + IGF-1 gioca pure un ruolo chiave nella produzione degli ormoni steroidei nelle ovaie, ed è stato già precedentemente associato con l'insorgenza dell'iperandrogenismo ovarico nel quadro della sindrome ovarica policistica (o PCOS). L'espressione dei recettori per IGF-1 nelle ovaie ed il loro numero sono significativamente più alti nelle donne affette da PCOS.
 + IGF-1 è pure fondamentale nella produzione di androgeni nei testicoli; in particolare, nelle cellule testicolari umane IGF-1 induce secrezione di testosterone e proliferazione cellulare, ed inibisce l'apoptosi.
 
-+ Somministrando *in vitro* l'IGF-1 ai fibroblasti della pelle, è stato osservato un aumento di attività dell'enzima [5-alfa-reduttasi](http://perladieta.blogspot.com/2012/03/la-calvizie-maschile-evidenzia-problemi.html) (ivi contenuto) dipendente dalla dose somministrata. IGF-1 è dunque un importante stimolatore di segnali mediati dai recettori androgeni (AR) periferici. Ma IGF-1 è anche un attivatore degli AR. Entrambi i meccanismi aumentano la trasduzione dei segnali androgeni.
++ Somministrando *in vitro* l'IGF-1 ai fibroblasti della pelle, è stato osservato un aumento di attività dell'enzima [5-alfa-reduttasi](/perladieta/2012/03/04/calvizie-maschile-come-spia-di-problemi-metabolici.html) (ivi contenuto) dipendente dalla dose somministrata. IGF-1 è dunque un importante stimolatore di segnali mediati dai recettori androgeni (AR) periferici. Ma IGF-1 è anche un attivatore degli AR. Entrambi i meccanismi aumentano la trasduzione dei segnali androgeni.
 + Il fatto che 
   per contrastare l'acne si usino comunemente a livello locale i retinoidi (vitamina A e relative pro-vitamine), rientra perfettamente in questo quadro, dato che tutti gli acidi retinoici sono in grado di causare una riduzione della biodisponibilità di IGF-1 presso le cellule del derma.
-+ L'isotretionina (altro farmaco comunemente utilizzato per l'acne) agisce invece inibendo l'espressione della [5-alfa-reduttasi](http://perladieta.blogspot.com/2012/03/la-calvizie-maschile-evidenzia-problemi.html), a sua volta sempre attivata da IGF-1.
++ L'isotretionina (altro farmaco comunemente utilizzato per l'acne) agisce invece inibendo l'espressione della [5-alfa-reduttasi](/perladieta/2012/03/04/calvizie-maschile-come-spia-di-problemi-metabolici.html), a sua volta sempre attivata da IGF-1.
 
 ### 
 
@@ -63,7 +63,7 @@ Le osservazioni di biologia molecolare sono supportate da dati epidemiologici e 
 + Il latte è una complessa secrezione bioattiva che gioca un importante ruolo nella promozione della crescita e dello sviluppo dei mammiferi appena nati. Gli esseri umani sono, però, gli unici mammiferi che abbiano accesso a latte proveniente da un'altra specie, ed ai relativi prodotti caseari, per tutta la vita anziché per la sola fase neonatale.
 + Il latte di vacca contiene diversi ormoni bioattivi tra cui IGF-1 e IGF-2; IGF-1 è secreto nel latte in quanto esso stesso importante stimolatore della produzione di latte, e della crescita del vitello; aumentati livelli di IGF-1 sono stati trovati nel latte delle vacche che hanno subito l'apposito ed ormai usuale trattamento ormonale per incrementarne la produzione di latte.
 + La pastorizzazione e l'omogeneizzazione del latte nulla tolgono all'attività di IGF-1. L'IGF-1 bovino e quello umano sono del tutto identici, e l'IGF-1 rimane immutato attraversando il tratto intestinale umano e viene assorbito direttamente nel sangue, protetto dalla caseina.
-+ Il consumo di latte ha un marcato effetto sulla produzione di insulina; più in dettaglio, le proteine del siero del latte incrementano l'insulina, mentre la caseina produce un aumento di IGF-1. I prodotti caseari incrementano i livelli di IGF-1 più significativamente rispetto ad altre fonti di proteine animali, tipo la carne (vedi: [articolo specifico sull'argomento](http://perladieta.blogspot.com/2012/09/lindice-insulinico-degli-alimenti.html)).
++ Il consumo di latte ha un marcato effetto sulla produzione di insulina; più in dettaglio, le proteine del siero del latte incrementano l'insulina, mentre la caseina produce un aumento di IGF-1. I prodotti caseari incrementano i livelli di IGF-1 più significativamente rispetto ad altre fonti di proteine animali, tipo la carne (vedi: [articolo specifico sull'argomento](/perladieta/2012/09/07/l-indice-insulinico-degli-alimenti.html)).
 
 ### 
 

@@ -13,7 +13,7 @@ tags:
   - uova
 ---
 
-[![](/perladieta/assets/d67ec717a7246b2f.png)](http://perladieta.blogspot.it/2012/01/alimentazione-ed-ecologia.html)
+[![](/perladieta/assets/d67ec717a7246b2f.png)](/perladieta/2012/01/24/alimentazione-e-rispetto-per-l-ambiente.html)
 
 In questo post voglio illustrare il profondo legame che esiste tra la nostra alimentazione e l'ambiente in cui viviamo, perché credo che ci siano ancora troppi  "ambientalisti" che non osservano alcuna attenzione nei confronti delle proprie scelte alimentari, evidentemente perché questo legame non è ancora molto noto.
 
@@ -66,4 +66,4 @@ A questo proposito, concludo con tre riferimenti a documentari liberamente dispo
 * [Un Equilibrio Delicato (A Delicate Balance)](http://www.youtube.com/watch?v=HzEj-xwNldg) [Scelte alimentari e rispetto dell'ambiente]
 * [Meat Costs and Vegan Savings (Costi della Carne e Risparmio Vegan)](http://www.youtube.com/watch?v=-Zu5zbq-UjQ) [L'impatto ambientale in Km!]
 
-Circa la scelta Vegan, discuto come bilanciare la necessità di preservare (nonché migliorare) la propria salute, con quella di proteggere l'ambiente e gli altri animali in [un articolo dedicato](http://perladieta.blogspot.com/2012/03/lalimentazione-vegana.html).
+Circa la scelta Vegan, discuto come bilanciare la necessità di preservare (nonché migliorare) la propria salute, con quella di proteggere l'ambiente e gli altri animali in [un articolo dedicato](/perladieta/2012/03/05/l-alimentazione-vegetale.html).

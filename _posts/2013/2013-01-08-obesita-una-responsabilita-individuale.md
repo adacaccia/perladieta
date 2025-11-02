@@ -26,7 +26,7 @@ L'obesità è dunque in aumento anche nel nostro paese, e si vuole qui riassumer
 La responsabilità individuale
 -----------------------------
 
-Ho già presentato il [rapporto WHO del 2003 sulla correlazione tra alimentazione e malattie croniche](http://perladieta.blogspot.com/2012/01/alimentazione-e-prevenzione-di-malattie.html); tra esse l'obesità riveste un ruolo di primo piano in quanto cofattore di un buon numero delle altre. La cosa interessante, qui, è che il rapporto del 2003 ha per la prima identificato i singoli fattori che influiscono sull'obesità; li ripeto qui per facilità di lettura:
+Ho già presentato il [rapporto WHO del 2003 sulla correlazione tra alimentazione e malattie croniche](/perladieta/2012/01/22/dieta-e-prevenzione-delle-malattie-croniche.html); tra esse l'obesità riveste un ruolo di primo piano in quanto cofattore di un buon numero delle altre. La cosa interessante, qui, è che il rapporto del 2003 ha per la prima identificato i singoli fattori che influiscono sull'obesità; li ripeto qui per facilità di lettura:
 
 > **[Obesità](http://it.wikipedia.org/wiki/Obesit%C3%A0):**
 >
@@ -47,7 +47,7 @@ Tutti noi siamo abituati a pensare ai problemi di sovrappeso ed obesità solo in
 
 I media, giornali e TV soprattutto, certo non aiutano a riflettere serenamente sulla questione, dato che sono sempre schierati verso la responsabilità individuale: così si trovano a bizzeffe diete e consigli dietetici su rivuste e giornali, e trasmissioni sempre nuove in TV in cui i "grassoni" vengono messi alla prova per il dimagrimento più o meno forzato, grazie ad esercizi più o meno pesanti e/o di diete più o meno salutari, e sempre con un costante senso di colpa per il proprio stato attuale, instillato ad hoc se non già presente nell'individuo, quale presunta forza motivazionale.
 
-Ebbene, [un recente documentario della BBC](http://perladieta.blogspot.com/2012/11/la-bbc-documenta-nel-2012-i-meccanismi.html) (luglio 2012, poco prima delle Olimpiadi di Londra 2012) ha mostrato come la responsabilità individuale e la mancanza di esercizio fisico siano proprio le argomentazioni tipiche usate dall'industria del cibo per sollevarsi d'ogni responsabilità, e sono anche ciò che consente ai governi (con poche eccezioni in Europa) di lavarsene le mani.
+Ebbene, [un recente documentario della BBC](/perladieta/2012/11/30/obesita-la-bbc-ne-documenta-i-meccanismi-economici-politici-e-scientifici.html) (luglio 2012, poco prima delle Olimpiadi di Londra 2012) ha mostrato come la responsabilità individuale e la mancanza di esercizio fisico siano proprio le argomentazioni tipiche usate dall'industria del cibo per sollevarsi d'ogni responsabilità, e sono anche ciò che consente ai governi (con poche eccezioni in Europa) di lavarsene le mani.
 
 E certamente, questo sito promuove divulgazione scientifica nella speranza di educare il singolo lettore verso scelte alimentari migliori nel futuro, ma è del tutto evidente che ci sia una enorme pressione sociale e culturale verso il "mangiare normale" che rende difficile, se non impossibile, l'applicazione di scelte individuali "diverse".  
 Certamente, il documentario mostra la realtà del mondo anglosassone, che è ancora piuttosto diversa dalla nostra (sedicente) sana alimentazione "mediterranea" (cosa questo termine indichi esattamente è ancora ampiamente dibattuto!). Ma non si può negare quanto forte sia, qui da noi, la spinta "culturale" verso alimenti "tradizionali" che, per povertà nutrizionale e densità calorica, sono facilmente assimilabili al "junk food" tipico del mondo anglosassone.  
@@ -57,7 +57,7 @@ Perciò ci ritroviamo praticamente programmati per una naturale inclinazione ver
   
 Il documentario, in sintesi, mostra come siano, in realtà, proprio gli zuccheri aggiunti nel cibo a rappresentare la principale fonte di problemi di salute legati all'alimentazione.  
   
-Questo fatto, unito alle già note considerazioni sull'[indice glicemico degli alimenti](http://perladieta.blogspot.com/2012/01/lindice-glicemico-dei-carboidrati.html), che mostrano come le farine di grano tenero e più bianche (0 e 00) siano assimilabili allo zucchero per l'impatto che hanno sul nostro metabolismo, portano a comprendere la reale pericolosità per la salute che deriva dal consumo persino degli alimenti per noi più "normali", pane bianco in testa!  
+Questo fatto, unito alle già note considerazioni sull'[indice glicemico degli alimenti](/perladieta/2012/01/26/l-indice-glicemico-degli-alimenti.html), che mostrano come le farine di grano tenero e più bianche (0 e 00) siano assimilabili allo zucchero per l'impatto che hanno sul nostro metabolismo, portano a comprendere la reale pericolosità per la salute che deriva dal consumo persino degli alimenti per noi più "normali", pane bianco in testa!  
   
 I problemi di salute legati all'alimentazione sono dunque dovuti alle nostre scelte individuali?  
 Oppure un intervento legislativo, regolamentando più strettamente la vendita degli alimenti, faciliterebbe la diffusione di comportamenti  più salutari nel pubblico?  
