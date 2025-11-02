@@ -78,38 +78,29 @@ REDIR_CACHE = None  # caricato in main()
 # ----------------------------
 # Utility
 # ----------------------------
-def resolve_blogger_path(url_or_path: str) -> str:
+def resolve_blogger_path(u: str) -> str:
     """
-    Prende un URL completo o un path Blogspot, segue i redirect e ritorna il path canonico
-    tipo /YYYY/MM/slug.html (senza query/fragment/slash).
-    Usa una cache su disco per non ripetere richieste.
+    Segue i redirect Blogger e ritorna il path canonico: /YYYY/MM/slug.html (senza query/fragment/slash).
+    Accetta URL completi o path. Usa cache su disco.
     """
     global REDIR_CACHE
     if REDIR_CACHE is None:
         REDIR_CACHE = load_redirect_cache()
 
-    # normalizza a URL completo per la richiesta
-    if url_or_path.startswith("/"):
-        probe = "https://perladieta.blogspot.com" + url_or_path
-    else:
-        probe = url_or_path
-
+    probe = "https://perladieta.blogspot.com" + u if u.startswith("/") else u
     key = probe.rstrip("/")
     if key in REDIR_CACHE:
         return REDIR_CACHE[key]
 
     try:
-        r = requests.head(probe, timeout=15, allow_redirects=True)
+        # GET (alcuni endpoint non rispondono bene a HEAD)
+        r = requests.get(probe, timeout=20, allow_redirects=True)
         final = r.url
     except Exception:
-        # in caso di errore usa l’input
         final = probe
 
-    # estrai path, togli query/fragment/slash finale
-    from urllib.parse import urlsplit
     path = urlsplit(final).path
     path = path.split("#", 1)[0].split("?", 1)[0].rstrip("/")
-
     REDIR_CACHE[key] = path
     return path
 
@@ -124,6 +115,9 @@ def save_redirect_cache(cache: dict):
     os.makedirs(CACHE_DIR, exist_ok=True)
     with open(BLOGGER_REDIRECTS_PATH, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
+
+REDIR_CACHE= None
+
 def ensure_dirs():
     os.makedirs(CACHE_DIR, exist_ok=True)
     os.makedirs(OUT_DIR, exist_ok=True)
@@ -233,22 +227,20 @@ def load_url_map():
 def fix_internal_links(html, url_map=None):
     if url_map is None:
         url_map = load_url_map()
+
     full_pat = re.compile(r'https?://perladieta\.blogspot\.[a-z.]+/[^\s"\'<>]+', re.I)
     path_pat = re.compile(r'/\d{4}/\d{2}/[a-z0-9\-]+\.html(?:[?#][^\s"\'<>]*)?', re.I)
     rewrites = 0
 
     def norm_to_path(u: str) -> str:
-        # prima prova risoluzione via redirect
         try:
             return resolve_blogger_path(u)
         except Exception:
-            pass
-        # fallback: strip schema+dominio+query+fragment
-        u2 = re.sub(r"^https?://perladieta\.blogspot\.[^/]+", "", u, flags=re.I)
-        u2 = u2.split("#", 1)[0].split("?", 1)[0]
-        return u2.rstrip("/")
+            u2 = re.sub(r"^https?://perladieta\.blogspot\.[^/]+", "", u, flags=re.I)
+            u2 = u2.split("#", 1)[0].split("?", 1)[0]
+            return u2.rstrip("/")
 
-    def repl(m):
+    def repl_full(m):
         nonlocal rewrites
         p = norm_to_path(m.group(0))
         if p in url_map:
@@ -256,35 +248,57 @@ def fix_internal_links(html, url_map=None):
             return url_map[p]
         return m.group(0)
 
-    html = full_pat.sub(repl, html)
-    html = path_pat.sub(lambda m: (url_map.get(norm_to_path(m.group(0)), m.group(0))), html)
+    def repl_path(m):
+        nonlocal rewrites
+        p = norm_to_path(m.group(0))
+        if p in url_map:
+            rewrites += 1
+            return url_map[p]
+        return m.group(0)
+
+    html = full_pat.sub(repl_full, html)
+    html = path_pat.sub(repl_path, html)
     if rewrites:
         print(f"[LINK] rewrites={rewrites}")
     return html
 
-def fix_internal_links_in_markdown(md_text: str, url_map: dict) -> str:
-    full_pat = re.compile(r'https?://perladieta\.blogspot\.[^/\s"]+/\d{4}/\d{2}/[a-z0-9\-]+\.html(?:[?#][^\s"\'\)]*)?', re.I)
-    path_pat = re.compile(r'/\d{4}/\d{2}/[a-z0-9\-]+\.html(?:[?#][^\s"\'\)]*)?', re.I)
+def fix_internal_links(html, url_map=None):
+    if url_map is None:
+        url_map = load_url_map()
+
+    full_pat = re.compile(r'https?://perladieta\.blogspot\.[a-z.]+/[^\s"\'<>]+', re.I)
+    path_pat = re.compile(r'/\d{4}/\d{2}/[a-z0-9\-]+\.html(?:[?#][^\s"\'<>]*)?', re.I)
+    rewrites = 0
 
     def norm_to_path(u: str) -> str:
         try:
             return resolve_blogger_path(u)
         except Exception:
-            u2 = re.sub(r'^https?://perladieta\.blogspot\.[^/]+', '', u, flags=re.I)
-            u2 = u2.split('#', 1)[0].split('?', 1)[0]
-            return u2.rstrip('/')
+            u2 = re.sub(r"^https?://perladieta\.blogspot\.[^/]+", "", u, flags=re.I)
+            u2 = u2.split("#", 1)[0].split("?", 1)[0]
+            return u2.rstrip("/")
 
     def repl_full(m):
+        nonlocal rewrites
         p = norm_to_path(m.group(0))
-        return url_map.get(p, m.group(0))
+        if p in url_map:
+            rewrites += 1
+            return url_map[p]
+        return m.group(0)
 
     def repl_path(m):
+        nonlocal rewrites
         p = norm_to_path(m.group(0))
-        return url_map.get(p, m.group(0))
+        if p in url_map:
+            rewrites += 1
+            return url_map[p]
+        return m.group(0)
 
-    md_text2 = full_pat.sub(repl_full, md_text)
-    md_text2 = path_pat.sub(repl_path, md_text2)
-    return md_text2
+    html = full_pat.sub(repl_full, html)
+    html = path_pat.sub(repl_path, html)
+    if rewrites:
+        print(f"[LINK] rewrites={rewrites}")
+    return html
 
 def sanitize_html_to_md(html: str) -> str:
     # Converti HTML a Markdown con cleanup base
@@ -523,6 +537,21 @@ def fetch_all_entries(base_url: str, max_results: int = FEED_MAX_RESULTS):
     print(f"[FEED] total entries: {len(all_entries)}")
     return all_entries
 
+def fix_internal_links_in_markdown(md_text: str, url_map: dict) -> str:
+    full_pat = re.compile(r'https?://perladieta\.blogspot\.[^/\s"]+/\d{4}/\d{2}/[a-z0-9\-]+\.html(?:[?#][^\s"\'\)]*)?', re.I)
+    path_pat = re.compile(r'/\d{4}/\d{2}/[a-z0-9\-]+\.html(?:[?#][^\s"\'\)]*)?', re.I)
+
+    def norm_to_path(u: str) -> str:
+        try:
+            return resolve_blogger_path(u)
+        except Exception:
+            u2 = re.sub(r'^https?://perladieta\.blogspot\.[^/]+', '', u, flags=re.I)
+            u2 = u2.split('#', 1)[0].split('?', 1)[0]
+            return u2.rstrip('/')
+
+    md_text = full_pat.sub(lambda m: url_map.get(norm_to_path(m.group(0)), m.group(0)), md_text)
+    md_text = path_pat.sub(lambda m: url_map.get(norm_to_path(m.group(0)), m.group(0)), md_text)
+    return md_text
 
 # ----------------------------
 # Core: scrittura post
@@ -741,10 +770,10 @@ def main():
     if changed_media_any:
         save_media_map(media_map)
 
-    print("Changed:", changed_any)
-
     if REDIR_CACHE is not None:
         save_redirect_cache(REDIR_CACHE)
+
+    print("Changed:", changed_any)
     
 if __name__ == "__main__":
     main()

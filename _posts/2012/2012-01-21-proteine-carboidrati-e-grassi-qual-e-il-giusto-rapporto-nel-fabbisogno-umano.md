@@ -109,7 +109,7 @@ Si può quindi concludere che una dieta scientificamente sostenibile e sopratt
 * carboidrati: **50 - 77**%.
 
 I carboidrati sono, come sempre, calcolati per differenza, sempre tenendo conto del principio di selezione appena visto.  
-Una dieta di successo, sia che si voglia diminuire o aumentare il proprio peso corporeo, sia che la si intraprenda per migliorare lo stato di salute, non deve necessariamente basarsi completamente sul calcolo delle calorie: bisogna sempre assicurarsi, prima di ogni altra cosa, che il piano dietetico che seguiamo sia progettato per fornire al nostro corpo una [nutrizione ottimale](http://perladieta.blogspot.com/2012/07/piano-dietetico-personalizzato.html), che ne migliori il benessere.  
+Una dieta di successo, sia che si voglia diminuire o aumentare il proprio peso corporeo, sia che la si intraprenda per migliorare lo stato di salute, non deve necessariamente basarsi completamente sul calcolo delle calorie: bisogna sempre assicurarsi, prima di ogni altra cosa, che il piano dietetico che seguiamo sia progettato per fornire al nostro corpo una [nutrizione ottimale](/perladieta/2012/07/20/piani-alimentari-dietetici-o-nutrizionali-personalizzati.html), che ne migliori il benessere.  
   
 
 Oltre il rapporto PCF standard
