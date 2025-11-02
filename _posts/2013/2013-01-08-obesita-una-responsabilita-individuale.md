@@ -2,7 +2,7 @@
 layout: post
 title: "Obesità: una responsabilità individuale?"
 date: 2013-01-08
-original_url: "https://perladieta.blogspot.com/2013/01/obesita-una-responsabilita-individuale.html"
+original_url: "/perladieta/2013/01/08/obesita-una-responsabilita-individuale.html"
 tags:
   - alimenti salutari
   - junk food

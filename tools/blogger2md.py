@@ -20,17 +20,17 @@ Funzioni principali:
 import os
 import re
 import json
+import yaml
 import time
 import hashlib
 import datetime
-import urllib.parse
-from urllib.parse import urlsplit
-from typing import Tuple
-
 import requests
 import feedparser
-from bs4 import BeautifulSoup
+import urllib.parse
+from typing import Tuple
 from slugify import slugify
+from bs4 import BeautifulSoup
+from urllib.parse import urlsplit
 from markdownify import markdownify as md
 
 # ----------------------------
@@ -71,16 +71,65 @@ URL_MAP_PATH = os.path.join(CACHE_DIR, "url_map.json")
 # Force overwrite
 FORCE_OVERWRITE = os.environ.get("FORCE_OVERWRITE", "0") == "1"
 
+BLOGGER_REDIRECTS_PATH = os.path.join(CACHE_DIR, "blogger_redirects.json")
+
+REDIR_CACHE = None  # caricato in main()
+
 # ----------------------------
 # Utility
 # ----------------------------
+def resolve_blogger_path(url_or_path: str) -> str:
+    """
+    Prende un URL completo o un path Blogspot, segue i redirect e ritorna il path canonico
+    tipo /YYYY/MM/slug.html (senza query/fragment/slash).
+    Usa una cache su disco per non ripetere richieste.
+    """
+    global REDIR_CACHE
+    if REDIR_CACHE is None:
+        REDIR_CACHE = load_redirect_cache()
+
+    # normalizza a URL completo per la richiesta
+    if url_or_path.startswith("/"):
+        probe = "https://perladieta.blogspot.com" + url_or_path
+    else:
+        probe = url_or_path
+
+    key = probe.rstrip("/")
+    if key in REDIR_CACHE:
+        return REDIR_CACHE[key]
+
+    try:
+        r = requests.head(probe, timeout=15, allow_redirects=True)
+        final = r.url
+    except Exception:
+        # in caso di errore usa l’input
+        final = probe
+
+    # estrai path, togli query/fragment/slash finale
+    from urllib.parse import urlsplit
+    path = urlsplit(final).path
+    path = path.split("#", 1)[0].split("?", 1)[0].rstrip("/")
+
+    REDIR_CACHE[key] = path
+    return path
+
+def load_redirect_cache():
+    try:
+        with open(BLOGGER_REDIRECTS_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+def save_redirect_cache(cache: dict):
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    with open(BLOGGER_REDIRECTS_PATH, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
 def ensure_dirs():
     os.makedirs(CACHE_DIR, exist_ok=True)
     os.makedirs(OUT_DIR, exist_ok=True)
     if DOWNLOAD_MEDIA:
         # Se ASSETS_DIR è relativo, crealo relativo alla root repo
         os.makedirs(ASSETS_DIR, exist_ok=True)
-
 
 def load_media_map() -> dict:
     if os.path.exists(MEDIA_MAP_PATH):
@@ -98,55 +147,80 @@ def save_media_map(m: dict):
 
 def build_url_map(posts_dir=OUT_DIR, base_prefix="/perladieta"):
     """
-    Scansiona _posts/YYYY/YYYY-MM-DD-slug.md, legge original_url e
+    Scansiona _posts/YYYY/YYYY-MM-DD-slug.md, legge original_url dal front matter YAML e
     costruisce la URL Pages: /perladieta/YYYY/MM/DD/slug.html
     Scrive data/url_map.json.
     """
     url_map = {}
+    files_scanned = 0
+    with_orig = 0
+    missing_orig = []
+
     for root, _, files in os.walk(posts_dir):
         for fn in files:
             if not fn.endswith(".md"):
                 continue
+            files_scanned += 1
+
             m = re.match(r"(\d{4})-(\d{2})-(\d{2})-(.+)\.md$", fn)
             if not m:
                 continue
             yyyy, mm, dd, slug = m.groups()
             md_path = os.path.join(root, fn)
 
-            # leggi front matter e prendi original_url
+            # --- estrai front-matter YAML in modo robusto ---
             original_url = None
-            with open(md_path, "r", encoding="utf-8") as f:
-                lines = f.read().splitlines()
-            if len(lines) >= 3 and lines[0].strip() == "---":
-                for line in lines[1:]:
-                    if line.strip() == "---":
-                        break
-                    mo = re.match(r'original_url:\s*"?([^"]+)"?\s*$', line.strip())
-                    if mo:
-                        original_url = mo.group(1).strip()
-                        break
+            try:
+                with open(md_path, "r", encoding="utf-8") as f:
+                    text = f.read()
+                if text.lstrip().startswith("---"):
+                    # prendi tra i primi due delimitatori ---
+                    parts = text.split("\n", 1)[1].split("\n---", 1)
+                    fm_text = parts[0]
+                    data = yaml.safe_load(fm_text) or {}
+                    # chiave accettata in varianti
+                    for key in ("original_url", "original-url", "originalUrl"):
+                        if key in data and data[key]:
+                            original_url = str(data[key]).strip()
+                            break
+            except Exception as e:
+                # front matter illeggibile: ignora silenziosamente
+                pass
+
             if not original_url:
+                missing_orig.append(md_path)
                 continue
+            with_orig += 1
 
             pages_url = f"{base_prefix}/{yyyy}/{mm}/{dd}/{slug}.html"
 
-            # normalizza vari TLD di blogspot e http/https
+            # --- NORMALIZZA PATH BASE (senza dominio, query, fragment, slash) ---
+            orig_norm = re.sub(r"^https?://perladieta\.blogspot\.[^/]+", "", original_url, flags=re.I)
+            orig_norm = orig_norm.split("#", 1)[0].split("?", 1)[0].rstrip("/")
+
+            # chiave PRINCIPALE: path-only pulito
+            url_map[orig_norm] = pages_url
+
+            # varianti utili (robuste, ma opzionali)
             tlds = ["com", "it", "co.uk", "de", "fr", "es", "pt", "nl", "ro", "gr"]
             for tld in tlds:
                 for scheme in ("http", "https"):
-                    key = re.sub(r"https?://perladieta\.blogspot\.[a-z.]+",
-                                 f"{scheme}://perladieta.blogspot.{tld}",
-                                 original_url, flags=re.I)
-                    url_map[key.rstrip("/")] = pages_url
-
-            # chiave path-only (fallback)
-            path_only = re.sub(r"^https?://perladieta\.blogspot\.[a-z.]+", "", original_url, flags=re.I)
-            url_map[path_only.rstrip("/")] = pages_url
+                    full = f"{scheme}://perladieta.blogspot.{tld}{orig_norm}"
+                    url_map[full] = pages_url
+                    url_map[full + "/"] = pages_url
+                    url_map[full + "?m=1"] = pages_url
 
     os.makedirs(CACHE_DIR, exist_ok=True)
     with open(URL_MAP_PATH, "w", encoding="utf-8") as f:
         json.dump(url_map, f, ensure_ascii=False, indent=2)
-    print(f"[MAP] url_map entries: {len(url_map)}")
+
+    print(f"[MAP] scanned={files_scanned} with_original_url={with_orig} url_map entries={len(url_map)}")
+    if missing_orig:
+        # log sintetico (prime 5) per capire se qualche file non ha original_url
+        print(f"[MAP] missing original_url in {len(missing_orig)} files (esempio):")
+        for p in missing_orig[:5]:
+            print("   -", p)
+
     return url_map
 
 def load_url_map():
@@ -159,40 +233,58 @@ def load_url_map():
 def fix_internal_links(html, url_map=None):
     if url_map is None:
         url_map = load_url_map()
-
     full_pat = re.compile(r'https?://perladieta\.blogspot\.[a-z.]+/[^\s"\'<>]+', re.I)
     path_pat = re.compile(r'/\d{4}/\d{2}/[a-z0-9\-]+\.html(?:[?#][^\s"\'<>]*)?', re.I)
-
     rewrites = 0
 
-    def to_path(u: str) -> str:
-        # rimuovi scheme+dominio, query, fragment e slash finale
-        u = re.sub(r"^https?://perladieta\.blogspot\.[^/]+", "", u, flags=re.I)
-        u = u.split("#", 1)[0].split("?", 1)[0]
-        return u.rstrip("/")
+    def norm_to_path(u: str) -> str:
+        # prima prova risoluzione via redirect
+        try:
+            return resolve_blogger_path(u)
+        except Exception:
+            pass
+        # fallback: strip schema+dominio+query+fragment
+        u2 = re.sub(r"^https?://perladieta\.blogspot\.[^/]+", "", u, flags=re.I)
+        u2 = u2.split("#", 1)[0].split("?", 1)[0]
+        return u2.rstrip("/")
 
-    def repl_full(m):
+    def repl(m):
         nonlocal rewrites
-        p = to_path(m.group(0))
+        p = norm_to_path(m.group(0))
         if p in url_map:
             rewrites += 1
             return url_map[p]
         return m.group(0)
 
-    def repl_path(m):
-        nonlocal rewrites
-        p = to_path(m.group(0))
-        if p in url_map:
-            rewrites += 1
-            return url_map[p]
-        return m.group(0)
-
-    html = full_pat.sub(repl_full, html)
-    html = path_pat.sub(repl_path, html)
-
+    html = full_pat.sub(repl, html)
+    html = path_pat.sub(lambda m: (url_map.get(norm_to_path(m.group(0)), m.group(0))), html)
     if rewrites:
         print(f"[LINK] rewrites={rewrites}")
     return html
+
+def fix_internal_links_in_markdown(md_text: str, url_map: dict) -> str:
+    full_pat = re.compile(r'https?://perladieta\.blogspot\.[^/\s"]+/\d{4}/\d{2}/[a-z0-9\-]+\.html(?:[?#][^\s"\'\)]*)?', re.I)
+    path_pat = re.compile(r'/\d{4}/\d{2}/[a-z0-9\-]+\.html(?:[?#][^\s"\'\)]*)?', re.I)
+
+    def norm_to_path(u: str) -> str:
+        try:
+            return resolve_blogger_path(u)
+        except Exception:
+            u2 = re.sub(r'^https?://perladieta\.blogspot\.[^/]+', '', u, flags=re.I)
+            u2 = u2.split('#', 1)[0].split('?', 1)[0]
+            return u2.rstrip('/')
+
+    def repl_full(m):
+        p = norm_to_path(m.group(0))
+        return url_map.get(p, m.group(0))
+
+    def repl_path(m):
+        p = norm_to_path(m.group(0))
+        return url_map.get(p, m.group(0))
+
+    md_text2 = full_pat.sub(repl_full, md_text)
+    md_text2 = path_pat.sub(repl_path, md_text2)
+    return md_text2
 
 def sanitize_html_to_md(html: str) -> str:
     # Converti HTML a Markdown con cleanup base
@@ -486,6 +578,7 @@ def write_post(entry, media_map: dict, url_map: dict) -> Tuple[bool, bool]:
 
     # 3) converti in Markdown
     body_md = sanitize_html_to_md(content_html_local).strip()
+    body_md = fix_internal_links_in_markdown(body_md, url_map)
 
     # --- FRONT MATTER ---
     safe_title = (title or "").replace('"', "'")
@@ -519,66 +612,6 @@ def write_post(entry, media_map: dict, url_map: dict) -> Tuple[bool, bool]:
 
     return changed_file, changed_media
 
-def build_url_map(posts_dir=OUT_DIR, base_prefix="/perladieta"):
-    """
-    Scansiona _posts/YYYY/YYYY-MM-DD-slug.md, legge original_url e
-    costruisce la URL Pages: /perladieta/YYYY/MM/DD/slug.html
-    Scrive data/url_map.json.
-    """
-    url_map = {}
-    for root, _, files in os.walk(posts_dir):
-        for fn in files:
-            if not fn.endswith(".md"):
-                continue
-            m = re.match(r"(\d{4})-(\d{2})-(\d{2})-(.+)\.md$", fn)
-            if not m:
-                continue
-            yyyy, mm, dd, slug = m.groups()
-            md_path = os.path.join(root, fn)
-
-            # leggi front matter e prendi original_url
-            original_url = None
-            with open(md_path, "r", encoding="utf-8") as f:
-                lines = f.read().splitlines()
-            if len(lines) >= 3 and lines[0].strip() == "---":
-                for line in lines[1:]:
-                    if line.strip() == "---":
-                        break
-                    mo = re.match(r'original_url:\s*"?([^"]+)"?\s*$', line.strip())
-                    if mo:
-                        original_url = mo.group(1).strip()
-                        break
-            if not original_url:
-                continue
-
-            pages_url = f"{base_prefix}/{yyyy}/{mm}/{dd}/{slug}.html"
-
-            # normalizza vari TLD di blogspot e http/https
-            tlds = ["com", "it", "co.uk", "de", "fr", "es", "pt", "nl", "ro", "gr"]
-            for tld in tlds:
-                for scheme in ("http", "https"):
-                    key = re.sub(r"https?://perladieta\.blogspot\.[a-z.]+",
-                                 f"{scheme}://perladieta.blogspot.{tld}",
-                                 original_url, flags=re.I)
-                    url_map[key.rstrip("/")] = pages_url
-
-            # chiave path-only (fallback)
-            path_only = re.sub(r"^https?://perladieta\.blogspot\.[a-z.]+", "", original_url, flags=re.I)
-            url_map[path_only.rstrip("/")] = pages_url
-
-    os.makedirs(CACHE_DIR, exist_ok=True)
-    with open(URL_MAP_PATH, "w", encoding="utf-8") as f:
-        json.dump(url_map, f, ensure_ascii=False, indent=2)
-    print(f"[MAP] url_map entries: {len(url_map)}")
-    return url_map
-
-def load_url_map():
-    try:
-        with open(URL_MAP_PATH, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return {}
-
 # ----------------------------
 # Main
 # ----------------------------
@@ -602,6 +635,8 @@ def main():
 
     print("Changed:", changed_any)
 
-
+    if REDIR_CACHE is not None:
+        save_redirect_cache(REDIR_CACHE)
+    
 if __name__ == "__main__":
     main()

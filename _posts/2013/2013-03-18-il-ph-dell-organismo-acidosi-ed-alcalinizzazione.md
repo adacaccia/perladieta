@@ -2,7 +2,7 @@
 layout: post
 title: "Il pH dell'organismo: acidosi ed alcalinizzazione"
 date: 2013-03-18
-original_url: "https://perladieta.blogspot.com/2013/03/il-ph-dellorganismo-acidosi-ed.html"
+original_url: "/perladieta/2013/03/18/il-ph-dell-organismo-acidosi-ed-alcalinizzazione.html"
 tags:
   - acidosi metabolica
   - alcalosi metabolica

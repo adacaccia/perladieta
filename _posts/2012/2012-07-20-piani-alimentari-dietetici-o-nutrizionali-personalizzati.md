@@ -2,7 +2,7 @@
 layout: post
 title: "Piani alimentari, dietetici o nutrizionali 'personalizzati'"
 date: 2012-07-20
-original_url: "https://perladieta.blogspot.com/2012/07/piani-alimentari-dietetici-o.html"
+original_url: "/perladieta/2012/07/20/piani-alimentari-dietetici-o-nutrizionali-personalizzati.html"
 tags:
   - calorie
   - carboidrati

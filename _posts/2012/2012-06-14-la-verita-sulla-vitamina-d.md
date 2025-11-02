@@ -2,7 +2,7 @@
 layout: post
 title: "La verità sulla 'vitamina' D"
 date: 2012-06-14
-original_url: "https://perladieta.blogspot.com/2012/06/la-verita-sulla-vitamina-d.html"
+original_url: "/perladieta/2012/06/14/la-verita-sulla-vitamina-d.html"
 tags:
   - boro
   - calcio

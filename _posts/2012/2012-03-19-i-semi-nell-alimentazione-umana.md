@@ -2,7 +2,7 @@
 layout: post
 title: "I semi nell'alimentazione umana"
 date: 2012-03-19
-original_url: "https://perladieta.blogspot.com/2012/03/i-semi-nellalimentazione-umana.html"
+original_url: "/perladieta/2012/03/19/i-semi-nell-alimentazione-umana.html"
 tags:
   - grassi
   - proteine

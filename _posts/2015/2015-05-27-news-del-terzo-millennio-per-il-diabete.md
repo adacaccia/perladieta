@@ -2,7 +2,7 @@
 layout: post
 title: "News del terzo millennio per il diabete"
 date: 2015-05-27
-original_url: "https://perladieta.blogspot.com/2015/05/news-del-terzo-millennio-per-il-diabete.html"
+original_url: "/perladieta/2015/05/27/news-del-terzo-millennio-per-il-diabete.html"
 tags:
   - diabete
   - grassi saturi
