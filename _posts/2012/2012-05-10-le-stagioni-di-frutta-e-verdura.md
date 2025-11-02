@@ -30,207 +30,207 @@ Ho suddiviso la tabella complessiva in diverse categorie per una più agevole co
   
   
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Frutta** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
-| albicocche |  |  | X | X | X |  |  |  |  |  |  |  |
-| amarene |  |  | X | X |  |  |  |  |  |  |  |  |
-| ananas |  |  |  |  |  |  |  |  | X | X | X |  |
-| angurie |  |  |  | X | X | X | X |  |  |  |  |  |
-| arance | X | X |  |  |  |  |  |  | X | X | X | X |
-| avocado | X | X |  |  |  |  |  |  | X | X | X | X |
-| banane | X | X | X | X |  |  | X | X | X | X | X | X |
-| ciliegie |  |  | X | X |  |  |  |  |  |  |  |  |
-| fichi |  |  |  |  |  | X | X |  |  |  |  |  |
-| fichi d'India |  |  |  |  |  |  | X | X | X |  |  |  |
-| fragole |  |  | X | X | X | X |  |  |  |  |  |  |
-| fragoline di bosco |  |  |  |  | X | X |  |  |  |  |  |  |
-| kaki |  |  |  |  |  |  | X | X | X | X |  |  |
-| lamponi |  |  | X | X | X | X |  |  |  |  |  |  |
-| limoni | X | X | X | X |  |  |  | X | X | X |  |  |
-| mandaranci |  |  |  |  |  |  |  |  | X | X | X | X |
-| mandarini |  |  |  |  |  |  |  |  |  | X | X | X |
-| mele |  |  |  |  | X | X | X | X | X |  |  |  |
-| mele cotogne |  |  |  |  |  |  |  | X | X |  |  |  |
-| melograni |  |  |  |  |  |  | X | X | X | X |  |  |
-| meloni |  |  |  | X | X | X |  |  |  |  |  |  |
-| mirtillo nero |  |  |  |  | X | X |  |  |  |  |  |  |
-| mirtillo rosso |  |  |  |  | X | X |  |  |  |  |  |  |
-| more |  |  |  |  | X | X |  |  |  |  |  |  |
-| nespole |  |  | X | X |  |  |  |  |  |  |  |  |
-| pere | X |  |  |  | X | X | X | X | X | X | X | X |
-| pesche |  |  | X | X | X | X | X | X |  |  |  |  |
-| pompelmi | X | X | X |  |  |  |  |  | X | X | X | X |
-| prugne |  |  |  |  | X | X | X |  |  |  |  |  |
-| ribes |  |  |  | X |  |  |  |  |  |  |  |  |
-| ribes nero |  |  |  |  | X | X |  |  |  |  |  |  |
-| susine |  |  |  |  | X | X |  |  |  |  |  |  |
-| uva |  |  |  |  |  |  | X | X | X |  |  |  |
-| uva spina |  |  |  |  |  | X |  |  |  |  |  |  |
-
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| albicocche |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |
+| amarene |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |
+| ananas |  |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |
+| angurie |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| arance | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| avocado | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| banane | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| ciliegie |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |
+| fichi |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| fichi d'India |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| fragole |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| fragoline di bosco |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| kaki |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |
+| lamponi |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| limoni | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |
+| mandaranci |  |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| mandarini |  |  |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| mele |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| mele cotogne |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| melograni |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |
+| meloni |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| mirtillo nero |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| mirtillo rosso |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| more |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| nespole |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |
+| pere | <span class="in-season">X</span> |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| pesche |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| pompelmi | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| prugne |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| ribes |  |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |
+| ribes nero |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| susine |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| uva |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| uva spina |  |  |  |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |
+{:.table-seasons type-frutta}
+
 | **Frutta** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
-
-  
-  
-  
-  
-
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+{:.table-seasons type-frutta}
+
+  
+  
+  
+  
+
 | **Verdura** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
-| acetosa |  |  |  | X |  |  |  |  |  |  |  |  |
-| aglio |  |  |  | X | X | X |  |  |  |  |  |  |
-| asparagi |  |  | X | X | X |  |  |  |  |  |  |  |
-| barbabietole |  |  |  |  |  |  |  |  |  |  | X |  |
-| barbabietole rosse |  |  |  | X | X | X | X | X | X | X |  |  |
-| barba di frate |  | X | X |  |  |  |  |  |  |  |  |  |
-| basilico |  |  |  | X | X | X | X |  |  |  |  |  |
-| biete da coste |  |  | X | X | X | X | X | X | X |  |  |  |
-| biete da taglio |  |  | X | X | X | X | X | X | X |  |  |  |
-| bietole |  |  |  |  |  |  |  |  |  |  | X | X |
-| broccoli |  |  |  |  |  |  | X | X | X | X |  |  |
-| carciofi | X | X | X |  |  |  |  |  | X | X | X | X |
-| cardi |  |  |  |  |  |  |  |  | X |  |  |  |
-| cardoni |  |  |  |  |  |  |  |  |  | X |  |  |
-| cardo mariano | X |  |  |  |  |  |  |  |  |  |  | X |
-| carote | X | X | X | X | X | X | X | X | X | X | X | X |
-| catalogna |  |  |  |  |  |  |  | X |  |  |  | X |
-| cavolfiori | X | X | X |  |  |  |  | X | X | X | X | X |
-| cavolini di Bruxelles |  |  |  |  |  |  |  | X | X | X | X |  |
-| cavoli vari | X | X | X | X |  |  |  | X | X |  |  | X |
-| cavolo cappuccio |  |  |  |  |  |  |  |  |  |  | X |  |
-| cavolo verza | X |  |  |  | X | X | X |  |  | X | X |  |
-| cetrioli |  |  |  |  | X | X | X | X | X |  |  |  |
-| cicoria bianca | X | X | X | X | X | X | X | X | X |  |  |  |
-| cicoria bionda | X | X | X | X | X | X | X | X | X | X | X | X |
-| cicoria catalogna |  | X | X | X | X | X | X | X | X |  |  |  |
-| cicoria orchidea rossa |  | X | X | X | X | X | X | X | X | X |  |  |
-| cicoria puntarelle |  | X | X | X | X | X | X | X | X |  |  |  |
-| cicoria rossa | X | X |  |  | X | X | X | X | X | X | X | X |
-| cicoria verde |  | X | X | X | X | X | X | X | X |  |  |  |
-| cime di rapa |  |  |  |  |  |  |  |  |  | X | X |  |
-| cipolle |  |  |  | X | X | X | X |  |  |  |  | X |
-| cipolle novelle |  |  | X |  |  |  |  |  |  |  |  |  |
-| cipolline |  |  |  |  |  |  |  |  | X |  |  |  |
-| cipollotti |  | X |  |  |  |  |  |  |  |  |  |  |
-| crescione |  |  |  |  | X |  |  |  |  |  |  |  |
-| crescione inglese |  | X | X | X | X |  |  |  |  |  |  |  |
-| erba cipollina |  |  |  | X |  |  |  |  |  |  |  |  |
-| erba medica |  |  | X | X | X | X | X |  |  |  |  |  |
-| finocchi |  |  |  | X | X | X | X | X | X |  |  |  |
-| fiori di zucca |  |  |  | X | X |  |  |  |  |  |  |  |
-| funghi di bosco |  |  |  | X | X | X | X | X |  |  |  |  |
-| funghi coltivati | X |  |  |  |  |  |  |  |  |  |  | X |
-| indivia |  | X |  |  |  |  |  |  |  |  |  |  |
-| indivia riccia | X |  |  | X | X | X | X | X | X | X | X | X |
-| insalate di stagione |  |  | X |  |  |  |  |  |  |  |  |  |
-| lattuga dei ghiacci |  |  |  | X | X | X | X | X | X |  |  |  |
-| lattuga invernale |  |  |  |  |  |  |  |  |  | X | X | X |
-| lattuga primaverile | X | X | X |  |  |  |  |  |  |  |  |  |
-| lattuga romana |  | X | X | X | X | X | X | X | X |  |  |  |
-| lattuga rossa |  | X | X | X | X | X | X |  |  |  |  |  |
-| lattughino | X |  |  |  |  |  |  |  |  |  |  |  |
-| liquirizia |  |  |  | X | X |  |  |  |  |  |  |  |
-| maggiorana |  |  |  |  | X | X | X |  |  |  |  |  |
-| melanzane |  |  |  |  | X | X | X | X |  |  |  |  |
-| mentuccia |  |  |  | X | X | X | X | X |  |  |  |  |
-| origano |  |  |  | X | X | X |  |  |  |  |  |  |
-| patate | X |  |  | X | X | X | X | X |  | X | X | X |
-| patate dolci |  |  |  |  |  |  |  |  | X |  |  |  |
-| patate novelle |  | X | X |  |  |  |  |  |  |  |  |  |
-| peperoncini |  |  |  |  |  | X |  |  |  |  |  |  |
-| peperoni |  |  | X |  | X | X | X |  |  |  |  |  |
-| pomodori |  |  |  | X | X | X | X | X |  |  |  |  |
-| porri |  |  |  |  | X | X | X | X |  |  |  |  |
-| rabarbaro |  |  | X |  |  |  |  |  |  |  |  |  |
-| radicchiello (dente di leone) |  | X | X |  |  |  |  |  |  |  |  |  |
-| radicchio | X |  |  |  |  |  |  |  |  |  |  |  |
-| rape |  |  | X | X | X | X | X | X | X | X | X |  |
-| rape novelle | X | X |  |  |  |  |  |  |  |  |  |  |
-| ravanelli |  |  | X | X | X | X |  |  |  |  |  |  |
-| rosmarino |  |  | X | X | X |  |  |  |  |  |  |  |
-| rucola |  | X | X | X | X | X | X |  |  |  |  |  |
-| salvia |  | X | X | X | X |  |  |  |  |  |  |  |
-| santoreggia |  |  |  |  | X | X |  |  |  |  |  |  |
-| scarola | X |  |  | X | X | X | X | X | X | X | X | X |
-| scorzobianca | X | X |  |  |  |  |  |  |  |  |  |  |
-| scorzonera | X | X |  |  |  |  |  | X | X | X | X | X |
-| sedano | X |  |  |  |  |  | X | X | X | X | X | X |
-| sedano rapa |  |  |  |  |  |  |  | X | X | X | X |  |
-| soncino | X |  |  |  |  |  |  |  |  |  |  |  |
-| spinaci | X | X | X | X | X |  |  |  | X | X | X | X |
-| spinaci ricci ibridi |  |  |  |  |  |  |  | X |  |  |  |  |
-| tartufi |  |  |  |  |  |  |  | X | X | X |  |  |
-| topinambur |  |  |  |  |  |  |  | X | X | X |  |  |
-| trifoglio bianco | X | X |  |  |  |  |  |  |  |  |  |  |
-| zucca |  |  |  |  | X | X |  |  |  |  |  |  |
-| zucchine |  |  | X |  |  |  |  |  |  |  |  |  |
-| zucchini chiari ibridi |  |  |  | X | X | X | X | X |  |  |  |  |
-| zucchini scuri ibridi |  |  |  | X | X | X | X | X |  |  |  |  |
-
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| acetosa |  |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |
+| aglio |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| asparagi |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |
+| barbabietole |  |  |  |  |  |  |  |  |  |  | <span class="in-season">X</span> |  |
+| barbabietole rosse |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |
+| barba di frate |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |
+| basilico |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| biete da coste |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| biete da taglio |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| bietole |  |  |  |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| broccoli |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |
+| carciofi | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| cardi |  |  |  |  |  |  |  |  | <span class="in-season">X</span> |  |  |  |
+| cardoni |  |  |  |  |  |  |  |  |  | <span class="in-season">X</span> |  |  |
+| cardo mariano | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  | <span class="in-season">X</span> |
+| carote | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| catalogna |  |  |  |  |  |  |  | <span class="in-season">X</span> |  |  |  | <span class="in-season">X</span> |
+| cavolfiori | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| cavolini di Bruxelles |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |
+| cavoli vari | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  | <span class="in-season">X</span> |
+| cavolo cappuccio |  |  |  |  |  |  |  |  |  |  | <span class="in-season">X</span> |  |
+| cavolo verza | <span class="in-season">X</span> |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |
+| cetrioli |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| cicoria bianca | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| cicoria bionda | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| cicoria catalogna |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| cicoria orchidea rossa |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |
+| cicoria puntarelle |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| cicoria rossa | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| cicoria verde |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| cime di rapa |  |  |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |
+| cipolle |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  | <span class="in-season">X</span> |
+| cipolle novelle |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |
+| cipolline |  |  |  |  |  |  |  |  | <span class="in-season">X</span> |  |  |  |
+| cipollotti |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  |
+| crescione |  |  |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |
+| crescione inglese |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |
+| erba cipollina |  |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |
+| erba medica |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| finocchi |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| fiori di zucca |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |
+| funghi di bosco |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| funghi coltivati | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  | <span class="in-season">X</span> |
+| indivia |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  |
+| indivia riccia | <span class="in-season">X</span> |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| insalate di stagione |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |
+| lattuga dei ghiacci |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| lattuga invernale |  |  |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| lattuga primaverile | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |
+| lattuga romana |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+| lattuga rossa |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| lattughino | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  |  |
+| liquirizia |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |
+| maggiorana |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| melanzane |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| mentuccia |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| origano |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| patate | <span class="in-season">X</span> |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| patate dolci |  |  |  |  |  |  |  |  | <span class="in-season">X</span> |  |  |  |
+| patate novelle |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |
+| peperoncini |  |  |  |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |
+| peperoni |  |  | <span class="in-season">X</span> |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| pomodori |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| porri |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| rabarbaro |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |
+| radicchiello (dente di leone) |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |
+| radicchio | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  |  |
+| rape |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |
+| rape novelle | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  |
+| ravanelli |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| rosmarino |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |
+| rucola |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| salvia |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |
+| santoreggia |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| scarola | <span class="in-season">X</span> |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| scorzobianca | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  |
+| scorzonera | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| sedano | <span class="in-season">X</span> |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| sedano rapa |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |
+| soncino | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  |  |
+| spinaci | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |
+| spinaci ricci ibridi |  |  |  |  |  |  |  | <span class="in-season">X</span> |  |  |  |  |
+| tartufi |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |
+| topinambur |  |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |
+| trifoglio bianco | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  |
+| zucca |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| zucchine |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |
+| zucchini chiari ibridi |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| zucchini scuri ibridi |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+{:.table-seasons type-verdura}
+
 | **Verdura** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
-
-  
-  
-  
-
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+{:.table-seasons type-verdura}
+
+  
+  
+  
+
 | **Legumi** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
-| fagioli |  |  |  | X |  |  |  |  | X |  |  |  |
-| fagioli borlotti nani |  |  |  |  | X | X | X |  |  |  |  |  |
-| fagioli borlotti rampicanti |  |  |  |  | X | X | X | X |  |  |  |  |
-| fagiolini |  |  |  | X | X | X | X |  |  |  |  |  |
-| fave |  |  | X | X | X | X |  |  |  |  |  |  |
-| lenticchie |  |  |  |  | X | X |  |  |  |  |  |  |
-| piselli |  |  | X | X | X | X |  |  |  |  |  |  |
-| piselli mezza rama | X | X |  |  |  |  |  |  |  |  |  |  |
-| piselli nani | X | X |  |  |  |  |  |  |  |  |  |  |
-| soia |  |  |  |  | X | X | X |  |  |  |  |  |
-| taccole |  |  | X | X |  |  |  |  |  |  |  |  |
-
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| fagioli |  |  |  | <span class="in-season">X</span> |  |  |  |  | <span class="in-season">X</span> |  |  |  |
+| fagioli borlotti nani |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| fagioli borlotti rampicanti |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| fagiolini |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| fave |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| lenticchie |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| piselli |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| piselli mezza rama | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  |
+| piselli nani | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |  |  |
+| soia |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| taccole |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |
+{:.table-seasons type-legumi}
+
 | **Legumi** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
-
-  
-  
-  
-  
-
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+{:.table-seasons type-legumi}
+
+  
+  
+  
+  
+
 | **Cereali** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
-| avena |  |  | X | X | X |  |  |  |  |  |  |  |
-| fieno greco |  |  |  |  | X | X |  |  |  |  |  |  |
-| mais |  |  |  |  | X | X | X |  |  |  |  |  |
-| miglio |  |  |  | X | X | X |  |  |  |  |  |  |
-| orzo |  |  |  | X |  |  |  |  |  |  |  |  |
-| riso |  |  |  |  |  |  | X | X |  |  |  |  |
-
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| avena |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |  |
+| fieno greco |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| mais |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| miglio |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+| orzo |  |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |  |  |
+| riso |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+{:.table-seasons type-cereali}
+
 | **Cereali** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
-
-  
-  
-  
-  
-
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Frutta secca** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
-| arachidi |  |  |  |  |  |  | X | X |  |  |  |  |
-| castagne |  |  |  |  |  |  | X | X | X | X |  |  |
-| noci |  |  |  |  | X | X | X | X | X |  |  |  |
+{:.table-seasons type-cereali}
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+  
+  
+  
+  
+
 | **Frutta secca** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| arachidi |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| castagne |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |
+| noci |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |
+{:.table-seasons type-frutta}
+
+| **Frutta secca** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+{:.table-seasons type-frutta}
 {:.table-seasons type-noci}
 
   
@@ -238,18 +238,18 @@ Ho suddiviso la tabella complessiva in diverse categorie per una più agevole co
   
   
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Semi oleaginosi** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
-| semi di girasole |  |  |  |  |  |  | X | X |  |  |  |  |
-| semi di lino |  |  |  |  | X | X | X |  |  |  |  |  |
-| semi di sesamo |  |  |  |  |  |  | X | X |  |  |  |  |
-| semi di zucca |  |  |  |  |  | X |  |  |  |  |  |  |
-| senape |  |  |  | X | X | X |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| semi di girasole |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| semi di lino |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |
+| semi di sesamo |  |  |  |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |
+| semi di zucca |  |  |  |  |  | <span class="in-season">X</span> |  |  |  |  |  |  |
+| senape |  |  |  | <span class="in-season">X</span> | <span class="in-season">X</span> | <span class="in-season">X</span> |  |  |  |  |  |  |
+{:.table-seasons type-semi}
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Semi oleaginosi** | **mar** | **apr** | **mag** | **giu** | **lug** | **ago** | **set** | **ott** | **nov** | **dic** | **gen** | **feb** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+{:.table-seasons type-semi}
 {:.table-seasons type-semi}
 
   

@@ -17,7 +17,7 @@ CATEGORIES = {
     "frutta secca": "type-noci",
 }
 
-X_PAT = re.compile(r'^\s*[xX×✕✖︎]\s*$', re.U)
+X_PAT = re.compile(r'[xX×✕✖︎]', re.U)
 
 def split_front_matter(text: str):
     lines = text.splitlines(keepends=True)
@@ -66,6 +66,18 @@ def nearest_category_above(lines, start_idx):
             return f"type-{custom.replace(' ','-')}"
     return None
 
+def sanitize_cell_text_for_x(s: str) -> str:
+    """
+    Normalizza il contenuto della cella per rilevare la presenza di 'X'
+    anche se formattata (bold/italic) o racchiusa in HTML.
+    """
+    # rimuovi tag HTML semplici
+    s2 = re.sub(r'<[^>]+>', '', s)
+    # rimuovi enfasi markdown ** __ * _
+    s2 = re.sub(r'(\*\*|__|\*|_)', '', s2)
+    # trim
+    return s2.strip()
+
 def process_seasons_tables(body: str, debug=False, file_path="") -> tuple[str, bool]:
     lines = body.splitlines(keepends=False)
     out = []
@@ -82,6 +94,20 @@ def process_seasons_tables(body: str, debug=False, file_path="") -> tuple[str, b
             j = i+2
             while j < len(lines) and '|' in lines[j]:
                 rows.append(lines[j]); j += 1
+            # ... dopo:
+            # header = line
+            # sep = lines[i+1]
+            # rows = [...]  (già raccolte)
+
+            # ❶ Se l'header è “vuoto”, promuovi la prima riga di rows a header
+            hdr_cells = split_table_row(header) or []
+            if hdr_cells and all(c.strip() == "" for c in hdr_cells):
+                if rows:
+                    header = rows[0]
+                    rows = rows[1:]
+                    hdr_cells = split_table_row(header) or []
+                    if debug:
+                        print(f"[DBG]  -> empty header fixed: new header={hdr_cells!r}")
 
             tbl_idx += 1
             hdr_cells = split_table_row(header) or []
@@ -91,10 +117,9 @@ def process_seasons_tables(body: str, debug=False, file_path="") -> tuple[str, b
             # categoria dalla 1ª cella dell'header, altrimenti cerca sopra
             cat_cls = detect_category_from_header_first_cell(header)
             if not cat_cls:
-                cat_cls = nearest_category_above(lines, i)
+                cat_cls = current_cat
                 if debug:
                     print(f"[DBG]  -> category from above: {cat_cls}")
-
             if not cat_cls:
                 if debug:
                     print(f"[DBG]  -> skip: no category detected")
@@ -108,7 +133,8 @@ def process_seasons_tables(body: str, debug=False, file_path="") -> tuple[str, b
                 if not cells:
                     new_rows.append(r); continue
                 for idx in range(1, len(cells)):
-                    if X_PAT.match(cells[idx]):
+                    probe = sanitize_cell_text_for_x(cells[idx])  # togli markup
+                    if X_PAT.search(probe):  # CERCA (non fullmatch)
                         cells[idx] = '<span class="in-season">X</span>'
                         x_hits += 1
                 new_rows.append("| " + " | ".join(cells) + " |")
