@@ -54,3 +54,10 @@
 .table-seasons.type-semi     tbody td:first-child,
 .table-seasons.type-semi     .in-season { background:#cdb99d; }
 
+/* Header di tutte le tabelle: giallo, bold, centrato */
+table thead th {
+  background:#fff3a1;
+  font-weight:700;
+  text-align:center;
+}
+
