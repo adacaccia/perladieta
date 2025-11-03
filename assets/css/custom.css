@@ -77,3 +77,9 @@ table tr:nth-child(2) td {
   text-align: center;
 }
 
+/* Intestazioni di tabella (qualunque riga contenga <th>) */
+table th {
+  background:#fff3a1;
+  font-weight:700;
+  text-align:center;
+}
