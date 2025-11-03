@@ -56,8 +56,15 @@
 
 /* Header di tutte le tabelle: giallo, bold, centrato */
 table thead th {
-  background:#fff3a1;
-  font-weight:700;
-  text-align:center;
+  background: #fff3a1;   /* giallo */
+  font-weight: 700;
+  text-align: center;
 }
 
+/* Header tabelle Markdown (prima riga, con --- sotto) */
+table tr:first-child th,
+table tr:first-child td {
+  background: #fff3a1;   /* giallo */
+  font-weight: 700;
+  text-align: center;
+}
