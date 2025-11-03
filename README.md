@@ -24,7 +24,7 @@ BLOGGER_FEED_URL="https://perladieta.blogspot.com/feeds/posts/default?alt=rss" \
 OUT_DIR="_posts" \
 DOWNLOAD_MEDIA=1 \
 python tools/blogger2md.py
-
+```
 ---
 
 # QA e manutenzione di *Per la Dieta*
