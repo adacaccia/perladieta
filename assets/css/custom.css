@@ -54,28 +54,26 @@
 .table-seasons.type-semi     tbody td:first-child,
 .table-seasons.type-semi     .in-season { background:#cdb99d; }
 
-/* Header di tutte le tabelle: giallo, bold, centrato */
+/* Header di tutte le tabelle: giallo, bold, centrato
 table thead th {
-  background: #fff3a1;   /* giallo */
+  background: #fff3a1;   
   font-weight: 700;
   text-align: center;
-}
-
-/* Header tabelle Markdown (prima riga, con --- sotto) */
+} */
+/* Header tabelle Markdown (prima riga, con --- sotto)
 table tr:first-child th,
 table tr:first-child td {
-  background: #fff3a1;   /* giallo */
+  background: #fff3a1;
   font-weight: 700;
   text-align: center;
-}
-
-/* Header tabelle Markdown: seconda riga, bold e gialla */
+} */
+/* Header tabelle Markdown: seconda riga, bold e gialla
 table tr:nth-child(2) th,
 table tr:nth-child(2) td {
-  background: #fff3a1;   /* giallo */
+  background: #fff3a1;
   font-weight: 700;
   text-align: center;
-}
+} */
 
 /* Intestazioni di tabella (qualunque riga contenga <th>) */
 table th {
