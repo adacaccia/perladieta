@@ -13,6 +13,7 @@ Pubblicato come mirror statico su [https://adacaccia.github.io/perladieta/](http
 - `tools/` – script di conversione, aggiornamento e gestione posts
 - `_config.yml` – configurazione Jekyll per GitHub Pages
 - `index.md` – indice navigabile dei post
+- `requirements.txt` – elenco dipendenze per gli script Python
 
 ---
 
