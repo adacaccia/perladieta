@@ -68,3 +68,12 @@ table tr:first-child td {
   font-weight: 700;
   text-align: center;
 }
+
+/* Header tabelle Markdown: seconda riga, bold e gialla */
+table tr:nth-child(2) th,
+table tr:nth-child(2) td {
+  background: #fff3a1;   /* giallo */
+  font-weight: 700;
+  text-align: center;
+}
+
