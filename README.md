@@ -57,16 +57,6 @@ Riscrive i link interni nei file `.md` in base alla mappa aggiornata (`data/url_
 
 ---
 
-## 🎨 Aggiornamento degli stili (post-processor)
-
-```bash
-python tools/style_tables.py
-```
-
-Applica classi e formattazione alle tabelle per PRAL, stagioni e nutrienti, mantenendo un backup in `data/styled_backups/`.
-
----
-
 ## ✅ Verifica finale
 
 ```bash
