@@ -6,12 +6,12 @@ Pubblicato come mirror statico su [https://adacaccia.github.io/perladieta/](http
 ---
 
 ## 📦 Struttura
-- `_posts/` – tutti i post convertiti da Blogger in Markdown (con front matter YAML)
 - `_assets/` – immagini locali scaricate dai post originali
-- `_layouts/` – configurazione layout pagine per Jekill
 - `_includes/` - file di supporto per layout Jekill
-- `_config.yml` – configurazione Jekyll per GitHub Pages
+- `_layouts/` – configurazione layout pagine per Jekill
+- `_posts/` – tutti i post convertiti da Blogger in Markdown (con front matter YAML)
 - `tools/` – script di conversione, aggiornamento e gestione posts
+- `_config.yml` – configurazione Jekyll per GitHub Pages
 - `index.md` – indice navigabile dei post
 
 ---
