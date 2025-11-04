@@ -32,11 +32,11 @@ Come dice anche la pagina dell'Istituto Superiore di Sanità che ho indicato com
 
 Sul diabete di tipo 1 manca ancora la prova schiacciante che lo colleghi al consumo di latte bovino, ma si cominciano ad accumulare evidenze:
 
-* un [articolo](http://www.ncbi.nlm.nih.gov/pubmed/21167240) citato dal [video del Dr. Greger sulla caseo-morfina](http://nutritionfacts.org/video/cows-milk-casomorphin-and-autism/) (un oppioide derivato dalla digestione del latte di mucca) riporta evidenze del legame tra questo peptide e l'incidenza di diabete tipo 1;
-* [un altro articolo](http://www.ncbi.nlm.nih.gov/pubmed/10096780) facilmente reperibile su [pubmed](http://www.ncbi.nlm.nih.gov/pubmed) punta il dito contro il consumo di determinate varianti di caseo-morfine prodotte dalla digestione del latte di mucca;
-* [questo articolo](http://www.ncbi.nlm.nih.gov/pubmed/16403684) fa una differenza tra le varianti genetiche delle mucche da cui si trae il latte destinato al consumo umano, stabilendo che nelle popolazioni che consumano latte di variante "A2", i rischi per la salute umana sembrano essere inferiori; l'articolo comunque conclude sostenendo che per capire se ci siano veri e propri *benefici* per la salute umana nel consumo di latte vaccino di variante A2 occorrono ulteriori studi (cioè ad oggi si può solo parlare di *minor rischio*, ma assolutamente non di *beneficio*, come indicato anche da quest'altro, più recente, [articolo](http://www.ncbi.nlm.nih.gov/pubmed/17666771)).
+* un [articolo](http://www.ncbi.nlm.nih.gov/pubmed/21167240) citato dal [video del Dr. Greger sulla caseo-morfina](http://nutritionfacts.org/video/cows-milk-casomorphin-and-autism/) (un oppioide derivato dalla digestione del latte di mucca) riporta evidenze del legame tra questo peptide e l'incidenza di diabete tipo 1 [1];
+* [un altro articolo](http://www.ncbi.nlm.nih.gov/pubmed/10096780) facilmente reperibile su [pubmed](http://www.ncbi.nlm.nih.gov/pubmed) punta il dito contro il consumo di determinate varianti di caseo-morfine prodotte dalla digestione del latte di mucca [2];
+* [questo articolo](http://www.ncbi.nlm.nih.gov/pubmed/16403684) fa una differenza tra le varianti genetiche delle mucche da cui si trae il latte destinato al consumo umano, stabilendo che nelle popolazioni che consumano latte di variante "A2", i rischi per la salute umana sembrano essere inferiori [3]; l'articolo comunque conclude sostenendo che per capire se ci siano veri e propri *benefici* per la salute umana nel consumo di latte vaccino di variante A2 occorrono ulteriori studi (cioè ad oggi si può solo parlare di *minor rischio*, ma assolutamente non di *beneficio*, come indicato anche da quest'altro, più recente, [articolo](http://www.ncbi.nlm.nih.gov/pubmed/17666771)) [4].
 
-Il discorso qui è molto complesso, dato che questi articoli valutano la bio-attività di specifici polipeptidi (cioè piccole proteine) in specifici distretti dell'organismo e in ben specifiche circostanze; talmente complessa che un [articolo](http://www.ncbi.nlm.nih.gov/pubmed/21335988) ancor più recente, se da una parte suggerisce che il consumo di latte artificiale sia superiore al consumo di latte di mucca intero per i bambini, dall'altro rivedendo "*brevemente*" la questione del legame tra latte vaccino e "*altre malattie*", conclude che mancano "*evidenze chiare per tale associazione*"... ma... hey! aspettate un attimo... è un articolo della... Nestlé!!!
+Il discorso qui è molto complesso, dato che questi articoli valutano la bio-attività di specifici polipeptidi (cioè piccole proteine) in specifici distretti dell'organismo e in ben specifiche circostanze; talmente complessa che un [articolo](http://www.ncbi.nlm.nih.gov/pubmed/21335988) ancor più recente, se da una parte suggerisce che il consumo di latte artificiale sia superiore al consumo di latte di mucca intero per i bambini, dall'altro rivedendo "*brevemente*" la questione del legame tra latte vaccino e "*altre malattie*", conclude che mancano "*evidenze chiare per tale associazione*"... ma... hey! aspettate un attimo... è un articolo della... Nestlé [5]!!!
 
 Ebbene sì, ho voluto qui intrattenere il lettore con uno scherzo per far capire come, accanto a tanta scienza attendibile, ci sia anche la pseudo-scienza, quella alla mercé dei poteri forti (multinazionali del settore alimentare in primis).
 
@@ -66,29 +66,29 @@ Dunque: se, a quanto pare, gli zuccheri paiono addirittura *prevenire* l'orig
 
 Sì, si può essere più precisi, come necessario nella trattazione scientifica moderna dei fenomeni biochimici!
 
-Ecco allora [un articolo del 1999](http://www.ncbi.nlm.nih.gov/pubmed/10027589) che spiega come i grassi liberi nel sangue inducano l'insulino-resistenza; il meccanismo è spiegato nei minimi dettagli di biochimica intracellulare: l'insulina si lega ai suoi recettori sulle cellule dei muscoli, dove vorrebbe far entrare il glucosio per un pronto utilizzo o per l'immagazzinamento in forma di glicogeno; tale legame scatena una catena enzimatica che dovrebbe portare all'apertura della vescicola GLUT4, deputata alla cattura del glucosio sanguigno, ma gli scarti della digestione dei grassi causano una rottura di tale catena, con la conseguente incapacità di apertura del GLUT4, e l'aumento della glicemia.
+Ecco allora [un articolo del 1999](http://www.ncbi.nlm.nih.gov/pubmed/10027589) che spiega come i grassi liberi nel sangue inducano l'insulino-resistenza [6]; il meccanismo è spiegato nei minimi dettagli di biochimica intracellulare: l'insulina si lega ai suoi recettori sulle cellule dei muscoli, dove vorrebbe far entrare il glucosio per un pronto utilizzo o per l'immagazzinamento in forma di glicogeno; tale legame scatena una catena enzimatica che dovrebbe portare all'apertura della vescicola GLUT4, deputata alla cattura del glucosio sanguigno, ma gli scarti della digestione dei grassi causano una rottura di tale catena, con la conseguente incapacità di apertura del GLUT4, e l'aumento della glicemia.
 
 ![](/perladieta/assets/822d00e77cf2c6a3.png)
 
 I puntini rossi in alto sono il glucosio, i triangolini gialli l'insulina. Il metabolismo dei grassi liberi nel sangue (FFA: Free Fatty Acids) produce radicali liberi (ROS) che inibiscono l'azione di alcuni enzimi fondamentali per l'apertura della vescicola GLUT4, deputata al trasporto del glucosio all'interno della cellula.
 
-Un [articolo del 1996](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC507380/) aveva già individuato, iniettando grassi nel sangue di volontari, la correlazione tra aumento dei grassi liberi nel sangue e insulino-resistenza: entro poche ore da un pasto "low-carb", cioè con pochi carboidrati, e cioè ricco di proteine e grassi, il livello di grassi nei muscoli saliva, insieme all'isulino-resistenza; c'era anche l'effetto inverso: entro poche ore dalla diminuzione dei grassi nel sangue, l'insulino-resistenza tornava a valori normali.
+Un [articolo del 1996](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC507380/) aveva già individuato, iniettando grassi nel sangue di volontari [7], la correlazione tra aumento dei grassi liberi nel sangue e insulino-resistenza: entro poche ore da un pasto "low-carb", cioè con pochi carboidrati, e cioè ricco di proteine e grassi, il livello di grassi nei muscoli saliva, insieme all'isulino-resistenza; c'era anche l'effetto inverso: entro poche ore dalla diminuzione dei grassi nel sangue, l'insulino-resistenza tornava a valori normali.
 
 #### Ma da dove vengono questi grassi liberi nel sangue?
 
-Intanto, [il numero di adipociti è costante negli adulti](http://www.ncbi.nlm.nih.gov/pubmed/18454136) (gli adipociti sono le cellule che accumulano grassi nel nostro corpo). Dunque, quando ingrassiamo da adulti, ciascun adipocita si allarga per immagazzinare una maggior quantità di grasso; oltre un certo limite, però, [gli adipociti sono così pieni che letteralmente traboccano](http://www.ncbi.nlm.nih.gov/pubmed/23550081) grasso direttamente nel circolo sanguigno: l'accumulazione "atopica" di grassi (cioè in posti dove non si dovrebbe avere, come nelle cellule muscolari) spiega il legame tra obesità e diabete!
+Intanto, [il numero di adipociti è costante negli adulti](http://www.ncbi.nlm.nih.gov/pubmed/18454136)[8] (gli adipociti sono le cellule che accumulano grassi nel nostro corpo). Dunque, quando ingrassiamo da adulti, ciascun adipocita si allarga per immagazzinare una maggior quantità di grasso; oltre un certo limite, però, [gli adipociti sono così pieni che letteralmente traboccano](http://www.ncbi.nlm.nih.gov/pubmed/23550081) grasso direttamente nel circolo sanguigno[9]: l'accumulazione "atopica" di grassi (cioè in posti dove non si dovrebbe avere, come nelle cellule muscolari) spiega il legame tra obesità e diabete!
 
 #### Ma che tipo di grassi? Saturi o insaturi?
 
-Il *palmitato*, grasso saturo tipico in carne, uova e latticini (oltre che nell'[olio di palma](/perladieta/2012/01/24/creme-spalmabili-alla-nocciola-ambiente-e-salute.html)!), [induce insulino-resistenza su cellule muscolari umane](http://www.ncbi.nlm.nih.gov/pubmed/18460913) *in vitro*, mentre l'*oleato*, grasso monoinsaturo vegetale, no!
+Il *palmitato*, grasso saturo tipico in carne, uova e latticini (oltre che nell'[olio di palma](/perladieta/2012/01/24/creme-spalmabili-alla-nocciola-ambiente-e-salute.html)!), [induce insulino-resistenza su cellule muscolari umane](http://www.ncbi.nlm.nih.gov/pubmed/18460913)[10] *in vitro*, mentre l'*oleato*, grasso monoinsaturo vegetale, no!
 
-Addirittura, [i grassi saturi alterano l'espressione dei geni responsabili di fondamentali enzimi mitocondriali](http://www.ncbi.nlm.nih.gov/pubmed/22360800),  sopprimendo la loro sintesi e spiegando quindi al meccanismo visto in figura: i grassi saturi impediscono il normale funzionamento dei mitocondri, che sono le piccole "centrali energetiche" all'interno di ciascuna nostra cellula.
+Addirittura, [i grassi saturi alterano l'espressione dei geni responsabili di fondamentali enzimi mitocondriali](http://www.ncbi.nlm.nih.gov/pubmed/22360800)[11],  sopprimendo la loro sintesi e spiegando quindi al meccanismo visto in figura: i grassi saturi impediscono il normale funzionamento dei mitocondri, che sono le piccole "centrali energetiche" all'interno di ciascuna nostra cellula.
 
 Vale anche l'opposto:
 
-* [i vegetariani hanno migliore espressione dei geni del metabolismo ossidativo e della sintesi del collagene](http://www.ncbi.nlm.nih.gov/pubmed/18772587);
-* [i vegani hanno minore insulino-resistenza, meno grassi nelle cellule muscolari, nonché miglior funzionamento delle cellule β del pancreas](http://www.ncbi.nlm.nih.gov/pubmed/15523486);
-* [i vegani hanno maggiore sensibilità all'insulina e migliori livelli di glucosio ed insulina nel sangue](http://www.ncbi.nlm.nih.gov/pubmed/24149445).
+* [i vegetariani hanno migliore espressione dei geni del metabolismo ossidativo e della sintesi del collagene](http://www.ncbi.nlm.nih.gov/pubmed/18772587)[12];
+* [i vegani hanno minore insulino-resistenza, meno grassi nelle cellule muscolari, nonché miglior funzionamento delle cellule β del pancreas](http://www.ncbi.nlm.nih.gov/pubmed/15523486)[13];
+* [i vegani hanno maggiore sensibilità all'insulina e migliori livelli di glucosio ed insulina nel sangue](http://www.ncbi.nlm.nih.gov/pubmed/24149445)[14].
 
 #### Il pre-diabete
 
@@ -100,7 +100,7 @@ Già 13 anni prima del diabete conclamato, la glicemia a digiuno della persona i
 
 Ma qual è la causa di questa improvviso aumento della glicemia? Cos'è accaduto esattamente ai nostri organi interni, per potarci ad una catastrofe del genere?  
 Per capirlo, facciamo un passo indietro.  
-[Ci svegliamo al mattino sol perché il nostro fegato ha costantemente prodotto il glucosio necessario al cervello per tutta la notte](http://www.ncbi.nlm.nih.gov/pubmed/23075228); non appena facciamo colazione, però, gli alti livelli di insulina indotti dagli zuccheri ingeriti dovrebbero sopprimere tale sintesi epatica, se il fegato è sensibile all'insulina come nella norma.  
+[Ci svegliamo al mattino sol perché il nostro fegato ha costantemente prodotto il glucosio necessario al cervello per tutta la notte](http://www.ncbi.nlm.nih.gov/pubmed/23075228)[15]; non appena facciamo colazione, però, gli alti livelli di insulina indotti dagli zuccheri ingeriti dovrebbero sopprimere tale sintesi epatica, se il fegato è sensibile all'insulina come nella norma.  
 Ma se è pieno di grassi (*steatosi epatica*), il fegato diventa insulino-resistente e, quindi, continua a produrre glucosio per tutto il giorno a prescindere da ciò che mangiamo. Questo porta il pancreas a produrre sempre più insulina, la quale rende, però, il fegato sempre più grasso (Ciclo A nella figura sotto).  
 
 E tutto questo accade per anni e anni, prima del diabete vero e proprio.
@@ -112,3 +112,18 @@ Poi, però, a un certo punto, siccome la steatosi epatica può condurre alla mor
 [![](/perladieta/assets/90b493860cb38309.png)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-UiN0y5djvyfYg7qtCmNddvdptV9OfpxqAuPTzvKjZLCSRsC0WMBxcS7BJyC2xUhQKT7dbkh-MejQkQVKQWZXv2VRQXeGZWeAQBfv0zh0kr5BtHZOAt-CR9BFfgwS2Sn1zFr9KGjeqQ/s1600/i+due+cicli+viziosi+che+portano+dal+grasso+al+diabete.png)Lo studio appena sopra citato, e da cui sono tratte le due ultime figure viste, riporta anche i dati di inversione dei due cicli viziosi, dopo chirurgia bariatrica; siccome tali tecniche chirurgiche sono basate sulla drastica riduzione del volume dello stomaco, portano ovviamente ad una notevole riduzione della quantità di cibo ingerito; comunque ecco che il fondamentale postulato medico che vuole il diabete tipo 2 "malattia cronica incurabile per tutta la vita" viene negato!
 
 Successivi studi (sempre citati in questo studio) hanno poi scoperto che la riduzione calorica è sufficiente a *curare* il diabete tipo 2 *a prescindere* dalla chirurgia!
+
+## Fonti
+1. Trivedi MS et al. *Diabetes Metab Syndr Obes*. 2011;4:337–342. [PMID: 21167240](https://pubmed.ncbi.nlm.nih.gov/21167240/)
+2. Elliott RB et al. *Diabetologia*. 1999;42(3):292–296. [PMID: 10096780](https://pubmed.ncbi.nlm.nih.gov/10096780/)
+3. Laugesen M, Elliott RB. *Nutr Metab*. 2003;2:22. [PMID: 16403684](https://pubmed.ncbi.nlm.nih.gov/16403684/)
+4. Truswell AS. *Eur J Clin Nutr*. 2005;59(5):623–631. [PMID: 17666771](https://pubmed.ncbi.nlm.nih.gov/17666771/)
+5. Koletzko S et al. *Nutr Metab*. 2011;8:5. [PMID: 21335988](https://pubmed.ncbi.nlm.nih.gov/21335988/)
+6. Boden G. *Diabetes*. 1999;48(1):153–161. [PMID: 10027589](https://pubmed.ncbi.nlm.nih.gov/10027589/)
+7. Boden G, Shulman GI. *J Clin Invest*. 2002;110(11):171–176. [PMCID: PMC507380](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC507380/)
+8. Spalding KL et al. *Nature*. 2008;453(7196):783–787. [PMID: 18454136](https://pubmed.ncbi.nlm.nih.gov/18454136/)
+9. Arner P et al. *Cell Metab*. 2013;18(4):583–593. [PMID: 23550081](https://pubmed.ncbi.nlm.nih.gov/23550081/)
+10. Coll T et al. *Am J Physiol Endocrinol Metab*. 2008;294(3):E605–E614. [PMID: 18460913](https://pubmed.ncbi.nlm.nih.gov/18460913/)
+11. Koves TR et al. *Cell Metab*. 2012;16(6):836–847. [PMID: 22360800](https://pubmed.ncbi.nlm.nih.gov/22360800/)
+12. Kahleova H et al. *Nutrients*. 2013;5(11):4918–4932. [PMID: 24149445](https://pubmed.ncbi.nlm.nih.gov/24149445/)
+13. Taylor R. *Diabet Med*. 2013;30(3):267–275. [PMID: 23075228](https://pubmed.ncbi.nlm.nih.gov/23075228/)
