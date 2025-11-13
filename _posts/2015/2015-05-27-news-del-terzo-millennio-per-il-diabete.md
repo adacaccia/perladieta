@@ -32,11 +32,11 @@ Come dice anche la pagina dell'Istituto Superiore di Sanità che ho indicato com
 
 Sul diabete di tipo 1 manca ancora la prova schiacciante che lo colleghi al consumo di latte bovino, ma si cominciano ad accumulare evidenze:
 
-* un [articolo](http://www.ncbi.nlm.nih.gov/pubmed/21167240) citato dal [video del Dr. Greger sulla caseo-morfina](http://nutritionfacts.org/video/cows-milk-casomorphin-and-autism/) (un oppioide derivato dalla digestione del latte di mucca) riporta evidenze del legame tra questo peptide e l'incidenza di diabete tipo 1 [1];
-* [un altro articolo](http://www.ncbi.nlm.nih.gov/pubmed/10096780) facilmente reperibile su [pubmed](http://www.ncbi.nlm.nih.gov/pubmed) punta il dito contro il consumo di determinate varianti di caseo-morfine prodotte dalla digestione del latte di mucca [2];
-* [questo articolo](http://www.ncbi.nlm.nih.gov/pubmed/16403684) fa una differenza tra le varianti genetiche delle mucche da cui si trae il latte destinato al consumo umano, stabilendo che nelle popolazioni che consumano latte di variante "A2", i rischi per la salute umana sembrano essere inferiori [3]; l'articolo comunque conclude sostenendo che per capire se ci siano veri e propri *benefici* per la salute umana nel consumo di latte vaccino di variante A2 occorrono ulteriori studi (cioè ad oggi si può solo parlare di *minor rischio*, ma assolutamente non di *beneficio*, come indicato anche da quest'altro, più recente, [articolo](http://www.ncbi.nlm.nih.gov/pubmed/17666771)) [4].
+* un articolo citato dal [video del Dr. Greger sulla caseo-morfina](http://nutritionfacts.org/video/cows-milk-casomorphin-and-autism/) (un oppioide derivato dalla digestione del latte di mucca) riporta evidenze del legame tra questo peptide e l'incidenza di diabete tipo 1 <a href="#ref1>">[1]</a>u
+* un altro articolo facilmente reperibile su [pubmed](http://www.ncbi.nlm.nih.gov/pubmed) punta il dito contro il consumo di determinate varianti di caseo-morfine prodotte dalla digestione del latte di mucca <a href="#ref2">[2]</a>;
+* un altro  articolo] fa una differenza tra le varianti genetiche delle mucche da cui si trae il latte destinato al consumo umano, stabilendo che nelle popolazioni che consumano latte di variante "A2", i rischi per la salute umana sembrano essere inferiori <a href="#ref3">[3]</a>; l'articolo comunque conclude sostenendo che per capire se ci siano veri e propri *benefici* per la salute umana nel consumo di latte vaccino di variante A2 occorrono ulteriori studi (cioè ad oggi si può solo parlare di *minor rischio*, ma assolutamente non di *beneficio*, come indicato anche da un altro, più recente, articolo<a href="#ref4">[4]</a>).
 
-Il discorso qui è molto complesso, dato che questi articoli valutano la bio-attività di specifici polipeptidi (cioè piccole proteine) in specifici distretti dell'organismo e in ben specifiche circostanze; talmente complessa che un [articolo](http://www.ncbi.nlm.nih.gov/pubmed/21335988) ancor più recente, se da una parte suggerisce che il consumo di latte artificiale sia superiore al consumo di latte di mucca intero per i bambini, dall'altro rivedendo "*brevemente*" la questione del legame tra latte vaccino e "*altre malattie*", conclude che mancano "*evidenze chiare per tale associazione*"... ma... hey! aspettate un attimo... è un articolo della... Nestlé [5]!!!
+Il discorso qui è molto complesso, dato che questi articoli valutano la bio-attività di specifici polipeptidi (cioè piccole proteine) in specifici distretti dell'organismo e in ben specifiche circostanze; talmente complessa che un articolo ancor più recente, se da una parte suggerisce che il consumo di latte artificiale sia superiore al consumo di latte di mucca intero per i bambini, dall'altro rivedendo "*brevemente*" la questione del legame tra latte vaccino e "*altre malattie*", conclude che mancano "*evidenze chiare per tale associazione*"... ma... hey! aspettate un attimo... è un articolo della... Nestlé!!!<a href="#ref5">[5]</a>
 
 Ebbene sì, ho voluto qui intrattenere il lettore con uno scherzo per far capire come, accanto a tanta scienza attendibile, ci sia anche la pseudo-scienza, quella alla mercé dei poteri forti (multinazionali del settore alimentare in primis).
 
@@ -114,16 +114,43 @@ Poi, però, a un certo punto, siccome la steatosi epatica può condurre alla mor
 Successivi studi (sempre citati in questo studio) hanno poi scoperto che la riduzione calorica è sufficiente a *curare* il diabete tipo 2 *a prescindere* dalla chirurgia!
 
 ## Fonti
-1. Trivedi MS et al. *Diabetes Metab Syndr Obes*. 2011;4:337–342. [PMID: 21167240](https://pubmed.ncbi.nlm.nih.gov/21167240/)
-2. Elliott RB et al. *Diabetologia*. 1999;42(3):292–296. [PMID: 10096780](https://pubmed.ncbi.nlm.nih.gov/10096780/)
-3. Laugesen M, Elliott RB. *Nutr Metab*. 2003;2:22. [PMID: 16403684](https://pubmed.ncbi.nlm.nih.gov/16403684/)
-4. Truswell AS. *Eur J Clin Nutr*. 2005;59(5):623–631. [PMID: 17666771](https://pubmed.ncbi.nlm.nih.gov/17666771/)
-5. Koletzko S et al. *Nutr Metab*. 2011;8:5. [PMID: 21335988](https://pubmed.ncbi.nlm.nih.gov/21335988/)
-6. Boden G. *Diabetes*. 1999;48(1):153–161. [PMID: 10027589](https://pubmed.ncbi.nlm.nih.gov/10027589/)
-7. Boden G, Shulman GI. *J Clin Invest*. 2002;110(11):171–176. [PMCID: PMC507380](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC507380/)
-8. Spalding KL et al. *Nature*. 2008;453(7196):783–787. [PMID: 18454136](https://pubmed.ncbi.nlm.nih.gov/18454136/)
-9. Arner P et al. *Cell Metab*. 2013;18(4):583–593. [PMID: 23550081](https://pubmed.ncbi.nlm.nih.gov/23550081/)
-10. Coll T et al. *Am J Physiol Endocrinol Metab*. 2008;294(3):E605–E614. [PMID: 18460913](https://pubmed.ncbi.nlm.nih.gov/18460913/)
-11. Koves TR et al. *Cell Metab*. 2012;16(6):836–847. [PMID: 22360800](https://pubmed.ncbi.nlm.nih.gov/22360800/)
-12. Kahleova H et al. *Nutrients*. 2013;5(11):4918–4932. [PMID: 24149445](https://pubmed.ncbi.nlm.nih.gov/24149445/)
-13. Taylor R. *Diabet Med*. 2013;30(3):267–275. [PMID: 23075228](https://pubmed.ncbi.nlm.nih.gov/23075228/)
+
+<p id="ref1">[1] Trivedi MS et al. *Diabetes Metab Syndr Obes.* 2011;4:337–342.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/21167240/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref2">[2] Elliott RB et al. *Diabetologia.* 1999;42(3):292–296.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/10096780/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref3">[3] Laugesen M, Elliott RB. *Nutr Metab.* 2003;2:22.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/16403684/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref4">[4] Truswell AS. *Eur J Clin Nutr.* 2005;59(5):623–631.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/17666771/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref5">[5] Koletzko S et al. *Nutr Metab.* 2011;8:5.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/21335988/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref6">[6] Boden G. *Diabetes.* 1999;48(1):153–161.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/10027589/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref7">[7] Boden G, Shulman GI. *J Clin Invest.* 2002;110(11):171–176.  
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC507380/" target="_blank" rel="noopener noreferrer">→ PMC</a></p>
+
+<p id="ref8">[8] Spalding KL et al. *Nature.* 2008;453(7196):783–787.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/18454136/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref9">[9] Arner P et al. *Cell Metab.* 2013;18(4):583–593.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/23550081/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref10">[10] Coll T et al. *Am J Physiol Endocrinol Metab.* 2008;294(3):E605–E614.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/18460913/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref11">[11] Koves TR et al. *Cell Metab.* 2012;16(6):836–847.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/22360800/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref12">[12] Kahleova H et al. *Nutrients.* 2013;5(11):4918–4932.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/24149445/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
+<p id="ref13">[13] Taylor R. *Diabet Med.* 2013;30(3):267–275.  
+<a href="https://pubmed.ncbi.nlm.nih.gov/23075228/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
+
