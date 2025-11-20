@@ -81,3 +81,73 @@ table th {
   font-weight:700;
   text-align:center;
 }
+
+/* Link coerenti nel corpo del testo */
+.content a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, outline-color 0.2s ease;
+  outline: none;
+}
+.content a:hover {
+  color: #0b5394;
+  text-decoration: underline;
+}
+.content a:focus {
+  outline: 2px solid #8ab4f8;   /* blu chiaro visibile ma non invadente */
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+/* --- Stile link uniforme per tutto il sito --- */
+.content a,
+.refs a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, outline-color 0.2s ease;
+  outline: none;
+}
+
+.content a:hover,
+.refs a:hover {
+  color: #0b5394;
+  text-decoration: underline;
+}
+
+.content a:focus,
+.refs a:focus {
+  outline: 2px solid #8ab4f8;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Nota bibliografica */
+.refs-note {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* Fonti: layout e numerazione */
+.refs { counter-reset: ref; margin-top: 1.25rem; }
+.refs .refitem {
+  counter-increment: ref;
+  position: relative;
+  padding-left: 2.6em;
+  margin: 0.8em 0;
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+.refs .refitem::before {
+  content: "[" counter(ref) "]";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #444;
+  font-weight: 700;
+  width: 2.2em;
+  text-align: left;
+}
+

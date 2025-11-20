@@ -22,9 +22,6 @@ Introduzione
 
 In seguito alla pubblicazione, da parte del [solito Dr. Greger](/perladieta/2013/01/08/collaborazione-con-il-dr-greger-per-nutritionfacts-org.html), del DVD numero 24 della sua splendida collezione delle *Novità sulla Nutrizione Clinica* ("[Latest in clinical Nutrition - Volume 24](http://www.drgreger.org/dvds/latest-in-clinical-nutrition-volume-24)"), sento la necessità di condividere alcune recentissime (e altre vecchissime) scoperte scientifiche su una malattia la cui prevalenza è in aumento anche nel nostro paese, e che "vanta" numerose conseguenze debilitanti per chi ne è affetto: il [diabete](http://www.epicentro.iss.it/problemi/diabete/diabete.asp).
 
-  
-
-
 Il diabete tipo 1
 -----------------
 
@@ -114,43 +111,61 @@ Poi, però, a un certo punto, siccome la steatosi epatica può condurre alla mor
 Successivi studi (sempre citati in questo studio) hanno poi scoperto che la riduzione calorica è sufficiente a *curare* il diabete tipo 2 *a prescindere* dalla chirurgia!
 
 ## Fonti
-
-<p id="ref1">[1] Trivedi MS et al. *Diabetes Metab Syndr Obes.* 2011;4:337–342.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/21167240/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref2">[2] Elliott RB et al. *Diabetologia.* 1999;42(3):292–296.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/10096780/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref3">[3] Laugesen M, Elliott RB. *Nutr Metab.* 2003;2:22.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/16403684/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref4">[4] Truswell AS. *Eur J Clin Nutr.* 2005;59(5):623–631.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/17666771/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref5">[5] Koletzko S et al. *Nutr Metab.* 2011;8:5.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/21335988/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref6">[6] Boden G. *Diabetes.* 1999;48(1):153–161.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/10027589/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref7">[7] Boden G, Shulman GI. *J Clin Invest.* 2002;110(11):171–176.  
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC507380/" target="_blank" rel="noopener noreferrer">→ PMC</a></p>
-
-<p id="ref8">[8] Spalding KL et al. *Nature.* 2008;453(7196):783–787.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/18454136/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref9">[9] Arner P et al. *Cell Metab.* 2013;18(4):583–593.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/23550081/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref10">[10] Coll T et al. *Am J Physiol Endocrinol Metab.* 2008;294(3):E605–E614.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/18460913/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref11">[11] Koves TR et al. *Cell Metab.* 2012;16(6):836–847.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/22360800/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref12">[12] Kahleova H et al. *Nutrients.* 2013;5(11):4918–4932.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/24149445/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
-<p id="ref13">[13] Taylor R. *Diabet Med.* 2013;30(3):267–275.  
-<a href="https://pubmed.ncbi.nlm.nih.gov/23075228/" target="_blank" rel="noopener noreferrer">→ PubMed</a></p>
-
+<div class="refs">
+  <p id="ref-trivedi-2011" class="refitem">
+    Trivedi MS et&nbsp;al. <em>Diabetes Metab Syndr Obes.</em> 2011;4:337–342.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/21167240/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-elliott-1999" class="refitem">
+    Elliott RB et&nbsp;al. <em>Diabetologia.</em> 1999;42(3):292–296.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/10096780/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-laugesen-2003" class="refitem">
+    Laugesen M, Elliott RB. <em>Nutr Metab (Lond).</em> 2003;2:22.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/16403684/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-truswell-2005" class="refitem">
+    Truswell AS. <em>Eur J Clin Nutr.</em> 2005;59(5):623–631.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/17666771/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+    Koletzko S et&nbsp;al. <em>Nutr Metab (Lond).</em> 2011;8:5.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/21335988/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-boden-1999" class="refitem">
+    Boden G. <em>Diabetes.</em> 1999;48(1):153–161.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/10027589/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-boden-shulman-2002" class="refitem">
+    Boden G, Shulman GI. <em>J Clin Invest.</em> 2002;110(11):171–176.<br>
+    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC507380/" target="_blank" rel="noopener noreferrer">→ PMC</a>
+  </p>
+  <p id="ref-spalding-2008" class="refitem">
+    Spalding KL et&nbsp;al. <em>Nature.</em> 2008;453(7196):783–787.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/18454136/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-arner-2013" class="refitem">
+    Arner P et&nbsp;al. <em>Cell Metab.</em> 2013;18(4):583–593.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/23550081/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-coll-2008" class="refitem">
+    Coll T et&nbsp;al. <em>Am J Physiol Endocrinol Metab.</em> 2008;294(3):E605–E614.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/18460913/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-koves-2012" class="refitem">
+    Koves TR et&nbsp;al. <em>Cell Metab.</em> 2012;16(6):836–847.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/22360800/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-kahleova-2013" class="refitem">
+    Kahleova H et&nbsp;al. <em>Nutrients.</em> 2013;5(11):4918–4932.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/24149445/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-taylor-2013" class="refitem">
+    Taylor R. <em>Diabet Med.</em> 2013;30(3):267–275.<br>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/23075228/" target="_blank" rel="noopener noreferrer">→ PubMed</a>
+  </p>
+  <p id="ref-himsworth-1935" class="refitem">
+    Himsworth HP, Marshall EM. <em>The diet of diabetics prior to the onset of the disease.</em>
+    <em>Clinical Science.</em> 1935;2:95–115. [Not available online]<br>
+    <a href="https://portlandpress.com/clinsci" target="_blank" rel="noopener noreferrer">→ Clinical Science (journal homepage)</a>
+  </p>
+</div>
